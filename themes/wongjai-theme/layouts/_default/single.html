@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="article-container">
+  <header class="article-header">
+    <div class="card-tags" style="margin-bottom: 1rem;">
+      {{ if .Params.ticker }}<span class="ticker-badge">{{ .Params.ticker }}</span>{{ end }}
+      {{ range .Params.tags }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    <h1>{{ .Title }}</h1>
+    <div class="article-meta">
+      <span>📅 {{ .Date.Format "2006-01-02" }}</span>
+      {{ if .Params.quarter }}<span>📊 {{ .Params.quarter }}</span>{{ end }}
+      {{ if .Params.author }}<span>✍️ {{ .Params.author }}</span>{{ end }}
+    </div>
+  </header>
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

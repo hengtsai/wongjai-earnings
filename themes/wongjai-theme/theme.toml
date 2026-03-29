@@ -1,0 +1,11 @@
+name = "Wongjai Theme"
+license = "MIT"
+licenselink = ""
+description = "Wongjai AI Earning Calls — 機構級財報分析網站主題"
+homepage = ""
+tags = ["finance", "earnings", "analysis", "ai"]
+features = ["responsive", "dark-mode", "syntax-highlighting"]
+min_version = "0.100.0"
+
+[author]
+  name = "Wongjai AI Team"

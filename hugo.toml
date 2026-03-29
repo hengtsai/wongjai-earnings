@@ -1,0 +1,42 @@
+baseURL = "https://wongjai-earnings.netlify.app/"
+languageCode = "zh-TW"
+title = "Wongjai AI Earning Calls"
+theme = "wongjai-theme"
+
+[params]
+  description = "AI 驅動的機構級財報分析與法說會摘要存檔"
+  author = "Wongjai AI Team"
+  keywords = ["財報分析", "法說會", "earning calls", "TSMC", "AI", "quantitative analysis"]
+
+[params.hero]
+  title = "Wongjai AI Earning Calls"
+  subtitle = "機構級財報分析 · 法說會深度解讀 · AI 量化洞察"
+
+[menu]
+  [[menu.main]]
+    name = "首頁"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "財報存檔"
+    url = "/earnings/"
+    weight = 2
+  [[menu.main]]
+    name = "分析文章"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    name = "關於團隊"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "dracula"
+    lineNos = true
+
+[build]
+  writeStats = true
