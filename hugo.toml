@@ -1,4 +1,4 @@
-baseURL = "https://wongjai-earnings.netlify.app/"
+baseURL = "https://wongjai.com/"
 languageCode = "zh-TW"
 title = "Wongjai AI Earning Calls"
 theme = "wongjai-theme"
@@ -18,15 +18,15 @@ theme = "wongjai-theme"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "財報存檔"
+    name = "財報"
     url = "/earnings/"
     weight = 2
   [[menu.main]]
-    name = "分析文章"
+    name = "分析"
     url = "/posts/"
     weight = 3
   [[menu.main]]
-    name = "關於團隊"
+    name = "關於"
     url = "/about/"
     weight = 4
 

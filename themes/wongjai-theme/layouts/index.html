@@ -24,12 +24,13 @@
 </div>
 
 <div class="container">
-  <h2 class="section-title">最新財報</h2>
+  <h2 class="section-title">最新文章</h2>
   <div class="earnings-grid">
-    {{ range first 6 (where .Site.RegularPages "Section" "earnings").ByDate.Reverse }}
+    {{ $articles := union (where .Site.RegularPages "Section" "earnings") (where .Site.RegularPages "Section" "posts") }}
+    {{ range first 30 $articles.ByDate.Reverse }}
     <a class="earning-card" href="{{ .RelPermalink }}">
       <div class="card-header">
-        <span class="ticker-badge">{{ .Params.ticker | default "N/A" }}</span>
+        <span class="ticker-badge" >{{ .Params.ticker | default "N/A" }}</span>
         <span class="card-date">{{ .Date.Format "2006-01-02" }}</span>
       </div>
       <h3 class="card-title">{{ .Title }}</h3>

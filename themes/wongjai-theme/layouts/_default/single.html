@@ -1,6 +1,11 @@
 {{ define "main" }}
 <article class="article-container">
   <header class="article-header">
+    {{ if .Params.logo }}
+    <div class="article-logo">
+      <img src="{{ .Params.logo }}" alt="{{ .Params.ticker }}">
+    </div>
+    {{ end }}
     <div class="card-tags" style="margin-bottom: 1rem;">
       {{ if .Params.ticker }}<span class="ticker-badge">{{ .Params.ticker }}</span>{{ end }}
       {{ range .Params.tags }}
@@ -13,6 +18,9 @@
       {{ if .Params.quarter }}<span>📊 {{ .Params.quarter }}</span>{{ end }}
       {{ if .Params.author }}<span>✍️ {{ .Params.author }}</span>{{ end }}
     </div>
+    {{ if .Params.summary }}
+    <p class="article-summary">{{ .Params.summary }}</p>
+    {{ end }}
   </header>
   <div class="article-content">
     {{ .Content }}

@@ -1,22 +1,41 @@
 {{ define "main" }}
 <div class="container" style="padding-top: 3rem;">
   <h1 class="section-title">{{ .Title }}</h1>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="🔍 搜尋財報（公司名、股票代號、產業）..." oninput="filterCards()">
+  </div>
   <div class="earnings-grid">
     {{ range .Pages.ByDate.Reverse }}
     <a class="earning-card" href="{{ .RelPermalink }}">
-      <div class="card-header">
-        <span class="ticker-badge">{{ .Params.ticker | default "N/A" }}</span>
-        <span class="card-date">{{ .Date.Format "2006-01-02" }}</span>
-      </div>
-      <h3 class="card-title">{{ .Title }}</h3>
-      <p class="card-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
-      <div class="card-tags">
-        {{ range .Params.tags }}
-        <span class="tag">{{ . }}</span>
+      <div class="card-info">
+        <div class="card-header">
+          <span class="ticker-badge" >{{ .Params.ticker | default "N/A" }}</span>
+          <span class="card-date">{{ .Date.Format "2006-01-02" }}</span>
+        </div>
+        <h3 class="card-title">{{ .Title }}</h3>
+        {{ if .Params.summary }}
+        <p class="card-summary">{{ .Params.summary }}</p>
+        {{ else }}
+        <p class="card-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
         {{ end }}
+        <div class="card-tags">
+          {{ range .Params.tags }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
       </div>
     </a>
     {{ end }}
   </div>
 </div>
+<script>
+function filterCards() {
+  const query = document.getElementById('searchInput').value.toLowerCase();
+  const cards = document.querySelectorAll('.earning-card');
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(query) ? '' : 'none';
+  });
+}
+</script>
 {{ end }}

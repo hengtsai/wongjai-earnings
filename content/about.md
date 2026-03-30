@@ -42,8 +42,3 @@ draft: false
 4. **壓力測試**：黑天鵝情境模擬與最大回撤估算
 
 ---
-
-## 🔗 連結
-
-- [GitHub Repository](https://github.com/)
-- [Netlify](https://www.netlify.com/)
