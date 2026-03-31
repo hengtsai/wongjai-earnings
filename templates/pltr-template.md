@@ -273,8 +273,12 @@ draft: false
 <p style="margin-top:8px;font-size:13px">Palantir 的 P/S 是同業的 4-5 倍，但營收增速和利潤率確實優於同業。市場為其「AI 平台壟斷地位」支付顯著溢價。</p>
 </div>
 
-<div class="sb rl" style="margin-top:16px">
-<p><b>一句話</b>：Palantir 是 AI 時代的「軍事級數據操作系統」— 它不造晶片、不訓練模型，但它是讓 AI 在真實世界落地的最後一哩路。76x P/S 的代價，是市場對壟斷地位的溢價賭注。</p>
+## 6. 📋 總結
+
+<div class="sb rl">
+<h3>PLTR Q4 2025 & FY 2025 一句話總結</h3>
+<p><b>核心數據</b>：FY25 營收 $4.48B（+56%），Q4 營業利益率 40.9%，FCF $2.1B（Margin 47%），現金 $72 億。P/S 76x 為 SaaS 行業極端溢價。</p>
+<p><b>投資邏輯</b>：Palantir 是 AI 時代的「軍事級數據操作系統」——它不造晶片、不訓練模型，但它是讓 AI 在真實世界落地的最後一哩路。76x P/S 的代價，是市場對壟斷地位的溢價賭注。</p>
 </div>
 
 <div class="disc">
