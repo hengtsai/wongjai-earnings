@@ -241,7 +241,7 @@ tbody tr:hover{background:rgba(0,164,239,.05)}
 <thead><tr><th>指標</th><th>數值（2026/04/29）</th><th>評價</th></tr></thead>
 <tbody>
 <tr><td><b>收盤價</b></td><td>$424.67</td><td>接近 52 週低點（低點 $374，距離 -12%）</td></tr>
-<tr><td><b>市值</b></td><td>~$3.15T</td><td class="good">🟢 全球第 2 大</td></tr>
+| <b>市值</b></td><td>~$2.85-3.15T</td><td class="warn">🟡 全球第 4-5 大（Apr 2026）</td></tr>
 <tr><td><b>Trailing P/E</b></td><td>~26.5x</td><td class="warn">🟡 10年平均 32.8x，低於均值 19%</td></tr>
 <tr><td><b>Forward P/E</b></td><td>~22.4x</td><td class="good">🟢 GuruFocus：低估 20%</td></tr>
 <tr><td><b>GF Value</b></td><td>$543（當前 $424）</td><td class="good">🟢 潛在漲幅 +28%</td></tr>
