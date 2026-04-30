@@ -40,3 +40,4 @@ theme = "wongjai-theme"
 
 [build]
   writeStats = true
+  buildDrafts = false
