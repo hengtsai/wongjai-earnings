@@ -2,6 +2,7 @@ baseURL = "https://wongjai.com/"
 languageCode = "zh-TW"
 title = "Wongjai AI Earning Calls"
 theme = "wongjai-theme"
+timeZone = "Asia/Taipei"
 
 [params]
   description = "AI 驅動的機構級財報分析與法說會摘要存檔"
