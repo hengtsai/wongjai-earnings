@@ -183,10 +183,10 @@ draft: false
 <thead><tr><th>公司名稱 (代號)</th><th>市值 (US$)</th><th>全球市值排名</th><th>最新毛利率 (Non-GAAP)</th><th>最新營益率</th><th>最新營收 YoY</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
 <tbody>
 <tr><td><b>Intel 英特爾 (INTC)</b></td><td><b>~$310B</b></td><td><b>全球第 47 大</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E) / ~27.5x (27E)</b></td></tr>
-<tr><td><b>NVIDIA 輝達 (NVDA)</b></td><td>~$4.35T</td><td>全球第 1 大</td><td>~75.0%</td><td>~63.0%</td><td class="good">+70% ~ +80%</td><td>~42.0x</td><td>~30.0x</td></tr>
+<tr><td><b>NVIDIA 輝達 (NVDA)</b></td><td>~$4.83T</td><td>全球第 2 大</td><td>~75.0%</td><td>~63.0%</td><td class="good">+70% ~ +80%</td><td>~42.0x</td><td>~30.0x</td></tr>
 <tr><td><b>TSMC 台積電 (TSM)</b></td><td>~$2.05T</td><td>全球第 6 大</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E) / ~18.0x (27E)</td></tr>
-<tr><td><b>Broadcom 博通 (AVGO)</b></td><td>~$1.50T</td><td>全球第 8 大</td><td>~76.0%</td><td>~61.0%</td><td class="good">+40% ~ +45%</td><td>~45.0x</td><td>~28.0x</td></tr>
-<tr><td><b>AMD 超微 (AMD)</b></td><td>~$800B</td><td>全球第 19 大</td><td>~54.0%</td><td>~25.0%</td><td class="good">+45.0%</td><td>~55.0x</td><td>~32.0x</td></tr>
+<tr><td><b>Broadcom 博通 (AVGO)</b></td><td>~$1.55T</td><td>全球第 9 大</td><td>~76.0%</td><td>~61.0%</td><td class="good">+40% ~ +45%</td><td>~45.0x</td><td>~28.0x</td></tr>
+<tr><td><b>AMD 超微 (AMD)</b></td><td>~$800B</td><td>全球第 18 大</td><td>55.9%</td><td>29.3%</td><td class="good">+44.7%</td><td>~61.0x</td><td>~49.0x</td></tr>
 </tbody></table></div>
 
 ---
