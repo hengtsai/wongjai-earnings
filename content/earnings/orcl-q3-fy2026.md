@@ -260,7 +260,7 @@ tbody tr:hover{background:rgba(232,71,60,.05)}
 </ul>
 </div>
 
-<h3 class="risk-yellow">🟡 中風險</h3>
+<h3 class="risk-gold">🟡 中風險</h3>
 <div class="sb rm">
 <ul>
 <li><b>AI 基礎設施需求的可持續性</b>：AI 基礎設施收入 +243%、RPO +325% 高度依賴少數超大合約（如 Stargate）。若科技巨頭 AI 支出放緩，Oracle 將首當其衝</li>
