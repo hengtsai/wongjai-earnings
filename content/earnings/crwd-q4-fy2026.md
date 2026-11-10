@@ -241,7 +241,7 @@ tbody tr:hover{background:rgba(118,185,0,.05)}
 </ul>
 </div>
 
-<h3 class="risk-yellow">🟡 中風險</h3>
+<h3 class="risk-gold">🟡 中風險</h3>
 <div class="sb rm">
 <ul>
 <li><b>競爭加劇</b>：Palo Alto Networks 的 Platformization 策略正面挑戰 CRWD，Microsoft Defender 免費捆綁也構成威脅</li>
