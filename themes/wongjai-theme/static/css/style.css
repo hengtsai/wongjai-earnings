@@ -1155,6 +1155,7 @@ body {
 .article-content .bad  { color: var(--accent-red); font-weight: 600; }
 .article-content .up   { color: var(--accent-green); }
 .article-content .dn   { color: var(--accent-red); }
+.article-content .down { color: var(--accent-red); }
 .article-content .wn   { color: var(--accent-gold); }
 
 /* --- RWD --- */
