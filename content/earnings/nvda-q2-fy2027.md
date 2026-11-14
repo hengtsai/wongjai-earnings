@@ -153,10 +153,10 @@ draft: false
 <tbody>
 <tr><td><b>收盤價</b></td><td>US$227.98</td><td class="good">🟢 財報後首日 +8.7%</td></tr>
 <tr><td><b>市值（估算）</b></td><td>~US$5.54 兆</td><td>以 242.9 億股計</td></tr>
-<tr><td><b>企業價值 EV（估算）</b></td><td>~US$5.30 兆</td><td>淨現金 232 億</td></tr>
+<tr><td><b>企業價值 EV（估算）</b></td><td>~US$5.51 兆</td><td>淨現金 232 億</td></tr>
 <tr><td><b>本益比（TTM GAAP）</b></td><td>~28.7 倍</td><td>TTM EPS 約 7.94</td></tr>
 <tr><td><b>本益比（Q2 年化 Non-GAAP）</b></td><td>~25.7 倍</td><td>以 2.22×4 計</td></tr>
-<tr><td><b>EV / TTM 營業利益</b></td><td>~26.8 倍</td><td>TTM 1,976 億</td></tr>
+<tr><td><b>EV / TTM 營業利益</b></td><td>~27.9 倍</td><td>TTM 1,976 億</td></tr>
 <tr><td><b>股價營收比（TTM）</b></td><td>~18.3 倍</td><td>TTM 營收 3,030 億</td></tr>
 <tr><td><b>股利殖利率</b></td><td>~0.44%</td><td>季配 0.25 美元</td></tr>
 </tbody></table></div>
