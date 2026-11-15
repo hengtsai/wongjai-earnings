@@ -1,273 +1,197 @@
 ---
-title: "GOOG (Alphabet) Q1 2026 財報深度分析"
+title: "Google (GOOG) 2026 Q1 財報分析：Cloud 年增 63%、積壓訂單近翻倍到 4,620 億，資本支出上調"
 date: 2026-04-30
 ticker: "GOOG"
 quarter: "2026 Q1"
 logo: "https://www.google.com/s2/favicons?domain=google.com&sz=128"
 color: "#4285f4"
-summary: "Q1 營收 $1,099 億超預期，Cloud +63% 噴發，EPS $5.11 大爆擊！但 CapEx $357 億翻倍吞噬 FCF — Google 正用現金換 AI 霸主地位。"
-tags: ["AI", "Alphabet", "Google Cloud", "Gemini", "搜尋廣告"]
+summary: "Q1 營收 1,099 億美元（+22%），Google Cloud 年增 63%、首破 200 億，積壓訂單季增近一倍到 4,620 億。資本支出 357 億、年增 107%，全年財測上調到 1,800–1,900 億，自由現金流年減 47%。"
+tags: ["AI", "Alphabet", "Google", "GOOG", "GOOGL", "Google Cloud", "Gemini", "TPU", "Wiz"]
 author: "Wongjai ⚡"
 draft: false
 ---
 
-<style>
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
-.kpi-card{background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;padding:14px;text-align:center}
-.kpi-card .label{font-size:12px;color:#8b8fa3;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
-.kpi-card .value{font-size:24px;font-weight:700;color:#fff}
-.kpi-card .change{font-size:13px;margin-top:2px}
-.up{color:#28a745}.dn{color:#dc3545}.wn{color:#e67e00}
-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
-thead th{background:#4285f4;color:#fff;padding:7px 10px;text-align:left;font-weight:600;white-space:nowrap}
-tbody td{padding:7px 10px;border-bottom:1px solid #2a2d3a}
-tbody tr:hover{background:rgba(66,133,244,.05)}
-.good{color:#28a745;font-weight:600}.warn{color:#e67e00;font-weight:600}.bad{color:#dc3545;font-weight:600}
-.sb{background:#1a1d27;border-left:4px solid #4285f4;padding:10px 16px;margin:8px 0;border-radius:0 6px 6px 0}
-.sb h3{margin:0 0 6px;font-size:14px}.sb p{margin:4px 0;font-size:13px;line-height:1.5}.sb ul{margin:4px 0;padding-left:18px}.sb li{margin-bottom:3px;font-size:13px}
-.rh{border-left-color:#dc3545}.rm{border-left-color:#e67e00}.rl{border-left-color:#28a745}
-.sw{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.disc{background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;padding:16px;margin-top:24px;font-size:12px;color:#8b8fa3;line-height:1.6}
-.risk-red{color:#dc3545}.risk-gold{color:#e67e00}.risk-green{color:#28a745}
-@media(max-width:600px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.kpi-card .value{font-size:18px}table{font-size:11px}td,th{padding:4px 5px}}
-</style>
-
 <div class="kpi-grid">
-<div class="kpi-card"><div class="label">Q1 營收</div><div class="value">$1,099億</div><div class="change up">▲ 22% YoY</div></div>
-<div class="kpi-card"><div class="label">毛利率</div><div class="value">~60%</div><div class="change up">▲ 2pp YoY</div></div>
-<div class="kpi-card"><div class="label">Q1 EPS</div><div class="value">$5.11</div><div class="change up">▲ 82% YoY</div></div>
-<div class="kpi-card"><div class="label">Google Cloud</div><div class="value">$200億</div><div class="change up">▲ 63% YoY 🚀</div></div>
-<div class="kpi-card"><div class="label">淨利</div><div class="value">$626億</div><div class="change up">▲ 81% YoY</div></div>
-<div class="kpi-card"><div class="label">營運現金流</div><div class="value">$458億</div><div class="change up">▲ 27% YoY</div></div>
-<div class="kpi-card"><div class="label">CapEx</div><div class="value">$357億</div><div class="change dn">▲ 100% YoY 🔴</div></div>
-<div class="kpi-card"><div class="label">現金+短投</div><div class="value">~$1,200億+</div><div class="change up">🟢 堡壘級</div></div>
+<div class="kpi-card"><div class="label">Q1 營收</div><div class="value">US$1,099億</div><div class="change up">▲22% YoY</div></div>
+<div class="kpi-card"><div class="label">Google Cloud 營收</div><div class="value">US$200億</div><div class="change up">▲63% YoY</div></div>
+<div class="kpi-card"><div class="label">Cloud 營業利益率</div><div class="value">32.9%</div><div class="change up">去年 17.8%</div></div>
+<div class="kpi-card"><div class="label">營業利益率</div><div class="value">36.1%</div><div class="change up">去年 33.9%</div></div>
+<div class="kpi-card"><div class="label">GAAP EPS</div><div class="value">US$5.11</div><div class="change wn">評價利益 2.35</div></div>
+<div class="kpi-card"><div class="label">Cloud 積壓訂單</div><div class="value">US$4,620億</div><div class="change up">季增近一倍</div></div>
+<div class="kpi-card"><div class="label">資本支出</div><div class="value">US$357億</div><div class="change wn">▲107% YoY</div></div>
+<div class="kpi-card"><div class="label">自由現金流</div><div class="value">US$101億</div><div class="change dn">▼47% YoY</div></div>
 </div>
+
+> 📌 **口徑說明**：本文為 2026/11 依 v3.0 格式翻新的舊文，數字已用 Alphabet 2026/4/29 提交之 SEC Form 8-K 新聞稿（美國 GAAP，單位百萬美元）重新核對，並刪除舊版未查證的市場共識與「超預期」描述。法說會引言取自 Motley Fool 公布之逐字稿，中譯為本文翻譯。「排除評價利益」的 EPS 為 GAAP EPS 減去公司揭露的股權投資評價影響（每股 2.35 美元），僅供參考。股價取自 Yahoo Finance（GOOGL）。
 
 ## 1. 📈 核心數據速覽
 
-### Q1 2026 損益表（US$億，除每股數據外）
+### 2026 Q1 損益表精要（US$ 百萬）
 
 <div class="sw"><table>
-<thead><tr><th>指標</th><th>Q1 '26</th><th>Q4 '25</th><th>QoQ</th><th>Q1 '25</th><th>YoY</th><th>點評</th></tr></thead>
+<thead><tr><th>指標</th><th>Q1 2026</th><th>Q1 2025</th><th>YoY</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>營收</b></td><td>1,099</td><td>1,138.3</td><td class="warn">-3.5%</td><td>902.3</td><td class="good">+22%</td><td class="good">🟢 Q1 季節性淡季仍強勁，超預期 $106.6B</td></tr>
-<tr><td><b>毛利率</b></td><td>~60%</td><td>59.8%</td><td class="good">+0.2pp</td><td>~58%</td><td class="good">+2pp</td><td class="good">🟢 搜尋印鈔機持續改善</td></tr>
-<tr><td><b>營業利益率</b></td><td>32%</td><td>31.6%</td><td class="good">+0.4pp</td><td>31%</td><td class="good">+1pp</td><td class="good">🟢 營運槓桿可見</td></tr>
-<tr><td><b>淨利率</b></td><td>57%</td><td>30.3%</td><td class="good">+26.7pp</td><td>30%</td><td class="good">+27pp</td><td class="good">🟢 含業外其他收入貢獻</td></tr>
-<tr><td><b>EPS (Diluted)</b></td><td><b>$5.11</b></td><td>$2.81</td><td class="good">+82%</td><td>$2.81</td><td class="good">+82%</td><td class="good">🟢 大超預期 $2.63</td></tr>
-<tr><td><b>淨利</b></td><td>62,600M</td><td>34,455M</td><td class="good">+82%</td><td>34,500M</td><td class="good">+81%</td><td class="good">🟢 歷史新高</td></tr>
-<tr><td><b>R&D</b></td><td>~18,000M</td><td>18,572M</td><td class="good">-3%</td><td>14,500M</td><td class="warn">+24%</td><td class="warn">🟡 AI 投入仍大</td></tr>
-<tr><td><b>SBC</b></td><td>~7,000M</td><td>7,071M</td><td class="good">-1%</td><td>5,800M</td><td class="warn">+21%</td><td class="warn">🟡 人才成本持續</td></tr>
+<tr><td><b>營收</b></td><td><b>109,896</b></td><td>90,234</td><td class="good">+21.8%</td><td class="good">🟢 匯率貢獻 3pp</td></tr>
+<tr><td><b>搜尋與其他</b></td><td><b>60,399</b></td><td>50,702</td><td class="good">+19.1%</td><td class="good">🟢 查詢量新高</td></tr>
+<tr><td><b>YouTube 廣告</b></td><td><b>9,883</b></td><td>8,927</td><td class="good">+10.7%</td><td>效果型與品牌</td></tr>
+<tr><td><b>訂閱、平台與裝置</b></td><td><b>12,384</b></td><td>10,379</td><td class="good">+19.3%</td><td class="good">🟢 AI 方案新高</td></tr>
+<tr><td><b>Google Cloud</b></td><td><b>20,028</b></td><td>12,260</td><td class="good">+63.4%</td><td class="good">🟢 首破 200 億</td></tr>
+<tr><td><b>毛利率</b></td><td><b>62.4%</b></td><td>59.7%</td><td class="good">+2.7pp</td><td>營收快過成本</td></tr>
+<tr><td><b>營業利益</b></td><td><b>39,696</b></td><td>30,606</td><td class="good">+29.7%</td><td class="good">🟢 利益率 36.1%</td></tr>
+<tr><td><b>業外收支</b></td><td><b>37,716</b></td><td>11,183</td><td>—</td><td class="warn">🟡 股權評價利益</td></tr>
+<tr><td><b>淨利</b></td><td><b>62,578</b></td><td>34,540</td><td class="warn">+81.2%</td><td class="warn">🟡 評價貢獻 287 億</td></tr>
+<tr><td><b>稀釋 EPS</b></td><td><b>$5.11</b></td><td>$2.81</td><td class="warn">+81.9%</td><td>排除評價約 2.76</td></tr>
 </tbody></table></div>
 
-### 分部門營收
-
-<div class="sw"><table>
-<thead><tr><th>部門</th><th>Q1 '26</th><th>YoY</th><th>點評</th></tr></thead>
-<tbody>
-<tr><td><b>Google Search & Other</b></td><td>$59.65B</td><td class="good">+13%</td><td class="good">🟢 搜尋廣告韌性強，沒被 AI 搜尋取代</td></tr>
-<tr><td><b>YouTube Ads</b></td><td>$9.88B</td><td class="good">+11%</td><td class="good">🟢 短影音貨幣化持續</td></tr>
-<tr><td><b>Google Cloud</b></td><td><b>$20.03B</b></td><td class="good"><b>+63% 🚀</b></td><td class="good">🟢 AI 需求驅動，增速 > AWS (19%) & Azure (33%)</td></tr>
-<tr><td><b>訂閱/平台/裝置</b></td><td>$15.5B</td><td class="good">+19%</td><td class="good">🟢 YouTube Premium、Pixel 持續成長</td></tr>
-<tr><td><b>網路廣告</b></td><td>$7.95B</td><td class="good">+12%</td><td class="good">🟢 穩定貢獻</td></tr>
-</tbody></table></div>
-
-<div class="sb rl">
-<p><b>關鍵轉折</b>：Google Cloud 營業利益率從 Q4 2025 的 <b>20%</b> 飆升至 Q1 2026 的 <b>27%</b>（+7pp 單季）🟢 — 從「成長故事」正式轉為「利潤機器」。</p>
-</div>
-
-### 資產負債表（Q1 '26 估 vs Q4 '25）
-
-<div class="sw"><table>
-<thead><tr><th>指標</th><th>Q1 '26 (估)</th><th>Q4 '25</th><th>變化</th><th>點評</th></tr></thead>
-<tbody>
-<tr><td><b>現金+短投</b></td><td>~$1,200B+</td><td>$1,268.4B</td><td class="warn">-5%</td><td class="warn">🟡 CapEx 消耗</td></tr>
-<tr><td><b>應收帳款</b></td><td>~$650B</td><td>$628.9B</td><td class="good">+3%</td><td class="good">🟢 與營收增速匹配</td></tr>
-<tr><td><b>PP&E</b></td><td>~$2,800B+</td><td>$2,618.2B</td><td class="warn">+7%</td><td class="warn">🟡 AI 資料中心擴建</td></tr>
-<tr><td><b>長期負債</b></td><td>~$500B</td><td>$465.5B</td><td class="warn">+7%</td><td class="warn">🟡 發債籌資 AI 基建</td></tr>
-<tr><td><b>股東權益</b></td><td>~$4,200B</td><td>$4,152.7B</td><td class="good">+1%</td><td class="good">🟢 穩定增長</td></tr>
-<tr><td><b>流動比率</b></td><td>~2.0x</td><td>2.01x</td><td class="good">持平</td><td class="good">🟢 安全水位</td></tr>
-</tbody></table></div>
-
-### 現金流量
-
-<div class="sw"><table>
-<thead><tr><th>指標</th><th>Q1 '26</th><th>Q1 '25</th><th>YoY</th><th>點評</th></tr></thead>
-<tbody>
-<tr><td><b>營運現金流</b></td><td>$45.8B</td><td>$36.1B</td><td class="good">+27%</td><td class="good">🟢 現金創造力強</td></tr>
-<tr><td><b>資本支出</b></td><td><b>$35.7B</b></td><td>$17.8B</td><td class="bad"><b>+100% 🔴</b></td><td class="bad">🔴 AI 軍備競賽翻倍</td></tr>
-<tr><td><b>自由現金流</b></td><td><b>$10.1B</b></td><td>$18.3B</td><td class="bad"><b>-45% 🔴</b></td><td class="bad">🔴 CapEx 吞噬</td></tr>
-<tr><td><b>TTM FCF</b></td><td>$64.4B</td><td>—</td><td class="bad">-14% 🔴</td><td class="bad">🔴 趨勢向下</td></tr>
-</tbody></table></div>
+> 📌 **分部與費用**：Google Services 營業利益 406 億（營益率 45.3%）、Cloud 66 億（32.9%），Other Bets 虧損 21 億，Alphabet 層級（共用 AI 研發）-54 億。流量取得成本 152 億（+11%）、研發 170 億（+26%）、折舊 65 億（+44%）；聯播網廣告年減 4%。稅率 19.2%。去年 Q1 業外也有 112 億利益，兩期 EPS 都含評價影響。
 
 ---
 
-## 2. 🔍 隱藏的魔鬼細節
+### 資產負債與現金流精要（US$ 百萬）
+
+<div class="sw"><table>
+<thead><tr><th>指標</th><th>2026/03/31</th><th>2025/12/31</th><th>點評</th></tr></thead>
+<tbody>
+<tr><td><b>現金與有價證券</b></td><td><b>126,840</b></td><td>126,843</td><td>持平</td></tr>
+<tr><td><b>不動產與設備淨額</b></td><td><b>281,020</b></td><td>246,597</td><td class="warn">🟡 單季 +14%</td></tr>
+<tr><td><b>商譽</b></td><td><b>57,774</b></td><td>33,380</td><td class="warn">🟡 Wiz 併入</td></tr>
+<tr><td><b>非上市股權投資</b></td><td><b>106,946</b></td><td>68,687</td><td class="warn">🟡 評價推升</td></tr>
+<tr><td><b>長期債務</b></td><td><b>77,501</b></td><td>46,547</td><td class="bad">🔴 單季 +67%</td></tr>
+<tr><td><b>股東權益</b></td><td><b>478,746</b></td><td>415,265</td><td class="good">🟢 單季 +15%</td></tr>
+<tr><td><b>Q1 營業現金流</b></td><td><b>45,790</b></td><td>去年 36,150</td><td class="good">🟢 年增 27%</td></tr>
+<tr><td><b>Q1 資本支出</b></td><td><b>35,674</b></td><td>去年 17,197</td><td class="bad">🔴 年增 107%</td></tr>
+<tr><td><b>Q1 自由現金流</b></td><td><b>10,116</b></td><td>去年 18,953</td><td class="bad">🔴 年減 47%</td></tr>
+</tbody></table></div>
+
+> 📌 **財務品質**：Q1 發債淨額 311 億，收購支出 336 億（Wiz 於 3 月完成），零買回，股利 25.4 億。近 12 個月營業現金流 1,744 億、自由現金流 644 億。資本支出約 60% 用於伺服器、40% 用於資料中心與網路設備。
+
+---
+
+## 2. 🔍 五大核心洞察與法說會直擊
 
 <div class="sb">
-<h3>🎯 洞察一：EPS $5.11 vs $2.63 的謎題 — 其他收入大爆發</h3>
-<p>Q1 2026 EPS $5.11 遠超預期 $2.63，也遠超 Q4 2025 的 $2.81。主要驅動力不是營運改善（即使 Cloud 有貢獻），而是<b>「其他收入」</b>大幅增加。這可能來自：</p>
-<ul>
-<li>① 權益法投資收益（如 Stripe、Anthropic 等未上市持股市值上升）</li>
-<li>② 利率環境下的利息收入增加</li>
-<li>③ 一次性收益</li>
-</ul>
-<p><b>需看 10-Q 細項確認</b> — 若為經常性收益，則 EPS 估值模型需大幅上調；若為一次性項目，則 Q2 可能回歸正常。</p>
+<h3>🎯 洞察一：Cloud 首破 200 億，積壓訂單近翻倍</h3>
+<p>Google Cloud 營收 200 億、年增 63%，營益率由 17.8% 升到 32.9%，AI 解決方案首度成為最大成長來源，自家生成式 AI 模型相關營收年增近 800%。積壓訂單季增近一倍到 4,620 億，包含首度納入的 TPU 硬體合約，逾 50% 預計在 24 個月內認列。執行長 Sundar Pichai 說：<b>「我們短期內算力受限，若能滿足需求，Cloud 營收還會更高」</b>。</p>
 </div>
 
 <div class="sb">
-<h3>🎯 洞察二：CapEx $35.7B 單季 — 比 NVDA 的季度營收還高</h3>
-<p>Q1 CapEx $35.7B，較 Q1 2025 的 $17.8B 翻倍。全年化 CapEx 約 <b>$143B</b>。對比競爭對手：</p>
-<ul>
-<li>Microsoft：$80B+ 年化</li>
-<li>Amazon：$75B+ 年化</li>
-<li>Meta：$35-40B 年化</li>
-<li><b>Google：$143B 年化 → 超過所有非 NVDA 公司</b></li>
-</ul>
-<p>這代表 Google 在 AI 基礎設施投資上已經進入了「不惜一切代價」的模式。</p>
+<h3>🎯 洞察二：TPU 直接賣進客戶資料中心</h3>
+<p>Google 宣布把 TPU 直接交付給特定客戶、裝在客戶自己的資料中心，擴大可服務市場。新一代 TPU 8t 主攻訓練、8i 主攻推論，後者每美元效能比上一代高 80%。財務長 Anat Ashkenazi 說，這類合約今年只會認列少量營收，絕大部分在 2027 年，且<b>「TPU 硬體銷售營收會依出貨時點逐季波動」</b>。</p>
 </div>
 
 <div class="sb">
-<h3>🎯 洞察三：Google Cloud 從「成長」到「利潤機器」的質變</h3>
-<p>Cloud 營收 $20.03B (+63%)，營業利益率從 20% → 27%（<b>+7pp 單季</b>）。這代表 Cloud 營業利益約 <b>$5.4B</b>（$20.03B × 27%）。</p>
-<ul>
-<li>相較 Q1 2025 的 Cloud 虧損或極低利潤，這是一個質的飛躍</li>
-<li><b>GCP 增速 (+63%) > AWS (19%) > Azure (33%)</b> — 市佔正在提升</li>
-<li>若全年 Cloud 營收 ~$800B+，營業利益率達 30%→ $240B+ 營業利益</li>
-</ul>
+<h3>🎯 洞察三：資本支出年增 107%，2027 年再大增</h3>
+<p>Q1 資本支出 357 億，全年財測由 1,750–1,850 億上調到 1,800–1,900 億，增加的部分來自 3 月完成收購的再生能源開發商 Intersect；公司也預告 2027 年資本支出將大幅增加。Ashkenazi 說：<b>「技術基礎設施投資大幅增加，將以更高的折舊與能源等營運成本，持續對損益造成壓力」</b>。自由現金流年減 47%，季內發債 311 億。</p>
 </div>
 
 <div class="sb">
-<h3>🎯 洞察四：FCF 被 CapEx 吞噬 — 用現金換明天</h3>
-<p>OCF $45.8B 非常強勁，但 CapEx $35.7B 吃掉 <b>78%</b> 的 OCF。FCF 從 $18.3B 腰斬至 $10.1B。TTM FCF 從 $73.3B 降至 $64.4B（-14%）。</p>
-<ul>
-<li>這是 Google 史上 FCF 壓力最大的時期</li>
-<li>管理層的選擇：今天的現金流 → 明天的 AI 基礎設施護城河</li>
-<li>關鍵變數：2027 年 CapEx 是否開始回落，屆時 FCF 將爆發</li>
-</ul>
+<h3>🎯 洞察四：AI 讓搜尋查詢量創新高</h3>
+<p>搜尋與其他營收年增 19%，Pichai 說用戶喜歡 AI Mode 與 AI Overviews，查詢量創歷史新高，零售與金融廣告主貢獻最大。付費訂閱數達 3.5 億，本季是消費者 AI 方案最強的一季，主要來自 Gemini App。自家模型透過 API 每分鐘處理逾 160 億個 token，上季為 100 億。</p>
 </div>
 
 <div class="sb">
-<h3>🎯 洞察五：搜尋廣告 +13% — 沒被 AI 搜尋取代</h3>
-<p>市場擔心 AI 搜尋（ChatGPT Search、Perplexity、Gemini）會侵蝕 Google Search 的廣告業務，但數據顯示搜尋廣告持續 +13% YoY。</p>
-<ul>
-<li>AI Overview（AI 摘要）已覆蓋 <b>10 億+</b> 用戶</li>
-<li>反而增加了搜尋的使用頻率和廣告曝光</li>
-<li>搜尋廣告營收 $59.65B — 單季接近 $600 億，現金流引擎穩如泰山</li>
-</ul>
-</div>
-
-<div class="sb">
-<h3>🎯 洞察六：長期負債持續增加 — 發債籌資 AI 基建</h3>
-<p>長期負債從 Q4 2025 的 $465.5B 進一步增加。Google 過去幾乎不發債，但在 AI 軍備競賽中被迫舉債。</p>
-<ul>
-<li>不過 <b>$1,200B+</b> 的現金短投仍是堡壘級緩衝</li>
-<li>淨現金仍達 ~$700B，財務風險極低</li>
-<li>這是「用最便宜的資金（低利率發債）為最高回報的投資（AI 基建）融資」的理性選擇</li>
-</ul>
+<h3>🎯 洞察五：Wiz 併入，EPS 含 2.35 美元評價利益</h3>
+<p>Wiz 收購 3 月完成，併入 Cloud 部門，商譽增加 244 億；公司預估 2026 年剩餘期間將讓 Cloud 營益率承受低個位數百分點的逆風。業外收支 377 億，主要是非上市股權投資的未實現評價利益，讓 EPS 增加 2.35 美元，排除後約 2.76 美元。Verily 完成外部募資後已不再併表，季配息調高 5% 到 0.22 美元。</p>
 </div>
 
 ---
 
-## 3. 🛡️ 護城河與未來展望
+## 3. 🛡️ 護城河與 Q2 展望
 
-### 護城河分析（4.5/5 ⭐）
+<div class="sb">
+<h3>🏰 核心護城河：唯一自有全套企業 AI 堆疊的雲端</h3>
+<p>Pichai 強調 Google Cloud 是唯一在企業 AI 堆疊每一層都有自家方案的雲端業者：TPU 與 Axion CPU、Gemini 模型、BigQuery 資料平台、Gemini Enterprise 代理平台，再加上 Wiz 資安。過去 12 個月有 330 家 Cloud 客戶各處理逾 1 兆個 token，既有客戶的用量超出原始承諾 45%。</p>
+</div>
 
-<div class="sw"><table>
-<thead><tr><th>類型</th><th>說明</th></tr></thead>
-<tbody>
-<tr><td><b>網路效應</b></td><td>Search 90%+ 全球市佔，使用者越多 → 數據越多 → 搜尋越好</td></tr>
-<tr><td><b>規模經濟</b></td><td>YouTube 20億+ MAU，Android 30億+ 設備，Gmail 18億+ 用戶</td></tr>
-<tr><td><b>品牌</b></td><td>"Google it" = 搜尋代名詞</td></tr>
-<tr><td><b>AI 技術</b></td><td>Gemini、TPU v6、DeepMind — 研發實力全球頂尖</td></tr>
-<tr><td><b>數據護城河</b></td><td>20 年搜尋數據 + YouTube + Maps = 無法複製的訓練資料</td></tr>
-</tbody></table></div>
-
-### 管理層指引
+### 公司對 Q2 與全年的說法
 
 <div class="sw"><table>
-<thead><tr><th>項目</th><th>指引</th><th>點評</th></tr></thead>
+<thead><tr><th>項目</th><th>公司說法</th><th>Q1 實際</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>2026 CapEx</b></td><td>~$750億+</td><td class="bad">🔴 持續軍備競賽，全年化 ~$143B</td></tr>
-<tr><td><b>Cloud 成長</b></td><td>+35-40% YoY</td><td class="good">🟢 高速增長，市佔持續提升</td></tr>
-<tr><td><b>Gemini 商用</b></td><td>成長迅速</td><td class="good">🟢 API token +400% YoY</td></tr>
-<tr><td><b>AI 供給約束</b></td><td>全年受限</td><td class="warn">🟡 需求 > 供給，利好 Cloud 定價</td></tr>
+<tr><td><b>2026 資本支出</b></td><td><b>$180–190B</b></td><td>前次 $175–185B</td><td class="bad">🔴 含 Intersect</td></tr>
+<tr><td><b>2027 資本支出</b></td><td><b>大幅增加</b></td><td>—</td><td class="bad">🔴 尚未量化</td></tr>
+<tr><td><b>Q2 匯率</b></td><td><b>順風約 1pp</b></td><td>順風 3pp</td><td class="warn">🟡 順風縮小</td></tr>
+<tr><td><b>Wiz 對 Cloud 營益率</b></td><td><b>低個位數 pp 逆風</b></td><td>32.9%</td><td class="warn">🟡 至 2026 年底</td></tr>
+<tr><td><b>TPU 硬體營收</b></td><td><b>2027 為大宗</b></td><td>尚未認列</td><td>逐季波動</td></tr>
+<tr><td><b>積壓訂單</b></td><td><b>24 個月認列過半</b></td><td>$462B</td><td class="good">🟢 可見度高</td></tr>
+<tr><td><b>季配息</b></td><td><b>$0.22</b></td><td>前次 $0.21</td><td class="good">🟢 調高 5%</td></tr>
 </tbody></table></div>
+
+> 📌 Alphabet 不提供季度營收財測；公司預期持續在 AI 與雲端招募人才，並加碼行銷支持 AI 產品。
 
 ---
 
 ## 4. ⚠️ 風險提示
 
-<h3 class="risk-red">🔴 高風險</h3>
-<div class="sb rh">
-<ul>
-<li><b>CapEx 吞噬 FCF</b>：單季 CapEx $35.7B，FCF 腰斬至 $10.1B。若 AI 報酬率不如預期，ROIC 將大幅下降</li>
-<li><b>反壟斷訴訟</b>：DOJ 對 Search 獨佔案持續，可能分拆 Chrome 或改變搜尋預設協議</li>
-<li><b>長期負債增加</b>：發債速度加快，槓桿率從極低水位上升中</li>
-</ul>
-</div>
+<h3 class="risk-red">🔴 高風險（High Risk）</h3>
+<div class="sb rh"><ul>
+<li><b>資本支出吃掉現金流</b>：全年 1,800–1,900 億、2027 年再大增，自由現金流已年減 47%。</li>
+<li><b>折舊壓力</b>：折舊年增 44%，公司明言會持續壓低損益。</li>
+</ul></div>
 
-<h3 class="risk-gold">🟡 中風險</h3>
-<div class="sb rm">
-<ul>
-<li><b>AI 搜尋轉型不確定性</b>：AI Overview 雖提升用戶體驗，但可能降低廣告點擊率</li>
-<li><b>R&D 成本剛性</b>：若營收增速放緩至 10% 以下，費用剛性將壓縮利潤率</li>
-<li><b>Cloud 競爭</b>：AWS 市佔 31% vs Google 12%，差距仍大</li>
-</ul>
-</div>
+<h3 class="risk-gold">🟡 中風險（Medium Risk）</h3>
+<div class="sb rm"><ul>
+<li><b>舉債擴大</b>：長期債務單季增加 67% 到 775 億，利息費用由 0.3 億升到 5.3 億。</li>
+<li><b>評價利益波動</b>：EPS 有 2.35 美元來自股權評價，未來可能反轉。</li>
+<li><b>Wiz 整合</b>：今年剩餘期間拖累 Cloud 營益率低個位數百分點。</li>
+</ul></div>
 
-<h3 class="risk-green">🟢 機會</h3>
-<div class="sb rl">
-<ul>
-<li><b>Cloud 利潤率持續擴張</b>：27% → 目標 30%+，利潤引擎加速</li>
-<li><b>Gemini API 商用爆炸性成長</b>：API token +400%，企業客戶快速增長</li>
-<li><b>Waymo 自駕商業化加速</b>：營運城市持續擴張</li>
-<li><b>估值相對便宜</b>：Forward PE ~17-18x 在 Mag 7 中最低之一</li>
-</ul>
-</div>
+<h3 class="risk-green">🟢 低風險／潛在機會（Low Risk / Opportunity）</h3>
+<div class="sb rl"><ul>
+<li><b>積壓訂單 4,620 億</b>：過半在 24 個月內認列，且包含 TPU 硬體這個新營收來源。</li>
+<li><b>算力受限的需求</b>：Pichai 說若產能足夠營收會更高，代表需求尚未滿足。</li>
+</ul></div>
 
 ---
 
-## 5. 📊 估值觀察（非投資建議）
+## 5. 📊 估值觀察
+
+### 估值指標（以 2026/4/30 收盤價計）
 
 <div class="sw"><table>
-<thead><tr><th>估值指標</th><th>數值</th><th>說明</th></tr></thead>
+<thead><tr><th>指標</th><th>數值</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>股價</b></td><td>$349.94</td><td>2026/04/29 收盤</td></tr>
-<tr><td><b>市值</b></td><td>~$3.8T</td><td>全球第二大公司</td></tr>
-<tr><td><b>EPS (TTM)</b></td><td>$10.81 (FY2025) + Q1 $5.11</td><td class="good">🟢 TTM EPS ~$15.92</td></tr>
-<tr><td><b>Forward PE</b></td><td>~17-18x</td><td class="good">🟢 Mag 7 中最便宜之一</td></tr>
-<tr><td><b>P/S</b></td><td>~3.5x (TTM)</td><td class="good">🟢 合理偏低</td></tr>
-<tr><td><b>FCF Yield</b></td><td>~1.7%</td><td class="warn">🟡 CapEx 壓縮，低於歷史</td></tr>
-<tr><td><b>EV/EBITDA</b></td><td>~15-16x</td><td class="good">🟢 低於歷史中位數</td></tr>
+<tr><td><b>收盤價（GOOGL）</b></td><td>US$384.80</td><td>財報後首日 +10.0%</td></tr>
+<tr><td><b>市值（估算）</b></td><td>~US$4.66 兆</td><td>流通股 121.16 億</td></tr>
+<tr><td><b>企業價值 EV（估算）</b></td><td>~US$4.61 兆</td><td>淨現金 493 億</td></tr>
+<tr><td><b>本益比（TTM GAAP）</b></td><td>~29.4 倍</td><td>TTM EPS 13.11</td></tr>
+<tr><td><b>本益比（排除評價）</b></td><td>~34.9 倍</td><td>以 2.76×4 計</td></tr>
+<tr><td><b>EV / TTM 營業利益</b></td><td>~33.4 倍</td><td>TTM 1,381 億</td></tr>
+<tr><td><b>股價營收比（TTM）</b></td><td>~11.0 倍</td><td>TTM 營收 4,225 億</td></tr>
+<tr><td><b>自由現金流殖利率</b></td><td>~1.4%</td><td>TTM FCF 644 億</td></tr>
+<tr><td><b>股利殖利率</b></td><td>~0.23%</td><td>季配 0.22 美元</td></tr>
 </tbody></table></div>
 
-<div class="sb">
-<p><b>估值解讀</b>：Forward PE ~17-18x 在 Mag 7 中僅高於 Meta，遠低於微軟 (~30x)、蘋果 (~32x)、NVIDIA (~25x)。市場尚未充分定價 Cloud + Gemini 的獲利潛力。若 2026 全年 EPS ~$20（Q1 $5.11 × 4 保守估計），Forward PE 僅 <b>~17.5x</b>。</p>
-</div>
+> 📌 市值以 3/31 流通股 121.16 億股估算；EV = 市值 − 現金與有價證券 1,268.4 億 ＋ 長期債務 775.0 億。TTM 為 2025 Q2 至 2026 Q1。股價 4/29 收 349.94 美元（財報盤後公布），4/30 收 384.80 美元。
+
+### 多空論點對照
+
+<div class="sw"><table>
+<thead><tr><th>議題</th><th>多方看法</th><th>空方看法</th><th>本季證據</th></tr></thead>
+<tbody>
+<tr><td><b>Cloud</b></td><td>年增 63%</td><td>Wiz 拖累利益率</td><td class="good">🟢 營益率 32.9%</td></tr>
+<tr><td><b>訂單</b></td><td>積壓 4,620 億</td><td>含 TPU 硬體</td><td class="good">🟢 季增近一倍</td></tr>
+<tr><td><b>搜尋</b></td><td>查詢量新高</td><td>AI 改變點擊</td><td class="good">🟢 年增 19%</td></tr>
+<tr><td><b>獲利</b></td><td>營業利益 +30%</td><td>EPS 靠評價</td><td class="warn">🟡 評價 2.35 美元</td></tr>
+<tr><td><b>資本支出</b></td><td>算力需求未滿足</td><td>2027 年再大增</td><td class="bad">🔴 FCF 年減 47%</td></tr>
+<tr><td><b>估值</b></td><td>成長加速</td><td>本益比偏高</td><td class="warn">🟡 首日漲 10%</td></tr>
+</tbody></table></div>
+
+> 📅 **事後回顧（2026/11 補記）**：Q2 營收 1,198 億（+24%）、Cloud 年增 82%，積壓訂單 5,140 億；全年資本支出財測再上調到 1,950–2,050 億，Q2 自由現金流轉為 -59 億。6 月 Alphabet 以普通股與強制轉換特別股增資淨募 496 億。股價（GOOGL）到 11/13 收 295.77 美元，較 4/30 下跌約 23.1%。
 
 ---
 
-## 6. 📋 總結
+## 6. 📋 關鍵觀察
 
-<div class="sb rl">
-<h3>GOOG Q1 2026 總結</h3>
-<ul>
-<li>✅ Q1 營收 $1,099 億（+22% YoY）超預期 $106.6B</li>
-<li>✅ EPS $5.11（+82% YoY）大超預期 $2.63</li>
-<li>✅ Google Cloud $200 億（+63%），營業利益率 27%（+7pp QoQ）— 利潤引擎正式啟動</li>
-<li>✅ 搜尋廣告 +13%，AI Overview 並未侵蝕搜尋印鈔機</li>
-<li>⚠️ CapEx $35.7B 翻倍，FCF 腰斬至 $10.1B — 史上最大投資周期</li>
-<li>⚠️ 長期負債持續增加，反壟斷訴訟懸而未決</li>
-</ul>
-</div>
+- **Cloud 加速**：營收 200 億（+63%）、營益率 32.9%，AI 解決方案成為最大成長來源。
+- **訂單暴增**：積壓訂單 4,620 億、季增近一倍，首度納入 TPU 硬體合約。
+- **本業穩健**：營收 1,099 億（+22%）、營業利益 +30%，搜尋 +19%。
+- **EPS 含評價**：5.11 美元中有 2.35 美元來自股權評價利益。
+- **投資加碼**：資本支出年增 107%，全年 1,800–1,900 億，2027 年再大增。
 
-<div class="sb rl">
-<p><b>一句話</b>：FCF 腰斬、CapEx 翻倍、Cloud 63% — Google 正用今天的現金流換取 AI 時代的霸主地位。EPS $5.11 大爆擊證明策略正在奏效，但 $35.7B 單季 CapEx 的豪賭能否回收，2027 年見分曉。</p>
-</div>
+> 💡 **一句話總結**：Google Cloud 在 AI 需求下同時做到高成長與高利益率，積壓訂單近翻倍；代價是資本支出翻倍、自由現金流腰斬，接下來要看算力到位的速度能否跟上訂單。
 
 <div class="disc">
-<h3 style="color:#8b8fa3;margin:0 0 8px">⚠️ 免責聲明</h3>
-<p>本報告僅為客觀戰略分析，不構成任何買入或賣出建議。所有數據來自公開資訊，請自行查證。</p>
-<p style="margin-top:8px"><b>資料來源</b>：Alphabet Q1 2026 Earnings Release (2026/04/29) | MarketBeat | Seeking Alpha | The Motley Fool | 9to5Google | Stock Titan</p>
+<b>免責聲明（Disclaimer）</b>：本報告僅為客觀財務數據整理與產業戰略分析，不構成任何證券之買入、賣出或持有建議，亦不提供目標價預測。投資人應獨立判斷並自負投資風險。<br><br>
+<b>資料來源（Sources）</b>：Alphabet 2026 Q1 Form 8-K 新聞稿（2026-04-29）；Motley Fool 法說會逐字稿（Sundar Pichai、Anat Ashkenazi 發言，中譯為本文翻譯）；SEC XBRL 季度數據（2025 Q2–Q4，用於 TTM）；Alphabet 2026 Q2 Form 8-K（2026-07-22，僅用於事後回顧）；Yahoo Finance 股價（截至 2026-11-13）。
 </div>
