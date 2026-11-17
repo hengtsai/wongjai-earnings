@@ -184,9 +184,9 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>項目</th><th>指引</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>Q3 FY26 營收</b></td><td>$2.56-2.58B（YoY +14-15%）</td><td class="good">🟢 穩健成長</td></tr>
-<tr><td><b>FY 2026 營收</b></td><td>~$10.3-10.4B（YoY +13-14%）</td><td class="good">🟢 首次突破 $100 億</td></tr>
-<tr><td><b>FY 2026 FCF</b></td><td>~$3.8-3.9B</td><td class="good">🟢 FCF Margin ~37%</td></tr>
+<tr><td><b>Q3 FY26 營收</b></td><td>$2.941-2.945B（YoY +28-29%）</td><td class="good">🟢 含併購營收</td></tr>
+<tr><td><b>FY 2026 營收</b></td><td>$11.28-11.31B（YoY +22-23%）</td><td class="good">🟢 含併購營收</td></tr>
+<tr><td><b>FY 2026 調整後 FCF 率</b></td><td>37%</td><td class="good">🟢 公司未給金額</td></tr>
 <tr><td><b>平台化目標</b></td><td>推動更多客戶整合至單一平台</td><td class="good">🟢 核心成長驅動力</td></tr>
 </tbody></table></div>
 
