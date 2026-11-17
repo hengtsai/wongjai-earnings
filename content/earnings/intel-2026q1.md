@@ -1,185 +1,216 @@
 ---
-title: "Intel (INTC) 2026 Q1 財報：轉機浮現但獲利仍在流血"
-date: 2026-04-25
+title: "Intel (INTC) 2026 Q1 財報分析：營收 136 億超財測、DCAI 增 22%，Mobileye 減損致 GAAP 虧損"
+date: 2026-04-25T00:00:00+08:00
 ticker: "INTC"
 quarter: "2026 Q1"
 logo: "https://www.google.com/s2/favicons?domain=intel.com&sz=128"
 color: "#0071c5"
-summary: "營收 $13.6B 擊敗預期 $12.4B，Non-GAAP EPS $0.29 vs 預期 $0.01。數據中心 +22% 為亮點，但 GAAP 淨損 $4.28B。Intel 復興之路才剛開始。"
-tags: ["Intel", "半導體", "CPU", "AI", "IDM", "代工", "Lip-Bu Tan", "INTC"]
+summary: "Q1 營收 136 億美元（+7%），比公司 117–127 億財測上緣多 9 億，Non-GAAP 毛利率 41.0%、EPS 0.29 美元都遠高於自家財測。但 Mobileye 商譽減損與政府託管股評價損失讓 GAAP 每股虧 0.73 美元，調整後自由現金流仍為 -20 億。"
+tags: ["Intel", "INTC", "半導體", "CPU", "AI", "代工", "18A", "Foundry", "Lip-Bu Tan"]
+aliases: ["/earnings/intel-q1-fy2026/"]
 author: "Wongjai ⚡"
 draft: false
 ---
 
 <div class="kpi-grid">
-<div class="kpi-card"><div class="label">Q1 營收</div><div class="value">$13.6B</div><div class="change up">▲ 7% YoY｜超越指引 $1.4B</div></div>
-<div class="kpi-card"><div class="label">Non-GAAP EPS</div><div class="value">$0.29</div><div class="change up">🟢 爆擊預期（預期 $0.01）</div></div>
-<div class="kpi-card"><div class="label">Non-GAAP 毛利率</div><div class="value">41.0%</div><div class="change up">▲ 1.8pp YoY</div></div>
-<div class="kpi-card"><div class="label">數據中心+AI 營收</div><div class="value">$5.1B</div><div class="change up">▲ 22% YoY</div></div>
-<div class="kpi-card"><div class="label">GAAP 淨損</div><div class="value">-$4.28B</div><div class="change wn">⚠️ 擴大（Q1'25: -$0.9B）</div></div>
-<div class="kpi-card"><div class="label">GAAP EPS</div><div class="value">-$0.73</div><div class="change wn">⚠️ 重組/減損拖累</div></div>
-<div class="kpi-card"><div class="label">Q2 營收指引</div><div class="value">$13.8-14.8B</div><div class="change up">▲ vs 預期 $13.1B</div></div>
-<div class="kpi-card"><div class="label">股價</div><div class="value">$82.54</div><div class="change up">▲ YTD 80%｜盤後再 +20%</div></div>
+<div class="kpi-card"><div class="label">Q1 營收</div><div class="value">US$135.8億</div><div class="change up">▲7.2% YoY</div></div>
+<div class="kpi-card"><div class="label">Non-GAAP 毛利率</div><div class="value">41.0%</div><div class="change up">財測 34.5%</div></div>
+<div class="kpi-card"><div class="label">Non-GAAP EPS</div><div class="value">US$0.29</div><div class="change up">財測 0.00</div></div>
+<div class="kpi-card"><div class="label">GAAP EPS</div><div class="value">-US$0.73</div><div class="change dn">去年 -0.19</div></div>
+<div class="kpi-card"><div class="label">DCAI 營收</div><div class="value">US$50.5億</div><div class="change up">▲22% YoY</div></div>
+<div class="kpi-card"><div class="label">Intel Foundry</div><div class="value">US$54.2億</div><div class="change wn">虧損 24.4 億</div></div>
+<div class="kpi-card"><div class="label">調整後自由現金流</div><div class="value">-US$20.2億</div><div class="change dn">去年 -36.8 億</div></div>
+<div class="kpi-card"><div class="label">Q2 營收財測</div><div class="value">US$138–148億</div><div class="change up">中位 +5% QoQ</div></div>
 </div>
+
+> 📌 **口徑說明**：本文由原 intel-2026q1 與 intel-q1-fy2026 兩篇合併改寫，舊網址自動轉到本頁。財務數據取自 Intel 2026/4/23 提交之 SEC Form 8-K 新聞稿（美國 GAAP，單位百萬美元）；引言取自同一份新聞稿，中譯為本文翻譯，沒有使用法說會逐字稿。股價取自 Yahoo Finance。
 
 ## 1. 📈 核心數據速覽
 
-### Q1 2026 — GAAP vs Non-GAAP 對比
+### Q1 2026 損益表精要（US$ 百萬）
 
 <div class="sw"><table>
-<thead><tr><th>指標</th><th>GAAP Q1 '26</th><th>Non-GAAP Q1 '26</th><th>Non-GAAP Q1 '25</th><th>YoY</th><th>點評</th></tr></thead>
+<thead><tr><th>指標</th><th>Q1 '26</th><th>Q1 '25</th><th>YoY</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>營收</b></td><td>$13.58B</td><td>$13.58B</td><td>$12.67B</td><td class="good">+7.2%</td><td class="good">🟢 連續六季超越內部指引</td></tr>
-<tr><td><b>毛利率</b></td><td>39.4%</td><td>41.0%</td><td>39.2%</td><td class="good">+1.8pp</td><td class="good">🟢 Intel 產品 ASP 回升</td></tr>
-<tr><td><b>R&D+MG&A</b></td><td>$4.4B</td><td>$3.9B</td><td>$4.3B</td><td class="good">-9%</td><td class="good">🟢 費用控制得宜</td></tr>
-<tr><td><b>營業利益（損失）</b></td><td>-$3.1B</td><td>~$1.7B</td><td>~$0.7B</td><td class="good">~+143%</td><td class="good">🟢 核心事業顯著改善</td></tr>
-<tr><td><b>營業利益率</b></td><td>-23.1%</td><td>~12.5%</td><td>~5.5%</td><td class="good">+7pp</td><td class="warn">🟡 仍遠低於歷史 25-30%</td></tr>
-<tr><td><b>淨利（損失）</b></td><td>-$4.28B</td><td>~$1.6B</td><td>~$0.8B</td><td class="good">~+100%</td><td class="warn">🟡 GAAP 虧損因 Fab 折舊+重組</td></tr>
-<tr><td><b>EPS</b></td><td>-$0.73</td><td>$0.29</td><td>~$0.15</td><td class="good">+93%</td><td class="good">🟢 爆擊市場預期 $0.01</td></tr>
+<tr><td><b>營收</b></td><td><b>13,577</b></td><td>12,667</td><td class="good">+7.2%</td><td class="good">🟢 超財測上緣 8.8 億</td></tr>
+<tr><td><b>GAAP 毛利率</b></td><td><b>39.4%</b></td><td>36.9%</td><td class="good">+2.5pp</td><td class="good">🟢 財測 32.3%</td></tr>
+<tr><td><b>Non-GAAP 毛利率</b></td><td><b>41.0%</b></td><td>39.2%</td><td class="good">+1.8pp</td><td class="good">🟢 Q4 為 37.9%</td></tr>
+<tr><td><b>研發＋管銷</b></td><td><b>4,413</b></td><td>4,817</td><td class="good">-8.4%</td><td class="good">🟢 員工年減 19%</td></tr>
+<tr><td><b>重組及其他費用</b></td><td><b>4,070</b></td><td>156</td><td class="bad">n/m</td><td class="bad">🔴 Mobileye 商譽減損</td></tr>
+<tr><td><b>GAAP 營業利益</b></td><td><b>-3,136</b></td><td>-301</td><td class="bad">n/m</td><td class="bad">🔴 營益率 -23.1%</td></tr>
+<tr><td><b>Non-GAAP 營業利益</b></td><td><b>1,668</b></td><td>690</td><td class="good">+142%</td><td class="good">🟢 營益率 12.3%</td></tr>
+<tr><td><b>歸屬 Intel 淨利</b></td><td><b>-3,728</b></td><td>-821</td><td class="bad">n/m</td><td>含託管股損失 10.9 億</td></tr>
+<tr><td><b>稀釋 EPS（GAAP／Non-GAAP）</b></td><td><b>-$0.73／$0.29</b></td><td>-$0.19／$0.13</td><td class="good">Non-GAAP +123%</td><td class="good">🟢 財測 -0.21／0.00</td></tr>
 </tbody></table></div>
 
-> **📌 GAAP vs Non-GAAP 差距**：Q1 GAAP 淨損 -$4.28B vs Non-GAAP 淨利 ~$1.6B，差距高達 $5.9B。主因：Fab 擴產折舊、Ireland Fab 回購相關費用、Lip-Bu Tan 上任後的重組支出。Non-GAAP 更能反映 Intel 核心產品的真實獲利能力。
+> 📌 **其他重點**：營收季減 0.7%（Q4 為 136.7 億）。業外「利息及其他」-7.4 億，其中美國政府託管股（Escrowed Shares）的評價損失 10.9 億，其餘約 +3.5 億；另有股權投資損失 0.7 億。稅前虧損 39.5 億（-31.36－0.72－7.38）仍有稅費 3.4 億，有效稅率 -8.5%；非控制權益分攤虧損 5.5 億。
 
-### 事業部營收
+---
+
+### 部門營收與營業利益（US$ 百萬）
 
 <div class="sw"><table>
-<thead><tr><th>事業部</th><th>Q1 '26 營收</th><th>Q1 '25 營收</th><th>YoY</th><th>點評</th></tr></thead>
+<thead><tr><th>部門</th><th>Q1 '26 營收</th><th>YoY</th><th>QoQ</th><th>營業利益</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>Intel Products (CCG + DCAI + NEX)</b></td><td>~$12.2B</td><td>~$11.0B</td><td class="good">+11%</td><td class="good">🟢 產品端全面回升</td></tr>
-<tr><td><b>→ 客戶端運算 CCG (PC)</b></td><td>~$6.5B</td><td>$6.1B</td><td class="good">+6.6%</td><td class="good">🟢 AI PC 換機潮啟動</td></tr>
-<tr><td><b>→ 數據中心+AI DCAI</b></td><td>$5.1B</td><td>$4.2B</td><td class="good">+22%</td><td class="good">🟢 AI CPU 需求爆發</td></tr>
-<tr><td><b>→ 網路+邊緣 NEX</b></td><td>~$0.6B</td><td>~$0.7B</td><td class="warn">微降</td><td class="warn">🟡 穩定</td></tr>
-<tr><td><b>Intel Foundry (代工)</b></td><td>~$2.8B</td><td>~$3.0B</td><td class="warn">-7%</td><td class="warn">🟡 持續燒錢，18A 尚未量產</td></tr>
-<tr><td><b>其他 (Altera/Mobileye等)</b></td><td>~$0.5B</td><td>~$0.5B</td><td>持平</td><td class="warn">🟡 需觀察</td></tr>
+<tr><td><b>CCG（客戶端）</b></td><td><b>7,727</b></td><td>+1.3%</td><td class="bad">-5.7%</td><td>2,516</td><td class="warn">🟡 供給受限季減</td></tr>
+<tr><td><b>DCAI（資料中心）</b></td><td><b>5,052</b></td><td class="good">+22.4%</td><td class="good">+6.6%</td><td>1,542</td><td class="good">🟢 營益率 13.9%→30.5%</td></tr>
+<tr><td><b>Intel Products 合計</b></td><td><b>12,779</b></td><td class="good">+8.7%</td><td>-1.2%</td><td>4,058</td><td class="good">🟢 營益率 31.8%</td></tr>
+<tr><td><b>Intel Foundry</b></td><td><b>5,421</b></td><td class="good">+16.2%</td><td class="good">+20.3%</td><td class="bad">-2,437</td><td class="bad">🔴 虧損仍擴大</td></tr>
+<tr><td><b>其他（Mobileye 等）</b></td><td><b>628</b></td><td class="bad">-33.4%</td><td>+9.4%</td><td>102</td><td>Altera 已出表</td></tr>
+<tr><td><b>公司未分攤</b></td><td>—</td><td>—</td><td>—</td><td class="bad">-5,080</td><td class="bad">🔴 含減損 40.7 億</td></tr>
+<tr><td><b>部門間沖銷</b></td><td><b>-5,251</b></td><td>—</td><td>—</td><td>221</td><td>代工多為內部營收</td></tr>
 </tbody></table></div>
 
-## 2. 🔍 隱藏的魔鬼細節
+> 📌 部門營收 12,779＋5,421＋628－5,251＝13,577，與合併營收相符；營業利益 4,058－2,437＋102－5,080＋221＝-3,136。Altera 於 2025/9/12 出售 51% 後不再併表，「其他」年減主要來自此項。
 
-<div class="sb">
-<h3>🎯 洞察一：CPU 在 AI 時代「復活」— Intel 翻身的核心論述</h3>
-<p>Q1 DCAI（數據中心+AI）營收 +22% 至 $5.1B，是本次財報最大亮點。CEO Lip-Bu Tan 的原話：「CPU 正在重新確立自己作為 AI 時代不可或缺基礎的地位。」</p>
-<p>論述邏輯：AI 從訓練（GPU 密集）轉向推理和 Agentic AI（CPU 密集）。Agentic workloads 需要大量 CPU 來處理指令編排、記憶體管理、安全隔離。NVIDIA GPU 不會消失，但 CPU 需求正在被重新點燃。若此趨勢成立，Intel 的 Xeon 產品線將是最大受惠者。</p>
-</div>
+---
 
-<div class="sb">
-<h3>🎯 洞察二：GAAP 淨損 $4.28B — 但這不是「虧損」是「投資」</h3>
-<p>GAAP 淨損較去年同期的 -$0.9B 大幅擴大至 -$4.28B，表面恐怖但實際上反映 Intel 的 Fab 擴張策略。大額支出包括：</p>
-<ul>
-<li>Ohio/Arizona 新 Fab 建設折舊開始計提</li>
-<li>以 $14B 回購 Ireland Fab 49% 股權（從 Apollo 手中買回）</li>
-<li>Lip-Bu Tan 上任後裁員/重組一次性支出</li>
-</ul>
-<p>Non-GAAP 角度 Intel 仍在賺錢，但現金正在被 Fab 黑洞大量吞噬。</p>
-</div>
-
-<div class="sb">
-<h3>🎯 洞察三：Intel 的「政治護城河」— 川普政府是最大股東</h3>
-<p>2025 年美國政府透過 CHIPS Act 及直接投資成為 Intel 最大股東。NVIDIA + SoftBank 也投入數十億美元。Intel 股價 YTD +80%（2025 全年 +84%），但這些漲幅來自政策溢價而非基本面改善。Q1 財報終於讓基本面開始追上股價。</p>
-<p>Lip-Bu Tan 提到「新的和深化的戰略夥伴關係」— 暗示更多科技巨頭可能入股 Intel Foundry。</p>
-</div>
-
-<div class="sb">
-<h3>🎯 洞察四：費用的「良性下降」vs 「投資不足」— 需要警惕</h3>
-<p>R&D+MG&A Non-GAAP YoY -9%，這既是 Lip-Bu Tan 削減冗員的成果，也可能是投資不足的訊號。Intel 的 R&D 支出仍遠低於 TSMC（年 ~$20B），在先進製程競賽中不能省錯錢。</p>
-</div>
-
-<div class="sb">
-<h3>🎯 洞察五：Q2 指引 $13.8-14.8B vs 預期 $13.1B — 成長正在加速</h3>
-<p>Q2 營收指引中值 $14.3B，意味 QoQ +5%，YoY 加速成長。Non-GAAP EPS 指引 $0.20，雖較 Q1 的 $0.29 下滑，但仍遠高於市場預期的 $0.09。Intel 的復甦不是曇花一現。</p>
-</div>
-
-## 3. 🛡️ 護城河與未來展望
-
-### 護城河評估：⭐⭐⭐ (3/5) — 戰略資產豐厚但執行風險高
+### 資產負債與現金流精要（US$ 百萬）
 
 <div class="sw"><table>
-<thead><tr><th>護城河類型</th><th>現狀</th><th>趨勢</th></tr></thead>
+<thead><tr><th>指標</th><th>2026/03/28</th><th>2025/12/27</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>x86 生態系</b></td><td>PC/伺服器 CPU 市佔 ~70-75%，AI PC 換機潮有利</td><td class="good">🟢 穩定</td></tr>
-<tr><td><b>IDM 2.0 策略</b></td><td>自有產品 + 代工雙軌，18A 預定 2026H2 量產</td><td class="warn">🟡 未驗證</td></tr>
-<tr><td><b>先進封裝</b></td><td>EMIB/Foveros 3D 封裝技術獲 NVIDIA/Amazon 採用</td><td class="good">🟢 成長</td></tr>
-<tr><td><b>政治護城河</b></td><td>美國國家安全晶片唯一本土製造商</td><td class="good">🟢 前所未有</td></tr>
-<tr><td><b>品牌信任</b></td><td>企業 IT 仍信任 Intel，但雲端已大量轉向 AMD</td><td class="warn">🟡 流失</td></tr>
+<tr><td><b>現金與短期投資</b></td><td><b>32,789</b></td><td>37,416</td><td class="warn">🟡 一季 -46 億</td></tr>
+<tr><td><b>存貨</b></td><td><b>12,426</b></td><td>11,618</td><td class="warn">🟡 在製品 +15%</td></tr>
+<tr><td><b>不動產與設備淨額</b></td><td><b>104,458</b></td><td>105,414</td><td>折舊大於新增</td></tr>
+<tr><td><b>商譽</b></td><td><b>20,465</b></td><td>23,912</td><td class="bad">🔴 減少 34.5 億</td></tr>
+<tr><td><b>總債務</b></td><td><b>45,031</b></td><td>46,585</td><td class="good">🟢 還債 15 億</td></tr>
+<tr><td><b>Intel 股東權益</b></td><td><b>111,394</b></td><td>114,281</td><td class="warn">🟡 虧損侵蝕</td></tr>
+<tr><td><b>Q1 營業現金流</b></td><td><b>1,096</b></td><td>去年 813</td><td class="good">🟢 年增 35%</td></tr>
+<tr><td><b>Q1 資本支出（總額）</b></td><td><b>4,963</b></td><td>去年 6,203</td><td class="good">🟢 年減 20%</td></tr>
+<tr><td><b>Q1 調整後自由現金流</b></td><td><b>-2,016</b></td><td>去年 -3,680</td><td class="warn">🟡 仍為負</td></tr>
 </tbody></table></div>
 
-### Lip-Bu Tan 的轉型策略
+> 📌 **財務品質**：調整後自由現金流＝營業現金流 10.96 億－資本支出總額 49.63 億＋政府補助 1.07 億＋合作夥伴出資 19.59 億－融資租賃 2.15 億＝-20.16 億。存貨天數約 137 天（本文推算，Q4 約 121 天），在製品增加與公司說的「擴大可用供給」一致。員工 8.32 萬人，一年少 1.94 萬人。
+
+---
+
+## 2. 🔍 五大核心洞察與管理層說法
+
+<div class="sb">
+<h3>🎯 洞察一：連續第六季營收高於公司預估</h3>
+<p>Q1 營收 135.8 億，比 1 月給的 117–127 億財測上緣多 8.8 億；Non-GAAP 毛利率 41.0%，比財測 34.5% 高 6.5pp。執行長陳立武說，<b>「營運方式的刻意重整，讓營收連續第六季高於我們的預估」</b>。財務長 Zinsner 1 月曾說 Q1 是供給最緊的一季，結果營收只季減 0.7%，主因工廠擠出更多可用產能。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察二：DCAI 營益率翻倍，CPU 在 AI 推論重新吃重</h3>
+<p>DCAI 營收 50.5 億、年增 22%，營業利益由 5.75 億升到 15.4 億，營益率 13.9%→30.5%。陳立武說 AI 正由基礎模型走向推論與代理，<b>「大幅增加對 Intel CPU、晶圓與先進封裝的需求」</b>。本季 Xeon 6 成為 NVIDIA DGX Rubin NVL8 的主控 CPU，Google 也簽下多年合作，延續 Xeon 部署並共同開發客製 ASIC IPU。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察三：GAAP 虧損來自兩筆非營運項目</h3>
+<p>GAAP 每股虧 0.73 美元，主因有二：重組及其他費用 40.7 億，公司說主要是 Mobileye 報告單位的商譽減損（商譽一季少 34.5 億）；以及美國政府託管股評價損失 10.9 億，股價越漲、這筆損失越大。兩項加總每股約 1.01 美元，扣除非控制權益分攤後，Non-GAAP EPS 為 0.29 美元。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察四：代工營收季增 20%，虧損還沒收斂</h3>
+<p>Intel Foundry 營收 54.2 億、季增 20%，但大多是對自家產品的內部營收（全公司部門間沖銷 52.5 億），營業虧損 24.4 億，比去年同期的 23.2 億還多。18A 本季開始用在主流 Core Series 3 處理器；檳城封測產能擴充、與 SpaceX、xAI、Tesla 一起加入 Terafab，是外部客戶面的進展。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察五：現金一季少 46 億，資本支出靠夥伴分攤</h3>
+<p>資本支出總額 49.6 億、年減 20%，合作夥伴出資 19.6 億，調整後自由現金流 -20.2 億，比去年 -36.8 億改善。現金與短期投資降到 327.9 億，同時還債 15 億，並買回愛爾蘭 Fab 34 合資公司 49% 少數股權（新聞稿未揭露金額）。Zinsner 說會持續<b>「把工廠網路發揮到最大，提高可用供給」</b>。</p>
+</div>
+
+---
+
+## 3. 🛡️ 護城河與 Q2 財測展望
+
+<div class="sb">
+<h3>🏰 核心護城河：x86 生態系加上美國本土製造</h3>
+<p>Intel 同時擁有 x86 CPU 設計、晶圓製造與先進封裝，Xeon 仍是 AI 伺服器常見的主控 CPU，與 Google、NVIDIA 的合作延長了生態系壽命。美國政府入股與 CHIPS Act 託管安排，讓 Intel 成為美國本土先進製程的代表。弱點在代工：外部營收仍小，虧損規模每季 20 億以上。</p>
+</div>
+
+### Q2 2026 官方財測
 
 <div class="sw"><table>
-<thead><tr><th>策略</th><th>進度</th><th>風險</th></tr></thead>
+<thead><tr><th>指標</th><th>Q2 '26 財測</th><th>Q1 '26 實際</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>削減成本</b></td><td>Q1 OpEx -9% YoY</td><td class="warn">🟡 是否傷及 R&D？</td></tr>
-<tr><td><b>重振 CPU 路線圖</b></td><td>Granite Rapids 量產，Clearwater Forest 2026</td><td class="good">🟢 可執行</td></tr>
-<tr><td><b>爭取外部代工客戶</b></td><td>18A 據稱獲 NVIDIA/AWS 承諾</td><td class="warn">🟡 未公開合約</td></tr>
-<tr><td><b>Ireland Fab 回購</b></td><td>$14B 買回 49%（Q1 完成）</td><td class="warn">🟡 現金消耗</td></tr>
-<tr><td><b>政府關係</b></td><td>CHIPS Act + 國防訂單</td><td class="good">🟢 核心優勢</td></tr>
+<tr><td><b>營收</b></td><td><b>$13.8–14.8B</b></td><td>$13.6B</td><td class="good">🟢 中位季增 5%</td></tr>
+<tr><td><b>中位年增</b></td><td><b>約 +11%</b></td><td>+7%</td><td class="good">🟢 去年 128.6 億</td></tr>
+<tr><td><b>GAAP 毛利率</b></td><td><b>37.5%</b></td><td>39.4%</td><td class="warn">🟡 季減 1.9pp</td></tr>
+<tr><td><b>Non-GAAP 毛利率</b></td><td><b>39.0%</b></td><td>41.0%</td><td class="warn">🟡 季減 2.0pp</td></tr>
+<tr><td><b>GAAP 稅率</b></td><td><b>4%</b></td><td>-8.5%</td><td>Non-GAAP 11%</td></tr>
+<tr><td><b>GAAP EPS</b></td><td><b>$0.08</b></td><td>-$0.73</td><td class="good">🟢 轉正</td></tr>
+<tr><td><b>Non-GAAP EPS</b></td><td><b>$0.20</b></td><td>$0.29</td><td class="warn">🟡 季減</td></tr>
+<tr><td><b>2026 Non-GAAP 營業費用</b></td><td><b>約 $16.5B</b></td><td>Q1 $3.9B</td><td>GAAP 約 227 億</td></tr>
 </tbody></table></div>
+
+> 📌 毛利率與 EPS 財測以營收中位數 143 億計。全年 GAAP 營業費用約 227 億，含股權獎酬約 20 億與重組約 41 億。
+
+---
 
 ## 4. ⚠️ 風險提示
 
-<h3 class="risk-red">🔴 高風險</h3>
-<div class="sb rh">
-<ul>
-<li><b>Fab 現金消耗</b>：2026-2028 每年需投入 $20-25B Fab CapEx，Non-GAAP 獲利可能被完全吞噬</li>
-<li><b>18A 良率未知</b>：若 18A 不如預期，IDM 2.0 策略將面臨信心危機</li>
-<li><b>CPU 論述反轉</b>：若 Agentic AI 未如預期推升 CPU 需求，DCAI +22% 無法持續</li>
-<li><b>政治風險</b>：2028 年若政黨輪替，Intel 的「國家冠軍」地位可能動搖</li>
-</ul>
-</div>
+<h3 class="risk-red">🔴 高風險（High Risk）</h3>
+<div class="sb rh"><ul>
+<li><b>代工持續虧損</b>：Foundry 單季虧損 24.4 億、年增 5%，14A 能否續推取決於外部客戶承諾。</li>
+<li><b>現金流仍為負</b>：調整後自由現金流 -20 億，現金與短期投資一季減少 46 億。</li>
+</ul></div>
 
-<h3 class="risk-gold">🟡 中風險</h3>
-<div class="sb rm">
-<ul>
-<li><b>GAAP/Non-GAAP 差距</b>：兩者 EPS 差距 4.5x（$0.29 vs -$0.73），盈餘可信度受質疑</li>
-<li><b>台積電競爭</b>：TSMC 3nm/N2 製程領先 Intel 18A 至少 1-2 年</li>
-<li><b>AMD 市佔侵蝕</b>：伺服器 CPU 市佔 AMD 已達 ~25%，Mi500 AI 加速器也在成長</li>
-<li><b>Altera/Mobileye 拖累</b>：非核心資產表現不佳，可能需要進一步分拆</li>
-</ul>
-</div>
+<h3 class="risk-gold">🟡 中風險（Medium Risk）</h3>
+<div class="sb rm"><ul>
+<li><b>託管股評價波動</b>：股價上漲會放大政府託管股評價損失，GAAP 獲利波動加大。</li>
+<li><b>毛利率回落</b>：Q2 財測 Non-GAAP 毛利率 39.0%，比 Q1 低 2pp。</li>
+<li><b>資產減損</b>：Mobileye 已減損商譽，剩餘商譽 204.7 億仍有減損可能。</li>
+</ul></div>
 
-<h3 class="risk-green">🟢 機會</h3>
-<div class="sb rl">
-<ul>
-<li><b>美國本土 AI Fab 獨佔</b>：若中美對抗升級，Intel 是西方唯一能替代 TSMC 的選項</li>
-<li><b>NVIDIA/SoftBank 深化合作</b>：外部代工客戶若落實，Intel Foundry 估值將重估</li>
-<li><b>AI PC 換機潮</b>：2026-2027 企業 PC 大規模升級，CCG 營收有望重返 $30B+</li>
-<li><b>先進封裝領導</b>：EMIB/Foveros 是少數 Intel 真正領先 TSMC 的技術</li>
-</ul>
-</div>
+<h3 class="risk-green">🟢 低風險／潛在機會（Low Risk / Opportunity）</h3>
+<div class="sb rl"><ul>
+<li><b>AI 推論帶動 CPU</b>：DCAI 年增 22%、營益率翻倍，Google 與 NVIDIA 合作提供能見度。</li>
+<li><b>費用持續下降</b>：研發＋管銷年減 8%，員工年減 19%，營業槓桿開始出現。</li>
+</ul></div>
 
-## 5. 📊 估值觀察（非投資建議）
+---
+
+## 5. 📊 估值觀察
+
+### 估值指標（以 2026/4/24 收盤價計）
 
 <div class="sw"><table>
 <thead><tr><th>指標</th><th>數值</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>股價 (4/25 ~盤後)</b></td><td>~$99</td><td>YTD +80%，盤後 +20%</td></tr>
-<tr><td><b>市值</b></td><td>~$430B</td><td>重回前段班</td></tr>
-<tr><td><b>PE (GAAP TTM)</b></td><td>負值</td><td class="warn">🟡 無意義</td></tr>
-<tr><td><b>PE (Non-GAAP FWD)</b></td><td>~80x</td><td class="warn">🟡 極高，反映的是「復甦溢價」不是獲利</td></tr>
-<tr><td><b>P/S</b></td><td>~7.5x</td><td class="warn">🟡 以半導體公司偏高（TSMC 12x 但成長更快）</td></tr>
-<tr><td><b>P/B</b></td><td>~3.2x</td><td class="warn">🟡 Fab 資產帳面值極大</td></tr>
-<tr><td><b>EV/EBITDA (Non-GAAP)</b></td><td>~35x</td><td class="warn">🟡 反映 Fab 燒錢，不是獲利能力</td></tr>
+<tr><td><b>收盤價</b></td><td>US$82.54</td><td class="good">財報後首日 +23.6%</td></tr>
+<tr><td><b>市值（估算）</b></td><td>~US$4,196 億</td><td>稀釋 50.83 億股</td></tr>
+<tr><td><b>企業價值 EV（估算）</b></td><td>~US$4,318 億</td><td>淨負債 122 億</td></tr>
+<tr><td><b>本益比（TTM GAAP）</b></td><td>n/m</td><td>TTM EPS -0.62</td></tr>
+<tr><td><b>本益比（TTM Non-GAAP）</b></td><td>~145 倍</td><td>TTM EPS 0.57</td></tr>
+<tr><td><b>Q2 財測年化本益比</b></td><td>~103 倍</td><td>0.20×4（推算）</td></tr>
+<tr><td><b>股價營收比（TTM）</b></td><td>~7.8 倍</td><td>TTM 營收 537.6 億</td></tr>
+<tr><td><b>EV／營收（TTM）</b></td><td>~8.0 倍</td><td>同上</td></tr>
+<tr><td><b>股價淨值比</b></td><td>~3.8 倍</td><td>權益 1,114 億</td></tr>
 </tbody></table></div>
 
-> **📌 Intel 估值悖論**：股價反映的是 Intel 「可能」成為 AI Fab 時代的美國冠軍，但 Non-GAAP 獲利仍只有 $0.29/季。PE 80x 是以「TSMC 2.0」的劇本定價，而非以「今日 Intel」定價。若 18A 成功，這估值合理；若失敗，下跌空間極大。
+> 📌 市值以 Q1 稀釋加權股數 50.83 億股估算（與 EPS 同一基準；季末流通股 50.23 億）。EV＝市值－現金與短期投資 327.9 億＋債務 450.3 億，未加計非控制權益 136 億。TTM Non-GAAP EPS＝-0.10＋0.23＋0.15＋0.29；TTM GAAP EPS＝-0.67＋0.90－0.12－0.73。股價 4/23 收 66.78 美元（財報盤後公布）、4/24 收 82.54 美元。
 
-## 6. 📋 總結
+### 多空論點對照
 
-Intel Q1 2026 是多年來最令人鼓舞的一季：
+<div class="sw"><table>
+<thead><tr><th>議題</th><th>多方看法</th><th>空方看法</th><th>本季證據</th></tr></thead>
+<tbody>
+<tr><td><b>營收</b></td><td>連六季高於自估</td><td>Q1 仍季減</td><td class="good">🟢 超上緣 8.8 億</td></tr>
+<tr><td><b>資料中心</b></td><td>AI 推論需要 CPU</td><td>GPU 仍拿走大宗</td><td class="good">🟢 DCAI +22%</td></tr>
+<tr><td><b>獲利</b></td><td>Non-GAAP 翻倍</td><td>GAAP 虧 37 億</td><td class="warn">🟡 減損一次性</td></tr>
+<tr><td><b>代工</b></td><td>18A 量產</td><td>虧損未收斂</td><td class="bad">🔴 虧 24.4 億</td></tr>
+<tr><td><b>現金流</b></td><td>夥伴分攤支出</td><td>FCF 仍為負</td><td class="warn">🟡 -20 億</td></tr>
+<tr><td><b>估值</b></td><td>轉機題材</td><td>本益比逾百倍</td><td class="bad">🔴 Non-GAAP 145 倍</td></tr>
+</tbody></table></div>
 
-- ✅ 營收 $13.6B，+7% YoY，連續六季超越內部指引
-- ✅ **Non-GAAP EPS $0.29 爆擊預期 29x**（預期 $0.01）
-- ✅ 數據中心+AI $5.1B，+22% YoY — CPU 在 AI 時代重獲地位
-- ✅ Q2 營收指引 $13.8-14.8B 大幅超越市場預期
-- ✅ Lip-Bu Tan 削減 OpEx -9%，同時保持產品路線圖推進
-- ⚠️ GAAP 淨損 -$4.28B，因 Fab 折舊+重組一次性支出
-- ⚠️ 先進封裝是亮點，但 18A 節點要到 2026H2 才驗證
-- ⚠️ 股價 YTD +80%，非 GAAP FWD PE 80x，已反映大量樂觀預期
+> 📅 **事後回顧（2026/11 補記）**：本文於 2026 年 11 月合併改寫，正文只用 4/24 當時已公開的資訊。Q2 實際營收 161.3 億（+25%），高於 138–148 億財測上緣；Non-GAAP EPS 0.42 美元，高於 0.20 美元財測；GAAP 每股虧 2.16 美元，主因政府託管股評價損失 125.3 億。股價到 11/16 收 55.47 美元，較 4/24 下跌約 32.8%。
 
-<div class="sb rl" style="margin-top:16px">
-<p><b>一句話</b>：Intel 終於不再是「等待翻轉」而是「正在翻轉」的故事，但 $4.28B 的 GAAP 虧損提醒我們 — Fab 的現金黑洞是無法用 Non-GAAP 調整掩蓋的。</p>
-</div>
+---
+
+## 6. 📋 關鍵觀察
+
+- **營收超財測**：Q1 營收 135.8 億（+7%），比財測上緣多 8.8 億，連續第六季高於公司預估。
+- **資料中心轉強**：DCAI 年增 22%、營益率 30.5%，Xeon 6 打進 NVIDIA 與 Google 新平台。
+- **GAAP 虧損是一次性**：Mobileye 商譽減損與託管股損失合計約每股 1 美元，Non-GAAP EPS 0.29 美元。
+- **代工仍是黑洞**：Foundry 季虧 24.4 億，營收多來自內部，外部客戶進展仍早期。
+- **現金流待改善**：調整後自由現金流 -20 億，Q2 財測毛利率回落到 39%。
+
+> 💡 **一句話總結**：Intel 用連續第六季高於自估的營收與翻倍的 DCAI 營益率證明產品端回穩，但代工虧損與負的自由現金流，代表轉機還在早期。
 
 <div class="disc">
-<p><b>⚠️ 免責聲明</b>：本報告僅為客觀戰略分析，不構成任何買入或賣出建議。數據來源：Intel Q1 2026 官方新聞稿 (intc.com)、CNBC、Quartz、Investing.com、Yahoo Finance、Zacks。Non-GAAP 數字來自 Intel 官方調整，GAAP 數字來自 10-Q。</p>
-<p><b>資料來源</b>：Intel Corporation Q1 2026 Press Release | CNBC | Yahoo Finance | Quartz | StockTitan</p>
+<b>免責聲明（Disclaimer）</b>：本報告僅為客觀財務數據整理與產業戰略分析，不構成任何證券之買入、賣出或持有建議，亦不提供目標價預測。投資人應獨立判斷並自負投資風險。<br><br>
+<b>資料來源（Sources）</b>：Intel 2026 Q1 Form 8-K 新聞稿（2026-04-23）；Intel 2025 Q4、Q3 Form 8-K 新聞稿（財測與 TTM EPS）；Intel 2026 Q2 Form 8-K 新聞稿（2026-07-23，僅用於事後回顧）；Yahoo Finance 股價（截至 2026-11-16）。
 </div>
