@@ -37,10 +37,10 @@ draft: false
 <tr><td><b>營業外收支</b></td><td><b>7,356.0</b></td><td>-343.1</td><td>472.8</td><td>—</td><td class="warn">🟡 其他利益 93.9 億</td></tr>
 <tr><td><b>本期淨利（含少數）</b></td><td><b>13,737.5</b></td><td>11,169.1</td><td>7,073.3</td><td>+94.2%</td><td>—</td></tr>
 <tr><td><b>歸屬母公司淨利</b></td><td><b>6,503.9</b></td><td>5,331.5</td><td>4,412.2</td><td>+47.4%</td><td>占淨利 47%</td></tr>
-<tr><td><b>基本 EPS（元）</b></td><td><b>2.20</b></td><td>1.86</td><td>1.55</td><td>+41.9%</td><td class="good">🟢 季增 18%</td></tr>
+<tr><td><b>基本 EPS（元）</b></td><td><b>2.20</b></td><td>1.85</td><td>1.55</td><td>+41.9%</td><td class="good">🟢 季增 19%</td></tr>
 </tbody></table></div>
 
-> 📌 **其他重點**：Q1 '25＝上半年－Q2（本文推算）。營業外「其他利益及損失」本季 93.9 億、去年 14.4 億，損益表未拆明細；財務成本 29.8 億、年增 49%。非控制權益分得 72.3 億、占本期淨利 53%（本文推算）。上半年營收 8,977.8 億（+87%）、EPS 4.06 元。
+> 📌 **其他重點**：Q1 '25＝上半年－Q2（本文推算），EPS 取自 114 年第 1 季財報 1.85 元。營業外「其他利益及損失」本季 93.9 億、去年 14.4 億，損益表未拆明細；財務成本 29.8 億、年增 49%。非控制權益分得 72.3 億、占本期淨利 53%（本文推算）。上半年營收 8,977.8 億（+87%）、EPS 4.06 元。
 
 ---
 
@@ -123,7 +123,7 @@ draft: false
 <tr><td><b>營收</b></td><td><b>NT$5,512.9億</b></td><td>NT$3,464.9億</td><td>NT$2,402.1億</td><td class="good">🟢 季增 59%</td></tr>
 <tr><td><b>毛利率</b></td><td><b>4.4%</b></td><td>7.8%</td><td>8.4%</td><td class="bad">🔴 下滑</td></tr>
 <tr><td><b>營業利益率</b></td><td><b>2.0%</b></td><td>4.4%</td><td>3.6%</td><td class="bad">🔴 下滑</td></tr>
-<tr><td><b>EPS</b></td><td><b>NT$2.20</b></td><td>NT$1.86</td><td>NT$1.55</td><td class="good">🟢 季增 18%</td></tr>
+<tr><td><b>EPS</b></td><td><b>NT$2.20</b></td><td>NT$1.85</td><td>NT$1.55</td><td class="good">🟢 季增 19%</td></tr>
 <tr><td><b>存貨</b></td><td><b>NT$3,480億</b></td><td>—</td><td>NT$1,678億</td><td class="bad">🔴 —</td></tr>
 <tr><td><b>財測</b></td><td><b>不提供</b></td><td>—</td><td>—</td><td>—</td></tr>
 </tbody></table></div>
