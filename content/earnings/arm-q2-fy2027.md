@@ -1,5 +1,5 @@
 ---
-title: "Arm Holdings (ARM) FY27 Q2 財報分析：營收 14.4 億超標，授權飆 50%、自研 AGI 晶片鎖定 20 億美元"
+title: "Arm (ARM) FY27 Q2 財報分析：營收 14.4 億超標，授權飆 50%、自研 AGI 晶片鎖定 20 億美元"
 date: 2026-11-04T00:00:00+08:00
 ticker: "ARM"
 quarter: "FY2027 Q2"

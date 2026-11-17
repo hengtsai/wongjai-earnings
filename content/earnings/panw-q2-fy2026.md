@@ -1,5 +1,5 @@
 ---
-title: "PANW (Palo Alto Networks) Q2 FY2026 財報深度分析"
+title: "Palo Alto (PANW) FY26 Q2 財報深度分析"
 date: 2026-02-20
 ticker: "PANW"
 quarter: "FY2026 Q2"
