@@ -13,12 +13,12 @@ draft: false
 
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q2 FY26 營收</div><div class="value">$2.59B</div><div class="change up">▲ 14.9% YoY</div></div>
-<div class="kpi-card"><div class="label">Q2 FY26 毛利率</div><div class="value">73.6%</div><div class="change neutral">持平 YoY</div></div>
+<div class="kpi-card"><div class="label">Q2 FY26 毛利率</div><div class="value">73.6%</div><div class="change wn">持平 YoY</div></div>
 <div class="kpi-card"><div class="label">Q2 FY26 營業利益率</div><div class="value">15.3%</div><div class="change up">▲ 4.4pp YoY</div></div>
 <div class="kpi-card"><div class="label">Q2 FY26 EPS</div><div class="value">$0.61</div><div class="change up">▲ 61% YoY</div></div>
 <div class="kpi-card"><div class="label">FY25 營收</div><div class="value">$9.22B</div><div class="change up">▲ 14.9% YoY</div></div>
 <div class="kpi-card"><div class="label">FY25 FCF</div><div class="value">$3.47B</div><div class="change up">▲ 11.9% YoY</div></div>
-<div class="kpi-card"><div class="label">FCF Margin</div><div class="value">37.6%</div><div class="change neutral">穩定</div></div>
+<div class="kpi-card"><div class="label">FCF Margin</div><div class="value">37.6%</div><div class="change wn">穩定</div></div>
 <div class="kpi-card"><div class="label">淨現金</div><div class="value">$2.57B</div><div class="change up">▲ 108% YoY</div></div>
 </div>
 

@@ -16,7 +16,7 @@ draft: false
 <div class="kpi-card"><div class="label">授權與其他收入</div><div class="value">$773M</div><div class="change up">▲ 50.1% YoY｜ATA簽約爆發</div></div>
 <div class="kpi-card"><div class="label">權利金收入</div><div class="value">$670M</div><div class="change up">▲ 8.1% YoY｜Armv9加速滲透</div></div>
 <div class="kpi-card"><div class="label">Non-GAAP 營益率</div><div class="value">44.2%</div><div class="change up">▲ 300bps YoY｜營運槓桿擴張</div></div>
-<div class="kpi-card"><div class="label">Non-GAAP 稀釋 EPS</div><div class="value">$0.52</div><div class="change up">▲ 33.3% YoY｜超越共識$0.47</div></div>
+<div class="kpi-card"><div class="label">Non-GAAP 稀釋 EPS</div><div class="value">$0.52</div><div class="change up">▲ 33.3% YoY</div></div>
 <div class="kpi-card"><div class="label">單季晶片出貨量</div><div class="value">100億顆</div><div class="change up">▲ 年增15億顆｜創歷史新高</div></div>
 <div class="kpi-card"><div class="label">AGI CPU 目標營收</div><div class="value">$2.0B</div><div class="change up">兩年預期上修｜Q4FY27出貨</div></div>
 <div class="kpi-card"><div class="label">Q3 FY27 營收指引</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜中線優於預期</div></div>
