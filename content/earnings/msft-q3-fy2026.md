@@ -2,7 +2,7 @@
 title: "微軟 (MSFT) FY26 Q3 財報分析：Azure 年增 40%、AI 年化營收破 370 億，曆年資本支出 1,900 億"
 date: 2026-04-30
 ticker: "MSFT"
-quarter: "2026 Q3 (FY)"
+quarter: "FY2026 Q3"
 logo: "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128"
 color: "#00a4ef"
 summary: "Q3 營收 829 億美元（+18%），Azure 年增 40%、AI 業務年化營收逾 370 億（+123%），營益率 46%。代價是 2026 曆年資本支出預估約 1,900 億、其中約 250 億來自零組件漲價，自由現金流年減 22%。"
