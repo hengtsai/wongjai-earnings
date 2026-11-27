@@ -1,0 +1,11 @@
+{{- /* 某語言的文章清單（2026-11-27 多語）：以繁中（預設語言）文章為準，有這個語言的譯本就用譯本，
+     沒有就放繁中原文（卡片上標「繁中」、連到原文並帶 ?from=<語言>），所以各語言的清單不會是空的。
+     參數：dict "lang" 語言代碼 "sections" (slice "earnings" "posts") */ -}}
+{{- $lang := .lang -}}
+{{- $out := slice -}}
+{{- range where (index hugo.Sites 0).RegularPages "Section" "in" .sections -}}
+  {{- $p := . -}}
+  {{- range .Translations }}{{ if eq .Language.Lang $lang }}{{ $p = . }}{{ end }}{{ end -}}
+  {{- $out = $out | append $p -}}
+{{- end -}}
+{{- return (sort $out "Date" "desc") -}}

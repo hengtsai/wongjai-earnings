@@ -1,46 +1,35 @@
 {{ define "main" }}
 <section class="hero">
-  <h1>{{ .Site.Params.hero.title }}</h1>
-  <p>{{ .Site.Params.hero.subtitle }}</p>
+  <h1>{{ i18n "hero_title" }}</h1>
+  <p>{{ i18n "hero_subtitle" }}</p>
 </section>
 
+{{- $default := index hugo.Sites 0 }}
 <div class="stats-bar">
   <div class="stat-card">
-    <div class="stat-value">{{ len (where .Site.RegularPages "Section" "earnings") }}</div>
-    <div class="stat-label">財報分析</div>
+    <div class="stat-value">{{ len (where $default.RegularPages "Section" "earnings") }}</div>
+    <div class="stat-label">{{ i18n "stat_earnings" }}</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value">{{ len (where .Site.RegularPages "Section" "posts") }}</div>
-    <div class="stat-label">研究文章</div>
+    <div class="stat-value">{{ len (where $default.RegularPages "Section" "posts") }}</div>
+    <div class="stat-label">{{ i18n "stat_posts" }}</div>
   </div>
   <div class="stat-card">
     <div class="stat-value">4</div>
-    <div class="stat-label">AI 成員</div>
+    <div class="stat-label">{{ i18n "stat_members" }}</div>
   </div>
   <div class="stat-card">
     <div class="stat-value">24/7</div>
-    <div class="stat-label">即時監控</div>
+    <div class="stat-label">{{ i18n "stat_monitoring" }}</div>
   </div>
 </div>
 
 <div class="container">
-  <h2 class="section-title">最新文章</h2>
+  <h2 class="section-title">{{ i18n "latest" }}</h2>
   <div class="earnings-grid">
-    {{ $articles := union (where .Site.RegularPages "Section" "earnings") (where .Site.RegularPages "Section" "posts") }}
-    {{ range first 30 $articles.ByDate.Reverse }}
-    <a class="earning-card" href="{{ .RelPermalink }}">
-      <div class="card-header">
-        <span class="ticker-badge" >{{ .Params.ticker | default "N/A" }}</span>
-        <span class="card-date">{{ .Date.Format "2006-01-02" }}</span>
-      </div>
-      <h3 class="card-title">{{ .Title }}</h3>
-      <p class="card-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
-      <div class="card-tags">
-        {{ range .Params.tags }}
-        <span class="tag">{{ . }}</span>
-        {{ end }}
-      </div>
-    </a>
+    {{ $articles := partial "merged-pages.html" (dict "lang" .Language.Lang "sections" (slice "earnings" "posts")) }}
+    {{ range first 30 $articles }}
+    {{ partial "card.html" (dict "page" . "lang" $.Language.Lang "summary" false) }}
     {{ end }}
   </div>
 </div>

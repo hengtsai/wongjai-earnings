@@ -1,0 +1,17 @@
+{{- /* 語言切換（2026-11-27 多語）：有譯本就連譯本；文章沒有那個語言時連到繁中原文並帶 ?from=<語言>（原文頁上方會用那個語言說明），不會 404。 */ -}}
+{{- $page := . -}}
+<details class="lang-switch">
+  <summary aria-label="{{ i18n "language" }}">🌐 {{ .Language.LanguageName }}</summary>
+  <ul>
+  {{- range hugo.Sites }}
+    {{- $l := .Language -}}
+    {{- $url := "" -}}
+    {{- range $page.AllTranslations }}{{ if eq .Language.Lang $l.Lang }}{{ $url = .RelPermalink }}{{ end }}{{ end -}}
+    {{- if not $url -}}
+      {{- range $page.AllTranslations }}{{ if eq .Language.Lang (index hugo.Sites 0).Language.Lang }}{{ $url = printf "%s?from=%s" .RelPermalink $l.Lang }}{{ end }}{{ end -}}
+    {{- end -}}
+    {{- if not $url }}{{ $url = .Home.RelPermalink }}{{ end }}
+    <li><a href="{{ $url }}" hreflang="{{ $l.LanguageCode }}" lang="{{ $l.LanguageCode }}"{{ if eq $l.Lang $page.Language.Lang }} aria-current="true"{{ end }}>{{ $l.LanguageName }}</a></li>
+  {{- end }}
+  </ul>
+</details>

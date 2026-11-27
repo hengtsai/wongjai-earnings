@@ -1171,3 +1171,14 @@ body {
   .article-content .sb h3 { font-size: 14px; }
   .article-content .sb li { font-size: 13px; }
 }
+
+/* 多語（2026-11-27）：語言切換、沒有譯本時的「繁中」標記與原文頁說明 */
+.lang-switch { position: relative; }
+.lang-switch summary { list-style: none; cursor: pointer; color: var(--text-secondary); font-size: 0.9rem; padding: 0.25rem 0.6rem; border: 1px solid var(--border-color); border-radius: 999px; white-space: nowrap; }
+.lang-switch summary::-webkit-details-marker { display: none; }
+.lang-switch[open] summary, .lang-switch summary:hover { color: var(--text-primary); border-color: var(--border-light); }
+.lang-switch ul { position: absolute; right: 0; top: calc(100% + 6px); list-style: none; margin: 0; padding: 6px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 12px; box-shadow: var(--shadow-card); min-width: 140px; z-index: 50; }
+.lang-switch li a { display: block; padding: 6px 10px; border-radius: 8px; color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; }
+.lang-switch li a:hover, .lang-switch li a[aria-current] { background: var(--bg-card-hover); color: var(--accent-green); }
+.lang-badge { font-size: 0.7rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border-light); color: var(--text-muted); }
+.untranslated-note { margin: 0 0 1.5rem; padding: 0.8rem 1rem; border-radius: 12px; background: var(--accent-blue-dim); border: 1px solid var(--accent-blue); color: var(--text-primary); font-size: 0.95rem; }

@@ -1,5 +1,17 @@
 {{ define "main" }}
 <article class="article-container">
+  {{- /* 從別的語言點進來、但這篇還沒有那個語言的版本（網址帶 ?from=<語言>）：上方用那個語言說明現在看的是繁中原文 */ -}}
+  {{ if eq .Language.Lang (index hugo.Sites 0).Language.Lang }}
+  <div class="untranslated-note" id="untranslatedNote" hidden></div>
+  <script>
+  (function () {
+    var notes = {{ hugo.Data.untranslated | jsonify | safeJS }};
+    var from = new URLSearchParams(location.search).get('from');
+    var el = document.getElementById('untranslatedNote');
+    if (from && notes[from] && el) { el.textContent = notes[from]; el.lang = from; el.hidden = false; }
+  })();
+  </script>
+  {{ end }}
   <header class="article-header">
     {{ if .Params.logo }}
     <div class="article-logo">

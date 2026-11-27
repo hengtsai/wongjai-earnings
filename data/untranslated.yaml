@@ -1,0 +1,5 @@
+# 某篇還沒有某語言版本時，原文頁上方的說明（LLM 翻譯）。key＝語言代碼。
+zh-cn: "这篇文章还没有简体中文版本，下面是繁体中文原文。"
+en: "This article is not available in English yet. Below is the original in Traditional Chinese."
+ja: "この記事の日本語版はまだありません。以下は繁体字中国語の原文です。"
+ko: "이 글은 아직 한국어판이 없습니다. 아래는 번체 중국어 원문입니다."

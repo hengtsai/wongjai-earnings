@@ -1,0 +1,21 @@
+{{- /* 文章卡片。參數：dict "page" 文章 "lang" 目前語言 "summary" 要不要用 front matter 的 summary */ -}}
+{{- $p := .page -}}{{- $lang := .lang -}}
+{{- $fallback := ne $p.Language.Lang $lang -}}
+<a class="earning-card" href="{{ $p.RelPermalink }}{{ if $fallback }}?from={{ $lang }}{{ end }}"{{ if $fallback }} hreflang="{{ $p.Language.LanguageCode }}" title="{{ i18n "original_badge_title" }}"{{ end }}>
+  <div class="card-info">
+    <div class="card-header">
+      <span class="ticker-badge">{{ $p.Params.ticker | default "N/A" }}</span>
+      {{ if $fallback }}<span class="lang-badge">{{ i18n "original_badge" }}</span>{{ end }}
+      <span class="card-date">{{ $p.Date.Format "2006-01-02" }}</span>
+    </div>
+    <h3 class="card-title">{{ $p.Title }}</h3>
+    {{ if and .summary $p.Params.summary }}
+    <p class="card-summary">{{ $p.Params.summary }}</p>
+    {{ else }}
+    <p class="card-excerpt">{{ $p.Summary | plainify | truncate 120 }}</p>
+    {{ end }}
+    <div class="card-tags">
+      {{ range $p.Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+</a>

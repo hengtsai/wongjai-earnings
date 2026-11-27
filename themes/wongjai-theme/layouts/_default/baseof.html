@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="{{ .Language.LanguageCode }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "site_description" }}{{ end }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <!-- Google Analytics (GA4) - 請替換 G-4KFCWP0FMS 為你的 Measurement ID -->
-  <!-- 前往 https://analytics.google.com 建立帳戶，取得 Measurement ID -->
+  {{- /* 多語（2026-11-27）：各語言版本互相標 hreflang；x-default 指向繁中；各語言有自己的 RSS */ -}}
+  {{ if .IsTranslated }}
+  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+  {{ end }}{{ range .AllTranslations }}{{ if eq .Language.Lang (index hugo.Sites 0).Language.Lang }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}
+  {{ end }}
+  {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
+  <!-- Google Analytics（使用者 2026-11-27 確認：wongjai 家族共用 G-4KFCWP0FMS） -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KFCWP0FMS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

@@ -1,10 +1,11 @@
 <nav class="navbar">
   <div class="navbar-inner">
-    <a class="navbar-brand" href="/">⚡ <span>Wongjai</span> Earnings</a>
+    <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">⚡ <span>Wongjai</span> Earnings</a>
     <ul class="nav-links">
-      <li><a href="/earnings/">財報</a></li>
-      <li><a href="/posts/">分析</a></li>
-      <li><a href="/about/">關於</a></li>
+      {{ partial "navlink.html" (dict "path" "/earnings" "label" (i18n "nav_earnings") "lang" .Language.Lang) }}
+      {{ partial "navlink.html" (dict "path" "/posts" "label" (i18n "nav_posts") "lang" .Language.Lang) }}
+      {{ partial "navlink.html" (dict "path" "/about" "label" (i18n "nav_about") "lang" .Language.Lang) }}
+      <li>{{ partial "langswitch.html" . }}</li>
     </ul>
   </div>
 </nav>
