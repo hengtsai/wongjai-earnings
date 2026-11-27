@@ -25,7 +25,7 @@
   --bg-hover: #EBF0F7;
   --text-primary: #0F172A;
   --text-secondary: #334155;
-  --text-muted: #64748B;
+  --text-muted: #5B6B82;
   --border-subtle: #E2E8F0;
   --border-strong: #CBD5E1;
   --brand: #1D4ED8;
@@ -35,7 +35,7 @@
   /* 財報好壞（不是股價漲跌）：好＝偏藍青綠、差＝磚紅、留意＝琥珀 */
   --pos-fg: #0F766E;  --pos-bg: rgba(15, 118, 110, 0.10);
   --neg-fg: #B91C1C;  --neg-bg: rgba(185, 28, 28, 0.08);
-  --warn-fg: #B45309; --warn-bg: rgba(180, 83, 9, 0.10);
+  --warn-fg: #9A3412; --warn-bg: rgba(154, 52, 18, 0.10);
   --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.05);
   --shadow-pop: 0 10px 30px rgba(15, 23, 42, 0.14);
   --radius-lg: 14px;
@@ -350,59 +350,66 @@ button { font: inherit; color: inherit; }
 .article-content pre code { background: none; padding: 0; }
 
 /* KPI 卡 */
-.kpi-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 18px; }
-.kpi-card {
+.article-content .kpi-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 18px; }
+.article-content .kpi-card {
   min-width: 0; min-height: 104px; padding: 14px 16px; border-radius: var(--radius-md);
   background: var(--bg-surface); border: 1px solid var(--border-subtle); box-shadow: var(--shadow-card);
   display: flex; flex-direction: column; gap: 6px;
 }
-.kpi-card .label { color: var(--text-muted); font-size: .78rem; font-weight: 600; letter-spacing: .02em; line-height: 1.35; }
-.kpi-card .value {
+.article-content .kpi-card .label { color: var(--text-muted); font-size: .78rem; font-weight: 600; letter-spacing: .02em; line-height: 1.35; }
+.article-content .kpi-card .value {
   color: var(--text-primary); font-weight: 800; font-size: clamp(1.05rem, 1.55vw, 1.36rem); line-height: 1.25;
   font-variant-numeric: tabular-nums lining-nums; overflow-wrap: anywhere;
 }
-.kpi-card .change {
+.article-content .kpi-card .change {
   align-self: flex-start; margin-top: auto; padding: 2px 9px; border-radius: 9px;
   background: var(--bg-subtle); color: var(--text-secondary);
   font-size: .78rem; font-weight: 600; line-height: 1.5; font-variant-numeric: tabular-nums; text-wrap: pretty;
 }
-.kpi-card .change.up { background: var(--pos-bg); color: var(--pos-fg); }
-.kpi-card .change.dn, .kpi-card .change.down { background: var(--neg-bg); color: var(--neg-fg); }
-.kpi-card .change.wn { background: var(--warn-bg); color: var(--warn-fg); }
-.kpi-more { display: none; }
+.article-content .kpi-card .change.up { background: var(--pos-bg); color: var(--pos-fg); }
+.article-content .kpi-card .change.dn, .article-content .kpi-card .change.down { background: var(--neg-bg); color: var(--neg-fg); }
+.article-content .kpi-card .change.wn { background: var(--warn-bg); color: var(--warn-fg); }
+.article-content .kpi-more { display: none; }
+/* 舊專文（posts/iran-war-impact-2026）內文帶著自己的 <style>（深色底、白字）。上面的規則都加了 .article-content 前綴，
+   權重高過那些內嵌規則；下面把內嵌規則多設的屬性明確蓋回，淺色模式才讀得到（Steve 驗收 P0，2026-11-28）。 */
+.article-content .kpi-card { text-align: left; }
+.article-content .kpi-card .label { text-transform: none; margin-bottom: 0; }
+.article-content .kpi-card .change { margin-top: auto; }
+.article-content .sb p, .article-content .sb li { font-size: inherit; line-height: inherit; color: var(--text-secondary); }
+.article-content .disc { border: 0; }
+.article-content tbody tr:hover { background: none; }
 
 /* 洞察卡、風險卡 */
-.sb {
+.article-content .sb {
   margin: 14px 0; padding: 14px 18px; border-radius: var(--radius-md);
   background: var(--bg-surface); border: 1px solid var(--border-subtle); border-left: 4px solid var(--brand);
 }
-.sb > *:first-child { margin-top: 0; }
-.sb > *:last-child { margin-bottom: 0; }
-.sb h3 { font-size: 1.02rem; margin: 0 0 8px; }
-.sb.rh { border-left-color: var(--neg-fg); }
-.sb.rm { border-left-color: var(--warn-fg); }
-.sb.rl { border-left-color: var(--pos-fg); }
+.article-content .sb > *:first-child { margin-top: 0; }
+.article-content .sb > *:last-child { margin-bottom: 0; }
+.article-content .sb h3 { font-size: 1.02rem; margin: 0 0 8px; }
+.article-content .sb.rh { border-left-color: var(--neg-fg); }
+.article-content .sb.rm { border-left-color: var(--warn-fg); }
+.article-content .sb.rl { border-left-color: var(--pos-fg); }
 .article-content h3.risk-red { color: var(--neg-fg); }
 .article-content h3.risk-gold, .article-content h3.risk-yellow, .article-content h3.risk-mid { color: var(--warn-fg); }
 .article-content h3.risk-green { color: var(--pos-fg); }
-.disc {
+.article-content .disc {
   margin: 28px 0 0; padding: 12px 16px; border-radius: 10px;
   background: var(--bg-subtle); color: var(--text-muted); font-size: .82rem; line-height: 1.65;
 }
-.disc p { margin: 0; }
-.disc p + p { margin-top: 6px; }
+.article-content .disc p { margin: 0; }
+.article-content .disc p + p { margin-top: 6px; }
 
 /* 表格：.sw（文章原生 <table> 的外框）、.table-wrapper（Markdown 表格與 JS 補的外框） */
 .sw, .table-wrapper {
   margin: 14px 0; overflow-x: auto; -webkit-overflow-scrolling: touch;
   background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
 }
-.sw.more-right, .table-wrapper.more-right {
-  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 30px), transparent);
-  mask-image: linear-gradient(to right, #000 calc(100% - 30px), transparent);
-}
-.article-content table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: .875rem; line-height: 1.5; font-variant-numeric: tabular-nums lining-nums; }
-.article-content th, .article-content td { padding: 10px 14px; text-align: left; vertical-align: middle; border-bottom: 1px solid var(--border-subtle); }
+/* 右邊還有內容時的提示：用內陰影（不用 mask，才不會把圓角和右框線一起吃掉）*/
+.sw.more-right, .table-wrapper.more-right { box-shadow: inset -18px 0 14px -12px rgba(15, 23, 42, 0.12); }
+:root[data-theme="dark"] .sw.more-right, :root[data-theme="dark"] .table-wrapper.more-right { box-shadow: inset -18px 0 14px -12px rgba(0, 0, 0, 0.45); }
+.article-content table { margin: 0; width: 100%; border-collapse: separate; border-spacing: 0; font-size: .875rem; line-height: 1.5; font-variant-numeric: tabular-nums lining-nums; }
+.article-content th, .article-content td { padding: 10px 12px; text-align: left; vertical-align: middle; border-bottom: 1px solid var(--border-subtle); }
 .article-content tbody tr:last-child > td { border-bottom: 0; }
 .article-content th {
   background: var(--bg-subtle); color: var(--text-muted); font-size: .8rem; font-weight: 600; white-space: nowrap;
@@ -416,7 +423,7 @@ button { font: inherit; color: inherit; }
 .article-content .num { text-align: right; white-space: nowrap; }
 .article-content th.span { text-align: center; }
 .article-content td.txt-col, .article-content td.txt { text-wrap: pretty; }
-.article-content td.txt-col { min-width: 11.5em; }
+.article-content td.txt-col { min-width: 10.5em; }
 /* 財報好壞只標在點評格：柔和底色＋文字色（表格數字本身維持中性色）*/
 .article-content td.good { color: var(--pos-fg); background: var(--pos-bg); font-weight: 600; }
 .article-content td.warn { color: var(--warn-fg); background: var(--warn-bg); font-weight: 600; }
@@ -494,18 +501,18 @@ button { font: inherit; color: inherit; }
   .article-content { margin-top: 12px; }
   .article-content h2 { font-size: 1.18rem; margin: 28px 0 12px; }
   .article-content h3 { font-size: 1.02rem; }
-  .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-bottom: 10px; }
-  .kpi-card { min-height: 84px; padding: 10px 12px; gap: 4px; }
-  .kpi-card .label { font-size: .74rem; }
-  .kpi-card .value { font-size: 1.08rem; }
-  .kpi-card .change { font-size: .74rem; padding: 1px 8px; }
+  .article-content .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-bottom: 10px; }
+  .article-content .kpi-card { min-height: 84px; padding: 10px 12px; gap: 4px; }
+  .article-content .kpi-card .label { font-size: .74rem; }
+  .article-content .kpi-card .value { font-size: 1.08rem; }
+  .article-content .kpi-card .change { font-size: .74rem; padding: 1px 8px; }
   /* 超過 4 張 KPI：手機先顯示 4 張，其餘收合（site.js 加 .kpi-collapsible 與按鈕）*/
-  .kpi-grid.kpi-collapsible:not(.expanded) > .kpi-card:nth-child(n+5) { display: none; }
-  .kpi-more {
+  .article-content .kpi-grid.kpi-collapsible:not(.expanded) > .kpi-card:nth-child(n+5) { display: none; }
+  .article-content .kpi-more {
     display: block; width: 100%; height: 38px; margin: 0 0 12px; border-radius: 10px; cursor: pointer;
     border: 1px solid var(--border-subtle); background: var(--bg-subtle); color: var(--text-secondary); font-weight: 600; font-size: .86rem;
   }
-  .sb { padding: 12px 14px; }
+  .article-content .sb { padding: 12px 14px; }
   .article-content table { font-size: 12.5px; line-height: 1.4; }
   .article-content th, .article-content td { padding: 8px 9px; }
   .article-content th { font-size: 12px; }
@@ -516,7 +523,8 @@ button { font: inherit; color: inherit; }
     word-break: keep-all; overflow-wrap: anywhere;
   }
   .article-content th.c0 { background: var(--bg-subtle); z-index: 3; }
-  .article-content tbody tr:hover > td.c0 { background: var(--bg-surface); }
+  .article-content tbody tr:hover > td.c0 { background: var(--bg-hover); }
+  :root[data-theme="dark"] .article-content .c0 { box-shadow: 1px 0 0 var(--border-strong), 4px 0 10px rgba(0, 0, 0, 0.38); }
   .article-content td.txt-col { min-width: 152px; }
   .footer { margin-top: 36px; }
 }

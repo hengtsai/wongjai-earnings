@@ -30,6 +30,10 @@
   to = "/:lang/companies/2330/"
   status = 301
 [[redirects]]
+  from = "/:lang/companies/tsmc"
+  to = "/:lang/companies/2330/"
+  status = 301
+[[redirects]]
   from = "/:lang/companies/googl"
   to = "/:lang/companies/goog/"
   status = 301

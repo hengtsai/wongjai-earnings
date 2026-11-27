@@ -46,7 +46,7 @@
       wrap.setAttribute('role', 'region');
       var h = wrap.previousElementSibling;
       if (h && /^H[2-4]$/.test(h.tagName)) wrap.setAttribute('aria-label', h.textContent.trim());
-      var upd = function () { wrap.classList.toggle('more-right', wrap.scrollWidth - wrap.clientWidth - wrap.scrollLeft > 4); };
+      var upd = function () { wrap.classList.toggle('more-right', wrap.scrollWidth - wrap.clientWidth - wrap.scrollLeft > 16); };
       wrap.addEventListener('scroll', upd, { passive: true });
       window.addEventListener('resize', upd);
       upd();
