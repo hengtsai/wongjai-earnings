@@ -1,5 +1,9 @@
-{{- /* 導覽列連結：這個語言有那一頁就連過去，沒有就連繁中原文（?from=<語言>）。參數：dict "path" "/about" "label" 文字 "lang" 語言 */ -}}
+{{- /* 導覽列連結：這個語言有那一頁就連過去，沒有就連繁中原文（?from=<語言>）。
+     參數：dict "path" "/about" "label" 文字 "page" 目前頁面 "class" 選填（nav-secondary＝手機不顯示） */ -}}
+{{- $lang := .page.Language.Lang -}}
 {{- $url := "" -}}
 {{- with site.GetPage .path }}{{ $url = .RelPermalink }}{{ end -}}
-{{- if not $url }}{{ with (index hugo.Sites 0).GetPage .path }}{{ $url = printf "%s?from=%s" .RelPermalink $.lang }}{{ end }}{{ end -}}
-<li><a href="{{ $url }}">{{ .label }}</a></li>
+{{- if not $url }}{{ with (index hugo.Sites 0).GetPage .path }}{{ $url = printf "%s?from=%s" .RelPermalink $lang }}{{ end }}{{ end -}}
+{{- $sec := strings.TrimPrefix "/" .path -}}
+{{- $cur := or (eq .page.Section $sec) (and (eq $sec "about") (eq .page.RelPermalink $url)) -}}
+{{- if $url }}<li{{ with .class }} class="{{ . }}"{{ end }}><a href="{{ $url }}"{{ if $cur }} aria-current="page"{{ end }}>{{ .label }}</a></li>{{ end -}}

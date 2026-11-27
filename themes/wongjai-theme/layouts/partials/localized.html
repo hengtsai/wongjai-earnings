@@ -1,0 +1,6 @@
+{{- /* 把繁中原文換成某語言的版本：有譯本回譯本，沒有就回原文並標 fallback（網址帶 ?from=<語言>）。
+     參數：dict "page" 繁中文章 "lang" 語言代碼。回傳 dict "page" "fallback" "url" */ -}}
+{{- $p := .page -}}{{- $lang := .lang -}}
+{{- range .page.Translations }}{{ if eq .Language.Lang $lang }}{{ $p = . }}{{ end }}{{ end -}}
+{{- $fb := ne $p.Language.Lang $lang -}}
+{{- return (dict "page" $p "fallback" $fb "url" (cond $fb (printf "%s?from=%s" $p.RelPermalink $lang) $p.RelPermalink)) -}}

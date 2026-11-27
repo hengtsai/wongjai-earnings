@@ -1,7 +1,8 @@
-{{- /* 語言切換（2026-11-27 多語）：有譯本就連譯本；文章沒有那個語言時連到繁中原文並帶 ?from=<語言>（原文頁上方會用那個語言說明），不會 404。 */ -}}
+{{- /* 語言切換（2026-11-27 多語；2026-11-28 改版：手機顯示短碼「繁／简／EN／日／한」、全站只有這一個入口）：
+     有譯本就連譯本；文章沒有那個語言時連到繁中原文並帶 ?from=<語言>（原文頁上方會用那個語言說明），不會 404。 */ -}}
 {{- $page := . -}}
 <details class="lang-switch">
-  <summary aria-label="{{ i18n "language" }}">🌐 {{ .Language.LanguageName }}</summary>
+  <summary aria-label="{{ i18n "language" }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span class="ls-full">{{ .Language.LanguageName }}</span><span class="ls-short">{{ i18n "lang_short" }}</span></summary>
   <ul>
   {{- range hugo.Sites }}
     {{- $l := .Language -}}

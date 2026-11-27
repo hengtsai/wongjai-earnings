@@ -3,10 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "site_description" }}{{ end }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  {{- /* 深淺色：在畫面出現前就決定（手動選過用 localStorage，否則跟系統），換頁才不會閃白 */}}
+  <script>(function(){try{var t=localStorage.getItem('wj-theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='light'}})();</script>
+  {{- $title := .Title -}}
+  {{- if and (eq .Section "companies") (eq .Kind "section") }}{{ $title = i18n "nav_companies" }}{{ end -}}
+  {{- $desc := i18n "site_description" -}}
+  {{- with .Params.summary }}{{ $desc = . }}{{ else }}{{ with .Description }}{{ $desc = . }}{{ end }}{{ end -}}
+  {{- $full := cond .IsHome .Site.Title (printf "%s — %s" $title .Site.Title) }}
+  <title>{{ $full }}</title>
+  <meta name="description" content="{{ $desc }}">
+  {{- /* canonical：一律是不帶參數的網址，所以「還沒翻譯、連回繁中原文」的 ?from=<語言> 不會被當成重複頁 */}}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- $locales := dict "zh-tw" "zh_TW" "zh-cn" "zh_CN" "en" "en_US" "ja" "ja_JP" "ko" "ko_KR" }}
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ cond .IsHome .Site.Title $title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="{{ if and .IsPage (in (slice "earnings" "posts") .Section) }}article{{ else }}website{{ end }}">
+  <meta property="og:locale" content="{{ index $locales .Language.Lang | default "zh_TW" }}">
+  <meta property="og:image" content="{{ "og-default.png" | absURL }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  {{- if and .IsPage (not .Date.IsZero) }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end }}
+  <meta name="theme-color" content="#F7F8FA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0F17" media="(prefers-color-scheme: dark)">
+  <link rel="preload" href="/fonts/Inter-Variable-Latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
   {{- /* 多語（2026-11-27）：各語言版本互相標 hreflang；x-default 指向繁中；各語言有自己的 RSS */ -}}
   {{ if .IsTranslated }}
@@ -22,7 +46,8 @@
     gtag('js', new Date());
     gtag('config', 'G-4KFCWP0FMS');
   </script>
-
+  <script defer src="/js/table-align.js"></script>
+  <script defer src="/js/site.js"></script>
 </head>
 <body>
   {{ partial "navbar.html" . }}

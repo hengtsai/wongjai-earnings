@@ -1,41 +1,82 @@
 {{ define "main" }}
-<article class="article-container">
-  {{- /* 從別的語言點進來、但這篇還沒有那個語言的版本（網址帶 ?from=<語言>）：上方用那個語言說明現在看的是繁中原文 */ -}}
-  {{ if eq .Language.Lang (index hugo.Sites 0).Language.Lang }}
-  <div class="untranslated-note" id="untranslatedNote" hidden></div>
-  <script>
-  (function () {
-    var notes = {{ hugo.Data.untranslated | jsonify | safeJS }};
-    var from = new URLSearchParams(location.search).get('from');
-    var el = document.getElementById('untranslatedNote');
-    if (from && notes[from] && el) { el.textContent = notes[from]; el.lang = from; el.hidden = false; }
-  })();
-  </script>
-  {{ end }}
-  <header class="article-header">
-    {{ if .Params.logo }}
-    <div class="article-logo">
-      <img src="{{ .Params.logo }}" alt="{{ .Params.ticker }}">
+{{- /* 文章頁（2026-11-28 改版）：桌機左側「同公司各季＋章節導覽」，右側正文；手機只有正文。
+     不再顯示外部抓的公司圖示（會糊、會破圖），改用代號徽章。內文 .Content 完全不動。 */ -}}
+{{- $lang := .Language.Lang -}}
+{{- $defLang := (index hugo.Sites 0).Language.Lang -}}
+{{- $ticker := string (.Params.ticker | default "") -}}
+{{- $isEarn := and (eq .Section "earnings") $ticker -}}
+{{- $co := index (partialCached "companies.html" "all") $ticker -}}
+{{- $cp := false -}}
+{{- if $isEarn }}{{ with site.GetPage (printf "/companies/%s" (lower $ticker)) }}{{ $cp = . }}{{ end }}{{ end -}}
+<div class="article-layout">
+  <aside class="article-side">
+    {{- if and $isEarn $co }}
+    {{- /* 同公司上一季／下一季：以繁中原文的發布日排序，再換成目前語言的版本 */ -}}
+    {{- $self := . -}}{{- range .AllTranslations }}{{ if eq .Language.Lang $defLang }}{{ $self = . }}{{ end }}{{ end -}}
+    {{- $sibs := partialCached "ticker-pages.html" $ticker $ticker -}}
+    {{- $prev := false -}}{{- $next := false -}}{{- $hit := false -}}
+    {{- range $sibs -}}
+      {{- if eq .File.UniqueID $self.File.UniqueID }}{{ $hit = true }}
+      {{- else if not $hit }}{{ $next = . }}
+      {{- else if not $prev }}{{ $prev = . }}{{ end -}}
+    {{- end }}
+    <div class="side-box">
+      <div class="side-h">{{ i18n "same_company" }}</div>
+      <div class="side-company">{{ index $co.name $lang }} <span class="num-font">({{ $ticker }})</span></div>
+      <div class="side-nav">
+        {{- with $next }}{{ $l := partial "localized.html" (dict "page" . "lang" $lang) }}
+        <a href="{{ $l.url }}">↑ {{ i18n "next_quarter" }} <span class="q">{{ .Params.quarter }}</span></a>{{ end }}
+        {{- with $prev }}{{ $l := partial "localized.html" (dict "page" . "lang" $lang) }}
+        <a href="{{ $l.url }}">↓ {{ i18n "prev_quarter" }} <span class="q">{{ .Params.quarter }}</span></a>{{ end }}
+        {{- with $cp }}
+        <a href="{{ .RelPermalink }}">{{ i18n "company_overview" }} ›</a>{{ end }}
+      </div>
     </div>
+    {{- end }}
+    <nav class="side-box toc-box" id="tocBox" aria-label="{{ i18n "toc_heading" }}" hidden>
+      <div class="side-h">{{ i18n "toc_heading" }}</div>
+      <ol id="tocList"></ol>
+    </nav>
+  </aside>
+
+  <article class="article-container">
+    {{- /* 從別的語言點進來、但這篇還沒有那個語言的版本（網址帶 ?from=<語言>）：上方用那個語言說明現在看的是繁中原文 */ -}}
+    {{ if eq $lang $defLang }}
+    <div class="untranslated-note" id="untranslatedNote" hidden></div>
+    <script>
+    (function () {
+      var notes = {{ hugo.Data.untranslated | jsonify | safeJS }};
+      var from = new URLSearchParams(location.search).get('from');
+      var el = document.getElementById('untranslatedNote');
+      if (from && notes[from] && el) { el.textContent = notes[from]; el.lang = from; el.hidden = false; }
+    })();
+    </script>
     {{ end }}
-    <div class="card-tags" style="margin-bottom: 1rem;">
-      {{ if .Params.ticker }}<span class="ticker-badge">{{ .Params.ticker }}</span>{{ end }}
-      {{ range .Params.tags }}
-      <span class="tag">{{ . }}</span>
+    <header class="article-header">
+      <div class="art-top">
+        <div class="art-badges">
+          {{- if $ticker }}{{ if $cp }}<a class="ticker-badge" href="{{ $cp.RelPermalink }}">{{ $ticker }}</a>{{ else }}<span class="ticker-badge">{{ $ticker }}</span>{{ end }}{{ end }}
+          {{- with .Params.quarter }}<span class="quarter-badge">{{ . }}</span>{{ end }}
+          {{- if not .Date.IsZero }}<time class="art-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>{{ end }}
+        </div>
+        {{- if .IsTranslated }}
+        <div class="art-langs" aria-label="{{ i18n "article_langs" }}">
+          <span>{{ i18n "article_langs" }}</span>
+          {{- range .AllTranslations }}
+          {{- if eq .Language.Lang $lang }}<span class="cur" lang="{{ .Language.LanguageCode }}">{{ .Language.LanguageName }}</span>
+          {{- else }}<a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}" lang="{{ .Language.LanguageCode }}">{{ .Language.LanguageName }}</a>{{ end }}
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}
+      <p class="article-summary"><span class="kicker">{{ i18n "summary_kicker" }}</span>{{ . }}</p>
       {{ end }}
+    </header>
+    <div class="article-content" data-kpi-more="{{ i18n "kpi_show_more" }}" data-kpi-less="{{ i18n "kpi_show_less" }}">
+      {{ .Content }}
     </div>
-    <h1>{{ .Title }}</h1>
-    <div class="article-meta">
-      <span>📅 {{ .Date.Format "2006-01-02" }}</span>
-      {{ if .Params.quarter }}<span>📊 {{ .Params.quarter }}</span>{{ end }}
-      {{ if .Params.author }}<span>✍️ {{ .Params.author }}</span>{{ end }}
-    </div>
-    {{ if .Params.summary }}
-    <p class="article-summary">{{ .Params.summary }}</p>
-    {{ end }}
-  </header>
-  <div class="article-content">
-    {{ .Content }}
-  </div>
-</article>
+  </article>
+</div>
 {{ end }}

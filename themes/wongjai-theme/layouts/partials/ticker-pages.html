@@ -1,0 +1,2 @@
+{{- /* 某家公司的全部財報（繁中原文，新到舊）。參數：ticker 字串。用 partialCached 呼叫（第二個參數當快取 key）。 */ -}}
+{{- return ((where (where (index hugo.Sites 0).RegularPages "Section" "earnings") "Params.ticker" "eq" .).ByDate.Reverse) -}}

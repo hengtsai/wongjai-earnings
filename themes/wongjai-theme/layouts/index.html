@@ -1,36 +1,38 @@
 {{ define "main" }}
-<section class="hero">
-  <h1>{{ i18n "hero_title" }}</h1>
-  <p>{{ i18n "hero_subtitle" }}</p>
-</section>
-
+{{- /* 首頁（2026-11-28 改版，使用者選定）：上半部最新財報 9 篇、下半部 35 家公司速查；手機用切換鈕在兩者之間切換。 */ -}}
 {{- $default := index hugo.Sites 0 }}
-<div class="stats-bar">
-  <div class="stat-card">
-    <div class="stat-value">{{ len (where $default.RegularPages "Section" "earnings") }}</div>
-    <div class="stat-label">{{ i18n "stat_earnings" }}</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-value">{{ len (where $default.RegularPages "Section" "posts") }}</div>
-    <div class="stat-label">{{ i18n "stat_posts" }}</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-value">4</div>
-    <div class="stat-label">{{ i18n "stat_members" }}</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-value">24/7</div>
-    <div class="stat-label">{{ i18n "stat_monitoring" }}</div>
-  </div>
-</div>
+{{- $list := hugo.Data.companies.list }}
+<div class="container home" data-tab="latest">
+  <section class="hero">
+    <h1>{{ i18n "hero_title" }}</h1>
+    <p>{{ i18n "hero_subtitle" }}</p>
+    <div class="hero-stats">{{ i18n "hero_stats" (dict "Companies" (len $list) "TW" (len (where $list "market" "tw")) "US" (len (where $list "market" "us")) "Reports" (len (where $default.RegularPages "Section" "earnings"))) }}</div>
+    <div class="seg home-tabs" role="group">
+      <button type="button" data-tab="latest" aria-pressed="true">{{ i18n "latest_earnings" }}</button>
+      <button type="button" data-tab="companies" aria-pressed="false">{{ i18n "companies_lookup" }}</button>
+    </div>
+  </section>
 
-<div class="container">
-  <h2 class="section-title">{{ i18n "latest" }}</h2>
-  <div class="earnings-grid">
-    {{ $articles := partial "merged-pages.html" (dict "lang" .Language.Lang "sections" (slice "earnings" "posts")) }}
-    {{ range first 30 $articles }}
-    {{ partial "card.html" (dict "page" . "lang" $.Language.Lang "summary" false) }}
-    {{ end }}
-  </div>
+  <section class="home-latest">
+    <div class="section-head">
+      <h2 class="section-title">{{ i18n "latest_earnings" }}</h2>
+      {{ with site.GetPage "/earnings" }}<a href="{{ .RelPermalink }}">{{ i18n "view_all_earnings" }} →</a>{{ end }}
+    </div>
+    <div class="earnings-grid">
+      {{ $articles := partial "merged-pages.html" (dict "lang" .Language.Lang "sections" (slice "earnings" "posts")) }}
+      {{ range first 9 $articles }}
+      {{ partial "card.html" (dict "page" . "lang" $.Language.Lang "summary" true) }}
+      {{ end }}
+    </div>
+    <button type="button" class="more-btn">{{ i18n "show_more" }} ▾</button>
+  </section>
+
+  <section class="home-companies" data-filter-scope>
+    <div class="section-head">
+      <h2 class="section-title">{{ i18n "companies_lookup" }}</h2>
+    </div>
+    {{ partial "filters.html" (dict "page" . "translated" false) }}
+    {{ partial "company-grid.html" . }}
+  </section>
 </div>
 {{ end }}

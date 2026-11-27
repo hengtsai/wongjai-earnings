@@ -1,0 +1,26 @@
+{{- /* 篩選工具列：市場、搜尋、產業；外語頁多一個「全部／只看已翻譯」。
+     參數：dict "page" 目前頁面 "translated" 要不要顯示已翻譯開關。外層元素要有 data-filter-scope，項目要有 data-item。 */ -}}
+{{- $lang := .page.Language.Lang -}}
+{{- $list := hugo.Data.companies.list -}}
+<div class="toolbar">
+  <div class="seg" role="group" aria-label="{{ i18n "filter_all_markets" }}">
+    <button type="button" data-filter="market" data-value="" aria-pressed="true">{{ i18n "filter_all_markets" }}</button>
+    <button type="button" data-filter="market" data-value="tw" aria-pressed="false">{{ i18n "filter_tw" }} {{ len (where $list "market" "tw") }}</button>
+    <button type="button" data-filter="market" data-value="us" aria-pressed="false">{{ i18n "filter_us" }} {{ len (where $list "market" "us") }}</button>
+  </div>
+  <input class="search-input" type="search" placeholder="{{ i18n "search_placeholder" }}" aria-label="{{ i18n "search_placeholder" }}" autocomplete="off">
+  {{ if and .translated (ne $lang (index hugo.Sites 0).Language.Lang) }}
+  <div class="seg" role="group" aria-label="{{ i18n "filter_translated_only" }}">
+    <button type="button" data-filter="translated" data-value="" aria-pressed="true">{{ i18n "filter_all_reports" }}</button>
+    <button type="button" data-filter="translated" data-value="1" aria-pressed="false">{{ i18n "filter_translated_only" }}</button>
+  </div>
+  {{ end }}
+</div>
+<div class="chips" role="group" aria-label="{{ i18n "filter_all_industries" }}">
+  <button type="button" class="chip" data-filter="industry" data-value="" aria-pressed="true">{{ i18n "filter_all_industries" }}</button>
+  {{- range $key, $names := hugo.Data.companies.industries }}
+  {{- if where $list "industry" $key }}
+  <button type="button" class="chip" data-filter="industry" data-value="{{ $key }}" aria-pressed="false">{{ index $names $lang }}</button>
+  {{- end }}
+  {{- end }}
+</div>

@@ -1,0 +1,4 @@
+{{- /* 公司資料表（data/companies.yaml）轉成「ticker → 公司」的對照。用 partialCached 呼叫。 */ -}}
+{{- $m := dict -}}
+{{- range hugo.Data.companies.list }}{{ $m = merge $m (dict (string .ticker) .) }}{{ end -}}
+{{- return $m -}}

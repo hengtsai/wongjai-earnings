@@ -1,0 +1,241 @@
+# 35 家追蹤公司（2026-11-28 改版）。唯一的公司資料表：公司頁（content/companies/_content.gotmpl 自動產生）、
+# 首頁「公司速查」、列表篩選與搜尋都讀這裡；財報文章的 .md 不用加任何欄位（靠 front matter 的 ticker 對應）。
+# 名稱與產業的各語言文字一律用 LLM 翻譯（不可用 Google 翻譯／DeepL 等機器翻譯）。
+# 欄位：ticker（＝文章 front matter 的 ticker）、market（tw｜us）、industry（對應下面 industries 的 key）、
+#       name（五語）、aliases（搜尋別名，小寫比對）、fy_end（會計年度不是曆年時，年度結束的月份）。
+industries:
+  semi:
+    zh-tw: 半導體
+    zh-cn: 半导体
+    en: Semiconductors
+    ja: 半導体
+    ko: 반도체
+  bigtech:
+    zh-tw: 大型科技與平台
+    zh-cn: 大型科技与平台
+    en: Big Tech & Platforms
+    ja: 大型テック・プラットフォーム
+    ko: 빅테크·플랫폼
+  software:
+    zh-tw: AI 雲端與軟體
+    zh-cn: AI 云与软件
+    en: AI Cloud & Software
+    ja: AIクラウド・ソフトウェア
+    ko: AI 클라우드·소프트웨어
+  security:
+    zh-tw: 資訊安全
+    zh-cn: 网络安全
+    en: Cybersecurity
+    ja: サイバーセキュリティ
+    ko: 사이버 보안
+  infra:
+    zh-tw: AI 伺服器與電力設備
+    zh-cn: AI 服务器与电力设备
+    en: AI Servers & Power Infrastructure
+    ja: AIサーバー・電源インフラ
+    ko: AI 서버·전력 인프라
+  energy:
+    zh-tw: 核能與潔淨能源
+    zh-cn: 核能与清洁能源
+    en: Nuclear & Clean Energy
+    ja: 原子力・クリーンエネルギー
+    ko: 원자력·청정에너지
+  frontier:
+    zh-tw: 量子與太空
+    zh-cn: 量子与航天
+    en: Quantum & Space
+    ja: 量子・宇宙
+    ko: 양자·우주
+  ev:
+    zh-tw: 電動車
+    zh-cn: 电动车
+    en: Electric Vehicles
+    ja: 電気自動車
+    ko: 전기차
+
+list:
+  - ticker: "2330"
+    market: tw
+    industry: semi
+    name: {zh-tw: 台積電, zh-cn: 台积电, en: TSMC, ja: TSMC, ko: TSMC}
+    aliases: [tsm, tsmc, 台積, taiwan semiconductor]
+  - ticker: "2308"
+    market: tw
+    industry: infra
+    name: {zh-tw: 台達電, zh-cn: 台达电, en: Delta Electronics, ja: デルタ電子, ko: 델타전자}
+    aliases: [delta, 台達]
+  - ticker: "2408"
+    market: tw
+    industry: semi
+    name: {zh-tw: 南亞科, zh-cn: 南亚科, en: Nanya Technology, ja: 南亜科技, ko: 난야테크놀로지}
+    aliases: [nanya, 南亞科技]
+  - ticker: "2454"
+    market: tw
+    industry: semi
+    name: {zh-tw: 聯發科, zh-cn: 联发科, en: MediaTek, ja: メディアテック, ko: 미디어텍}
+    aliases: [mediatek, mtk]
+  - ticker: "3231"
+    market: tw
+    industry: infra
+    name: {zh-tw: 緯創, zh-cn: 纬创, en: Wistron, ja: ウィストロン, ko: 위스트론}
+    aliases: [wistron]
+  - ticker: AAPL
+    market: us
+    industry: bigtech
+    name: {zh-tw: 蘋果, zh-cn: 苹果, en: Apple, ja: アップル, ko: 애플}
+    aliases: [apple, iphone]
+    fy_end: 9
+  - ticker: AMD
+    market: us
+    industry: semi
+    name: {zh-tw: 超微, zh-cn: 超威半导体, en: AMD, ja: AMD, ko: AMD}
+    aliases: [advanced micro devices, 超微半導體]
+  - ticker: AMZN
+    market: us
+    industry: bigtech
+    name: {zh-tw: 亞馬遜, zh-cn: 亚马逊, en: Amazon, ja: アマゾン, ko: 아마존}
+    aliases: [amazon, aws]
+  - ticker: ARM
+    market: us
+    industry: semi
+    name: {zh-tw: 安謀, zh-cn: 安谋, en: Arm, ja: アーム, ko: Arm}
+    aliases: [arm holdings]
+    fy_end: 3
+  - ticker: ASML
+    market: us
+    industry: semi
+    name: {zh-tw: 艾司摩爾, zh-cn: 阿斯麦, en: ASML, ja: ASML, ko: ASML}
+    aliases: [euv, 艾斯摩爾]
+  - ticker: AVGO
+    market: us
+    industry: semi
+    name: {zh-tw: 博通, zh-cn: 博通, en: Broadcom, ja: ブロードコム, ko: 브로드컴}
+    aliases: [broadcom]
+    fy_end: 10
+  - ticker: CRWD
+    market: us
+    industry: security
+    name: {zh-tw: CrowdStrike, zh-cn: CrowdStrike, en: CrowdStrike, ja: クラウドストライク, ko: 크라우드스트라이크}
+    aliases: [crowdstrike]
+    fy_end: 1
+  - ticker: CRWV
+    market: us
+    industry: software
+    name: {zh-tw: CoreWeave, zh-cn: CoreWeave, en: CoreWeave, ja: コアウィーブ, ko: 코어위브}
+    aliases: [coreweave]
+  - ticker: GOOG
+    market: us
+    industry: bigtech
+    name: {zh-tw: Alphabet（Google）, zh-cn: Alphabet（谷歌）, en: Alphabet (Google), ja: アルファベット（Google）, ko: 알파벳(구글)}
+    aliases: [googl, google, alphabet, 谷歌]
+  - ticker: INTC
+    market: us
+    industry: semi
+    name: {zh-tw: 英特爾, zh-cn: 英特尔, en: Intel, ja: インテル, ko: 인텔}
+    aliases: [intel]
+  - ticker: IONQ
+    market: us
+    industry: frontier
+    name: {zh-tw: IonQ, zh-cn: IonQ, en: IonQ, ja: IonQ, ko: 아이온큐}
+    aliases: [ionq]
+  - ticker: LEU
+    market: us
+    industry: energy
+    name: {zh-tw: Centrus Energy, zh-cn: Centrus Energy, en: Centrus Energy, ja: セントラス・エナジー, ko: 센트러스 에너지}
+    aliases: [centrus, haleu]
+  - ticker: META
+    market: us
+    industry: bigtech
+    name: {zh-tw: Meta, zh-cn: Meta, en: Meta, ja: メタ, ko: 메타}
+    aliases: [facebook, 臉書]
+  - ticker: MSFT
+    market: us
+    industry: bigtech
+    name: {zh-tw: 微軟, zh-cn: 微软, en: Microsoft, ja: マイクロソフト, ko: 마이크로소프트}
+    aliases: [microsoft, azure]
+    fy_end: 6
+  - ticker: MU
+    market: us
+    industry: semi
+    name: {zh-tw: 美光, zh-cn: 美光, en: Micron, ja: マイクロン, ko: 마이크론}
+    aliases: [micron]
+    fy_end: 8
+  - ticker: NFLX
+    market: us
+    industry: bigtech
+    name: {zh-tw: Netflix, zh-cn: 奈飞, en: Netflix, ja: ネットフリックス, ko: 넷플릭스}
+    aliases: [netflix, 網飛]
+  - ticker: NIO
+    market: us
+    industry: ev
+    name: {zh-tw: 蔚來, zh-cn: 蔚来, en: NIO, ja: NIO, ko: 니오}
+    aliases: [蔚來汽車]
+  - ticker: NVDA
+    market: us
+    industry: semi
+    name: {zh-tw: 輝達, zh-cn: 英伟达, en: NVIDIA, ja: エヌビディア, ko: 엔비디아}
+    aliases: [nvidia, 英偉達]
+    fy_end: 1
+  - ticker: OKLO
+    market: us
+    industry: energy
+    name: {zh-tw: Oklo, zh-cn: Oklo, en: Oklo, ja: オクロ, ko: 오클로}
+    aliases: [oklo]
+  - ticker: ORCL
+    market: us
+    industry: software
+    name: {zh-tw: 甲骨文, zh-cn: 甲骨文, en: Oracle, ja: オラクル, ko: 오라클}
+    aliases: [oracle, oci]
+    fy_end: 5
+  - ticker: PANW
+    market: us
+    industry: security
+    name: {zh-tw: Palo Alto Networks, zh-cn: Palo Alto Networks, en: Palo Alto Networks, ja: パロアルトネットワークス, ko: 팔로알토 네트웍스}
+    aliases: [palo alto]
+    fy_end: 7
+  - ticker: PLTR
+    market: us
+    industry: software
+    name: {zh-tw: Palantir, zh-cn: Palantir, en: Palantir, ja: パランティア, ko: 팔란티어}
+    aliases: [palantir]
+  - ticker: PLUG
+    market: us
+    industry: energy
+    name: {zh-tw: Plug Power, zh-cn: Plug Power, en: Plug Power, ja: プラグパワー, ko: 플러그파워}
+    aliases: [plug power, 氫能]
+  - ticker: QCOM
+    market: us
+    industry: semi
+    name: {zh-tw: 高通, zh-cn: 高通, en: Qualcomm, ja: クアルコム, ko: 퀄컴}
+    aliases: [qualcomm, snapdragon]
+    fy_end: 9
+  - ticker: RGTI
+    market: us
+    industry: frontier
+    name: {zh-tw: Rigetti Computing, zh-cn: Rigetti Computing, en: Rigetti Computing, ja: リゲッティ・コンピューティング, ko: 리게티 컴퓨팅}
+    aliases: [rigetti]
+  - ticker: RKLB
+    market: us
+    industry: frontier
+    name: {zh-tw: Rocket Lab, zh-cn: Rocket Lab, en: Rocket Lab, ja: ロケット・ラボ, ko: 로켓랩}
+    aliases: [rocket lab]
+  - ticker: SMR
+    market: us
+    industry: energy
+    name: {zh-tw: NuScale Power, zh-cn: NuScale Power, en: NuScale Power, ja: ニュースケール・パワー, ko: 뉴스케일 파워}
+    aliases: [nuscale]
+  - ticker: TEM
+    market: us
+    industry: software
+    name: {zh-tw: Tempus AI, zh-cn: Tempus AI, en: Tempus AI, ja: テンパスAI, ko: 템퍼스 AI}
+    aliases: [tempus]
+  - ticker: TSLA
+    market: us
+    industry: ev
+    name: {zh-tw: 特斯拉, zh-cn: 特斯拉, en: Tesla, ja: テスラ, ko: 테슬라}
+    aliases: [tesla]
+  - ticker: VRT
+    market: us
+    industry: infra
+    name: {zh-tw: Vertiv, zh-cn: Vertiv, en: Vertiv, ja: バーティブ, ko: 버티브}
+    aliases: [vertiv, 維諦]

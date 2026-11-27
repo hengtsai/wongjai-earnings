@@ -1,5 +1,10 @@
 <footer class="footer">
-  <p>⚡ <strong>Wongjai AI Earning Calls</strong> — {{ i18n "footer_generated" }}</p>
-  <p>Wongjai · Warren · Mano · Abby</p>
+  <ul class="footer-links">
+    {{ partial "navlink.html" (dict "path" "/earnings" "label" (i18n "nav_earnings") "page" .) }}
+    {{ partial "navlink.html" (dict "path" "/companies" "label" (i18n "nav_companies") "page" .) }}
+    {{ partial "navlink.html" (dict "path" "/posts" "label" (i18n "nav_posts") "page" .) }}
+    {{ partial "navlink.html" (dict "path" "/about" "label" (i18n "nav_about") "page" .) }}
+  </ul>
+  <p><strong>Wongjai AI Earning Calls</strong> — {{ i18n "footer_generated" }}</p>
   <p class="footer-contact">{{ i18n "contact" }}<a href="mailto:ai@wongjai.com">ai@wongjai.com</a></p>
 </footer>

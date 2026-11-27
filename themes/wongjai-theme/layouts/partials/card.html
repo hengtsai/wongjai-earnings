@@ -1,21 +1,34 @@
-{{- /* 文章卡片。參數：dict "page" 文章 "lang" 目前語言 "summary" 要不要用 front matter 的 summary */ -}}
+{{- /* 文章卡片（2026-11-28 改版）。參數：dict "page" 文章 "lang" 目前語言 "summary" 要不要用 front matter 的 summary。
+     標籤最多 3 個，和股票代號、公司名重複的不顯示；data-* 給篩選與搜尋用（site.js）。 */ -}}
 {{- $p := .page -}}{{- $lang := .lang -}}
 {{- $fallback := ne $p.Language.Lang $lang -}}
-<a class="earning-card" href="{{ $p.RelPermalink }}{{ if $fallback }}?from={{ $lang }}{{ end }}"{{ if $fallback }} hreflang="{{ $p.Language.LanguageCode }}" title="{{ i18n "original_badge_title" }}"{{ end }}>
-  <div class="card-info">
-    <div class="card-header">
-      <span class="ticker-badge">{{ $p.Params.ticker | default "N/A" }}</span>
-      {{ if $fallback }}<span class="lang-badge">{{ i18n "original_badge" }}</span>{{ end }}
-      <span class="card-date">{{ $p.Date.Format "2006-01-02" }}</span>
-    </div>
-    <h3 class="card-title">{{ $p.Title }}</h3>
-    {{ if and .summary $p.Params.summary }}
-    <p class="card-summary">{{ $p.Params.summary }}</p>
-    {{ else }}
-    <p class="card-excerpt">{{ $p.Summary | plainify | truncate 120 }}</p>
-    {{ end }}
-    <div class="card-tags">
-      {{ range $p.Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
-    </div>
+{{- $ticker := string ($p.Params.ticker | default "") -}}
+{{- $co := index (partialCached "companies.html" "all") $ticker -}}
+{{- $names := slice (lower $ticker) -}}
+{{- $search := slice $ticker $p.Title -}}
+{{- $market := "" -}}{{- $industry := "" -}}
+{{- with $co -}}
+  {{- $market = .market -}}{{- $industry = .industry -}}
+  {{- range .name }}{{ $names = $names | append (lower .) }}{{ $search = $search | append . }}{{ end -}}
+  {{- range .aliases }}{{ $names = $names | append (lower .) }}{{ $search = $search | append . }}{{ end -}}
+  {{- range (index hugo.Data.companies.industries .industry) }}{{ $search = $search | append . }}{{ end -}}
+{{- end -}}
+{{- range $p.Params.tags }}{{ $search = $search | append . }}{{ end -}}
+<a class="earning-card" data-item data-ticker="{{ $ticker }}" data-market="{{ $market }}" data-industry="{{ $industry }}"{{ if $fallback }} data-fallback="1"{{ end }} data-search="{{ lower (delimit $search " ") }}" href="{{ $p.RelPermalink }}{{ if $fallback }}?from={{ $lang }}{{ end }}"{{ if $fallback }} hreflang="{{ $p.Language.LanguageCode }}" title="{{ i18n "original_badge_title" }}"{{ end }}>
+  <div class="card-header">
+    {{ with $ticker }}<span class="ticker-badge">{{ . }}</span>{{ end }}
+    {{ with $p.Params.quarter }}<span class="quarter-badge">{{ . }}</span>{{ end }}
+    {{ if $fallback }}<span class="lang-badge">{{ i18n "original_badge" }}</span>{{ end }}
+    <span class="card-date">{{ $p.Date.Format "2006-01-02" }}</span>
+  </div>
+  <h3 class="card-title">{{ $p.Title }}</h3>
+  {{ if and .summary $p.Params.summary }}
+  <p class="card-summary">{{ $p.Params.summary }}</p>
+  {{ else }}
+  <p class="card-excerpt">{{ with $p.Params.summary }}{{ . }}{{ else }}{{ $p.Summary | plainify | truncate 120 }}{{ end }}</p>
+  {{ end }}
+  {{- $shown := 0 -}}
+  <div class="card-tags">
+    {{- range $p.Params.tags }}{{ if and (lt $shown 3) (not (in $names (lower .))) }}<span class="tag">{{ . }}</span>{{ $shown = add $shown 1 }}{{ end }}{{ end -}}
   </div>
 </a>

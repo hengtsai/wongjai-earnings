@@ -1,0 +1,21 @@
+{{- /* 35 家公司速查：每家顯示代號、名稱、最新一季與篇數，連到公司頁。參數：目前頁面。 */ -}}
+{{- $lang := .Language.Lang -}}
+<div class="company-grid">
+  {{- range hugo.Data.companies.list }}
+  {{- $ticker := string .ticker -}}
+  {{- $pages := partialCached "ticker-pages.html" $ticker $ticker -}}
+  {{- $cp := site.GetPage (printf "/companies/%s" (lower $ticker)) -}}
+  {{- $search := slice $ticker -}}
+  {{- range .name }}{{ $search = $search | append . }}{{ end -}}
+  {{- range .aliases }}{{ $search = $search | append . }}{{ end -}}
+  {{- range (index hugo.Data.companies.industries .industry) }}{{ $search = $search | append . }}{{ end -}}
+  {{- if and $cp $pages }}
+  <a class="company-card" data-item data-ticker="{{ $ticker }}" data-market="{{ .market }}" data-industry="{{ .industry }}" data-search="{{ lower (delimit $search " ") }}" href="{{ $cp.RelPermalink }}">
+    <div class="cc-top"><span class="ticker-badge">{{ $ticker }}</span><span class="cc-market">{{ i18n (printf "filter_%s" .market) }}</span></div>
+    <div class="cc-name">{{ index .name $lang }}</div>
+    <div class="cc-meta">{{ (index $pages 0).Params.quarter }} · {{ i18n "reports_count" (dict "Count" (len $pages)) }}</div>
+  </a>
+  {{- end }}
+  {{- end }}
+</div>
+<p class="no-results" hidden>{{ i18n "no_results" }}</p>

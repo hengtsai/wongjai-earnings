@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{- /* 公司列表（/companies/）：35 家公司速查＋篩選。公司頁由 content/companies/_content.gotmpl 依 data/companies.yaml 自動產生。 */ -}}
+<div class="container" data-filter-scope>
+  <h1 class="page-title">{{ i18n "nav_companies" }}</h1>
+  {{ partial "filters.html" (dict "page" . "translated" false) }}
+  {{ partial "company-grid.html" . }}
+</div>
+{{ end }}

@@ -1,26 +1,38 @@
 {{ define "main" }}
-<div class="container" style="padding-top: 3rem;">
-  <h1 class="section-title">{{ .Title }}</h1>
-  <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="{{ i18n "search_placeholder" }}" oninput="filterCards()">
+{{- /* 列表頁（2026-11-28 改版）。財報：篩選工具列＋依發布年月分段；其他欄目與標籤頁：搜尋＋卡片。
+     欄目頁各語言都列全部文章，沒有譯本的放繁中原文；標籤頁只列這個語言的。 */ -}}
+{{- $isEarn := and (eq .Kind "section") (eq .Section "earnings") -}}
+{{- $pages := .Pages.ByDate.Reverse -}}
+{{- if eq .Kind "section" }}{{ $pages = partial "merged-pages.html" (dict "lang" .Language.Lang "sections" (slice .Section)) }}{{ end -}}
+<div class="container" data-filter-scope>
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ if $isEarn }}
+  {{ partial "filters.html" (dict "page" . "translated" true) }}
+  {{- $month := "" -}}
+  {{- $n := len $pages -}}
+  {{- range $i, $p := $pages -}}
+    {{- $m := $p.Date.Format "2006-01" -}}
+    {{- if ne $m $month -}}
+      {{- if $month }}</div></section>{{ end -}}
+      {{- $month = $m -}}
+      {{- $count := 0 -}}{{- range $pages }}{{ if eq (.Date.Format "2006-01") $m }}{{ $count = add $count 1 }}{{ end }}{{ end }}
+  <section class="month-group">
+    <h2 class="month-head">{{ $p.Date | time.Format (i18n "month_layout") }} <small>{{ i18n "reports_count" (dict "Count" $count) }}</small></h2>
+    <div class="earnings-grid">
+    {{- end }}
+    {{ partial "card.html" (dict "page" $p "lang" $.Language.Lang "summary" true) }}
+  {{- end }}
+  {{- if $month }}</div></section>{{ end }}
+  {{ else }}
+  <div class="toolbar">
+    <input class="search-input" type="search" placeholder="{{ i18n "search_placeholder" }}" aria-label="{{ i18n "search_placeholder" }}" autocomplete="off">
   </div>
-  <div class="earnings-grid">
-    {{- /* 欄目頁（財報、分析）：各語言都列全部文章，沒有譯本的放繁中原文；標籤頁只列這個語言的 */ -}}
-    {{ $pages := .Pages.ByDate.Reverse }}
-    {{ if eq .Kind "section" }}{{ $pages = partial "merged-pages.html" (dict "lang" .Language.Lang "sections" (slice .Section)) }}{{ end }}
+  <div class="earnings-grid" style="margin-top:12px">
     {{ range $pages }}
     {{ partial "card.html" (dict "page" . "lang" $.Language.Lang "summary" true) }}
     {{ end }}
   </div>
+  {{ end }}
+  <p class="no-results" hidden>{{ i18n "no_results" }}</p>
 </div>
-<script>
-function filterCards() {
-  const query = document.getElementById('searchInput').value.toLowerCase();
-  const cards = document.querySelectorAll('.earning-card');
-  cards.forEach(card => {
-    const text = card.textContent.toLowerCase();
-    card.style.display = text.includes(query) ? '' : 'none';
-  });
-}
-</script>
 {{ end }}

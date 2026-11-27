@@ -12,6 +12,28 @@
   to = "/api/:splat"
   status = 200
 
+# 公司頁別名（2026-11-28 改版）：常見的另一個代號轉到正式的公司頁
+[[redirects]]
+  from = "/companies/tsm"
+  to = "/companies/2330/"
+  status = 301
+[[redirects]]
+  from = "/companies/tsmc"
+  to = "/companies/2330/"
+  status = 301
+[[redirects]]
+  from = "/companies/googl"
+  to = "/companies/goog/"
+  status = 301
+[[redirects]]
+  from = "/:lang/companies/tsm"
+  to = "/:lang/companies/2330/"
+  status = 301
+[[redirects]]
+  from = "/:lang/companies/googl"
+  to = "/:lang/companies/goog/"
+  status = 301
+
 [context.production.environment]
   HUGO_ENV = "production"
 

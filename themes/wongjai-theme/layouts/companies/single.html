@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{- /* 公司頁（/companies/<代號>/）：公司資料＋最新一季＋歷季財報（依年份分段）。
+     文章以繁中原文為準，有目前語言的譯本就用譯本，沒有就連原文（?from=<語言>）並標示。 */ -}}
+{{- $lang := .Language.Lang -}}
+{{- $ticker := string .Params.ticker -}}
+{{- $co := index (partialCached "companies.html" "all") $ticker -}}
+{{- $pages := partialCached "ticker-pages.html" $ticker $ticker -}}
+<div class="container">
+  <header class="company-header">
+    <div class="ch-meta">
+      <span class="ticker-badge">{{ $ticker }}</span>
+      <span class="quarter-badge">{{ i18n (printf "filter_%s" $co.market) }}</span>
+      <span class="quarter-badge">{{ index (index hugo.Data.companies.industries $co.industry) $lang }}</span>
+    </div>
+    <h1>{{ index $co.name $lang }} <span class="num-font">({{ $ticker }})</span></h1>
+    <p class="ch-note">{{ i18n "reports_count" (dict "Count" (len $pages)) }}{{ with $co.fy_end }} · {{ i18n "fy_ends" (dict "M" . "Month" (time.Format "January" (printf "2024-%02d-01" (int .)))) }}{{ end }}</p>
+  </header>
+
+  {{ with index $pages 0 }}
+  <div class="section-head"><h2 class="section-title">{{ i18n "latest_quarter" }}</h2></div>
+  <div class="earnings-grid" style="grid-template-columns:minmax(0,1fr)">
+    {{ $l := partial "localized.html" (dict "page" . "lang" $lang) }}
+    {{ partial "card.html" (dict "page" $l.page "lang" $lang "summary" true) }}
+  </div>
+  {{ end }}
+
+  <div class="section-head"><h2 class="section-title">{{ i18n "earnings_timeline" }}</h2></div>
+  {{- $year := "" -}}
+  {{- range $pages -}}
+    {{- $y := .Date.Format "2006" -}}
+    {{- if ne $y $year -}}
+      {{- if $year }}</ul>{{ end }}
+      {{- $year = $y }}
+  <h3 class="timeline-year">{{ $y }}</h3>
+  <ul class="timeline">
+    {{- end }}
+    {{- $l := partial "localized.html" (dict "page" . "lang" $lang) }}
+    <li><a href="{{ $l.url }}"{{ if $l.fallback }} hreflang="{{ $l.page.Language.LanguageCode }}" title="{{ i18n "original_badge_title" }}"{{ end }}>
+      <span><span class="quarter-badge">{{ .Params.quarter }}</span></span>
+      <span class="tl-title">{{ $l.page.Title }}</span>
+      <span class="tl-date">{{ if $l.fallback }}<span class="lang-badge">{{ i18n "original_badge" }}</span>{{ end }}{{ .Date.Format "2006-01-02" }}</span>
+    </a></li>
+  {{- end }}
+  {{- if $year }}</ul>{{ end }}
+</div>
+{{ end }}

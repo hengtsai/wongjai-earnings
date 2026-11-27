@@ -1,0 +1,15 @@
+{{- /* 公司頁（2026-11-28 改版）：依 data/companies.yaml 在建置時自動產生，每種語言各一頁
+     （/companies/2330/、/en/companies/nvda/…）。財報文章的 .md 不用改；新增公司只要在 companies.yaml 加一筆。 */ -}}
+{{- .EnableAllLanguages -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- range hugo.Data.companies.list -}}
+  {{- $ticker := string .ticker -}}
+  {{- $name := index .name $lang -}}
+  {{- $params := dict "ticker" $ticker "market" .market "industry" .industry -}}
+  {{- $.AddPage (dict
+        "path" (lower $ticker)
+        "kind" "page"
+        "title" (printf "%s (%s)" $name $ticker)
+        "params" $params
+        "content" (dict "mediaType" "text/markdown" "value" "")) -}}
+{{- end -}}
