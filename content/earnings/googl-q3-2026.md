@@ -123,7 +123,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>指引與展望維度</th><th>官方定調與量化指引</th><th>Q3 '26 實際基準</th><th>趨勢方向與財務影響點評</th></tr></thead>
 <tbody>
-<tr><td><b>Google Cloud 訂單轉換</b></td><td><b>Backlog 逾 55% 於 24 個月內認列</b>；2027 外售 TPU 大放量</td><td>營收 $30.71B｜Backlog $560.8B</td><td class="good">🟢 需求持續大於供給，鎖定未來兩年逾 $3,084B 營收</td></tr>
+<tr><td><b>Google Cloud 訂單轉換</b></td><td><b>Backlog 逾 55% 於 24 個月內認列</b>；2027 外售 TPU 大放量</td><td>營收 $30.71B｜Backlog $560.8B</td><td class="good">🟢 需求持續大於供給，鎖定未來兩年逾 $308.4B 營收</td></tr>
 <tr><td><b>2026 / 2027 資本支出</b></td><td><b>FY26 維持 $195B–$205B</b>；FY27 將「再度顯著增加」</td><td>9M 累計 $131.95B (Q3 $51.36B)</td><td class="bad">🔴 隱含 <b>Q4 CapEx 高達 $63B–$73B</b>（2/3 投向伺服器）</td></tr>
 <tr><td><b>折舊與 Cloud Q4 利潤率</b></td><td><b>折舊持續攀升 + Q4 Cloud 面臨短期利潤率逆風</b></td><td>Q3 折舊 $8.37B｜Cloud OM 36.2%</td><td class="warn">🟡 反映 Q4 擴大租用高成本第三方算力與外售 TPU 硬體佔比</td></tr>
 <tr><td><b>Search 與 YouTube 動能</b></td><td><b>維持雙位數成長</b>，惟 Q4 Search 具 ~2pp 基期與匯率逆風</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 全球擴展 AI Overviews / AI Mode 商業廣告與訂閱服務</td></tr>

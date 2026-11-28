@@ -124,7 +124,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>ガイダンスと見通しの項目</th><th>公式見解と定量ガイダンス</th><th>Q3 '26 実績</th><th>トレンドと財務への影響</th></tr></thead>
 <tbody>
-<tr><td><b>Google Cloudの受注の売上転換</b></td><td><b>受注残高の55%超を24カ月以内に計上</b>。2027年はTPUの外部販売が大幅に拡大</td><td>売上高 $30.71B｜受注残高 $560.8B</td><td class="good">🟢 需要が供給を上回る状態が続き、今後2年で$3,084B超の売上高を確保</td></tr>
+<tr><td><b>Google Cloudの受注の売上転換</b></td><td><b>受注残高の55%超を24カ月以内に計上</b>。2027年はTPUの外部販売が大幅に拡大</td><td>売上高 $30.71B｜受注残高 $560.8B</td><td class="good">🟢 需要が供給を上回る状態が続き、今後2年で$308.4B超の売上高を確保</td></tr>
 <tr><td><b>2026 / 2027年の設備投資</b></td><td><b>FY26は$195B–$205Bを維持</b>。FY27は「再び大幅に増加」</td><td>9M累計 $131.95B（Q3 $51.36B）</td><td class="bad">🔴 <b>Q4の設備投資は$63B–$73B</b>に達する計算（2/3はサーバー向け）</td></tr>
 <tr><td><b>減価償却とクラウドのQ4利益率</b></td><td><b>減価償却は増加が続き、Q4のクラウドは短期的な利益率の逆風</b></td><td>Q3 減価償却 $8.37B｜クラウドOM 36.2%</td><td class="warn">🟡 Q4に高コストの外部計算資源のリースとTPUハードウェアの外部販売の比率が高まることを反映</td></tr>
 <tr><td><b>SearchとYouTubeの勢い</b></td><td><b>2桁成長を維持</b>。ただしQ4のSearchには~2ppの前年水準と為替の逆風</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 AI Overviews / AI Modeの広告とサブスクを世界に展開</td></tr>

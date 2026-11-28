@@ -124,7 +124,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>Guidance / Outlook Area</th><th>Official Stance and Quantified Guidance</th><th>Q3 '26 Actual</th><th>Trend and Financial Impact</th></tr></thead>
 <tbody>
-<tr><td><b>Google Cloud backlog conversion</b></td><td><b>Over 55% of backlog recognized within 24 months</b>; big ramp in external TPU sales in 2027</td><td>Revenue $30.71B | Backlog $560.8B</td><td class="good">🟢 Demand still exceeds supply, locking in more than $3,084B of revenue over the next two years</td></tr>
+<tr><td><b>Google Cloud backlog conversion</b></td><td><b>Over 55% of backlog recognized within 24 months</b>; big ramp in external TPU sales in 2027</td><td>Revenue $30.71B | Backlog $560.8B</td><td class="good">🟢 Demand still exceeds supply, locking in more than $308.4B of revenue over the next two years</td></tr>
 <tr><td><b>2026 / 2027 capex</b></td><td><b>FY26 maintained at $195B–$205B</b>; FY27 to "increase significantly again"</td><td>9M total $131.95B (Q3 $51.36B)</td><td class="bad">🔴 Implies <b>Q4 capex of as much as $63B–$73B</b> (2/3 on servers)</td></tr>
 <tr><td><b>Depreciation and Cloud Q4 margin</b></td><td><b>Depreciation keeps climbing + near-term Cloud margin headwind in Q4</b></td><td>Q3 depreciation $8.37B | Cloud OM 36.2%</td><td class="warn">🟡 Reflects more costly third-party compute leasing and a higher share of external TPU hardware sales in Q4</td></tr>
 <tr><td><b>Search and YouTube momentum</b></td><td><b>Double-digit growth maintained</b>, but Q4 Search faces ~2pp base and FX headwinds</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 Global rollout of AI Overviews / AI Mode ads and subscriptions</td></tr>

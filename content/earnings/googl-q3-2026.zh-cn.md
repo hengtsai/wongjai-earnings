@@ -124,7 +124,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>指引与展望维度</th><th>官方定调与量化指引</th><th>Q3 '26 实际基准</th><th>趋势方向与财务影响点评</th></tr></thead>
 <tbody>
-<tr><td><b>Google Cloud 订单转换</b></td><td><b>Backlog 逾 55% 于 24 个月内确认</b>；2027 年对外销售 TPU 大放量</td><td>营收 $30.71B｜Backlog $560.8B</td><td class="good">🟢 需求持续大于供给，锁定未来两年逾 $3,084B 营收</td></tr>
+<tr><td><b>Google Cloud 订单转换</b></td><td><b>Backlog 逾 55% 于 24 个月内确认</b>；2027 年对外销售 TPU 大放量</td><td>营收 $30.71B｜Backlog $560.8B</td><td class="good">🟢 需求持续大于供给，锁定未来两年逾 $308.4B 营收</td></tr>
 <tr><td><b>2026 / 2027 资本开支</b></td><td><b>FY26 维持 $195B–$205B</b>；FY27 将「再度显著增加」</td><td>9M 累计 $131.95B (Q3 $51.36B)</td><td class="bad">🔴 隐含 <b>Q4 CapEx 高达 $63B–$73B</b>（2/3 投向服务器）</td></tr>
 <tr><td><b>折旧与 Cloud Q4 利润率</b></td><td><b>折旧持续攀升 + Q4 Cloud 面临短期利润率逆风</b></td><td>Q3 折旧 $8.37B｜Cloud OM 36.2%</td><td class="warn">🟡 反映 Q4 扩大租用高成本第三方算力与对外销售 TPU 硬件的占比</td></tr>
 <tr><td><b>Search 与 YouTube 动能</b></td><td><b>维持两位数增长</b>，但 Q4 Search 有 ~2pp 基数与汇率逆风</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 全球扩展 AI Overviews / AI Mode 商业广告与订阅服务</td></tr>

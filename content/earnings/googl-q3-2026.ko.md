@@ -124,7 +124,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>가이던스·전망 항목</th><th>공식 입장과 정량 가이던스</th><th>Q3 '26 실적 기준</th><th>추세와 재무 영향 평가</th></tr></thead>
 <tbody>
-<tr><td><b>Google Cloud 주문 전환</b></td><td><b>Backlog 55% 이상 24개월 내 인식</b>; 2027년 외부 TPU 판매 대폭 확대</td><td>매출 $30.71B｜Backlog $560.8B</td><td class="good">🟢 수요가 계속 공급을 웃돌아 향후 2년 $3,084B 이상 매출 확보</td></tr>
+<tr><td><b>Google Cloud 주문 전환</b></td><td><b>Backlog 55% 이상 24개월 내 인식</b>; 2027년 외부 TPU 판매 대폭 확대</td><td>매출 $30.71B｜Backlog $560.8B</td><td class="good">🟢 수요가 계속 공급을 웃돌아 향후 2년 $308.4B 이상 매출 확보</td></tr>
 <tr><td><b>2026 / 2027 설비투자</b></td><td><b>FY26 $195B–$205B 유지</b>; FY27은 '다시 크게 증가'</td><td>9M 누적 $131.95B (Q3 $51.36B)</td><td class="bad">🔴 <b>Q4 설비투자 최대 $63B–$73B</b> 함의(2/3은 서버)</td></tr>
 <tr><td><b>감가상각과 클라우드 Q4 이익률</b></td><td><b>감가상각 지속 증가 + Q4 클라우드 단기 이익률 역풍</b></td><td>Q3 감가상각 $8.37B｜클라우드 OM 36.2%</td><td class="warn">🟡 Q4 고비용 외부 컴퓨팅 임대 확대와 TPU 하드웨어 외부 판매 비중 반영</td></tr>
 <tr><td><b>Search와 YouTube 모멘텀</b></td><td><b>두 자릿수 성장 유지</b>, 다만 Q4 Search는 ~2pp 기저와 환율 역풍</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 AI Overviews / AI Mode 광고와 구독 서비스 글로벌 확대</td></tr>
