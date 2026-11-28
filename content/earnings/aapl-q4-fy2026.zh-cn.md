@@ -6,7 +6,7 @@ quarter: "FY2026 Q4"
 logo: "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
 color: "#555555"
 translationKey: "aapl-q4-fy2026"
-summary: "Q4 营收 US$1,144.8 亿、EPS US$2.10 超出预期，FY26 全年营收 US$4,788.3 亿与 FCF US$1,360.6 亿齐创历史新高。iPhone 18/Duo 与大中华区（+21%）强势爆发，但空前的内存涨价使 Q1 毛利率指引降至 45%–46%。"
+summary: "Q4 营收 US$1,144.8 亿、EPS US$2.10，同比增 13.5%，FY26 全年营收 US$4,788.3 亿与 FCF US$1,360.6 亿齐创历史新高。iPhone 18/Duo 与大中华区（+21%）强势爆发，但空前的内存涨价使 Q1 毛利率指引降至 45%–46%。"
 tags: ["消费电子", "AI", "Apple", "AAPL", "iPhone 18", "iPhone Duo", "Services", "Apple Intelligence", "Siri AI", "John Ternus"]
 author: "Wongjai ⚡"
 draft: false
@@ -30,14 +30,14 @@ draft: false
 ### Q4 FY2026 暨 FY2026 全年合并利润表（US$ 百万，官方 Form 10-K）
 
 <div class="sw"><table>
-<thead><tr><th>核心指标 (US$M)</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>指引与一致预期点评</th></tr></thead>
+<thead><tr><th>核心指标 (US$M)</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>指引与点评</th></tr></thead>
 <tbody>
-<tr><td><b>Q4 合并总营收</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 超出一致预期 $10.8 亿，9 月季度新高</td></tr>
+<tr><td><b>Q4 合并总营收</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 高于 9–11% 指引上限，9 月季度新高</td></tr>
 <tr><td><b>Q4 毛利率 (GM)</b></td><td><b>47.9%</b></td><td>50.1%</td><td class="warn">-2.2pp</td><td>47.2%</td><td class="good">+0.7pp</td><td class="good">🟢 含关税退税 $731M（基础 46.9%）</td></tr>
 <tr><td><b>Q4 研发费用 (R&D)</b></td><td><b>11,730</b></td><td>11,729</td><td>0.0%</td><td>8,866</td><td class="warn">+32.3%</td><td class="warn">🟡 占比 10.2%，重注 Siri AI 与 2nm</td></tr>
 <tr><td><b>Q4 营业利润 / OM</b></td><td><b>35,631 (31.1%)</b></td><td>35,695 (32.6%)</td><td class="warn">-0.2%</td><td>32,427 (31.7%)</td><td class="good">+9.9%</td><td class="good">🟢 销售及管理费用率仅 6.5%，展现规模经济</td></tr>
-<tr><td><b>Q4 税后净利润</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 净利率 26.8%，超出一致预期 $16.7 亿</td></tr>
-<tr><td><b>Q4 稀释 EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 超出一致预期 $1.99（基础 EPS $2.05）</td></tr>
+<tr><td><b>Q4 税后净利润</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 净利率 26.8%</td></tr>
+<tr><td><b>Q4 稀释 EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 同比增 13.5%（基本 EPS $2.05）</td></tr>
 <tr><td><b>FY26 全年总营收</b></td><td><b>478,834</b></td><td>—</td><td>—</td><td>416,161</td><td class="good"><b>+15.1%</b></td><td class="good">🟢 四个季度全部站稳千亿，打破 50 年纪录</td></tr>
 <tr><td><b>FY26 全年净利润 / EPS</b></td><td><b>132,175 ($8.98)</b></td><td>—</td><td>—</td><td>112,010 ($7.46)</td><td class="good"><b>+20.4%</b></td><td class="good">🟢 全年营业利润率 33.0% 创历史新高</td></tr>
 </tbody></table></div>
@@ -54,7 +54,7 @@ draft: false
 <tr><td><b>iPhone</b></td><td><b>57,583</b></td><td>49,025</td><td class="good"><b>+17.5%</b></td><td><b>254,098</b></td><td class="good"><b>+21.2%</b></td><td class="good">🟢 iPhone 18 Pro 与折叠屏 Duo 引爆换机潮</td></tr>
 <tr><td><b>Services（服务）</b></td><td><b>31,573</b></td><td>28,750</td><td class="good"><b>+9.8%</b></td><td><b>123,301</b></td><td class="good"><b>+13.0%</b></td><td class="good">🟢 单季毛利率 76.0% 创新高，毛利占比 43.7%</td></tr>
 <tr><td><b>Mac</b></td><td><b>10,792</b></td><td>8,726</td><td class="good"><b>+23.7%</b></td><td><b>37,929</b></td><td class="good"><b>+12.5%</b></td><td class="good">🟢 触控屏与灵动岛 MacBook Pro 热销</td></tr>
-<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 可穿戴产品周期过渡，低于一致预期</td></tr>
+<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 可穿戴产品周期过渡，同比降 7.9%</td></tr>
 <tr><td><b>iPad</b></td><td>6,229</td><td>6,952</td><td class="bad">-10.4%</td><td>27,929</td><td class="warn">-0.3%</td><td class="warn">🟡 受 6 月涨价与芯片优先供应手机影响</td></tr>
 <tr><td><b>合并总营收</b></td><td><b>114,477</b></td><td><b>102,466</b></td><td class="good"><b>+11.7%</b></td><td><b>478,834</b></td><td class="good"><b>+15.1%</b></td><td class="good">🟢 前三大主力占 Q4 总营收达 87.3%</td></tr>
 </tbody></table></div>
@@ -125,7 +125,7 @@ draft: false
 <tbody>
 <tr><td><b>合并总营收 YoY</b></td><td><b>+7.0% – +10.0% YoY</b></td><td>$114.48B (+11.7%)</td><td>$143.76B</td><td class="good">🟢 <b>挑战 US$153.8B–$158.1B 单季历史新高</b></td></tr>
 <tr><td><b>Services 营收 YoY</b></td><td><b>+8.0% – +9.0% YoY</b></td><td>$31.57B (+9.8%)</td><td>~$29.9B</td><td class="good">🟢 预计达 <b>US$32.2B–$32.7B</b>，继续创单季新高</td></tr>
-<tr><td><b>整体毛利率 (GM)</b></td><td><b>45.0% – 46.0%</b></td><td>47.9%（基础 46.9%）</td><td>48.2%</td><td class="warn">🟡 低于一致预期（46.3%），反映内存暴涨与 Siri AI 成本</td></tr>
+<tr><td><b>整体毛利率 (GM)</b></td><td><b>45.0% – 46.0%</b></td><td>47.9%（基础 46.9%）</td><td>48.2%</td><td class="warn">🟡 低于 Q4 实际的 47.9%，反映内存暴涨与 Siri AI 成本</td></tr>
 <tr><td><b>营业费用 (OpEx)</b></td><td><b>US$20.4B – $20.8B</b></td><td>$19.19B</td><td>~$18.4B</td><td class="good">🟢 营业利润率隐含约 31.7%–33.1%，规模吸收毛利逆风</td></tr>
 <tr><td><b>有效税率 (Tax Rate)</b></td><td><b>约 17.0%</b></td><td>15.0%</td><td>~16.5%</td><td>回归全年常态有效税率水平</td></tr>
 <tr><td><b>季度现金股息</b></td><td><b>US$0.27 / 股</b></td><td>US$0.26 / 股</td><td>US$0.25 / 股</td><td class="good">🟢 上调 3.8%（年化 $1.08），于 2026/11/16 发放</td></tr>
@@ -147,9 +147,9 @@ draft: false
 <h3 class="risk-gold">🟡 中风险（Medium Risk）</h3>
 <div class="sb rm">
 <ul>
-<li><b>Siri AI 推理与研发费用高涨</b>：全年 R&D 暴增 32.5% 至 $457.7 亿，若 iCloud+ 算力付费转化率不如预期，将侵蚀长期毛利。</li>
+<li><b>Siri AI 推理与研发费用高涨</b>：全年 R&D 暴增 32.5% 至 $457.7 亿，若 iCloud+ 算力付费转化率偏低，将侵蚀长期毛利。</li>
 <li><b>关税退税红利已领完与贸易变量</b>：Q4 贡献毛利率 1pp 的 $731M 海关退税已领完，后续不再有此缓冲，且关税政策存在不确定性。</li>
-<li><b>iPad 与可穿戴设备动能疲软</b>：Q4 iPad（-10.4%）与可穿戴（-7.9%）双双低于预期，显示非核心硬件对涨价较敏感。</li>
+<li><b>iPad 与可穿戴设备动能疲软</b>：Q4 iPad（-10.4%）与可穿戴（-7.9%）双双同比下降，显示非核心硬件对涨价较敏感。</li>
 </ul>
 </div>
 
@@ -197,7 +197,7 @@ draft: false
 
 <div class="sb rl">
 <ul>
-<li><b>FY26 全面改写历史纪录，市值突破 5.08 万亿美元登顶全球第一</b>：Q4 营收 $1,144.8 亿、EPS $2.10 超出预期；全年营收 $4,788.3 亿（+15.1%）、EPS $8.98（+20.4%）创新高。</li>
+<li><b>FY26 全面改写历史纪录，市值突破 5.08 万亿美元登顶全球第一</b>：Q4 营收 $1,144.8 亿、EPS $2.10（同比增 13.5%）；全年营收 $4,788.3 亿（+15.1%）、EPS $8.98（+20.4%）创新高。</li>
 <li><b>iPhone 18/Duo 与大中华区（+21%）双引擎爆发</b>：Q4 iPhone 大增 17.5%、触控 Mac 暴增 23.7%，大中华区全年狂飙 28% 至 $823.8 亿，并包揽城市畅销前 3 名。</li>
 <li><b>极致轻资产的印钞机：CapEx 逆势下降 29% 至 $90.4 亿，FCF 飙升至 $1,361 亿</b>：全年返还股东 $1,021 亿后，留存收益正式转正（+$137 亿），净现金逆势大增 68% 至 $568.2 亿。</li>
 <li><b>内存「史无前例涨价」压低 Q1 毛利率指引至 45%–46%</b>：扣除 Q4 已领完的 $731M 关税退税后基础毛利率为 46.9%，苹果已拉升存货 154%，并将采购承诺提高至 $897 亿锁定货源。</li>

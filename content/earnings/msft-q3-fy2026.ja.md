@@ -14,7 +14,7 @@ draft: false
 
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q3 売上高</div><div class="value">829億ドル</div><div class="change up">▲18% YoY</div></div>
-<div class="kpi-card"><div class="label">Azureの成長率</div><div class="value">+40%</div><div class="change up">予想を上回る</div></div>
+<div class="kpi-card"><div class="label">Azureの成長率</div><div class="value">+40%</div><div class="change up">37–38%のガイダンスを上回る</div></div>
 <div class="kpi-card"><div class="label">AI年換算売上高</div><div class="value">370億ドル超</div><div class="change up">▲123% YoY</div></div>
 <div class="kpi-card"><div class="label">営業利益率</div><div class="value">46.3%</div><div class="change up">前年45.7%</div></div>
 <div class="kpi-card"><div class="label">希薄化後EPS</div><div class="value">US$4.27</div><div class="change up">▲23% YoY</div></div>
@@ -23,7 +23,7 @@ draft: false
 <div class="kpi-card"><div class="label">フリーキャッシュフロー</div><div class="value">158億ドル</div><div class="change dn">▼22% YoY</div></div>
 </div>
 
-> 📌 **基準について**：本記事は2026/11にv3.0形式で刷新した過去記事で、数値はMicrosoftが2026/4/29に提出したSEC Form 8-Kプレスリリース（米国GAAP、単位百万ドル、前年同期は会社による組み替え後の数値）で項目ごとに再確認し、旧版の前年同期売上高とEPS、前四半期売上高、粗利益率、フリーキャッシュフロー伸び率などの誤りを訂正し、未検証の市場コンセンサスの数値を削除した。決算説明会の発言はMicrosoft投資家向けサイトの書き起こしから引用し、日本語は本記事による翻訳。株価はYahoo Financeによる。
+> 📌 **数値の前提**：本稿は2026/11にv3.0形式で刷新した過去記事で、数値はマイクロソフトが2026/4/29にSECへ提出したForm 8-Kのプレスリリース（米国GAAP、単位は百万ドル、前年同期は会社による組替後）で一項目ずつ再確認し、旧版の前年同期の売上高とEPS、前四半期の売上高、粗利益率、フリーキャッシュフローの伸び率などの誤りを訂正し、未検証の第三者予想の数値を削除した。決算説明会の引用はマイクロソフトのIRサイトの書き起こしによるもので、日本語訳は本稿による。株価はYahoo Financeによる。
 
 ## 1. 📈 主要数値の概要
 
@@ -32,7 +32,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>指標</th><th>Q3 FY26</th><th>Q3 FY25</th><th>YoY</th><th>コメント</th></tr></thead>
 <tbody>
-<tr><td><b>売上高</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 予想を上回る</td></tr>
+<tr><td><b>売上高</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 前年同期比18.3%増</td></tr>
 <tr><td><b>プロダクティビティ＆ビジネスプロセス</b></td><td><b>35,013</b></td><td>29,944</td><td class="good">+16.9%</td><td>営業利益率60%</td></tr>
 <tr><td><b>インテリジェントクラウド</b></td><td><b>34,681</b></td><td>26,751</td><td class="good">+29.6%</td><td class="good">🟢 Azure +40%</td></tr>
 <tr><td><b>パーソナルコンピューティング</b></td><td><b>13,192</b></td><td>13,371</td><td class="warn">-1.3%</td><td class="warn">🟡 ゲーム -7%</td></tr>
@@ -44,7 +44,7 @@ draft: false
 <tr><td><b>希薄化後EPS（OpenAIを除く）</b></td><td><b>$4.27</b></td><td>$3.54</td><td class="good">+20.6%</td><td class="good">🟢 為替一定 +18%</td></tr>
 </tbody></table></div>
 
-> 📌 **その他のポイント**：Microsoft Cloudの売上高は545億（+29%）、クラウド粗利益率は66%でやや予想を上回った。当四半期の売上高は前四半期比2.0%増（Q2は812.7億）。OpenAIを除く営業外損益は9.61億で、主に投資利益。為替の寄与は約3ポイントで、為替一定ベースの売上高は前年比15%増。
+> 📌 **その他のポイント**：Microsoft Cloudの売上高は545億ドル（+29%）、クラウドの粗利益率は66%で会社予想をやや上回った。今四半期の売上高は前期比2.0%増（Q2は812.7億ドル）。OpenAIを除く営業外収支は9.61億ドルで、主に投資利益。為替の寄与は約3ポイントで、為替一定ベースの売上高は前年同期比15%増。
 
 ---
 
@@ -72,7 +72,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察1：AI年換算売上高は370億突破、Azureは前年比40%増</h3>
-<p>CEOのSatya Nadellaはプレスリリースで<b>「当社のAI事業の年換算売上高は370億ドルを突破し、前年比123%増となった」</b>と述べた。Azureの売上高は前年比40%増（為替一定で39%）で、CFOのAmy Hoodは予想を上回った理由を<b>「当四半期の早い段階で容量を提供できた」</b>ためと説明し、AIと非AIサービスの利用がともに増えた。彼女はまた、ワークロード、顧客層、地域を問わず需要が利用可能な容量を上回っていると指摘した。</p>
+<p>CEOのサティア・ナデラ氏はプレスリリースで<b>「当社のAI事業の年換算売上高は370億ドルを突破し、前年同期比123%増となった」</b>と述べた。Azureの売上高は前年同期比40%増（為替一定で39%）で、CFOのエイミー・フッド氏は会社予想を上回ったとし、その理由として<b>「今四半期は生産能力を早めに引き渡した」</b>ことでAIと非AIのサービスの利用がともに増えたと説明した。同氏はまた、あらゆるワークロード、顧客層、地域で需要が利用可能な生産能力を上回っていると指摘した。</p>
 </div>
 
 <div class="sb">

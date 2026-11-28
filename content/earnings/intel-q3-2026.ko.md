@@ -91,7 +91,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 인사이트 2: 이스라엘 Fab 28 가스 폭발로 2주 가동 중단의 진상 — Q4와 Q1'27 매출 각 3억 달러 타격, 매출총이익률 200bps 압박</h3>
-<p>Q4 가이던스가 시장 예상보다 낮은 이유에 대해, 진스너는 10월 초 이스라엘 키르야트 가트의 <b>Fab 28 공장에서 인명 피해를 낸 가스 폭발 사고가 나 공장 전체가 약 2주간 멈추고 대량의 공정 중 웨이퍼가 폐기됐다</b>고 처음 밝혔다. 현행 서버 프로세서의 I/O 다이와 4/5세대 Xeon이 Fab 28의 10nm(Intel 7) 라인에 크게 의존하고 있어, 이 사고로 <b>2026년 Q4와 2027년 Q1 서버 매출이 각각 약 3억 달러 줄고 Q4 매출총이익률이 200bps 압박받는다</b>. 메모리 부족으로 Q4 PC 매출이 전분기 대비 20% 넘게 줄 것으로 예상되는 점까지 겹쳐 Q4 가이던스 하락의 주된 원인이 됐다.</p>
+<p>Q4 가이던스가 전분기 대비 감소하는 이유로, 진스너는 10월 초 이스라엘 키리야트가트의 <b>Fab 28 공장에서 치명적인 가스 폭발 사고가 나 공장 전체가 약 2주간 멈추고 대량의 재공 웨이퍼가 폐기됐다</b>고 처음 공개했다. 현행 서버 프로세서의 I/O 다이와 4/5세대 Xeon은 Fab 28의 10nm(Intel 7) 라인에 크게 의존해, 이 사고는 직접 <b>Q4 2026과 Q1 2027 서버 매출을 각각 약 US$3억 달러 줄이고 Q4 매출총이익률을 200 bps 낮춘다</b>. 메모리 부족으로 Q4 PC 매출이 전분기 대비 20% 넘게 줄 것으로 예상되는 점과 겹쳐 Q4 가이던스 하락의 주된 원인이 됐다.</p>
 </div>
 
 <div class="sb">
@@ -175,7 +175,6 @@ draft: false
 <tr><td><b>시가총액 / 기업가치 (EV)</b></td><td><b>약 US$310B / 약 $306B</b></td><td>~$489B / ~$485B</td><td class="warn">🟡 세계 47위 상장사(희석 주식 수 5,307M, 순현금 $3.9B)</td></tr>
 <tr><td><b>Non-GAAP TTM EPS / PE</b></td><td><b>US$1.36 / 42.8배</b></td><td>US$1.36 / 67.7배</td><td class="warn">🟡 GAAP TTM EPS -$2.41(Q2 에스크로 주식 평가손실 영향)</td></tr>
 <tr><td><b>FY2026E 예상 EPS / PER</b></td><td><b>US$1.48 / 39.4배</b></td><td>US$1.48 / 62.2배</td><td class="warn">🟡 9M26 누적 Non-GAAP EPS $1.23 + Q4 공식 가이던스 $0.25</td></tr>
-<tr><td><b>FY2027E Forward PE</b></td><td><b>~26.5x – 29.0x</b></td><td>~42.0x – 46.0x</td><td class="good">🟢 컨센서스는 2027H2 서버 확대로 EPS $2.00–$2.20 도전 예상</td></tr>
 <tr><td><b>EV / EBITDA(Q3 연환산)</b></td><td><b>~12.2x</b></td><td>~19.3x</td><td class="good">🟢 Q3 Non-GAAP 영업이익($3.23B) + D&A($3.04B) 연환산 약 $25.1B</td></tr>
 <tr><td><b>P/B Ratio(주가순자산비율)</b></td><td><b>2.69배</b>(BPS $21.65)</td><td>4.25x</td><td class="good">🟢 자본집약형 IDM의 합리적 범위로 회귀, 높은 감가상각이 강한 영업 레버리지</td></tr>
 </tbody></table></div>
@@ -183,9 +182,9 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>회사명 (티커)</th><th>시가총액 (US$)</th><th>글로벌 시가총액 순위</th><th>최신 매출총이익률 (Non-GAAP)</th><th>최신 영업이익률</th><th>최신 매출 YoY</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
 <tbody>
-<tr><td><b>인텔 (INTC)</b></td><td><b>~$310B</b></td><td><b>세계 47위</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E) / ~27.5x (27E)</b></td></tr>
+<tr><td><b>인텔 (INTC)</b></td><td><b>~$310B</b></td><td><b>세계 47위</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E)</b></td></tr>
 <tr><td><b>엔비디아 (NVDA)</b></td><td>~$4.83T</td><td>세계 2위</td><td>~75.0%</td><td>~63.0%</td><td class="good">+70% ~ +80%</td><td>~42.0x</td><td>~30.0x</td></tr>
-<tr><td><b>TSMC (TSM)</b></td><td>~$2.05T</td><td>세계 6위</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E) / ~18.0x (27E)</td></tr>
+<tr><td><b>TSMC (TSM)</b></td><td>~$2.05T</td><td>세계 6위</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E)</td></tr>
 <tr><td><b>브로드컴 (AVGO)</b></td><td>~$1.55T</td><td>세계 9위</td><td>~76.0%</td><td>~61.0%</td><td class="good">+40% ~ +45%</td><td>~45.0x</td><td>~28.0x</td></tr>
 <tr><td><b>AMD (AMD)</b></td><td>~$800B</td><td>세계 18위</td><td>55.9%</td><td>29.3%</td><td class="good">+44.7%</td><td>~61.0x</td><td>~49.0x</td></tr>
 </tbody></table></div>
@@ -200,7 +199,7 @@ draft: false
 <li><b>18A 원가 40% 하락, 두 제품 출하, 파운드리 외부 매출 4.11억 달러</b>: Clearwater Forest와 Panther Lake가 공식 출하됐고 파운드리 손실은 -$18.53억 달러로 줄었으며, 립부 탄은 향후 두 분기 안에 새 외부 파운드리·EMIB-T 고객을 발표하겠다고 예고했다.</li>
 <li><b>에스크로 주식 평가의 안개를 걷어내면, 8월 $95 증자 230억 달러로 540억 달러 현금 방파제 구축</b>: Q3 GAAP EPS($0.60)가 Non-GAAP($0.52)보다 높은 것은 주로 상무부 에스크로 주식 +10.05억 달러 평가이익 때문이며, 고점 증자로 +38.7억 달러 순현금으로 돌아섰다.</li>
 <li><b>Fab 28 가스 폭발과 PC 메모리 부족이 Q4 가이던스 압박</b>: 이스라엘 Fab 28의 2주 가동 중단으로 Q4와 Q1'27 매출이 각 3억 달러 줄고 Q4 매출총이익률은 200bps 압박받으며, PC 전분기 대비 20% 이상 감소까지 겹쳐 Q4 매출 가이던스는 $15–16B, 매출총이익률은 38%로 낮아졌다.</li>
-<li><b>2027년은 '상반기 제약·하반기 확대, 플러스 FCF 없음', 밸류에이션은 현실적 검증 구간으로</b>: 2027H2 기판 생산능력 40% 증설로 서버 모멘텀이 살아나지만, 18A/14A 투자 확대로 연간 플러스 FCF는 없다. 주가가 $58.27(EV/EBITDA 12.2배, P/B 2.69배)로 떨어져 과열된 기대는 이미 소화됐다.</li>
+<li><b>2027년 '상반기 빠듯, 하반기 완화, 플러스 FCF 없음'으로 정리, 밸류에이션은 현실적 검증 구간으로 조정</b>: 2027H2 기판 생산능력 40% 확대로 서버 모멘텀이 풀리겠지만 18A/14A 투자 확대로 연간 플러스 FCF는 없다. 주가는 $58.27(EV/EBITDA 12.2x, P/B 2.69x)로 내려와 과열된 밸류에이션을 소화했다.</li>
 </ul>
 </div>
 

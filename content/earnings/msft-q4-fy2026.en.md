@@ -43,7 +43,7 @@ draft: false
 <tr><td><b>Diluted EPS (ex-OpenAI)</b></td><td><b>$4.74</b></td><td>$3.86</td><td class="good">+22.8%</td><td class="warn">🟡 One-time +0.27</td></tr>
 </tbody></table></div>
 
-> 📌 **Full year and other notes**: FY26 revenue was $331.8B (+18%), operating income $155.2B (+21%) and GAAP EPS $17.95 (+32%). Q4 Microsoft Cloud revenue was $59.3B (+27%), with a 65% cloud gross margin, better than expected. Operating expenses were $19.9B, up 10% YoY; the effective tax rate was 18.8%. Revenue rose 8.6% QoQ (Q3 was $82.9B).
+> 📌 **Full year and other highlights**: FY26 revenue was $331.8B (+18%), operating income $155.2B (+21%) and GAAP EPS $17.95 (+32%). Q4 Microsoft Cloud revenue was $59.3B (+27%), with a 65% cloud gross margin above the company's estimate. Operating expenses were $19.9B, up 10% YoY; the effective tax rate was 18.8%. Revenue rose 8.6% QoQ (Q3: $82.9B).
 
 ---
 
@@ -71,7 +71,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Azure's 43% beats guidance; new capacity sells out within the quarter</h3>
-<p>Azure grew 43% YoY, above the 39–40% guidance given last quarter, and full-year revenue topped $100B for the first time, up 41%. CFO Amy Hood said: <b>"Customer demand continues to exceed available capacity."</b> With CPU and GPU efficiency gains and new capacity delivered early, <b>"That additional in-quarter capacity for Azure was quickly monetized."</b> After GitHub Copilot moved to usage-based billing in June, usage also beat expectations. Q1 FY27 Azure guidance is about 45% (constant currency), with acceleration expected to continue through the first half of the fiscal year.</p>
+<p>Azure grew 43% YoY, above the 39–40% guidance given last quarter, and full-year revenue topped $100B for the first time, up 41%. CFO Amy Hood said: <b>"Customer demand continues to exceed available capacity."</b> With CPU and GPU efficiency gains and new capacity delivered early, <b>"That additional in-quarter capacity for Azure was quickly monetized."</b> After GitHub Copilot moved to usage-based billing in June, usage also came in above the company's estimate. Q1 FY27 Azure guidance is about 45% (constant currency), with acceleration expected to continue through the first half of the fiscal year.</p>
 </div>
 
 <div class="sb">
@@ -185,13 +185,13 @@ draft: false
 
 ## 6. 📋 Key Takeaways
 
-- **Azure beat**: Up 43% YoY, above the 39–40% guidance, topping $100B for the year, with Q1 guided to about 45%.
+- **Azure above guidance**: Up 43% YoY versus 39–40% guidance, topping $100B for the full year, with Q1 guidance of about 45%.
 - **Earnings include one-offs**: Revenue of $90B (+18%), a 45.1% operating margin, and EPS of $4.74 including about $0.27 of one-time gains.
 - **Capex definition change**: Useful lives extended to 25 years; the calendar-year estimate is now about $175B, with Q1 still over $50B.
 - **High order visibility**: RPO of $678B (+84%), still up 25% YoY excluding OpenAI.
 - **Copilot scaling**: Paid seats exceed 30M, with pricing expanding from per-seat to seats plus usage.
 
-> 💡 **Bottom line**: Microsoft closed FY26 with better-than-expected Azure and more than 30M Copilot seats, but free cash flow has kept declining; after the capex definition change, watch lease commitments, not just the capex figure.
+> 💡 **Bottom line**: Microsoft closed FY26 with Azure above guidance and more than 30 million Copilot seats, but free cash flow has declined for consecutive quarters; with the capex definition changed, watch lease commitments, not just the capex figure.
 
 <div class="disc">
 <b>Disclaimer</b>: This report is an objective compilation of financial data and industry strategy analysis. It is not a recommendation to buy, sell or hold any security and does not provide price targets. Investors should make their own judgments and bear their own investment risk.<br><br>

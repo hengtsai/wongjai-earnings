@@ -90,7 +90,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 5: Agentic AI Drives Demand, Supply Locked In Early</h3>
-<p>Jensen Huang said: <b>"The buildout of AI factories — the largest infrastructure expansion in human history — is accelerating at extraordinary speed,"</b> and <b>"Agentic AI has arrived, doing productive work, generating real value and scaling rapidly across companies and industries."</b> Inventory rose 21% QoQ to $25.8B and supply commitments increased by $23.8B; the company said: <b>"We have strategically secured inventory and capacity to meet demand beyond the next several quarters."</b> In the same quarter it unveiled the Vera Rubin platform and the Vera CPU designed for agentic AI.</p>
+<p>Jensen Huang said: <b>"The buildout of AI factories — the largest infrastructure expansion in human history — is accelerating at extraordinary speed," and "Agentic AI has arrived, doing productive work, generating real value and scaling rapidly across companies and industries."</b> Inventory rose 21% QoQ to $25.8B and supply commitments increased by $23.8B; the company said: <b>"We have strategically secured inventory and capacity to meet demand beyond the next several quarters."</b> In the same quarter it unveiled the Vera Rubin platform and the Vera CPU designed for agentic AI.</p>
 </div>
 
 ---

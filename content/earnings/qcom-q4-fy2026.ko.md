@@ -15,7 +15,7 @@ draft: false
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 매출</div><div class="value">104.4억 달러</div><div class="change up">가이던스 상단 도달｜▼ 7% YoY</div></div>
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 매출총이익률</div><div class="value">52.4%</div><div class="change down">▼ 1.8pp QoQ｜원가 상승 영향</div></div>
-<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">컨센서스 $2.12 상회｜FY26 $10.54</div></div>
+<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">FY26 $10.54</div></div>
 <div class="kpi-card"><div class="label">Q4 차량용 칩 매출</div><div class="value">19.9억 달러</div><div class="change up">▲ 89% YoY｜사상 최대</div></div>
 <div class="kpi-card"><div class="label">Q4 IoT 칩 매출</div><div class="value">18.9억 달러</div><div class="change up">▲ 4% YoY｜PC·산업 견조</div></div>
 <div class="kpi-card"><div class="label">Q4 QTL 라이선스 매출</div><div class="value">13.0억 달러</div><div class="change up">EBT 이익률 70%｜대형 고객 재계약</div></div>
@@ -36,8 +36,8 @@ draft: false
 <tr><td><b>GAAP 연결 총매출</b></td><td><b>10,322</b></td><td>10,240</td><td class="good">+0.8%</td><td>11,270</td><td class="bad">-8.4%</td><td class="good">🟢 일부 해지 계약의 이연 조정 포함</td></tr>
 <tr><td><b>Non-GAAP 매출총이익률</b></td><td><b>52.4%</b></td><td>54.2%</td><td class="warn">-1.8pp</td><td>55.6%</td><td class="bad">-3.2pp</td><td class="warn">🟡 웨이퍼·패키징 원가 상승이 이익률 압박</td></tr>
 <tr><td><b>Non-GAAP 연구개발비 (R&D)</b></td><td><b>2,246</b></td><td>2,210</td><td class="warn">+1.6%</td><td>2,187</td><td class="warn">+2.7%</td><td class="good">🟢 연구개발비율 21.5%, 서버 AI에 집중 투자</td></tr>
-<tr><td><b>Non-GAAP 영업이익률</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 가이던스 부합, 선행 투자 확대</td></tr>
-<tr><td><b>Non-GAAP 세후 순이익</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="good">🟢 월가 컨센서스 $2,360M 상회</td></tr>
+<tr><td><b>Non-GAAP 영업이익률</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 선투자 확대</td></tr>
+<tr><td><b>Non-GAAP 세후 순이익</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="warn">🟡 전년 대비 28.5% 감소</td></tr>
 <tr><td><b>Non-GAAP 희석 EPS</b></td><td><b>$2.17</b></td><td>$2.26</td><td class="warn">-4.0%</td><td>$3.00</td><td class="bad">-27.7%</td><td class="good">🟢 가이던스 중간값($2.05-$2.25) 상회</td></tr>
 <tr><td><b>FY26 연간 Non-GAAP 매출/EPS</b></td><td><b>43,240 ($10.54)</b></td><td>—</td><td>—</td><td>38,962 ($10.22)</td><td class="good"><b>+11.0%</b></td><td class="good">🟢 연간 EPS $10.54, 역대 두 번째</td></tr>
 </tbody></table></div>
@@ -117,12 +117,12 @@ draft: false
 ### Q1 FY2027 가이던스(회사 발표)
 
 <div class="sw"><table>
-<thead><tr><th>가이던스 항목</th><th>Q1 FY27 가이던스 범위</th><th>중간값</th><th>YoY 성장 예상</th><th>시장 컨센서스와 달성 가능성</th></tr></thead>
+<thead><tr><th>가이던스 항목</th><th>Q1 FY27 가이던스 범위</th><th>중간값</th><th>YoY 성장 예상</th><th>달성 가능성</th></tr></thead>
 <tbody>
-<tr><td><b>총매출 (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 바이사이드 예상 상회, 데이터센터 신사업 기여</td></tr>
+<tr><td><b>총매출 (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 데이터센터 신사업 기여</td></tr>
 <tr><td><b>QCT 칩 매출 (US$M)</b></td><td>9,000 – 9,600</td><td><b>9,300</b></td><td>+4.2%</td><td class="good">🟢 자동차·데이터센터 확대로 휴대폰 공백 메움</td></tr>
 <tr><td><b>QTL 라이선스 매출 (US$M)</b></td><td>1,300 – 1,500</td><td><b>1,400</b></td><td>+1.8%</td><td class="good">🟢 대형 고객 모두 재계약, 운영 매우 안정</td></tr>
-<tr><td><b>Non-GAAP 희석 EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 컨센서스 $2.20, 선행 연구개발이 이익 압박</td></tr>
+<tr><td><b>Non-GAAP 희석 EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 선행 연구개발이 이익 압박</td></tr>
 <tr><td><b>데이터센터 첫 분기 출하</b></td><td><b>> 650M</b></td><td>700M</td><td>신규 항목</td><td class="good">🟢 연간 목표 $5.0B, 클라우드 대기업 검증 순조</td></tr>
 <tr><td><b>Non-GAAP 유효세율</b></td><td>14.0% – 15.0%</td><td>14.5%</td><td>—</td><td class="good">🟢 회사 장기 가이던스의 정상 범위 내</td></tr>
 </tbody></table></div>
@@ -133,19 +133,19 @@ draft: false
 
 <h3 class="risk-red">🔴 고위험 (High Risk)</h3>
 <div class="sb rh"><ul>
-<li><b>애플 모뎀 교체 속도 예상 초과</b>: iPhone 18이 자체 5G 모뎀을 전면 채택하면 퀄컴 휴대폰 칩 매출이 추가로 15%–20% 줄어들 수 있다.</li>
+<li><b>애플 모뎀 교체 가속</b>: iPhone 18에서 자체 5G 모뎀 채택이 전면 가속하면 퀄컴 휴대폰 칩 매출이 15%–20% 더 줄어든다.</li>
 <li><b>데이터센터 맞춤형 칩 확대 지연</b>: 하이퍼스케일러의 설비투자 방향 전환이나 검증 일정 지연은 FY27 매출 목표 50억 달러 달성에 타격을 줄 수 있다.</li>
 </ul></div>
 
 <h3 class="risk-gold">🟡 중위험 (Medium Risk)</h3>
 <div class="sb rm"><ul>
 <li><b>첨단 공정 원가 전가 지연</b>: TSMC 등 파운드리의 가격 인상을 휴대폰 업체에 완전히 전가하지 못하면 FY27 상반기 QCT 영업이익률이 압박받는다.</li>
-<li><b>글로벌 스마트폰 시장 부진 지속</b>: 중저가 안드로이드 판매 회복이 기대에 못 미치면 IoT·통신 칩 재고 조정 속도가 늦어진다.</li>
+<li><b>글로벌 스마트폰 시장 지속 부진</b>: 중저가 Android 기종 판매 회복이 더뎌 IoT와 통신 칩 재고 조정 속도를 늦춘다.</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 저위험／잠재 기회 (Low Risk / Opportunity)</h3>
 <div class="sb rl"><ul>
-<li><b>엣지 AI PC·자동차 침투율 예상 초과</b>: Copilot+ PC 보급으로 Snapdragon X Elite 시리즈가 확대되면 비휴대폰 사업 매출 성장이 빨라진다.</li>
+<li><b>엣지 AI PC·차량 보급 가속</b>: Copilot+ PC 보급으로 Snapdragon X Elite 시리즈 출하가 늘어 비휴대폰 사업 매출 성장을 가속한다.</li>
 <li><b>6G 특허 준비와 IoT 폭발</b>: 차세대 표준이 확립되면 퀄컴의 특허 영향력이 더 넓어져 라이선스 수입의 하방 지지력은 문제없다.</li>
 </ul></div>
 
@@ -161,7 +161,7 @@ draft: false
 <tr><td><b>최신 주가 (US$)</b></td><td><b>$154.58</b></td><td>$142.00</td><td>+8.8%</td><td class="good">🟢 52주 범위 $121.99 - $259.92</td></tr>
 <tr><td><b>시가총액 (Market Cap)</b></td><td><b>1,660억 달러</b></td><td>1,550억 달러</td><td>+7.1%</td><td class="good">🟢 글로벌 반도체 시가총액 상위 10위</td></tr>
 <tr><td><b>TTM Non-GAAP PE</b></td><td><b>14.6x</b></td><td>16.5x</td><td class="good">-11.5%</td><td class="good">🟢 기술주·동종업체 대비 가성비 매우 높음</td></tr>
-<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 데이터센터 확대 기대 아직 충분히 미반영</td></tr>
+<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 데이터센터 확대가 아직 주가에 충분히 반영되지 않음</td></tr>
 <tr><td><b>EV / EBITDA</b></td><td><b>12.5x</b></td><td>13.8x</td><td class="good">-9.4%</td><td class="good">🟢 영업현금흐름 강력, 기업가치 매력적</td></tr>
 <tr><td><b>배당수익률 (Dividend Yield)</b></td><td><b>2.20%</b></td><td>2.10%</td><td class="good">+10bps</td><td class="good">🟢 연간 배당 3.40달러, 21년 연속 인상</td></tr>
 <tr><td><b>FCF 수익률 (FCF Yield)</b></td><td><b>5.21%</b></td><td>4.80%</td><td class="good">+41bps</td><td class="good">🟢 현금 창출 기계, 방어력 탁월</td></tr>

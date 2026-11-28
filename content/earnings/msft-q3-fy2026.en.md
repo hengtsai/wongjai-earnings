@@ -14,7 +14,7 @@ draft: false
 
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q3 Revenue</div><div class="value">$82.9B</div><div class="change up">▲18% YoY</div></div>
-<div class="kpi-card"><div class="label">Azure Growth</div><div class="value">+40%</div><div class="change up">Beat expectations</div></div>
+<div class="kpi-card"><div class="label">Azure Growth</div><div class="value">+40%</div><div class="change up">Above 37–38% guidance</div></div>
 <div class="kpi-card"><div class="label">AI annual run rate</div><div class="value">Over $37B</div><div class="change up">▲123% YoY</div></div>
 <div class="kpi-card"><div class="label">Operating Margin</div><div class="value">46.3%</div><div class="change up">45.7% a year ago</div></div>
 <div class="kpi-card"><div class="label">Diluted EPS</div><div class="value">$4.27</div><div class="change up">▲23% YoY</div></div>
@@ -23,7 +23,7 @@ draft: false
 <div class="kpi-card"><div class="label">Free Cash Flow</div><div class="value">$15.8B</div><div class="change dn">▼22% YoY</div></div>
 </div>
 
-> 📌 **Basis**: This is an older article refreshed in 2026/11 to the v3.0 format. Figures were rechecked line by line against Microsoft's SEC Form 8-K press release filed 2026/4/29 (U.S. GAAP, in $ millions, prior-year figures as recast by the company), correcting earlier errors in prior-year revenue and EPS, prior-quarter revenue, gross margin and free cash flow growth, and removing unverified consensus figures. Earnings call remarks are from the transcript on Microsoft's investor relations website and are paraphrased here. Share prices are from Yahoo Finance.
+> 📌 **Basis of figures**: This older article was refreshed in 2026/11 in the v3.0 format. Figures were re-verified line by line against Microsoft's Form 8-K press release filed with the SEC on 2026/4/29 (U.S. GAAP, in US$ millions; prior-year figures as recast by the company), correcting the old version's errors in prior-year revenue and EPS, prior-quarter revenue, gross margin and free cash flow growth, and removing unverified third-party estimates. Earnings call quotes come from the transcript on Microsoft's investor relations website. Share prices are from Yahoo Finance.
 
 ## 1. 📈 Key Figures at a Glance
 
@@ -32,7 +32,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>Metric</th><th>Q3 FY26</th><th>Q3 FY25</th><th>YoY</th><th>Comment</th></tr></thead>
 <tbody>
-<tr><td><b>Revenue</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 Beat expectations</td></tr>
+<tr><td><b>Revenue</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 +18.3% YoY</td></tr>
 <tr><td><b>Productivity and Business Processes</b></td><td><b>35,013</b></td><td>29,944</td><td class="good">+16.9%</td><td>Operating margin 60%</td></tr>
 <tr><td><b>Intelligent Cloud</b></td><td><b>34,681</b></td><td>26,751</td><td class="good">+29.6%</td><td class="good">🟢 Azure +40%</td></tr>
 <tr><td><b>More Personal Computing</b></td><td><b>13,192</b></td><td>13,371</td><td class="warn">-1.3%</td><td class="warn">🟡 Gaming -7%</td></tr>
@@ -44,7 +44,7 @@ draft: false
 <tr><td><b>Diluted EPS (ex-OpenAI)</b></td><td><b>$4.27</b></td><td>$3.54</td><td class="good">+20.6%</td><td class="good">🟢 Constant currency +18%</td></tr>
 </tbody></table></div>
 
-> 📌 **Other highlights**: Microsoft Cloud revenue was $54.5B (+29%), with cloud gross margin at 66%, slightly better than expected. Revenue rose 2.0% QoQ (Q2 was $81.27B). Other income excluding OpenAI was $961M, mainly investment gains. Currency contributed about 3 percentage points; constant-currency revenue grew 15% YoY.
+> 📌 **Other highlights**: Microsoft Cloud revenue was $54.5B (+29%), with a 66% cloud gross margin slightly above the company's estimate. Revenue rose 2.0% QoQ (Q2: $81.27B). Other income excluding OpenAI was $961M, mainly investment gains. FX contributed about 3 percentage points; constant-currency revenue grew 15% YoY.
 
 ---
 
@@ -72,7 +72,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: AI run rate tops $37B, Azure up 40% YoY</h3>
-<p>In the press release, CEO Satya Nadella said <b>the AI business passed a $37B annual revenue run rate, up 123% YoY</b>. Azure revenue grew 40% YoY (39% in constant currency); CFO Amy Hood said this beat expectations because <b>capacity was delivered earlier in the quarter</b>, lifting usage of both AI and non-AI services. She also noted that demand across workloads, customer segments and regions still exceeds available capacity.</p>
+<p>CEO Satya Nadella said in the press release that <b>the AI business has passed a $37B annual revenue run rate, up 123% YoY</b>. Azure revenue grew 40% (39% in constant currency); CFO Amy Hood said this was above the company's estimate because <b>capacity was delivered earlier in the quarter</b>, lifting usage of both AI and non-AI services. She also noted that demand across workloads, customer segments and regions still exceeds available capacity.</p>
 </div>
 
 <div class="sb">

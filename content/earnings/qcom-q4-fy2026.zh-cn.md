@@ -15,7 +15,7 @@ draft: false
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 营收</div><div class="value">US$104.4亿</div><div class="change up">达到指引高端｜▼ 7% YoY</div></div>
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 毛利率</div><div class="value">52.4%</div><div class="change down">▼ 1.8pp QoQ｜受成本推高</div></div>
-<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">超过一致预期 $2.12｜FY26 $10.54</div></div>
+<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">FY26 $10.54</div></div>
 <div class="kpi-card"><div class="label">Q4 汽车芯片营收</div><div class="value">US$19.9亿</div><div class="change up">▲ 89% YoY｜历史新高</div></div>
 <div class="kpi-card"><div class="label">Q4 IoT 芯片营收</div><div class="value">US$18.9亿</div><div class="change up">▲ 4% YoY｜PC与工业稳健</div></div>
 <div class="kpi-card"><div class="label">Q4 QTL 授权营收</div><div class="value">US$13.0亿</div><div class="change up">EBT利润率 70%｜大客户续约</div></div>
@@ -36,8 +36,8 @@ draft: false
 <tr><td><b>GAAP 合并总营收</b></td><td><b>10,322</b></td><td>10,240</td><td class="good">+0.8%</td><td>11,270</td><td class="bad">-8.4%</td><td class="good">🟢 包含部分终止合同的递延调整</td></tr>
 <tr><td><b>Non-GAAP 毛利率</b></td><td><b>52.4%</b></td><td>54.2%</td><td class="warn">-1.8pp</td><td>55.6%</td><td class="bad">-3.2pp</td><td class="warn">🟡 晶圆与封装成本上涨压低利润率</td></tr>
 <tr><td><b>Non-GAAP 研发费用 (R&D)</b></td><td><b>2,246</b></td><td>2,210</td><td class="warn">+1.6%</td><td>2,187</td><td class="warn">+2.7%</td><td class="good">🟢 研发费用率 21.5%，重注服务器 AI</td></tr>
-<tr><td><b>Non-GAAP 营业利润率</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 符合指引预期，加大前期投入</td></tr>
-<tr><td><b>Non-GAAP 税后净利润</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="good">🟢 超过华尔街一致预期 $2,360M</td></tr>
+<tr><td><b>Non-GAAP 营业利润率</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 加大前期投入</td></tr>
+<tr><td><b>Non-GAAP 税后净利润</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="warn">🟡 同比降 28.5%</td></tr>
 <tr><td><b>Non-GAAP 稀释 EPS</b></td><td><b>$2.17</b></td><td>$2.26</td><td class="warn">-4.0%</td><td>$3.00</td><td class="bad">-27.7%</td><td class="good">🟢 超过指引中值（$2.05-$2.25）</td></tr>
 <tr><td><b>FY26 全年 Non-GAAP 营收/EPS</b></td><td><b>43,240 ($10.54)</b></td><td>—</td><td>—</td><td>38,962 ($10.22)</td><td class="good"><b>+11.0%</b></td><td class="good">🟢 全年 EPS $10.54 创历史次高</td></tr>
 </tbody></table></div>
@@ -117,12 +117,12 @@ draft: false
 ### Q1 FY2027 指引（官方公布）
 
 <div class="sw"><table>
-<thead><tr><th>指引指标</th><th>Q1 FY27 指引区间</th><th>中值</th><th>YoY 增长预估</th><th>市场一致预期与达成可行性</th></tr></thead>
+<thead><tr><th>指引指标</th><th>Q1 FY27 指引区间</th><th>中值</th><th>YoY 增长预估</th><th>达成可行性</th></tr></thead>
 <tbody>
-<tr><td><b>总营收 (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 高于买方预期，数据中心新业务贡献</td></tr>
+<tr><td><b>总营收 (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 数据中心新业务贡献</td></tr>
 <tr><td><b>QCT 芯片营收 (US$M)</b></td><td>9,000 – 9,600</td><td><b>9,300</b></td><td>+4.2%</td><td class="good">🟢 汽车与数据中心加速放量弥补手机</td></tr>
 <tr><td><b>QTL 授权营收 (US$M)</b></td><td>1,300 – 1,500</td><td><b>1,400</b></td><td>+1.8%</td><td class="good">🟢 大客户全部续约，运营极为平稳</td></tr>
-<tr><td><b>Non-GAAP 稀释 EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 一致预期为 $2.20，前期研发压低利润</td></tr>
+<tr><td><b>Non-GAAP 稀释 EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 前期研发压低利润</td></tr>
 <tr><td><b>Data Center 首季出货</b></td><td><b>> 650M</b></td><td>700M</td><td>全新项目</td><td class="good">🟢 全年目标 $5.0B，云巨头验证顺利</td></tr>
 <tr><td><b>Non-GAAP 有效税率</b></td><td>14.0% – 15.0%</td><td>14.5%</td><td>—</td><td class="good">🟢 处于公司长期指引的合理常态区间</td></tr>
 </tbody></table></div>
@@ -133,19 +133,19 @@ draft: false
 
 <h3 class="risk-red">🔴 高风险（High Risk）</h3>
 <div class="sb rh"><ul>
-<li><b>苹果基带替换进度超预期</b>：若 iPhone 18 全面加速采用自研 5G 调制解调器，将导致高通手机芯片营收再缩减 15%–20%。</li>
+<li><b>苹果基带替换进度加快</b>：若 iPhone 18 全面加速扩大采用自研 5G 调制解调器，将使高通手机芯片营收进一步缩减 15%–20%。</li>
 <li><b>数据中心定制芯片放量延后</b>：Hyperscaler 资本开支转向或验证时间表推迟，可能冲击 FY27 50 亿美元营收目标的实现。</li>
 </ul></div>
 
 <h3 class="risk-gold">🟡 中风险（Medium Risk）</h3>
 <div class="sb rm"><ul>
 <li><b>先进制程成本转嫁滞后</b>：台积电等代工厂涨价若无法完全传导给手机厂商，将压缩 FY27 上半年 QCT 营业利润率。</li>
-<li><b>全球智能手机市场持续疲软</b>：中低端安卓机型销售复苏不如预期，压抑 IoT 与通信芯片去库存节奏。</li>
+<li><b>全球智能手机市场持续疲软</b>：中低端 Android 机型销售复苏缓慢，压抑 IoT 与通信芯片去库存节奏。</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 低风险／潜在机会（Low Risk / Opportunity）</h3>
 <div class="sb rl"><ul>
-<li><b>边缘 AI PC 与汽车渗透率超预期</b>：Copilot+ PC 普及带动 Snapdragon X Elite 系列放量，加速非手机业务营收增长。</li>
+<li><b>边缘 AI PC 与汽车渗透加速</b>：Copilot+ PC 普及带动 Snapdragon X Elite 系列放量，加速非手机业务营收增长。</li>
 <li><b>6G 专利布局与物联网爆发</b>：下一代标准确立使高通专利话语权延伸，授权收入下行支撑力度无虞。</li>
 </ul></div>
 
@@ -161,7 +161,7 @@ draft: false
 <tr><td><b>最新股价 (US$)</b></td><td><b>$154.58</b></td><td>$142.00</td><td>+8.8%</td><td class="good">🟢 52 周区间 $121.99 - $259.92</td></tr>
 <tr><td><b>总市值 (Market Cap)</b></td><td><b>US$1,660 亿</b></td><td>US$1,550 亿</td><td>+7.1%</td><td class="good">🟢 全球半导体市值前 10 大企业</td></tr>
 <tr><td><b>TTM Non-GAAP PE</b></td><td><b>14.6x</b></td><td>16.5x</td><td class="good">-11.5%</td><td class="good">🟢 相较科技股与同行具备极高性价比</td></tr>
-<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 数据中心放量预期尚未完全反映</td></tr>
+<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 隐含数据中心放量尚未完全反映在股价中</td></tr>
 <tr><td><b>EV / EBITDA</b></td><td><b>12.5x</b></td><td>13.8x</td><td class="good">-9.4%</td><td class="good">🟢 经营现金流强劲，企业价值具吸引力</td></tr>
 <tr><td><b>股息率 (Dividend Yield)</b></td><td><b>2.20%</b></td><td>2.10%</td><td class="good">+10bps</td><td class="good">🟢 年度股息 $3.40 美元，连续 21 年上调</td></tr>
 <tr><td><b>自由现金流收益率 (FCF Yield)</b></td><td><b>5.21%</b></td><td>4.80%</td><td class="good">+41bps</td><td class="good">🟢 现金制造机器，防御性极佳</td></tr>

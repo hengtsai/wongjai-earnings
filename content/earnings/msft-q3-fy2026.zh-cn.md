@@ -14,7 +14,7 @@ draft: false
 
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q3 营收</div><div class="value">US$829亿</div><div class="change up">▲18% YoY</div></div>
-<div class="kpi-card"><div class="label">Azure 增长</div><div class="value">+40%</div><div class="change up">优于预期</div></div>
+<div class="kpi-card"><div class="label">Azure 增长</div><div class="value">+40%</div><div class="change up">高于 37–38% 的指引</div></div>
 <div class="kpi-card"><div class="label">AI 年化营收</div><div class="value">超 US$370亿</div><div class="change up">▲123% YoY</div></div>
 <div class="kpi-card"><div class="label">营业利润率</div><div class="value">46.3%</div><div class="change up">去年 45.7%</div></div>
 <div class="kpi-card"><div class="label">稀释 EPS</div><div class="value">US$4.27</div><div class="change up">▲23% YoY</div></div>
@@ -23,7 +23,7 @@ draft: false
 <div class="kpi-card"><div class="label">自由现金流</div><div class="value">US$158亿</div><div class="change dn">▼22% YoY</div></div>
 </div>
 
-> 📌 **口径说明**：本文为 2026/11 按 v3.0 格式翻新的旧文，数字已用 Microsoft 2026/4/29 提交的 SEC Form 8-K 新闻稿（美国 GAAP，单位百万美元，去年同期为公司重编数）逐项重新核对，并更正旧版的去年同期营收与 EPS、上季营收、毛利率与自由现金流同比增速等错误，删除未经核实的市场一致预期数字。业绩会引言取自 Microsoft 投资者关系网站逐字稿，中文为本文翻译。股价取自 Yahoo Finance。
+> 📌 **口径说明**：本文为 2026/11 按 v3.0 格式翻新的旧文，数字已用微软 2026/4/29 向 SEC 提交的 Form 8-K 新闻稿（美国 GAAP，单位百万美元，去年同期为公司重编数）逐项重新核对，并更正旧版的去年同期营收与 EPS、上季度营收、毛利率与自由现金流同比增长率等错误，删除未经查证的第三方预估数字。业绩会引语取自微软投资者关系网站文字记录，中文为本文翻译。股价取自 Yahoo Finance。
 
 ## 1. 📈 核心数据速览
 
@@ -32,7 +32,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>指标</th><th>Q3 FY26</th><th>Q3 FY25</th><th>YoY</th><th>点评</th></tr></thead>
 <tbody>
-<tr><td><b>营收</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 优于预期</td></tr>
+<tr><td><b>营收</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 同比增 18.3%</td></tr>
 <tr><td><b>生产力与业务流程</b></td><td><b>35,013</b></td><td>29,944</td><td class="good">+16.9%</td><td>营业利润率 60%</td></tr>
 <tr><td><b>智能云</b></td><td><b>34,681</b></td><td>26,751</td><td class="good">+29.6%</td><td class="good">🟢 Azure +40%</td></tr>
 <tr><td><b>个人计算</b></td><td><b>13,192</b></td><td>13,371</td><td class="warn">-1.3%</td><td class="warn">🟡 游戏 -7%</td></tr>
@@ -44,7 +44,7 @@ draft: false
 <tr><td><b>稀释 EPS（剔除 OpenAI）</b></td><td><b>$4.27</b></td><td>$3.54</td><td class="good">+20.6%</td><td class="good">🟢 固定汇率 +18%</td></tr>
 </tbody></table></div>
 
-> 📌 **其他重点**：Microsoft Cloud 营收 545 亿（+29%），云毛利率 66%、略优于预期。本季营收环比增 2.0%（Q2 为 812.7 亿）。剔除 OpenAI 的营业外收支 9.61 亿，主要是投资收益。汇率贡献约 3 个百分点，固定汇率营收同比增 15%。
+> 📌 **其他重点**：Microsoft Cloud 营收 545 亿（+29%），云毛利率 66%，略高于公司预估。本季营收环比增 2.0%（Q2 为 812.7 亿）。剔除 OpenAI 的营业外收支 9.61 亿，主要是投资收益。汇率贡献约 3 个百分点，固定汇率营收同比增 15%。
 
 ---
 
@@ -72,7 +72,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察一：AI 年化营收破 370 亿，Azure 同比增 40%</h3>
-<p>CEO Satya Nadella 在新闻稿中表示：<b>“我们的 AI 业务年化营收突破 370 亿美元，同比增长 123%”</b>。Azure 营收同比增 40%（固定汇率 39%），CFO Amy Hood 称优于预期，原因是<b>“本季较早交付产能”</b>，带动 AI 与非 AI 服务用量同时增加。她也指出，各类工作负载、客户群与地区的需求仍超过可用产能。</p>
+<p>首席执行官 Satya Nadella 在新闻稿中表示：<b>「我们的 AI 业务年化营收突破 370 亿美元，同比增长 123%」</b>。Azure 营收同比增 40%（固定汇率 39%），首席财务官 Amy Hood 表示高于公司预估，因为<b>「本季较早交付产能」</b>，让 AI 与非 AI 服务的用量都增加。她也指出，各类工作负载、客群与地区的需求仍超过可用产能。</p>
 </div>
 
 <div class="sb">

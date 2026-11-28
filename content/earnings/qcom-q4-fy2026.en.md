@@ -15,7 +15,7 @@ draft: false
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q4 Non-GAAP Revenue</div><div class="value">$10.44B</div><div class="change up">At high end of guide | ▼ 7% YoY</div></div>
 <div class="kpi-card"><div class="label">Q4 Non-GAAP Gross Margin</div><div class="value">52.4%</div><div class="change down">▼ 1.8pp QoQ | Higher costs</div></div>
-<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">$2.17</div><div class="change up">Beat $2.12 consensus | FY26 $10.54</div></div>
+<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">$2.17</div><div class="change up">FY26 $10.54</div></div>
 <div class="kpi-card"><div class="label">Q4 Automotive Revenue</div><div class="value">$1.99B</div><div class="change up">▲ 89% YoY | All-time high</div></div>
 <div class="kpi-card"><div class="label">Q4 IoT Revenue</div><div class="value">$1.89B</div><div class="change up">▲ 4% YoY | PC and industrial steady</div></div>
 <div class="kpi-card"><div class="label">Q4 QTL Licensing Revenue</div><div class="value">$1.30B</div><div class="change up">EBT margin 70% | Major customers renewed</div></div>
@@ -36,8 +36,8 @@ draft: false
 <tr><td><b>GAAP consolidated revenue</b></td><td><b>10,322</b></td><td>10,240</td><td class="good">+0.8%</td><td>11,270</td><td class="bad">-8.4%</td><td class="good">🟢 Includes deferral adjustments on some terminated contracts</td></tr>
 <tr><td><b>Non-GAAP gross margin</b></td><td><b>52.4%</b></td><td>54.2%</td><td class="warn">-1.8pp</td><td>55.6%</td><td class="bad">-3.2pp</td><td class="warn">🟡 Higher wafer and packaging costs weigh on margin</td></tr>
 <tr><td><b>Non-GAAP R&D expenses</b></td><td><b>2,246</b></td><td>2,210</td><td class="warn">+1.6%</td><td>2,187</td><td class="warn">+2.7%</td><td class="good">🟢 R&D at 21.5% of revenue, betting big on server AI</td></tr>
-<tr><td><b>Non-GAAP operating margin</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 In line with guide, stepping up upfront investment</td></tr>
-<tr><td><b>Non-GAAP net income</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="good">🟢 Beat Wall Street consensus of $2,360M</td></tr>
+<tr><td><b>Non-GAAP operating margin</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 Stepping up upfront investment</td></tr>
+<tr><td><b>Non-GAAP net income</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="warn">🟡 -28.5% YoY</td></tr>
 <tr><td><b>Non-GAAP diluted EPS</b></td><td><b>$2.17</b></td><td>$2.26</td><td class="warn">-4.0%</td><td>$3.00</td><td class="bad">-27.7%</td><td class="good">🟢 Above guide midpoint ($2.05–$2.25)</td></tr>
 <tr><td><b>FY26 full-year non-GAAP revenue/EPS</b></td><td><b>43,240 ($10.54)</b></td><td>—</td><td>—</td><td>38,962 ($10.22)</td><td class="good"><b>+11.0%</b></td><td class="good">🟢 Full-year EPS of $10.54, second-highest ever</td></tr>
 </tbody></table></div>
@@ -117,12 +117,12 @@ draft: false
 ### Q1 FY2027 Guidance (company announcement)
 
 <div class="sw"><table>
-<thead><tr><th>Guidance Metric</th><th>Q1 FY27 Guidance Range</th><th>Midpoint</th><th>Expected YoY Growth</th><th>Consensus and Achievability</th></tr></thead>
+<thead><tr><th>Guidance Metric</th><th>Q1 FY27 Guidance Range</th><th>Midpoint</th><th>Expected YoY Growth</th><th>Achievability</th></tr></thead>
 <tbody>
-<tr><td><b>Total revenue (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 Above buy-side expectations, helped by the new data center business</td></tr>
+<tr><td><b>Total revenue (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 Boost from new data center business</td></tr>
 <tr><td><b>QCT chip revenue (US$M)</b></td><td>9,000 – 9,600</td><td><b>9,300</b></td><td>+4.2%</td><td class="good">🟢 Automotive and data center ramps offset handsets</td></tr>
 <tr><td><b>QTL licensing revenue (US$M)</b></td><td>1,300 – 1,500</td><td><b>1,400</b></td><td>+1.8%</td><td class="good">🟢 All major customers renewed; very stable</td></tr>
-<tr><td><b>Non-GAAP diluted EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 Consensus is $2.20; upfront R&D weighs on profit</td></tr>
+<tr><td><b>Non-GAAP diluted EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 Upfront R&D weighs on profit</td></tr>
 <tr><td><b>Data Center first-quarter shipments</b></td><td><b>> 650M</b></td><td>700M</td><td>New item</td><td class="good">🟢 Full-year target $5.0B; cloud giant qualification on track</td></tr>
 <tr><td><b>Non-GAAP effective tax rate</b></td><td>14.0% – 15.0%</td><td>14.5%</td><td>—</td><td class="good">🟢 Within the company's normal long-term range</td></tr>
 </tbody></table></div>
@@ -133,19 +133,19 @@ draft: false
 
 <h3 class="risk-red">🔴 High Risk</h3>
 <div class="sb rh"><ul>
-<li><b>Faster-than-expected Apple modem replacement</b>: If iPhone 18 broadly adopts Apple's in-house 5G modem, Qualcomm's handset chip revenue could shrink another 15%–20%.</li>
+<li><b>Apple's modem replacement speeds up</b>: If the iPhone 18 broadly accelerates adoption of Apple's in-house 5G modem, Qualcomm's handset chip revenue could shrink a further 15%–20%.</li>
 <li><b>Delays in custom data center chip ramp</b>: A shift in hyperscaler capex or a delayed qualification schedule could jeopardize the FY27 $5B revenue target.</li>
 </ul></div>
 
 <h3 class="risk-gold">🟡 Medium Risk</h3>
 <div class="sb rm"><ul>
 <li><b>Lag in passing on advanced-node costs</b>: If foundry price increases from TSMC and others cannot be fully passed on to phone makers, QCT operating margin in H1 FY27 will be squeezed.</li>
-<li><b>Persistent global smartphone weakness</b>: A weaker-than-expected recovery in low- and mid-range Android sales would slow destocking in IoT and connectivity chips.</li>
+<li><b>Global smartphone market stays weak</b>: Slow recovery in mid- to low-end Android sales holds back IoT and connectivity chip destocking.</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 Low Risk / Opportunity</h3>
 <div class="sb rl"><ul>
-<li><b>Faster-than-expected edge AI PC and automotive penetration</b>: Wider adoption of Copilot+ PCs could drive Snapdragon X Elite volumes and accelerate non-handset revenue growth.</li>
+<li><b>Edge AI PCs and automotive adoption accelerate</b>: Copilot+ PC adoption drives Snapdragon X Elite volumes, accelerating non-handset revenue growth.</li>
 <li><b>6G patents and an IoT boom</b>: As next-generation standards are set, Qualcomm's patent influence extends further, keeping licensing revenue well supported on the downside.</li>
 </ul></div>
 
@@ -161,7 +161,7 @@ draft: false
 <tr><td><b>Latest share price (US$)</b></td><td><b>$154.58</b></td><td>$142.00</td><td>+8.8%</td><td class="good">🟢 52-week range $121.99 - $259.92</td></tr>
 <tr><td><b>Market cap</b></td><td><b>$166B</b></td><td>$155B</td><td>+7.1%</td><td class="good">🟢 Among the 10 largest chip companies by market cap</td></tr>
 <tr><td><b>TTM Non-GAAP PE</b></td><td><b>14.6x</b></td><td>16.5x</td><td class="good">-11.5%</td><td class="good">🟢 Very good value vs. tech and peers</td></tr>
-<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 Data center ramp not yet fully priced in</td></tr>
+<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 Data center ramp not yet fully priced into the stock</td></tr>
 <tr><td><b>EV / EBITDA</b></td><td><b>12.5x</b></td><td>13.8x</td><td class="good">-9.4%</td><td class="good">🟢 Strong operating cash flow; attractive enterprise value</td></tr>
 <tr><td><b>Dividend yield</b></td><td><b>2.20%</b></td><td>2.10%</td><td class="good">+10bps</td><td class="good">🟢 Annual dividend of $3.40, raised 21 years in a row</td></tr>
 <tr><td><b>FCF yield</b></td><td><b>5.21%</b></td><td>4.80%</td><td class="good">+41bps</td><td class="good">🟢 Cash machine with excellent defensiveness</td></tr>

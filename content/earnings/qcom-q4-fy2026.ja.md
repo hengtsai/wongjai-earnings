@@ -15,7 +15,7 @@ draft: false
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 売上高</div><div class="value">104.4億ドル</div><div class="change up">ガイダンス上限に到達｜▼ 7% YoY</div></div>
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 粗利益率</div><div class="value">52.4%</div><div class="change down">▼ 1.8pp QoQ｜コスト上昇の影響</div></div>
-<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">コンセンサス$2.12を上回る｜FY26 $10.54</div></div>
+<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">FY26 $10.54</div></div>
 <div class="kpi-card"><div class="label">Q4 車載チップ売上高</div><div class="value">19.9億ドル</div><div class="change up">▲ 89% YoY｜過去最高</div></div>
 <div class="kpi-card"><div class="label">Q4 IoTチップ売上高</div><div class="value">18.9億ドル</div><div class="change up">▲ 4% YoY｜PCと産業向けは堅調</div></div>
 <div class="kpi-card"><div class="label">Q4 QTLライセンス売上高</div><div class="value">13.0億ドル</div><div class="change up">EBT利益率70%｜大口顧客が契約更新</div></div>
@@ -36,8 +36,8 @@ draft: false
 <tr><td><b>GAAP連結売上高</b></td><td><b>10,322</b></td><td>10,240</td><td class="good">+0.8%</td><td>11,270</td><td class="bad">-8.4%</td><td class="good">🟢 一部の解約契約に係る繰延調整を含む</td></tr>
 <tr><td><b>Non-GAAP粗利益率</b></td><td><b>52.4%</b></td><td>54.2%</td><td class="warn">-1.8pp</td><td>55.6%</td><td class="bad">-3.2pp</td><td class="warn">🟡 ウェハーとパッケージングのコスト上昇が利益率を圧迫</td></tr>
 <tr><td><b>Non-GAAP研究開発費（R&D）</b></td><td><b>2,246</b></td><td>2,210</td><td class="warn">+1.6%</td><td>2,187</td><td class="warn">+2.7%</td><td class="good">🟢 研究開発費率21.5%、サーバーAIに重点投資</td></tr>
-<tr><td><b>Non-GAAP営業利益率</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 ガイダンスどおり、先行投資を拡大</td></tr>
-<tr><td><b>Non-GAAP税引後純利益</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="good">🟢 ウォール街のコンセンサス$2,360Mを上回る</td></tr>
+<tr><td><b>Non-GAAP営業利益率</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 先行投資を拡大</td></tr>
+<tr><td><b>Non-GAAP税引後純利益</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="warn">🟡 前年同期比28.5%減</td></tr>
 <tr><td><b>Non-GAAP希薄化後EPS</b></td><td><b>$2.17</b></td><td>$2.26</td><td class="warn">-4.0%</td><td>$3.00</td><td class="bad">-27.7%</td><td class="good">🟢 ガイダンス中央値（$2.05〜$2.25）を上回る</td></tr>
 <tr><td><b>FY26通期Non-GAAP売上高/EPS</b></td><td><b>43,240 ($10.54)</b></td><td>—</td><td>—</td><td>38,962 ($10.22)</td><td class="good"><b>+11.0%</b></td><td class="good">🟢 通期EPS $10.54は過去最高に次ぐ水準</td></tr>
 </tbody></table></div>
@@ -117,12 +117,12 @@ draft: false
 ### Q1 FY2027 ガイダンス（会社発表）
 
 <div class="sw"><table>
-<thead><tr><th>ガイダンス項目</th><th>Q1 FY27 ガイダンス範囲</th><th>中央値</th><th>YoY 成長見込み</th><th>市場コンセンサスと達成可能性</th></tr></thead>
+<thead><tr><th>ガイダンス項目</th><th>Q1 FY27 ガイダンス範囲</th><th>中央値</th><th>YoY 成長見込み</th><th>達成の可能性</th></tr></thead>
 <tbody>
-<tr><td><b>総売上高（百万ドル）</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 バイサイドの予想を上回る、データセンター新事業が寄与</td></tr>
+<tr><td><b>総売上高（百万ドル）</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 データセンターの新事業が寄与</td></tr>
 <tr><td><b>QCTチップ売上高（百万ドル）</b></td><td>9,000 – 9,600</td><td><b>9,300</b></td><td>+4.2%</td><td class="good">🟢 車載とデータセンターの拡大がスマホを補う</td></tr>
 <tr><td><b>QTLライセンス売上高（百万ドル）</b></td><td>1,300 – 1,500</td><td><b>1,400</b></td><td>+1.8%</td><td class="good">🟢 大口顧客はすべて契約更新、事業は極めて安定</td></tr>
-<tr><td><b>Non-GAAP希薄化後EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 コンセンサスは$2.20、先行の研究開発費が利益を圧迫</td></tr>
+<tr><td><b>Non-GAAP希薄化後EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 先行の研究開発費が利益を圧迫</td></tr>
 <tr><td><b>データセンターの初四半期出荷</b></td><td><b>> 650M</b></td><td>700M</td><td>新項目</td><td class="good">🟢 通期目標$5.0B、クラウド大手での検証は順調</td></tr>
 <tr><td><b>Non-GAAP実効税率</b></td><td>14.0% – 15.0%</td><td>14.5%</td><td>—</td><td class="good">🟢 会社の長期ガイダンスの通常レンジ内</td></tr>
 </tbody></table></div>
@@ -133,19 +133,19 @@ draft: false
 
 <h3 class="risk-red">🔴 高リスク（High Risk）</h3>
 <div class="sb rh"><ul>
-<li><b>アップルのモデム置き換えが予想より速い</b>：iPhone 18で自社製5Gモデムの採用が全面的に加速すれば、クアルコムのスマホ向けチップ売上高はさらに15%〜20%縮小する。</li>
+<li><b>アップルのモデム置き換えが加速</b>：iPhone 18で自社開発の5Gモデムの採用が全面的に加速すれば、クアルコムのスマホ向けチップ売上高はさらに15%–20%縮小する。</li>
 <li><b>データセンター向けカスタムチップの拡大遅延</b>：ハイパースケーラーの設備投資の方向転換や検証日程の遅れは、FY27の売上高目標50億ドルの達成に影響しうる。</li>
 </ul></div>
 
 <h3 class="risk-gold">🟡 中リスク（Medium Risk）</h3>
 <div class="sb rm"><ul>
 <li><b>先端プロセスのコスト転嫁の遅れ</b>：TSMCなどファウンドリーの値上げをスマホメーカーに完全に転嫁できなければ、FY27上半期のQCT営業利益率が圧迫される。</li>
-<li><b>世界のスマホ市場の低迷が続く</b>：中低価格帯Android機の販売回復が想定を下回れば、IoTと通信チップの在庫調整のペースが鈍る。</li>
+<li><b>世界のスマホ市場の低迷が続く</b>：中低価格帯のAndroid端末の販売回復が遅く、IoTと通信チップの在庫調整のペースを抑える。</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 低リスク／潜在的な機会（Low Risk / Opportunity）</h3>
 <div class="sb rl"><ul>
-<li><b>エッジAI PCと車載の浸透率が予想を上回る</b>：Copilot+ PCの普及でSnapdragon X Eliteシリーズが拡大し、スマホ以外の事業の売上成長が加速する。</li>
+<li><b>エッジAI PCと車載への浸透が加速</b>：Copilot+ PCの普及でSnapdragon X Eliteシリーズの出荷が増え、スマホ以外の事業の売上高成長を加速させる。</li>
 <li><b>6G特許の準備とIoTの急拡大</b>：次世代規格の確立でクアルコムの特許における発言力が広がり、ライセンス収入の下支えは揺るがない。</li>
 </ul></div>
 
@@ -161,7 +161,7 @@ draft: false
 <tr><td><b>最新株価（ドル）</b></td><td><b>$154.58</b></td><td>$142.00</td><td>+8.8%</td><td class="good">🟢 52週レンジ $121.99 - $259.92</td></tr>
 <tr><td><b>時価総額（Market Cap）</b></td><td><b>1,660億ドル</b></td><td>1,550億ドル</td><td>+7.1%</td><td class="good">🟢 世界の半導体時価総額トップ10</td></tr>
 <tr><td><b>TTM Non-GAAP PE</b></td><td><b>14.6x</b></td><td>16.5x</td><td class="good">-11.5%</td><td class="good">🟢 ハイテク株や同業と比べ割安感が極めて高い</td></tr>
-<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 データセンター拡大の期待はまだ十分に織り込まれていない</td></tr>
+<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 データセンターの拡大はまだ株価に十分織り込まれていない</td></tr>
 <tr><td><b>EV / EBITDA</b></td><td><b>12.5x</b></td><td>13.8x</td><td class="good">-9.4%</td><td class="good">🟢 営業キャッシュフローは強く、企業価値は魅力的</td></tr>
 <tr><td><b>配当利回り（Dividend Yield）</b></td><td><b>2.20%</b></td><td>2.10%</td><td class="good">+10bps</td><td class="good">🟢 年間配当3.40ドル、21年連続増配</td></tr>
 <tr><td><b>FCF利回り（FCF Yield）</b></td><td><b>5.21%</b></td><td>4.80%</td><td class="good">+41bps</td><td class="good">🟢 現金を生む装置、ディフェンシブ性は極めて高い</td></tr>

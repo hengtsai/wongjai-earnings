@@ -125,7 +125,7 @@ draft: false
 <h3 class="risk-red">🔴 High Risk</h3>
 <div class="sb rh"><ul>
 <li><b>Customer concentration</b>: AI is nearly half of revenue and comes from a few cloud customers; a delay or design change by any one could cause a guidance miss.</li>
-<li><b>Swelling working capital</b>: Receivables up 52% and inventory up 91%; if Q3 shipments disappoint, inventory and cash flow take the first hit.</li>
+<li><b>Working capital bloat</b>: Receivables up 52% and inventory up 91%; if Q3 shipments come in below guidance, inventory and cash flow will take the first hit.</li>
 </ul></div>
 
 <h3 class="risk-gold">🟡 Medium Risk</h3>
@@ -182,7 +182,7 @@ draft: false
 
 ## 6. 📋 Key Takeaways
 
-- **AI beats expectations**: AI semiconductors at $10.8B (+143%), above the company's $10.7B forecast and nearly half of revenue.
+- **AI above company estimate**: AI semiconductors at $10.8B (+143%), above the company's $10.7B estimate and nearly half of revenue.
 - **Strong guidance**: Q3 revenue of $29.4B (+84%) and AI of $16B (up over 200% YoY), with operating margin held at 67%.
 - **Trading margin for scale**: Non-GAAP gross margin fell 2.3pp, but expenses rose only 3%, lifting operating margin to 67.3%.
 - **Signs of stocking up**: Inventory up 91% and receivables up 52% in six months, yet free cash flow still hit a record $10.3B.

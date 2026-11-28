@@ -189,7 +189,7 @@ draft: false
 - **Memory pressure**: Cook likened it to a "hundred-year flood"; inventory rose 94% over 9 months.
 - **Handover**: Cook hosted his last earnings call, with John Ternus taking over.
 
-> 💡 **Bottom line**: Apple's demand this quarter was stronger than expected, and the constraints came instead from chip capacity and memory costs; tariff refunds propped up gross margin, and whether Siri AI drives upgrades depends on how it performs after the fall launch.
+> 💡 **Bottom line**: Apple's demand this quarter was stronger than the company had projected, and the constraints came instead from chip capacity and memory costs; tariff refunds propped up gross margin, and whether Siri AI drives upgrades depends on how it performs after the fall launch.
 
 <div class="disc">
 <b>Disclaimer</b>: This report is an objective compilation of financial data and industry strategy analysis. It is not a recommendation to buy, sell or hold any security and does not provide price targets. Investors should make their own judgments and bear their own investment risk.<br><br>

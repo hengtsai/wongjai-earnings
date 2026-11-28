@@ -6,7 +6,7 @@ quarter: "FY2026 Q4"
 logo: "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
 color: "#555555"
 translationKey: "aapl-q4-fy2026"
-summary: "Q4 revenue of $114.48B and EPS of $2.10 beat expectations, and FY26 revenue of $478.83B and FCF of $136.06B both set all-time highs. iPhone 18/Duo and Greater China (+21%) surged, but unprecedented memory price increases pushed Q1 gross margin guidance down to 45%–46%."
+summary: "Q4 revenue was $114.48B and EPS $2.10, up 13.5% YoY, and FY26 revenue of $478.83B and FCF of $136.06B both set all-time highs. iPhone 18/Duo and Greater China (+21%) surged, but unprecedented memory price increases pushed Q1 gross margin guidance down to 45%–46%."
 tags: ["Consumer Electronics", "AI", "Apple", "AAPL", "iPhone 18", "iPhone Duo", "Services", "Apple Intelligence", "Siri AI", "John Ternus"]
 author: "Wongjai ⚡"
 draft: false
@@ -30,14 +30,14 @@ draft: false
 ### Q4 FY2026 and Full-Year FY2026 Consolidated Income Statement (US$ millions, official Form 10-K)
 
 <div class="sw"><table>
-<thead><tr><th>Key Metrics (US$M)</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>vs. Guidance and Consensus</th></tr></thead>
+<thead><tr><th>Key Metrics (US$M)</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>Guidance & Comments</th></tr></thead>
 <tbody>
-<tr><td><b>Q4 total revenue</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 $1.08B above consensus, a September-quarter record</td></tr>
+<tr><td><b>Q4 total revenue</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 Above the top of 9–11% guidance, September-quarter record</td></tr>
 <tr><td><b>Q4 gross margin (GM)</b></td><td><b>47.9%</b></td><td>50.1%</td><td class="warn">-2.2pp</td><td>47.2%</td><td class="good">+0.7pp</td><td class="good">🟢 Incl. $731M tariff refund (underlying 46.9%)</td></tr>
 <tr><td><b>Q4 R&D expenses</b></td><td><b>11,730</b></td><td>11,729</td><td>0.0%</td><td>8,866</td><td class="warn">+32.3%</td><td class="warn">🟡 10.2% of revenue, betting on Siri AI and 2nm</td></tr>
 <tr><td><b>Q4 operating income / OM</b></td><td><b>35,631 (31.1%)</b></td><td>35,695 (32.6%)</td><td class="warn">-0.2%</td><td>32,427 (31.7%)</td><td class="good">+9.9%</td><td class="good">🟢 SG&A only 6.5% of revenue, showing scale</td></tr>
-<tr><td><b>Q4 net income</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 Net margin 26.8%, $1.67B above consensus</td></tr>
-<tr><td><b>Q4 diluted EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 Beat $1.99 consensus (underlying EPS $2.05)</td></tr>
+<tr><td><b>Q4 net income</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 Net margin 26.8%</td></tr>
+<tr><td><b>Q4 diluted EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 +13.5% YoY (basic EPS $2.05)</td></tr>
 <tr><td><b>FY26 full-year revenue</b></td><td><b>478,834</b></td><td>—</td><td>—</td><td>416,161</td><td class="good"><b>+15.1%</b></td><td class="good">🟢 All four quarters above $100B, a 50-year first</td></tr>
 <tr><td><b>FY26 net income / EPS</b></td><td><b>132,175 ($8.98)</b></td><td>—</td><td>—</td><td>112,010 ($7.46)</td><td class="good"><b>+20.4%</b></td><td class="good">🟢 Full-year operating margin of 33.0%, a record</td></tr>
 </tbody></table></div>
@@ -54,7 +54,7 @@ draft: false
 <tr><td><b>iPhone</b></td><td><b>57,583</b></td><td>49,025</td><td class="good"><b>+17.5%</b></td><td><b>254,098</b></td><td class="good"><b>+21.2%</b></td><td class="good">🟢 iPhone 18 Pro and foldable Duo spark upgrades</td></tr>
 <tr><td><b>Services</b></td><td><b>31,573</b></td><td>28,750</td><td class="good"><b>+9.8%</b></td><td><b>123,301</b></td><td class="good"><b>+13.0%</b></td><td class="good">🟢 Quarterly gross margin a record 76.0%; 43.7% of gross profit</td></tr>
 <tr><td><b>Mac</b></td><td><b>10,792</b></td><td>8,726</td><td class="good"><b>+23.7%</b></td><td><b>37,929</b></td><td class="good"><b>+12.5%</b></td><td class="good">🟢 Touchscreen MacBook Pro with Dynamic Island selling well</td></tr>
-<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 Wearables in a cycle transition, below consensus</td></tr>
+<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 Wearables in product transition, down 7.9% YoY</td></tr>
 <tr><td><b>iPad</b></td><td>6,229</td><td>6,952</td><td class="bad">-10.4%</td><td>27,929</td><td class="warn">-0.3%</td><td class="warn">🟡 Hit by June price increase and chips prioritized for phones</td></tr>
 <tr><td><b>Total revenue</b></td><td><b>114,477</b></td><td><b>102,466</b></td><td class="good"><b>+11.7%</b></td><td><b>478,834</b></td><td class="good"><b>+15.1%</b></td><td class="good">🟢 The top three lines are 87.3% of Q4 revenue</td></tr>
 </tbody></table></div>
@@ -125,7 +125,7 @@ draft: false
 <tbody>
 <tr><td><b>Total revenue YoY</b></td><td><b>+7.0% – +10.0% YoY</b></td><td>$114.48B (+11.7%)</td><td>$143.76B</td><td class="good">🟢 <b>Targeting a quarterly record of $153.8B–$158.1B</b></td></tr>
 <tr><td><b>Services revenue YoY</b></td><td><b>+8.0% – +9.0% YoY</b></td><td>$31.57B (+9.8%)</td><td>~$29.9B</td><td class="good">🟢 Expected at <b>$32.2B–$32.7B</b>, another quarterly record</td></tr>
-<tr><td><b>Overall gross margin (GM)</b></td><td><b>45.0% – 46.0%</b></td><td>47.9% (underlying 46.9%)</td><td>48.2%</td><td class="warn">🟡 Below consensus (46.3%), reflecting memory price spikes and Siri AI costs</td></tr>
+<tr><td><b>Overall gross margin (GM)</b></td><td><b>45.0% – 46.0%</b></td><td>47.9% (underlying 46.9%)</td><td>48.2%</td><td class="warn">🟡 Below Q4's actual 47.9%, reflecting soaring memory and Siri AI costs</td></tr>
 <tr><td><b>Operating expenses (OpEx)</b></td><td><b>$20.4B – $20.8B</b></td><td>$19.19B</td><td>~$18.4B</td><td class="good">🟢 Implied operating margin ~31.7%–33.1% as scale absorbs margin headwinds</td></tr>
 <tr><td><b>Effective tax rate</b></td><td><b>About 17.0%</b></td><td>15.0%</td><td>~16.5%</td><td>Back to the normal full-year rate</td></tr>
 <tr><td><b>Quarterly cash dividend</b></td><td><b>$0.27 / share</b></td><td>$0.26 / share</td><td>$0.25 / share</td><td class="good">🟢 Raised 3.8% ($1.08 annualized), paid 2026/11/16</td></tr>
@@ -147,9 +147,9 @@ draft: false
 <h3 class="risk-gold">🟡 Medium Risk</h3>
 <div class="sb rm">
 <ul>
-<li><b>Rising Siri AI inference and R&D costs</b>: Full-year R&D jumped 32.5% to $45.77B; if iCloud+ paid conversion falls short, long-term margins will erode.</li>
+<li><b>Rising Siri AI inference and R&D costs</b>: Full-year R&D jumped 32.5% to $45.77B; low iCloud+ paid conversion would erode long-term margins.</li>
 <li><b>Tariff refund windfall used up, trade uncertainty</b>: The $731M customs refund that added 1pp of Q4 gross margin has been fully received, leaving no such cushion ahead, and tariff policy remains uncertain.</li>
-<li><b>Weak iPad and wearables momentum</b>: Q4 iPad (-10.4%) and wearables (-7.9%) both missed expectations, showing non-core hardware is more price-sensitive.</li>
+<li><b>Weak iPad and wearables momentum</b>: Q4 iPad (-10.4%) and wearables (-7.9%) both fell YoY, showing non-core hardware is more price-sensitive.</li>
 </ul>
 </div>
 
@@ -197,7 +197,7 @@ draft: false
 
 <div class="sb rl">
 <ul>
-<li><b>FY26 rewrites the record books as market cap tops $5.08T, No. 1 in the world</b>: Q4 revenue of $114.48B and EPS of $2.10 beat expectations; full-year revenue of $478.83B (+15.1%) and EPS of $8.98 (+20.4%) set records.</li>
+<li><b>FY26 rewrites the record books as market cap tops $5.08T, the world's largest</b>: Q4 revenue of $114.48B and EPS of $2.10 (+13.5% YoY); full-year revenue of $478.83B (+15.1%) and EPS of $8.98 (+20.4%) set records.</li>
 <li><b>Twin engines of iPhone 18/Duo and Greater China (+21%)</b>: Q4 iPhone up 17.5% and touch Mac up 23.7%, with Greater China up 28% for the year to $82.38B and the top 3 best-sellers in cities.</li>
 <li><b>An ultra-asset-light cash machine: capex down 29% to $9.04B, FCF up to $136.1B</b>: After returning $102.1B to shareholders, retained earnings turned positive (+$13.7B) and net cash rose 68% to $56.82B.</li>
 <li><b>"Unprecedented" memory price increases push Q1 gross margin guidance to 45%–46%</b>: Excluding the $731M tariff refund already received in Q4, underlying gross margin is 46.9%; Apple has raised inventory 154% and purchase commitments to $89.7B to secure supply.</li>

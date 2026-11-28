@@ -6,7 +6,7 @@ quarter: "FY2026 Q4"
 logo: "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
 color: "#555555"
 translationKey: "aapl-q4-fy2026"
-summary: "Q4 매출 1,144.8억 달러, EPS $2.10으로 예상을 웃돌았고, FY26 연간 매출 4,788.3억 달러와 FCF 1,360.6억 달러 모두 사상 최대를 기록했다. iPhone 18/Duo와 중화권(+21%)이 강하게 성장했지만, 전례 없는 메모리 가격 상승으로 Q1 매출총이익률 가이던스는 45%–46%로 낮아졌다."
+summary: "Q4 매출 US$1,144.8억, EPS US$2.10으로 전년 대비 13.5% 늘었고, FY26 연간 매출 US$4,788.3억과 FCF US$1,360.6억 모두 사상 최대를 기록했다. iPhone 18/Duo와 중화권(+21%)이 강하게 성장했지만, 전례 없는 메모리 가격 상승으로 Q1 매출총이익률 가이던스는 45%–46%로 낮아졌다."
 tags: ["소비자 가전", "AI", "Apple", "AAPL", "iPhone 18", "iPhone Duo", "Services", "Apple Intelligence", "Siri AI", "John Ternus"]
 author: "Wongjai ⚡"
 draft: false
@@ -30,14 +30,14 @@ draft: false
 ### Q4 FY2026 및 FY2026 연간 연결 손익계산서(백만 달러, 공식 Form 10-K)
 
 <div class="sw"><table>
-<thead><tr><th>핵심 지표 (US$M)</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>가이던스·컨센서스 대비</th></tr></thead>
+<thead><tr><th>핵심 지표 (US$M)</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>가이던스와 평가</th></tr></thead>
 <tbody>
-<tr><td><b>Q4 연결 총매출</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 컨센서스 10.8억 달러 상회, 9월 분기 최대</td></tr>
+<tr><td><b>Q4 연결 총매출</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 9–11% 가이던스 상단 상회, 9월 분기 최고</td></tr>
 <tr><td><b>Q4 매출총이익률 (GM)</b></td><td><b>47.9%</b></td><td>50.1%</td><td class="warn">-2.2pp</td><td>47.2%</td><td class="good">+0.7pp</td><td class="good">🟢 관세 환급 $731M 포함(기초 46.9%)</td></tr>
 <tr><td><b>Q4 연구개발비 (R&D)</b></td><td><b>11,730</b></td><td>11,729</td><td>0.0%</td><td>8,866</td><td class="warn">+32.3%</td><td class="warn">🟡 매출의 10.2%, Siri AI·2nm에 집중 투자</td></tr>
 <tr><td><b>Q4 영업이익 / OM</b></td><td><b>35,631 (31.1%)</b></td><td>35,695 (32.6%)</td><td class="warn">-0.2%</td><td>32,427 (31.7%)</td><td class="good">+9.9%</td><td class="good">🟢 판관비율 6.5%뿐, 규모의 경제 확인</td></tr>
-<tr><td><b>Q4 세후 순이익</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 순이익률 26.8%, 컨센서스 16.7억 달러 상회</td></tr>
-<tr><td><b>Q4 희석 EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 컨센서스 $1.99 상회(기초 EPS $2.05)</td></tr>
+<tr><td><b>Q4 세후 순이익</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 순이익률 26.8%</td></tr>
+<tr><td><b>Q4 희석 EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 전년 대비 13.5% 증가(기본 EPS $2.05)</td></tr>
 <tr><td><b>FY26 연간 총매출</b></td><td><b>478,834</b></td><td>—</td><td>—</td><td>416,161</td><td class="good"><b>+15.1%</b></td><td class="good">🟢 네 분기 모두 천억 달러 이상, 50년 기록 경신</td></tr>
 <tr><td><b>FY26 연간 순이익 / EPS</b></td><td><b>132,175 ($8.98)</b></td><td>—</td><td>—</td><td>112,010 ($7.46)</td><td class="good"><b>+20.4%</b></td><td class="good">🟢 연간 영업이익률 33.0% 사상 최대</td></tr>
 </tbody></table></div>
@@ -54,7 +54,7 @@ draft: false
 <tr><td><b>iPhone</b></td><td><b>57,583</b></td><td>49,025</td><td class="good"><b>+17.5%</b></td><td><b>254,098</b></td><td class="good"><b>+21.2%</b></td><td class="good">🟢 iPhone 18 Pro와 폴더블 Duo가 교체 수요 촉발</td></tr>
 <tr><td><b>Services(서비스)</b></td><td><b>31,573</b></td><td>28,750</td><td class="good"><b>+9.8%</b></td><td><b>123,301</b></td><td class="good"><b>+13.0%</b></td><td class="good">🟢 분기 매출총이익률 76.0% 사상 최대, 매출총이익 비중 43.7%</td></tr>
 <tr><td><b>Mac</b></td><td><b>10,792</b></td><td>8,726</td><td class="good"><b>+23.7%</b></td><td><b>37,929</b></td><td class="good"><b>+12.5%</b></td><td class="good">🟢 터치스크린·다이내믹 아일랜드 MacBook Pro 인기</td></tr>
-<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 웨어러블 사이클 전환기, 컨센서스 하회</td></tr>
+<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 웨어러블 제품 주기 전환, 전년 대비 7.9% 감소</td></tr>
 <tr><td><b>iPad</b></td><td>6,229</td><td>6,952</td><td class="bad">-10.4%</td><td>27,929</td><td class="warn">-0.3%</td><td class="warn">🟡 6월 가격 인상과 칩 휴대폰 우선 공급 영향</td></tr>
 <tr><td><b>연결 총매출</b></td><td><b>114,477</b></td><td><b>102,466</b></td><td class="good"><b>+11.7%</b></td><td><b>478,834</b></td><td class="good"><b>+15.1%</b></td><td class="good">🟢 상위 3개 주력이 Q4 총매출의 87.3%</td></tr>
 </tbody></table></div>
@@ -125,7 +125,7 @@ draft: false
 <tbody>
 <tr><td><b>연결 총매출 YoY</b></td><td><b>+7.0% – +10.0% YoY</b></td><td>$114.48B (+11.7%)</td><td>$143.76B</td><td class="good">🟢 <b>분기 사상 최대 US$153.8B–$158.1B 도전</b></td></tr>
 <tr><td><b>Services 매출 YoY</b></td><td><b>+8.0% – +9.0% YoY</b></td><td>$31.57B (+9.8%)</td><td>~$29.9B</td><td class="good">🟢 <b>US$32.2B–$32.7B</b> 예상, 분기 최대 경신</td></tr>
-<tr><td><b>전체 매출총이익률 (GM)</b></td><td><b>45.0% – 46.0%</b></td><td>47.9%(기초 46.9%)</td><td>48.2%</td><td class="warn">🟡 컨센서스(46.3%) 하회, 메모리 급등과 Siri AI 비용 반영</td></tr>
+<tr><td><b>전체 매출총이익률 (GM)</b></td><td><b>45.0% – 46.0%</b></td><td>47.9%(기초 46.9%)</td><td>48.2%</td><td class="warn">🟡 Q4 실적 47.9%보다 낮아, 메모리 급등과 Siri AI 비용 반영</td></tr>
 <tr><td><b>영업비용 (OpEx)</b></td><td><b>US$20.4B – $20.8B</b></td><td>$19.19B</td><td>~$18.4B</td><td class="good">🟢 암시 영업이익률 약 31.7%–33.1%, 규모로 마진 역풍 흡수</td></tr>
 <tr><td><b>유효세율 (Tax Rate)</b></td><td><b>약 17.0%</b></td><td>15.0%</td><td>~16.5%</td><td>연간 정상 유효세율로 복귀</td></tr>
 <tr><td><b>분기 현금배당</b></td><td><b>US$0.27 / 주</b></td><td>US$0.26 / 주</td><td>US$0.25 / 주</td><td class="good">🟢 3.8% 인상(연환산 $1.08), 2026/11/16 지급</td></tr>
@@ -147,9 +147,9 @@ draft: false
 <h3 class="risk-gold">🟡 중위험 (Medium Risk)</h3>
 <div class="sb rm">
 <ul>
-<li><b>Siri AI 추론·연구개발비 급증</b>: 연간 연구개발비가 32.5% 늘어 457.7억 달러가 됐으며, iCloud+ 유료 전환율이 기대에 못 미치면 장기 마진을 잠식한다.</li>
+<li><b>Siri AI 추론·연구개발비 급증</b>: 연간 연구개발비가 32.5% 늘어 $457.7억이 됐으며, iCloud+ 유료 전환율이 낮으면 장기 마진을 잠식한다.</li>
 <li><b>관세 환급 효과 소진과 무역 변수</b>: Q4 매출총이익률에 1pp 기여한 $731M 관세 환급은 이미 받아 이후 이런 완충이 없고, 관세 정책도 불확실하다.</li>
-<li><b>iPad·웨어러블 모멘텀 약세</b>: Q4 iPad(-10.4%)와 웨어러블(-7.9%) 모두 예상에 못 미쳐, 비핵심 하드웨어가 가격 인상에 더 민감함을 보여준다.</li>
+<li><b>iPad·웨어러블 모멘텀 약세</b>: Q4 iPad(-10.4%)와 웨어러블(-7.9%) 모두 전년 대비 감소해, 비핵심 하드웨어가 가격 인상에 더 민감함을 보여준다.</li>
 </ul>
 </div>
 
@@ -197,7 +197,7 @@ draft: false
 
 <div class="sb rl">
 <ul>
-<li><b>FY26 기록 전면 경신, 시가총액 5.08조 달러 돌파로 세계 1위</b>: Q4 매출 1,144.8억 달러, EPS $2.10으로 예상 상회, 연간 매출 4,788.3억 달러(+15.1%), EPS $8.98(+20.4%)로 사상 최대.</li>
+<li><b>FY26 기록 전면 경신, 시가총액 5.08조 달러 돌파로 세계 1위</b>: Q4 매출 $1,144.8억, EPS $2.10(전년 대비 13.5% 증가); 연간 매출 $4,788.3억(+15.1%), EPS $8.98(+20.4%)로 사상 최고.</li>
 <li><b>iPhone 18/Duo와 중화권(+21%) 두 엔진 폭발</b>: Q4 iPhone 17.5%, 터치 Mac 23.7% 급증, 중화권은 연간 28% 늘어 823.8억 달러를 기록하고 도시 판매 상위 3위를 휩쓸었다.</li>
 <li><b>극단적 자산 경량형 현금 창출기: 설비투자 29% 역행 감소해 90.4억 달러, FCF 1,361억 달러로 급증</b>: 연간 1,021억 달러를 주주에게 돌려준 뒤에도 이익잉여금이 공식 플러스 전환(+137억 달러)했고, 순현금은 68% 늘어 568.2억 달러가 됐다.</li>
 <li><b>메모리 '전례 없는 가격 상승'으로 Q1 매출총이익률 가이던스 45%–46%</b>: Q4에 이미 받은 $731M 관세 환급을 빼면 기초 매출총이익률은 46.9%이며, 애플은 재고를 154% 늘리고 구매 약정을 897억 달러로 높여 공급을 확보했다.</li>

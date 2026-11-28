@@ -19,8 +19,8 @@ draft: false
 <div class="kpi-card"><div class="label">Non-GAAP 영업이익률</div><div class="value">44.2%</div><div class="change up">▲ 300bps YoY｜영업 레버리지 확대</div></div>
 <div class="kpi-card"><div class="label">Non-GAAP 희석 EPS</div><div class="value">$0.52</div><div class="change up">▲ 33.3% YoY</div></div>
 <div class="kpi-card"><div class="label">분기 칩 출하량</div><div class="value">100억 개</div><div class="change up">▲ 전년 대비 15억 개 증가｜사상 최고</div></div>
-<div class="kpi-card"><div class="label">AGI CPU 목표 매출</div><div class="value">$2.0B</div><div class="change up">2년 전망 상향｜Q4 FY27 출하</div></div>
-<div class="kpi-card"><div class="label">Q3 FY27 매출 가이던스</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜중간값 예상 상회</div></div>
+<div class="kpi-card"><div class="label">AGI CPU 목표 매출</div><div class="value">$2.0B</div><div class="change up">2년 목표 상향｜Q4 FY27 출하</div></div>
+<div class="kpi-card"><div class="label">Q3 FY27 매출 가이던스</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜전분기 대비 약 7% 증가</div></div>
 </div>
 
 > 📌 **수치 기준**: Arm Holdings plc의 회계연도는 4월 시작이며, FY27 Q2는 2026년 9월 30일 종료다. 재무 데이터는 미국 달러(US$) 기준이며, Non-GAAP 지표는 주식보상비용, 무형자산 상각 및 관련 구조조정 비용을 제외한다.
@@ -38,7 +38,7 @@ draft: false
 <tr><td><b>Non-GAAP 매출총이익률 (GM%)</b></td><td><b>96.2%</b></td><td>96.0%</td><td class="good">+0.2pp</td><td>95.8%</td><td class="good">+0.4pp</td><td class="good">🟢 IP 라이선스 모델로 매우 높은 마진 유지</td></tr>
 <tr><td><b>Non-GAAP 영업이익</b></td><td><b>$638</b></td><td>$572</td><td class="good">+11.5%</td><td>$468</td><td class="good">+36.3%</td><td class="good">🟢 영업이익률 44.2%로 확대</td></tr>
 <tr><td><b>GAAP 순이익 (Net Income)</b></td><td><b>$130</b></td><td>$185</td><td class="bad">-29.7%</td><td>$238</td><td class="bad">-45.4%</td><td class="warn">🟡 자체 칩 연구개발과 주식보상 투입</td></tr>
-<tr><td><b>Non-GAAP 희석 EPS (US$)</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 월가 예상 $0.47 상회</td></tr>
+<tr><td><b>Non-GAAP 희석 EPS (US$)</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 가이던스 상단 $0.51 상회</td></tr>
 </tbody></table></div>
 
 > 📌 **연환산 계약가치(ACV)**: 분기 말 ACV는 **$17.9억 달러**(전년 대비 +12%)로, 글로벌 주요 칩 설계 기업들의 Arm 컴퓨팅 아키텍처에 대한 다년 약정이 계속 늘고 있음을 보여 준다.
@@ -75,12 +75,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 인사이트 1: 라이선스 수입 50% 급증해 7.73억 달러, Arm Total Access 장기 계약 폭발</h3>
-<p>라이선스 매출은 분기 사상 최고를 기록해 시장 예상 6.25억 달러를 크게 웃돌았다. 동력은 Arm Total Access(ATA)와 컴퓨트 서브시스템(CSS) 라이선스의 두 배 증가다. 르네 하스 CEO는 "고객들이 더 이상 단일 CPU IP만 사지 않고 사전 검증된 완전한 컴퓨트 서브시스템을 바로 채택해, 첨단 칩 개발 주기가 몇 달로 크게 짧아졌다"고 말했다.</p>
+<p>라이선스 매출은 분기 사상 최고를 기록했다. 동력은 Arm Total Access(ATA)와 컴퓨트 서브시스템(CSS) 라이선스의 두 배 증가다. 르네 하스 CEO는 "고객들이 더 이상 단일 CPU IP만 사지 않고 사전 검증된 완전한 컴퓨트 서브시스템을 바로 채택해, 첨단 칩 개발 주기가 몇 달로 크게 짧아졌다"고 말했다.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 인사이트 2: 자체 AGI CPU 2년 매출 20억 달러 전망, Q4 FY27 본격 양산</h3>
-<p>실적 발표의 가장 큰 놀라움은 Arm이 자체 AGI 칩 사업 전망을 공식 상향한 것이다. FY2027과 FY2028 동안 최대 20억 달러의 칩 판매 수입을 만들 것으로 봤다. 첫 AGI CPU는 Q4 FY27부터 주요 클라우드 및 소버린 AI 고객에게 공급되며, Arm이 단순 IP 라이선서에서 고부가가치 실물 컴퓨팅 솔루션 공급자로 올라섰음을 뜻한다.</p>
+<p>실적 발표의 가장 큰 놀라움은 Arm이 자체 AGI 칩 사업 목표를 공식 상향한 것이다. FY2027과 FY2028 동안 최대 20억 달러의 칩 판매 수입을 만들겠다고 밝혔다. 첫 AGI CPU는 Q4 FY27부터 주요 클라우드 및 소버린 AI 고객에게 공급되며, Arm이 단순 IP 라이선서에서 고부가가치 실물 컴퓨팅 솔루션 공급자로 올라섰음을 뜻한다.</p>
 </div>
 
 <div class="sb">
@@ -131,13 +131,13 @@ draft: false
 <h3 class="risk-gold">🟡 중위험 (Medium Risk)</h3>
 <div class="sb rm"><ul>
 <li><b>퀄컴(Qualcomm) 라이선스 소송과 특허 분쟁 후속</b>: Nuvia 핵심 분쟁 소송에서 불리한 판결이 나오면 일부 PC 칩 로열티 산정 기준과 계약 조건에 영향을 줄 수 있다.</li>
-<li><b>스마트폰 교체 주기 장기화</b>: 글로벌 휴대폰 출하 성장이 둔화되고 있어, Armv9 전환이 예상보다 느리면 단기 로열티 급증 폭이 제한된다.</li>
+<li><b>스마트폰 교체 주기 장기화</b>: 글로벌 휴대폰 출하 성장이 둔화되고 있어, Armv9 전환이 느려지면 단기 로열티 급증 폭이 제한된다.</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 저위험／잠재 기회 (Low Risk / Opportunity)</h3>
 <div class="sb rl"><ul>
 <li><b>CSP 자체 CPU 전면 확대 도입</b>: 마이크로소프트, 구글, 아마존의 자체 칩이 x86을 빠르게 대체해 서버당 로열티 가치가 크게 두 배로 늘어난다.</li>
-<li><b>AI PC의 기업 구매·소비자 시장 보급 예상 상회</b>: Windows on Arm 생태계가 성숙해, 2027년 PC 점유율이 30%로 향하면 막대한 로열티 수익을 가져온다.</li>
+<li><b>AI PC의 기업 구매·소비자 시장 보급 가속</b>: Windows on Arm 생태계가 성숙해, 2027년 PC 점유율이 30%로 향하면 막대한 로열티 수익을 가져온다.</li>
 </ul></div>
 
 ---

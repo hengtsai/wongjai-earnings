@@ -19,8 +19,8 @@ draft: false
 <div class="kpi-card"><div class="label">Non-GAAP 営業利益率</div><div class="value">44.2%</div><div class="change up">▲ 300bps YoY｜営業レバレッジが拡大</div></div>
 <div class="kpi-card"><div class="label">Non-GAAP 希薄化後EPS</div><div class="value">$0.52</div><div class="change up">▲ 33.3% YoY</div></div>
 <div class="kpi-card"><div class="label">四半期のチップ出荷数</div><div class="value">100億個</div><div class="change up">▲ 前年同期比15億個増｜過去最高</div></div>
-<div class="kpi-card"><div class="label">AGI CPU 目標売上高</div><div class="value">$2.0B</div><div class="change up">2年間の見通しを上方修正｜Q4 FY27出荷</div></div>
-<div class="kpi-card"><div class="label">Q3 FY27 売上高ガイダンス</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜中央値は予想超え</div></div>
+<div class="kpi-card"><div class="label">AGI CPU 目標売上高</div><div class="value">$2.0B</div><div class="change up">2年間の目標を上方修正｜Q4 FY27出荷</div></div>
+<div class="kpi-card"><div class="label">Q3 FY27 売上高ガイダンス</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜前期比約7%増</div></div>
 </div>
 
 > 📌 **数値の前提**：Arm Holdings plcの会計年度は4月始まりで、FY27 Q2は2026年9月30日終了。財務データは米ドル（US$）建てで、Non-GAAP指標は株式報酬費用、無形資産償却および関連するリストラ費用を除く。
@@ -38,7 +38,7 @@ draft: false
 <tr><td><b>Non-GAAP 粗利益率 (GM%)</b></td><td><b>96.2%</b></td><td>96.0%</td><td class="good">+0.2pp</td><td>95.8%</td><td class="good">+0.4pp</td><td class="good">🟢 IPライセンスのビジネスモデルで極めて高い粗利益を維持</td></tr>
 <tr><td><b>Non-GAAP営業利益</b></td><td><b>$638</b></td><td>$572</td><td class="good">+11.5%</td><td>$468</td><td class="good">+36.3%</td><td class="good">🟢 営業利益率は44.2%に拡大</td></tr>
 <tr><td><b>GAAP 純利益 (Net Income)</b></td><td><b>$130</b></td><td>$185</td><td class="bad">-29.7%</td><td>$238</td><td class="bad">-45.4%</td><td class="warn">🟡 自社チップの研究開発と株式報酬</td></tr>
-<tr><td><b>Non-GAAP希薄化後EPS（ドル）</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 ウォール街予想の$0.47を上回る</td></tr>
+<tr><td><b>Non-GAAP希薄化後EPS（ドル）</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 ガイダンス上限の$0.51を上回る</td></tr>
 </tbody></table></div>
 
 > 📌 **年換算契約額（ACV）**：四半期末のACVは**$17.9億ドル**（前年同期比+12%）に達し、世界の大手チップ設計企業によるArmのコンピューティングアーキテクチャへの複数年コミットメントが一段と強まっていることを示す。
@@ -75,12 +75,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 ポイント1：ライセンス収入は50%急増し7.73億ドルに、Arm Total Accessの長期契約が急拡大</h3>
-<p>ライセンス売上高は四半期として過去最高を記録し、市場予想の6.25億ドルを大きく上回った。原動力はArm Total Access（ATA）とコンピュート・サブシステム（CSS）のライセンス倍増。CEOのレネ・ハース氏は「顧客は単一のCPU IPを買うのではなく、事前検証済みの完全なコンピュート・サブシステムを直接採用するようになり、先端チップの開発期間は数カ月にまで大幅に短縮されている」と指摘した。</p>
+<p>ライセンス売上高は四半期として過去最高を記録した。原動力はArm Total Access（ATA）とコンピュート・サブシステム（CSS）のライセンス倍増。CEOのレネ・ハース氏は「顧客は単一のCPU IPを買うのではなく、事前検証済みの完全なコンピュート・サブシステムを直接採用するようになり、先端チップの開発期間は数カ月にまで大幅に短縮されている」と指摘した。</p>
 </div>
 
 <div class="sb">
 <h3>🎯 ポイント2：自社開発AGI CPUは2年間で売上高20億ドルを視野に、Q4 FY27に本格量産</h3>
-<p>決算説明会最大のサプライズは、Armが自社開発AGIチップ事業の見通しを正式に引き上げたこと。FY2027とFY2028の間に最大20億ドルのチップ販売収入を生み出すとした。最初のAGI CPUはQ4 FY27に主要クラウドおよびソブリンAI顧客への出荷を開始する予定で、Armが単なるIPライセンサーから付加価値の高い実チップのコンピューティングソリューション供給者へと正式に格上げされることを示す。</p>
+<p>決算説明会最大のサプライズは、Armが自社開発AGIチップ事業の目標を正式に引き上げたこと。FY2027とFY2028の間に最大20億ドルのチップ販売収入を生み出すとした。最初のAGI CPUはQ4 FY27に主要クラウドおよびソブリンAI顧客への出荷を開始する予定で、Armが単なるIPライセンサーから付加価値の高い実チップのコンピューティングソリューション供給者へと正式に格上げされることを示す。</p>
 </div>
 
 <div class="sb">
@@ -131,13 +131,13 @@ draft: false
 <h3 class="risk-gold">🟡 中リスク（Medium Risk）</h3>
 <div class="sb rm"><ul>
 <li><b>クアルコム（Qualcomm）とのライセンス訴訟と特許紛争の行方</b>：Nuviaをめぐる中核の訴訟で不利な判決が出れば、一部PCチップのロイヤルティの算定基準と契約条項に影響する可能性がある。</li>
-<li><b>スマートフォンの買い替えサイクルの長期化</b>：世界のスマホ出荷の伸びは鈍化しており、Armv9への移行が想定より遅れれば、ロイヤルティの短期的な伸びは限られる。</li>
+<li><b>スマートフォンの買い替えサイクルの長期化</b>：世界のスマホ出荷の伸びは鈍化しており、Armv9への移行が鈍れば、ロイヤルティの短期的な伸びは限られる。</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 低リスク／潜在的な機会（Low Risk / Opportunity）</h3>
 <div class="sb rl"><ul>
 <li><b>CSPの自社開発CPUの全面的な導入拡大</b>：マイクロソフト、Google、アマゾンの自社チップがx86の置き換えを加速し、サーバー1台当たりのロイヤルティ価値は大幅に倍増する。</li>
-<li><b>AI PCの企業調達と消費者市場への浸透が予想超え</b>：Windows on Armのエコシステムは成熟しており、2027年にPCシェアが30%に迫れば、巨額のロイヤルティ収入をもたらす。</li>
+<li><b>AI PCの企業調達と消費者市場への浸透が加速</b>：Windows on Armのエコシステムは成熟しており、2027年にPCシェアが30%に迫れば、巨額のロイヤルティ収入をもたらす。</li>
 </ul></div>
 
 ---

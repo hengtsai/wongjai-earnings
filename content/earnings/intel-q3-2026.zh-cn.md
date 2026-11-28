@@ -91,7 +91,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察二：以色列 Fab 28 气体爆炸停工两周真相 — 冲击 Q4 与 Q1'27 营收各 $3 亿、压缩毛利率 200 bps</h3>
-<p>针对 Q4 指引低于市场预期的原因，Zinsner 首次披露 10 月初以色列基尔亚特加特 <b>Fab 28 晶圆厂发生致命气体爆炸事故，导致全厂停工约两周并造成大批在制晶圆报废</b>。由于现行服务器处理器的 I/O 晶粒与第 4/5 代 Xeon 高度依赖 Fab 28 的 10nm（Intel 7）产线，该事故将直接<b>削减 Q4 2026 与 Q1 2027 服务器营收各约 US$3 亿美元，并压缩 Q4 毛利率达 200 bps</b>；叠加内存缺货导致 Q4 PC 营收预计环比下降逾 20%，构成 Q4 指引下滑的主因。</p>
+<p>针对 Q4 指引环比下降的原因，Zinsner 首次披露 10 月初以色列基尔亚特加特 <b>Fab 28 晶圆厂发生致命气体爆炸事故，导致全厂停工约两周并造成大批在制晶圆报废</b>。由于现行服务器处理器的 I/O 晶粒与第 4/5 代 Xeon 高度依赖 Fab 28 的 10nm（Intel 7）产线，该事故将直接<b>削减 Q4 2026 与 Q1 2027 服务器营收各约 US$3 亿美元，并压缩 Q4 毛利率达 200 bps</b>；叠加内存缺货导致 Q4 PC 营收预计环比下降逾 20%，构成 Q4 指引下滑的主因。</p>
 </div>
 
 <div class="sb">
@@ -175,7 +175,6 @@ draft: false
 <tr><td><b>总市值 / 企业价值 (EV)</b></td><td><b>~US$310B / ~$306B</b></td><td>~$489B / ~$485B</td><td class="warn">🟡 全球第 47 大上市公司（稀释股数 5,307M，净现金 $3.9B）</td></tr>
 <tr><td><b>Non-GAAP TTM EPS / PE</b></td><td><b>US$1.36 / 42.8x</b></td><td>US$1.36 / 67.7x</td><td class="warn">🟡 GAAP TTM EPS 为 -$2.41（受 Q2 托管股估值损失拖累）</td></tr>
 <tr><td><b>FY2026E 预估 EPS / PE</b></td><td><b>US$1.48 / 39.4x</b></td><td>US$1.48 / 62.2x</td><td class="warn">🟡 9M26 累计 Non-GAAP EPS $1.23 + Q4 官方指引 $0.25</td></tr>
-<tr><td><b>FY2027E Forward PE</b></td><td><b>~26.5x – 29.0x</b></td><td>~42.0x – 46.0x</td><td class="good">🟢 一致预期 2027H2 服务器放量带动 EPS 挑战 $2.00–$2.20</td></tr>
 <tr><td><b>EV / EBITDA（Q3 年化）</b></td><td><b>~12.2x</b></td><td>~19.3x</td><td class="good">🟢 Q3 Non-GAAP OpInc ($3.23B) + D&A ($3.04B) 年化 ~$25.1B</td></tr>
 <tr><td><b>P/B Ratio（市净率）</b></td><td><b>2.69x</b>（每股净资产 $21.65）</td><td>4.25x</td><td class="good">🟢 回落至重资本 IDM 的合理区间，高折旧具备强大经营杠杆</td></tr>
 </tbody></table></div>
@@ -183,9 +182,9 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>公司名称 (代码)</th><th>市值 (US$)</th><th>全球市值排名</th><th>最新毛利率 (Non-GAAP)</th><th>最新营业利润率</th><th>最新营收 YoY</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
 <tbody>
-<tr><td><b>英特尔 Intel (INTC)</b></td><td><b>~$310B</b></td><td><b>全球第 47 大</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E) / ~27.5x (27E)</b></td></tr>
+<tr><td><b>英特尔 Intel (INTC)</b></td><td><b>~$310B</b></td><td><b>全球第 47 大</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E)</b></td></tr>
 <tr><td><b>英伟达 NVIDIA (NVDA)</b></td><td>~$4.83T</td><td>全球第 2 大</td><td>~75.0%</td><td>~63.0%</td><td class="good">+70% ~ +80%</td><td>~42.0x</td><td>~30.0x</td></tr>
-<tr><td><b>台积电 TSMC (TSM)</b></td><td>~$2.05T</td><td>全球第 6 大</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E) / ~18.0x (27E)</td></tr>
+<tr><td><b>台积电 TSMC (TSM)</b></td><td>~$2.05T</td><td>全球第 6 大</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E)</td></tr>
 <tr><td><b>博通 Broadcom (AVGO)</b></td><td>~$1.55T</td><td>全球第 9 大</td><td>~76.0%</td><td>~61.0%</td><td class="good">+40% ~ +45%</td><td>~45.0x</td><td>~28.0x</td></tr>
 <tr><td><b>AMD (AMD)</b></td><td>~$800B</td><td>全球第 18 大</td><td>55.9%</td><td>29.3%</td><td class="good">+44.7%</td><td>~61.0x</td><td>~49.0x</td></tr>
 </tbody></table></div>
@@ -200,7 +199,7 @@ draft: false
 <li><b>18A 成本大降 40% 且双线出货，Foundry 外部营收达 $4.11 亿</b>：Clearwater Forest 与 Panther Lake 正式出货，Foundry 亏损收窄至 -$18.53 亿，陈立武预告未来两个季度将宣布新的外部代工与 EMIB-T 客户。</li>
 <li><b>看穿托管股估值迷雾，8 月 $95 增发 $230 亿筑起 540 亿现金防波堤</b>：Q3 GAAP EPS ($0.60) 高于 Non-GAAP ($0.52) 主因确认商务部托管股 +$10.05 亿估值收益；高位增发使账上重回 +$38.7 亿净现金。</li>
 <li><b>Fab 28 气体爆炸与 PC 内存缺货压低 Q4 指引</b>：以色列 Fab 28 停工两周，削减 Q4 与 Q1'27 营收各 $3 亿并压缩 Q4 毛利率 200 bps，叠加 PC 环比降 >20%，致 Q4 营收指引回落至 $15–16B、毛利率降至 38%。</li>
-<li><b>2027 年定调「上紧下宽、无正 FCF」，估值回调至务实检验区间</b>：2027H2 载板产能扩增 40% 将释放服务器动能，但扩大 18A/14A 投资使全年无正 FCF；股价回落至 $58.27（EV/EBITDA 12.2x、P/B 2.69x）已消化过热预期。</li>
+<li><b>2027 年定调「上紧下宽、无正 FCF」，估值回调至务实检验区间</b>：2027H2 载板产能扩增 40% 将释放服务器动能，但扩大 18A/14A 投资使全年没有正 FCF；股价回落至 $58.27（EV/EBITDA 12.2x、P/B 2.69x）已消化过热估值。</li>
 </ul>
 </div>
 

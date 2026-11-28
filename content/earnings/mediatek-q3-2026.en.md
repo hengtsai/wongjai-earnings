@@ -125,7 +125,7 @@ draft: false
 
 <h3 class="risk-red">🔴 High Risk</h3>
 <div class="sb rh"><ul>
-<li><b>Data center ASICs initially dilute gross margin</b>: Q4 gross margin is expected to fall to 45%, and if cloud accelerator system assembly costs exceed expectations, it could briefly drop below 44%.</li>
+<li><b>Data center ASICs dilute blended gross margin early on</b>: Q4 gross margin is expected to fall to 45%; if cloud accelerator system assembly costs exceed plans, margin could briefly drop below 44%.</li>
 <li><b>Tight CoWoS and HBM supply</b>: If TSMC advanced packaging or HBM3e capacity cannot be allocated in time, Q4 and 2027 ASIC deliveries of $16B could be affected.</li>
 </ul></div>
 
@@ -166,7 +166,7 @@ draft: false
 - **Revenue mix transformed**: Smart Edge tops 58%, leaving behind the cycle of a pure handset chip company for a new high-growth profile.
 - **Cloud ASICs enter harvest season**: The first custom AI accelerator is in volume production, contributing $2.5B in Q4, with 2027 aimed at the $16B top end.
 - **Deep alliances with top giants**: A second US CSP is signed, and NVIDIA and Google strategically subscribed to the $3.9B convertible bond, securing capacity and orders.
-- **Q4 guidance up 30%**: Quarterly revenue guidance tops NT$220B, a record for Taiwan's chip industry, with full-year results far above original expectations.
+- **Q4 guidance jumps 30%**: Quarterly revenue guidance tops NT$220B, a record for Taiwan's chip industry, with strong full-year revenue growth.
 - **A rerating sweet spot**: At 14x forward P/E with a shot at 20% of the global cloud ASIC market, it is Greater China's semiconductor name with the most rerating potential.
 
 > 💡 **Bottom line**: With Smart Edge now more than half of revenue, MediaTek has completed its structural shift, and $2.5B a quarter from cloud AI accelerators marks its formal entry into the top tier of global ASIC makers—at 14 times earnings, a rare rerating opportunity.

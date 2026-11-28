@@ -19,8 +19,8 @@ draft: false
 <div class="kpi-card"><div class="label">Non-GAAP Op. Margin</div><div class="value">44.2%</div><div class="change up">▲ 300bps YoY | Operating leverage</div></div>
 <div class="kpi-card"><div class="label">Non-GAAP Diluted EPS</div><div class="value">$0.52</div><div class="change up">▲ 33.3% YoY</div></div>
 <div class="kpi-card"><div class="label">Quarterly Chip Shipments</div><div class="value">10 billion</div><div class="change up">▲ Up 1.5 billion YoY | All-time high</div></div>
-<div class="kpi-card"><div class="label">AGI CPU Revenue Target</div><div class="value">$2.0B</div><div class="change up">Two-year outlook raised | Ships Q4 FY27</div></div>
-<div class="kpi-card"><div class="label">Q3 FY27 Revenue Guidance</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY | Midpoint above expectations</div></div>
+<div class="kpi-card"><div class="label">AGI CPU Revenue Target</div><div class="value">$2.0B</div><div class="change up">Two-year target raised | Ships Q4 FY27</div></div>
+<div class="kpi-card"><div class="label">Q3 FY27 Revenue Guidance</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY | About +7% QoQ</div></div>
 </div>
 
 > 📌 **Basis of figures**: Arm Holdings plc's fiscal year starts in April; FY27 Q2 ended September 30, 2026. Financial data are in US dollars (US$); non-GAAP measures exclude share-based compensation, amortization of intangible assets and related restructuring costs.
@@ -38,7 +38,7 @@ draft: false
 <tr><td><b>Non-GAAP Gross Margin (GM%)</b></td><td><b>96.2%</b></td><td>96.0%</td><td class="good">+0.2pp</td><td>95.8%</td><td class="good">+0.4pp</td><td class="good">🟢 IP licensing model keeps margins very high</td></tr>
 <tr><td><b>Non-GAAP operating income</b></td><td><b>$638</b></td><td>$572</td><td class="good">+11.5%</td><td>$468</td><td class="good">+36.3%</td><td class="good">🟢 Operating margin expands to 44.2%</td></tr>
 <tr><td><b>GAAP Net Income</b></td><td><b>$130</b></td><td>$185</td><td class="bad">-29.7%</td><td>$238</td><td class="bad">-45.4%</td><td class="warn">🟡 In-house chip R&D and stock compensation</td></tr>
-<tr><td><b>Non-GAAP diluted EPS ($)</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 Beats Wall Street's $0.47</td></tr>
+<tr><td><b>Non-GAAP diluted EPS ($)</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 Above the $0.51 top of guidance</td></tr>
 </tbody></table></div>
 
 > 📌 **Annualized contract value (ACV)**: ACV reached **$1.79B** at quarter-end (+12% YoY), reflecting growing multi-year commitments to Arm's compute architecture from major chip designers worldwide.
@@ -75,12 +75,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Licensing revenue soars 50% to $773M as Arm Total Access deals take off</h3>
-<p>Licensing revenue hit a quarterly record, far above the market's $625M expectation, driven by a doubling of Arm Total Access (ATA) and Compute Subsystems (CSS) licenses. CEO Rene Haas noted that customers no longer buy a single CPU IP but adopt complete, pre-verified compute subsystems, cutting design cycles for their advanced chips to a matter of months.</p>
+<p>Licensing revenue hit a quarterly record, driven by a doubling of Arm Total Access (ATA) and Compute Subsystems (CSS) licenses. CEO Rene Haas noted that customers no longer buy a single CPU IP but adopt complete, pre-verified compute subsystems, cutting design cycles for their advanced chips to a matter of months.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 2: In-house AGI CPU could bring $2B over two years, ramping in Q4 FY27</h3>
-<p>The biggest surprise of the call was Arm formally raising its outlook for its in-house AGI chip business: up to $2B of chip sales across FY2027 and FY2028. The first AGI CPU will start shipping to major cloud and sovereign AI customers in Q4 FY27, marking Arm's move from pure IP licensor to a supplier of higher-value physical compute solutions.</p>
+<p>The biggest surprise of the call was Arm formally raising its target for its in-house AGI chip business: up to $2B of chip sales across FY2027 and FY2028. The first AGI CPU will start shipping to major cloud and sovereign AI customers in Q4 FY27, marking Arm's move from pure IP licensor to a supplier of higher-value physical compute solutions.</p>
 </div>
 
 <div class="sb">
@@ -110,7 +110,7 @@ draft: false
 ### Fiscal 2027 Third Quarter (Q3 FY27) Guidance (official)
 
 <div class="sw"><table>
-<thead><tr><th>Guided Operating Metric</th><th>Q3 FY27 Guidance Range</th><th>Midpoint</th><th>Expected YoY Growth</th><th>Key Drivers and Achievability</th></tr></thead>
+<thead><tr><th>Guided Operating Metric</th><th>Q3 FY27 Guidance Range</th><th>Midpoint</th><th>Estimated YoY Growth</th><th>Key Drivers and Achievability</th></tr></thead>
 <tbody>
 <tr><td><b>Total Revenue (US$M)</b></td><td>$1,490 – $1,590</td><td><b>$1,540</b></td><td class="good">+24.0%</td><td class="good">🟢 Peak license renewal season and server ramp</td></tr>
 <tr><td><b>Non-GAAP diluted EPS ($)</b></td><td>$0.52 – $0.60</td><td><b>$0.56</b></td><td class="good">+21.7%</td><td class="good">🟢 Operating leverage drives double-digit profit growth</td></tr>
@@ -131,13 +131,13 @@ draft: false
 <h3 class="risk-gold">🟡 Medium Risk</h3>
 <div class="sb rm"><ul>
 <li><b>Follow-up to the Qualcomm licensing lawsuit and patent disputes</b>: An adverse ruling in the core Nuvia dispute could affect the royalty basis and contract terms for some PC chips.</li>
-<li><b>Longer smartphone replacement cycles</b>: Global handset shipment growth is slowing; if the Armv9 transition is slower than expected, near-term royalty upside will be limited.</li>
+<li><b>Longer smartphone replacement cycles</b>: Global handset shipment growth is slowing; if the Armv9 transition slows, near-term royalty upside will be limited.</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 Low Risk / Opportunity</h3>
 <div class="sb rl"><ul>
 <li><b>Broader rollout of CSPs' in-house CPUs</b>: Microsoft, Google and Amazon's in-house chips are replacing x86 faster, sharply doubling royalty value per server.</li>
-<li><b>AI PC adoption in enterprise and consumer markets beating expectations</b>: The Windows on Arm ecosystem is maturing; if PC share heads toward 30% in 2027, it would bring a large royalty windfall.</li>
+<li><b>AI PC adoption accelerating in enterprise and consumer markets</b>: The Windows on Arm ecosystem is maturing; if PC share heads toward 30% in 2027, it would bring a large royalty windfall.</li>
 </ul></div>
 
 ---

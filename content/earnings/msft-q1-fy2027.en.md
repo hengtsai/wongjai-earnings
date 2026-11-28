@@ -72,7 +72,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Azure accelerates to 48% despite capacity shortages</h3>
-<p>Azure revenue was $33.2B, up 48% YoY, with Q2 guidance rising further to 49–50%. CFO Amy Hood said <b>Azure revenue came in ahead of expectations, up 48% YoY, despite third-party capacity delays</b>. The acceleration came from Foundry revenue growing more than 3x YoY, idle CPUs being found and monetized, and <b>token prices in the quarter coming in higher than expected</b>. She also cautioned that customer demand still exceeds available supply, and that the timing of efficiency gains and new capacity coming online will make quarterly growth rates fluctuate.</p>
+<p>Azure revenue was $33.2B, up 48% YoY, with Q2 guidance rising further to 49–50%. CFO Amy Hood said <b>Azure revenue came in ahead of the company's expectations, up 48% YoY, despite third-party capacity delays</b>. The acceleration came from Foundry revenue growing more than 3x YoY, idle CPUs being found and monetized, and <b>token prices in the quarter coming in higher than the company expected</b>. She also cautioned that customer demand still exceeds available supply, and that the timing of efficiency gains and new capacity coming online will make quarterly growth rates fluctuate.</p>
 </div>
 
 <div class="sb">

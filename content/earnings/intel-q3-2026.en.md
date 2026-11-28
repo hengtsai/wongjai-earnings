@@ -91,7 +91,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 2: The truth about Israel Fab 28's two-week shutdown after a gas explosion — $300M hit to both Q4 and Q1'27 revenue, 200 bps off gross margin</h3>
-<p>Explaining why Q4 guidance came in below expectations, Zinsner disclosed for the first time that in early October <b>a fatal gas explosion at the Fab 28 plant in Kiryat Gat, Israel, shut the entire fab for about two weeks and scrapped a large number of in-process wafers</b>. Because the I/O dies of current server processors and 4th/5th-gen Xeon rely heavily on Fab 28's 10nm (Intel 7) lines, the incident will directly <b>cut server revenue by about $300M in each of Q4 2026 and Q1 2027 and reduce Q4 gross margin by 200 bps</b>; combined with memory shortages that are expected to push Q4 PC revenue down more than 20% QoQ, these are the main reasons for the lower Q4 guidance.</p>
+<p>Explaining the QoQ decline in Q4 guidance, Zinsner disclosed for the first time that in early October <b>a fatal gas explosion at the Fab 28 plant in Kiryat Gat, Israel shut the whole fab for about two weeks and scrapped a large amount of work-in-process wafers</b>. Because current server processor I/O dies and 4th/5th-gen Xeon rely heavily on Fab 28's 10nm (Intel 7) line, the incident will directly <b>cut server revenue by about $300M in each of Q4 2026 and Q1 2027 and squeeze Q4 gross margin by 200 bps</b>; together with memory shortages expected to cut Q4 PC revenue by more than 20% QoQ, this is the main reason for the weaker Q4 guidance.</p>
 </div>
 
 <div class="sb">
@@ -175,7 +175,6 @@ draft: false
 <tr><td><b>Market cap / enterprise value (EV)</b></td><td><b>~$310B / ~$306B</b></td><td>~$489B / ~$485B</td><td class="warn">🟡 World's 47th-largest listed company (diluted shares 5,307M, net cash $3.9B)</td></tr>
 <tr><td><b>Non-GAAP TTM EPS / PE</b></td><td><b>$1.36 / 42.8x</b></td><td>$1.36 / 67.7x</td><td class="warn">🟡 GAAP TTM EPS of -$2.41 (dragged down by the Q2 escrowed-share loss)</td></tr>
 <tr><td><b>FY2026E EPS / P/E</b></td><td><b>$1.48 / 39.4x</b></td><td>$1.48 / 62.2x</td><td class="warn">🟡 9M26 non-GAAP EPS $1.23 + Q4 guidance $0.25</td></tr>
-<tr><td><b>FY2027E Forward PE</b></td><td><b>~26.5x – 29.0x</b></td><td>~42.0x – 46.0x</td><td class="good">🟢 Consensus sees 2027H2 server ramp lifting EPS toward $2.00–$2.20</td></tr>
 <tr><td><b>EV / EBITDA (Q3 annualized)</b></td><td><b>~12.2x</b></td><td>~19.3x</td><td class="good">🟢 Q3 non-GAAP OpInc ($3.23B) + D&A ($3.04B) annualized ~$25.1B</td></tr>
 <tr><td><b>P/B ratio</b></td><td><b>2.69x</b> (BVPS $21.65)</td><td>4.25x</td><td class="good">🟢 Back in a reasonable range for a capital-heavy IDM; high depreciation gives strong operating leverage</td></tr>
 </tbody></table></div>
@@ -183,9 +182,9 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>Company (Ticker)</th><th>Market Cap (US$)</th><th>Global Market Cap Rank</th><th>Latest Gross Margin (non-GAAP)</th><th>Latest Operating Margin</th><th>Latest Revenue YoY</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
 <tbody>
-<tr><td><b>Intel (INTC)</b></td><td><b>~$310B</b></td><td><b>No. 47 globally</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E) / ~27.5x (27E)</b></td></tr>
+<tr><td><b>Intel (INTC)</b></td><td><b>~$310B</b></td><td><b>No. 47 globally</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E)</b></td></tr>
 <tr><td><b>NVIDIA (NVDA)</b></td><td>~$4.83T</td><td>No. 2 globally</td><td>~75.0%</td><td>~63.0%</td><td class="good">+70% ~ +80%</td><td>~42.0x</td><td>~30.0x</td></tr>
-<tr><td><b>TSMC (TSM)</b></td><td>~$2.05T</td><td>No. 6 globally</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E) / ~18.0x (27E)</td></tr>
+<tr><td><b>TSMC (TSM)</b></td><td>~$2.05T</td><td>No. 6 globally</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E)</td></tr>
 <tr><td><b>Broadcom (AVGO)</b></td><td>~$1.55T</td><td>No. 9 globally</td><td>~76.0%</td><td>~61.0%</td><td class="good">+40% ~ +45%</td><td>~45.0x</td><td>~28.0x</td></tr>
 <tr><td><b>AMD (AMD)</b></td><td>~$800B</td><td>No. 18 globally</td><td>55.9%</td><td>29.3%</td><td class="good">+44.7%</td><td>~61.0x</td><td>~49.0x</td></tr>
 </tbody></table></div>
@@ -200,7 +199,7 @@ draft: false
 <li><b>18A cost down 40% and shipping on two lines; external Foundry revenue reaches $411M</b>: Clearwater Forest and Panther Lake are shipping, the Foundry loss narrowed to -$1.853B, and Lip-Bu Tan said new external foundry and EMIB-T customers will be announced in the next two quarters.</li>
 <li><b>Seeing through the escrowed-share fog: the $23B August raise at $95 builds a $54B cash breakwater</b>: Q3 GAAP EPS ($0.60) is above non-GAAP ($0.52) mainly because of a +$1.005B gain on Commerce's escrowed shares; the high-priced offering restored +$3.87B of net cash.</li>
 <li><b>Fab 28 gas explosion and PC memory shortages weigh on Q4 guidance</b>: The two-week shutdown at Israel's Fab 28 cuts $300M from both Q4 and Q1'27 revenue and 200 bps from Q4 gross margin; with PC down more than 20% QoQ, Q4 revenue guidance fell to $15–16B and gross margin to 38%.</li>
-<li><b>2027 framed as "tight then looser, no positive FCF," with valuation back in a realistic range</b>: A 40% substrate capacity increase in 2027H2 will unlock server momentum, but bigger 18A/14A investment means no positive FCF for the year; the stock's fall to $58.27 (EV/EBITDA 12.2x, P/B 2.69x) has worked off overheated expectations.</li>
+<li><b>2027 framed as "tight first half, looser second half, no positive FCF", with the valuation pulled back to a realistic range</b>: A 40% substrate capacity increase in 2027H2 will unlock server momentum, but expanded 18A/14A investment means no positive FCF for the year; the pullback to $58.27 (EV/EBITDA 12.2x, P/B 2.69x) has absorbed the overheated valuation.</li>
 </ul>
 </div>
 

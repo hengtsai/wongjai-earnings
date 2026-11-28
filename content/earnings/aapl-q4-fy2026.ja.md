@@ -6,7 +6,7 @@ quarter: "FY2026 Q4"
 logo: "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
 color: "#555555"
 translationKey: "aapl-q4-fy2026"
-summary: "Q4売上高1,144.8億ドル、EPS $2.10は予想を上回り、FY26通期の売上高4,788.3億ドルとFCF 1,360.6億ドルはそろって過去最高を記録した。iPhone 18/Duoと大中華圏（+21%）が力強く伸びたが、空前のメモリー値上がりでQ1の粗利益率ガイダンスは45%–46%に低下した。"
+summary: "Q4売上高はUS$1,144.8億、EPSはUS$2.10で前年同期比13.5%増、FY26通期の売上高US$4,788.3億とFCF US$1,360.6億はそろって過去最高を記録した。iPhone 18/Duoと大中華圏（+21%）が力強く伸びたが、空前のメモリー値上がりでQ1の粗利益率ガイダンスは45%–46%に低下した。"
 tags: ["民生用電子機器", "AI", "Apple", "AAPL", "iPhone 18", "iPhone Duo", "Services", "Apple Intelligence", "Siri AI", "John Ternus"]
 author: "Wongjai ⚡"
 draft: false
@@ -30,14 +30,14 @@ draft: false
 ### Q4 FY2026およびFY2026通期の連結損益計算書（百万ドル、公式Form 10-K）
 
 <div class="sw"><table>
-<thead><tr><th>主要指標（百万ドル）</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>ガイダンスとコンセンサスの比較</th></tr></thead>
+<thead><tr><th>主要指標（百万ドル）</th><th>Q4 FY26</th><th>Q3 FY26</th><th>QoQ</th><th>Q4 FY25</th><th>YoY</th><th>ガイダンスとコメント</th></tr></thead>
 <tbody>
-<tr><td><b>Q4 連結総売上高</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 コンセンサスを10.8億ドル上回り、9月四半期として過去最高</td></tr>
+<tr><td><b>Q4 連結総売上高</b></td><td><b>114,477</b></td><td>109,417</td><td class="good">+4.6%</td><td>102,466</td><td class="good">+11.7%</td><td class="good">🟢 9–11%のガイダンス上限を上回り、9月四半期の最高</td></tr>
 <tr><td><b>Q4 粗利益率（GM）</b></td><td><b>47.9%</b></td><td>50.1%</td><td class="warn">-2.2pp</td><td>47.2%</td><td class="good">+0.7pp</td><td class="good">🟢 関税還付$731Mを含む（実質46.9%）</td></tr>
 <tr><td><b>Q4 研究開発費（R&D）</b></td><td><b>11,730</b></td><td>11,729</td><td>0.0%</td><td>8,866</td><td class="warn">+32.3%</td><td class="warn">🟡 売上高の10.2%、Siri AIと2nmに重点投資</td></tr>
 <tr><td><b>Q4 営業利益 / OM</b></td><td><b>35,631 (31.1%)</b></td><td>35,695 (32.6%)</td><td class="warn">-0.2%</td><td>32,427 (31.7%)</td><td class="good">+9.9%</td><td class="good">🟢 販管費率はわずか6.5%、規模の経済を発揮</td></tr>
-<tr><td><b>Q4 税引後純利益</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 純利益率26.8%、コンセンサスを16.7億ドル上回る</td></tr>
-<tr><td><b>Q4 希薄化後EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 コンセンサス$1.99を上回る（実質EPS $2.05）</td></tr>
+<tr><td><b>Q4 税引後純利益</b></td><td><b>30,711</b></td><td>29,789</td><td class="good">+3.1%</td><td>27,466</td><td class="good">+11.8%</td><td class="good">🟢 純利益率 26.8%</td></tr>
+<tr><td><b>Q4 希薄化後EPS</b></td><td><b>$2.10</b></td><td>$2.02</td><td class="good">+4.0%</td><td>$1.85</td><td class="good">+13.5%</td><td class="good">🟢 前年同期比13.5%増（基本EPS $2.05）</td></tr>
 <tr><td><b>FY26 通期総売上高</b></td><td><b>478,834</b></td><td>—</td><td>—</td><td>416,161</td><td class="good"><b>+15.1%</b></td><td class="good">🟢 4四半期すべてで千億ドル超、50年来の記録</td></tr>
 <tr><td><b>FY26 通期純利益 / EPS</b></td><td><b>132,175 ($8.98)</b></td><td>—</td><td>—</td><td>112,010 ($7.46)</td><td class="good"><b>+20.4%</b></td><td class="good">🟢 通期営業利益率33.0%は過去最高</td></tr>
 </tbody></table></div>
@@ -54,7 +54,7 @@ draft: false
 <tr><td><b>iPhone</b></td><td><b>57,583</b></td><td>49,025</td><td class="good"><b>+17.5%</b></td><td><b>254,098</b></td><td class="good"><b>+21.2%</b></td><td class="good">🟢 iPhone 18 Proと折りたたみのDuoが買い替えに火</td></tr>
 <tr><td><b>Services（サービス）</b></td><td><b>31,573</b></td><td>28,750</td><td class="good"><b>+9.8%</b></td><td><b>123,301</b></td><td class="good"><b>+13.0%</b></td><td class="good">🟢 四半期の粗利益率76.0%は過去最高、粗利益の43.7%</td></tr>
 <tr><td><b>Mac</b></td><td><b>10,792</b></td><td>8,726</td><td class="good"><b>+23.7%</b></td><td><b>37,929</b></td><td class="good"><b>+12.5%</b></td><td class="good">🟢 タッチスクリーンとダイナミックアイランドのMacBook Proが好調</td></tr>
-<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 ウェアラブルは製品サイクルの移行期、コンセンサスを下回る</td></tr>
+<tr><td><b>Wearables, Home & Acc.</b></td><td>8,300</td><td>9,013</td><td class="bad">-7.9%</td><td>35,577</td><td class="warn">-0.3%</td><td class="warn">🟡 ウェアラブルは製品の移行期、前年同期比7.9%減</td></tr>
 <tr><td><b>iPad</b></td><td>6,229</td><td>6,952</td><td class="bad">-10.4%</td><td>27,929</td><td class="warn">-0.3%</td><td class="warn">🟡 6月の値上げとチップのスマホ優先供給の影響</td></tr>
 <tr><td><b>連結総売上高</b></td><td><b>114,477</b></td><td><b>102,466</b></td><td class="good"><b>+11.7%</b></td><td><b>478,834</b></td><td class="good"><b>+15.1%</b></td><td class="good">🟢 上位3事業でQ4総売上高の87.3%</td></tr>
 </tbody></table></div>
@@ -125,7 +125,7 @@ draft: false
 <tbody>
 <tr><td><b>連結総売上高 YoY</b></td><td><b>+7.0% – +10.0% YoY</b></td><td>$114.48B (+11.7%)</td><td>$143.76B</td><td class="good">🟢 <b>四半期の過去最高となるUS$153.8B–$158.1Bを狙う</b></td></tr>
 <tr><td><b>Services 売上高 YoY</b></td><td><b>+8.0% – +9.0% YoY</b></td><td>$31.57B (+9.8%)</td><td>~$29.9B</td><td class="good">🟢 <b>US$32.2B–$32.7B</b>の見込みで、四半期の過去最高を更新</td></tr>
-<tr><td><b>全体の粗利益率（GM）</b></td><td><b>45.0% – 46.0%</b></td><td>47.9%（実質46.9%）</td><td>48.2%</td><td class="warn">🟡 コンセンサス（46.3%）を下回り、メモリーの急騰とSiri AIのコストを反映</td></tr>
+<tr><td><b>全体の粗利益率（GM）</b></td><td><b>45.0% – 46.0%</b></td><td>47.9%（実質46.9%）</td><td>48.2%</td><td class="warn">🟡 Q4実績の47.9%を下回り、メモリー高騰とSiri AIのコストを反映</td></tr>
 <tr><td><b>営業費用（OpEx）</b></td><td><b>US$20.4B – $20.8B</b></td><td>$19.19B</td><td>~$18.4B</td><td class="good">🟢 営業利益率は約31.7%–33.1%を示唆、規模で粗利益の逆風を吸収</td></tr>
 <tr><td><b>実効税率（Tax Rate）</b></td><td><b>約17.0%</b></td><td>15.0%</td><td>~16.5%</td><td>通期の通常の実効税率水準に戻る</td></tr>
 <tr><td><b>四半期現金配当</b></td><td><b>US$0.27 / 株</b></td><td>US$0.26 / 株</td><td>US$0.25 / 株</td><td class="good">🟢 3.8%引き上げ（年換算$1.08）、2026/11/16に支払い</td></tr>
@@ -147,9 +147,9 @@ draft: false
 <h3 class="risk-gold">🟡 中リスク（Medium Risk）</h3>
 <div class="sb rm">
 <ul>
-<li><b>Siri AIの推論と研究開発費の高騰</b>：通期の研究開発費は32.5%増の457.7億ドルに急増し、iCloud+の有料転換率が想定を下回れば長期の利益率を侵食する。</li>
+<li><b>Siri AIの推論と研究開発費の高騰</b>：通期の研究開発費は32.5%増の$457.7億に急増し、iCloud+の有料転換率が低ければ長期の利益率を侵食する。</li>
 <li><b>関税還付の恩恵は受け取り済みで貿易面の変数も</b>：Q4の粗利益率に1pp寄与した$731Mの関税還付は受け取り済みで、今後この緩衝はなく、関税政策にも不確実性がある。</li>
-<li><b>iPadとウェアラブルの勢いが弱い</b>：Q4のiPad（-10.4%）とウェアラブル（-7.9%）はいずれも予想を下回り、中核以外のハードは値上げに敏感なことを示す。</li>
+<li><b>iPadとウェアラブルの勢いが弱い</b>：Q4のiPad（-10.4%）とウェアラブル（-7.9%）はいずれも前年同期比で減少し、中核以外のハードは値上げに敏感なことを示す。</li>
 </ul>
 </div>
 
@@ -197,7 +197,7 @@ draft: false
 
 <div class="sb rl">
 <ul>
-<li><b>FY26は記録をすべて塗り替え、時価総額は5.08兆ドルを突破し世界首位に</b>：Q4売上高1,144.8億ドル、EPS $2.10は予想を上回り、通期売上高4,788.3億ドル（+15.1%）、EPS $8.98（+20.4%）は過去最高。</li>
+<li><b>FY26は記録を全面的に塗り替え、時価総額は5.08兆ドルを突破し世界首位に</b>：Q4売上高$1,144.8億、EPS $2.10（前年同期比13.5%増）。通期売上高$4,788.3億（+15.1%）、EPS $8.98（+20.4%）は過去最高。</li>
 <li><b>iPhone 18/Duoと大中華圏（+21%）という2つのエンジンが爆発</b>：Q4のiPhoneは17.5%増、タッチ対応Macは23.7%急増し、大中華圏は通期28%増の823.8億ドルで、都市の売れ筋トップ3を独占。</li>
 <li><b>究極のアセットライトな現金製造機：設備投資は逆に29%減の90.4億ドル、FCFは1,361億ドルに急増</b>：通期で株主に1,021億ドルを還元した後も利益剰余金は正式にプラスに転じ（+137億ドル）、ネットキャッシュは逆に68%増の568.2億ドル。</li>
 <li><b>メモリーの「前例のない値上がり」でQ1の粗利益率ガイダンスは45%–46%に</b>：Q4に受け取り済みの関税還付$731Mを除く実質粗利益率は46.9%で、アップルは棚卸資産を154%積み増し、購入コミットメントを897億ドルに引き上げて供給を確保した。</li>

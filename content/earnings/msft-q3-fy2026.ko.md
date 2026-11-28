@@ -14,7 +14,7 @@ draft: false
 
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q3 매출</div><div class="value">829억 달러</div><div class="change up">▲18% YoY</div></div>
-<div class="kpi-card"><div class="label">Azure 성장률</div><div class="value">+40%</div><div class="change up">예상 상회</div></div>
+<div class="kpi-card"><div class="label">Azure 성장률</div><div class="value">+40%</div><div class="change up">37–38% 가이던스 상회</div></div>
 <div class="kpi-card"><div class="label">AI 연환산 매출</div><div class="value">370억 달러 이상</div><div class="change up">▲123% YoY</div></div>
 <div class="kpi-card"><div class="label">영업이익률</div><div class="value">46.3%</div><div class="change up">전년 45.7%</div></div>
 <div class="kpi-card"><div class="label">희석 EPS</div><div class="value">US$4.27</div><div class="change up">▲23% YoY</div></div>
@@ -23,7 +23,7 @@ draft: false
 <div class="kpi-card"><div class="label">잉여현금흐름</div><div class="value">158억 달러</div><div class="change dn">▼22% YoY</div></div>
 </div>
 
-> 📌 **기준 설명**: 이 글은 2026/11 v3.0 형식으로 새로 정비한 과거 글로, 수치는 Microsoft가 2026/4/29 제출한 SEC Form 8-K 보도자료(미국 GAAP, 단위 백만 달러, 전년 동기는 회사 재작성 수치)로 항목별로 다시 대조했고, 구판의 전년 동기 매출과 EPS, 전 분기 매출, 매출총이익률, 잉여현금흐름 증가율 등의 오류를 바로잡고 검증되지 않은 시장 컨센서스 수치를 삭제했다. 실적 발표 인용은 Microsoft 투자자 관계 사이트 녹취록에서 가져왔으며 한국어는 본문 번역이다. 주가는 Yahoo Finance 기준.
+> 📌 **수치 기준**: 본문은 2026/11 v3.0 형식으로 새로 정리한 과거 글로, 수치는 마이크로소프트가 2026/4/29 SEC에 제출한 Form 8-K 보도자료(미국 GAAP, 단위 백만 달러, 작년 같은 분기는 회사 재작성 수치)로 항목별로 다시 확인했으며, 이전 판의 작년 같은 분기 매출과 EPS, 전분기 매출, 매출총이익률, 잉여현금흐름 증가율 등의 오류를 바로잡고 검증되지 않은 제3자 추정 수치를 삭제했다. 실적 발표 인용문은 마이크로소프트 IR 웹사이트 녹취록에서 가져왔으며 한국어 번역은 본문 번역이다. 주가는 Yahoo Finance 기준이다.
 
 ## 1. 📈 핵심 수치 요약
 
@@ -32,7 +32,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>지표</th><th>Q3 FY26</th><th>Q3 FY25</th><th>YoY</th><th>코멘트</th></tr></thead>
 <tbody>
-<tr><td><b>매출</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 예상 상회</td></tr>
+<tr><td><b>매출</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 전년 대비 18.3% 증가</td></tr>
 <tr><td><b>생산성 및 비즈니스 프로세스</b></td><td><b>35,013</b></td><td>29,944</td><td class="good">+16.9%</td><td>영업이익률 60%</td></tr>
 <tr><td><b>인텔리전트 클라우드</b></td><td><b>34,681</b></td><td>26,751</td><td class="good">+29.6%</td><td class="good">🟢 Azure +40%</td></tr>
 <tr><td><b>개인 컴퓨팅</b></td><td><b>13,192</b></td><td>13,371</td><td class="warn">-1.3%</td><td class="warn">🟡 게임 -7%</td></tr>
@@ -44,7 +44,7 @@ draft: false
 <tr><td><b>희석 EPS(OpenAI 제외)</b></td><td><b>$4.27</b></td><td>$3.54</td><td class="good">+20.6%</td><td class="good">🟢 고정환율 +18%</td></tr>
 </tbody></table></div>
 
-> 📌 **기타 핵심**: Microsoft Cloud 매출 545억(+29%), 클라우드 매출총이익률 66%로 예상을 약간 상회했다. 이번 분기 매출은 전 분기 대비 2.0% 증가(Q2는 812.7억). OpenAI를 제외한 영업외손익은 9.61억으로 주로 투자 이익이다. 환율 기여는 약 3%포인트, 고정환율 기준 매출은 전년 대비 15% 증가.
+> 📌 **기타 포인트**: Microsoft Cloud 매출 545억 달러(+29%), 클라우드 매출총이익률 66%로 회사 예상을 소폭 웃돌았다. 이번 분기 매출은 전분기 대비 2.0% 증가(Q2 812.7억 달러). OpenAI 제외 영업외수지는 9.61억 달러로 주로 투자이익이다. 환율 기여는 약 3%포인트이며, 고정환율 매출은 전년 대비 15% 증가.
 
 ---
 
@@ -72,7 +72,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 인사이트 1: AI 연환산 매출 370억 돌파, Azure 전년 대비 40% 증가</h3>
-<p>CEO Satya Nadella는 보도자료에서 <b>"우리 AI 사업의 연환산 매출이 370억 달러를 돌파해 전년 대비 123% 늘었다"</b>고 밝혔다. Azure 매출은 전년 대비 40%(고정환율 39%) 증가했고, CFO Amy Hood는 예상을 웃돈 이유로 <b>"이번 분기 초반에 용량을 공급했기 때문"</b>이라며 AI와 비AI 서비스 사용량이 함께 늘었다고 설명했다. 그는 워크로드, 고객군, 지역 전반에서 수요가 여전히 가용 용량을 넘어선다고도 지적했다.</p>
+<p>사티아 나델라 CEO는 보도자료에서 <b>"우리 AI 사업의 연환산 매출이 370억 달러를 넘어 전년 대비 123% 늘었다"</b>고 말했다. Azure 매출은 전년 대비 40%(고정환율 39%) 늘었으며, 에이미 후드 CFO는 회사 예상을 웃돈 이유로 <b>"이번 분기에 용량을 일찍 인도했다"</b>는 점을 들며 AI와 비AI 서비스 사용량이 모두 늘었다고 설명했다. 그는 또 모든 워크로드, 고객층, 지역에서 수요가 가용 용량을 웃돌고 있다고 지적했다.</p>
 </div>
 
 <div class="sb">
