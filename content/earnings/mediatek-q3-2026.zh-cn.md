@@ -1,12 +1,12 @@
 ---
-title: "联发科 (2454) 2026 Q3 财报分析：营收 1,680 亿超预期，首款 AI 加速器量产、Q4 激增 30%"
+title: "联发科 (2454) 2026 Q3 财报分析：营收 1,680 亿超出财测上限，首款 AI 加速器量产、Q4 激增 30%"
 date: 2026-11-01T00:00:00+08:00
 ticker: "2454"
 quarter: "2026 Q3"
 logo: "https://www.google.com/s2/favicons?domain=mediatek.com&sz=128"
 color: "#e60012"
 translationKey: "mediatek-q3-2026"
-summary: "Q3 营收 NT$1,680.6 亿、EPS NT$17.50 双双超预期，智能设备暴增 63% 跃居最大支柱。首款云端 AI 加速器放量，Q4 营收指引飙升至 2,200 亿（环比增逾 25%）。"
+summary: "Q3 营收 NT$1,680.6 亿超出财测上限、EPS NT$17.50，智能设备暴增 63% 跃居最大支柱。首款云端 AI 加速器放量，Q4 营收指引飙升至 2,200 亿（环比增逾 25%）。"
 tags: ["半导体", "联发科", "2454", "MediaTek", "天玑", "AI加速器", "ASIC", "NVIDIA", "Google"]
 author: "Wongjai ⚡"
 draft: false

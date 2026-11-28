@@ -1,12 +1,12 @@
 ---
-title: "MediaTek (2454) 2026 Q3 Earnings: Revenue of NT$168B Beats, First AI Accelerator in Volume Production, Q4 to Surge 30%"
+title: "MediaTek (2454) 2026 Q3 Earnings: Revenue of NT$168B Tops Guidance, First AI Accelerator in Volume Production, Q4 to Surge 30%"
 date: 2026-11-01T00:00:00+08:00
 ticker: "2454"
 quarter: "2026 Q3"
 logo: "https://www.google.com/s2/favicons?domain=mediatek.com&sz=128"
 color: "#e60012"
 translationKey: "mediatek-q3-2026"
-summary: "Q3 revenue of NT$168.06B and EPS of NT$17.50 both beat expectations, and Smart Edge soared 63% to become the largest pillar. The first cloud AI accelerator is ramping, and Q4 revenue guidance jumped to NT$220B (up more than 25% QoQ)."
+summary: "Q3 revenue of NT$168.06B topped the high end of guidance and EPS was NT$17.50; Smart Edge soared 63% to become the largest pillar. The first cloud AI accelerator is ramping, and Q4 revenue guidance jumped to NT$220B (up more than 25% QoQ)."
 tags: ["Semiconductors", "MediaTek", "2454", "MediaTek", "Dimensity", "AI Accelerators", "ASIC", "NVIDIA", "Google"]
 author: "Wongjai ⚡"
 draft: false

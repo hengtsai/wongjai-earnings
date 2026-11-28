@@ -1,5 +1,5 @@
 ---
-title: "Arm (ARM) FY27 Q2 Earnings: $1.44B Revenue Beats, Licensing Soars 50%, In-House AGI Chip Targets $2B"
+title: "Arm (ARM) FY27 Q2 Earnings: $1.44B Revenue Tops Guidance, Licensing Soars 50%, In-House AGI Chip Targets $2B"
 date: 2026-11-04T00:00:00+08:00
 ticker: "ARM"
 quarter: "FY2027 Q2"

@@ -5,7 +5,7 @@ ticker: "2454"
 quarter: "2026 Q3"
 logo: "https://www.google.com/s2/favicons?domain=mediatek.com&sz=128"
 color: "#e60012"
-summary: "Q3 營收 NT$1,680.6 億、EPS NT$17.50 雙超標，智慧裝置暴增 63% 躍居最大支柱。首款雲端 AI 加速器放量，Q4 營收指引暴衝至 2,200 億（季增逾 25%）。"
+summary: "Q3 營收 NT$1,680.6 億超越財測高標、EPS NT$17.50，智慧裝置暴增 63% 躍居最大支柱。首款雲端 AI 加速器放量，Q4 營收指引暴衝至 2,200 億（季增逾 25%）。"
 tags: ["半導體", "聯發科", "2454", "MediaTek", "天璣", "AI加速器", "ASIC", "NVIDIA", "Google"]
 author: "Wongjai ⚡"
 draft: false
