@@ -14,7 +14,7 @@ draft: false
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 營收</div><div class="value">US$104.4億</div><div class="change up">達到指引高標｜▼ 7% YoY</div></div>
 <div class="kpi-card"><div class="label">Q4 Non-GAAP 毛利</div><div class="value">52.4%</div><div class="change down">▼ 1.8pp QoQ｜受成本推升</div></div>
-<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">超越共識 $2.12｜FY26 $10.54</div></div>
+<div class="kpi-card"><div class="label">Q4 Non-GAAP EPS</div><div class="value">US$2.17</div><div class="change up">FY26 $10.54</div></div>
 <div class="kpi-card"><div class="label">Q4 車用晶片營收</div><div class="value">US$19.9億</div><div class="change up">▲ 89% YoY｜歷史新高紀錄</div></div>
 <div class="kpi-card"><div class="label">Q4 IoT 晶片營收</div><div class="value">US$18.9億</div><div class="change up">▲ 4% YoY｜PC與工業穩健</div></div>
 <div class="kpi-card"><div class="label">Q4 QTL 授權營收</div><div class="value">US$13.0億</div><div class="change up">EBT利潤率 70%｜大客戶續約</div></div>
@@ -35,8 +35,8 @@ draft: false
 <tr><td><b>GAAP 合併總營收</b></td><td><b>10,322</b></td><td>10,240</td><td class="good">+0.8%</td><td>11,270</td><td class="bad">-8.4%</td><td class="good">🟢 包含部分終止合約遞延調整</td></tr>
 <tr><td><b>Non-GAAP 毛利率</b></td><td><b>52.4%</b></td><td>54.2%</td><td class="warn">-1.8pp</td><td>55.6%</td><td class="bad">-3.2pp</td><td class="warn">🟡 晶圓封裝成本上漲壓抑利潤率</td></tr>
 <tr><td><b>Non-GAAP 研發費用 (R&D)</b></td><td><b>2,246</b></td><td>2,210</td><td class="warn">+1.6%</td><td>2,187</td><td class="warn">+2.7%</td><td class="good">🟢 研發費率 21.5%，重押伺服器AI</td></tr>
-<tr><td><b>Non-GAAP 營業利益率</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 符合指引預期，加大前期投入</td></tr>
-<tr><td><b>Non-GAAP 稅後純益</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="good">🟢 超越華爾街共識之 $2,360M</td></tr>
+<tr><td><b>Non-GAAP 營業利益率</b></td><td><b>24.5%</b></td><td>26.2%</td><td class="warn">-1.7pp</td><td>29.2%</td><td class="bad">-4.7pp</td><td class="warn">🟡 加大前期投入</td></tr>
+<tr><td><b>Non-GAAP 稅後純益</b></td><td><b>2,417</b></td><td>2,525</td><td class="warn">-4.3%</td><td>3,381</td><td class="bad">-28.5%</td><td class="warn">🟡 年減 28.5%</td></tr>
 <tr><td><b>Non-GAAP 稀釋 EPS</b></td><td><b>$2.17</b></td><td>$2.26</td><td class="warn">-4.0%</td><td>$3.00</td><td class="bad">-27.7%</td><td class="good">🟢 超指引中線（$2.05-$2.25）</td></tr>
 <tr><td><b>FY26 全年 Non-GAAP 營收/EPS</b></td><td><b>43,240 ($10.54)</b></td><td>—</td><td>—</td><td>38,962 ($10.22)</td><td class="good"><b>+11.0%</b></td><td class="good">🟢 全年 EPS $10.54 創歷史次高</td></tr>
 </tbody></table></div>
@@ -116,12 +116,12 @@ draft: false
 ### Q1 FY2027 財測指引（官方公佈）
 
 <div class="sw"><table>
-<thead><tr><th>指引指標</th><th>Q1 FY27 指引區間</th><th>中線數值</th><th>YoY 增長預估</th><th>市場共識與達成可行性</th></tr></thead>
+<thead><tr><th>指引指標</th><th>Q1 FY27 指引區間</th><th>中線數值</th><th>YoY 增長預估</th><th>達成可行性</th></tr></thead>
 <tbody>
-<tr><td><b>總營收 (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 高於買方預期，資料中心新業務挹注</td></tr>
+<tr><td><b>總營收 (US$M)</b></td><td>10,400 – 11,200</td><td><b>10,800</b></td><td>+3.5%</td><td class="good">🟢 資料中心新業務挹注</td></tr>
 <tr><td><b>QCT 晶片營收 (US$M)</b></td><td>9,000 – 9,600</td><td><b>9,300</b></td><td>+4.2%</td><td class="good">🟢 車用與資料中心加速放量填補手機</td></tr>
 <tr><td><b>QTL 授權營收 (US$M)</b></td><td>1,300 – 1,500</td><td><b>1,400</b></td><td>+1.8%</td><td class="good">🟢 大客戶全數續約，營運極為平穩</td></tr>
-<tr><td><b>Non-GAAP 稀釋 EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 共識為 $2.20，前期研發壓抑利潤</td></tr>
+<tr><td><b>Non-GAAP 稀釋 EPS</b></td><td><b>$2.15 – $2.35</b></td><td><b>$2.25</b></td><td>+1.4%</td><td class="good">🟢 前期研發壓抑利潤</td></tr>
 <tr><td><b>Data Center 首季出貨</b></td><td><b>> 650M</b></td><td>700M</td><td>全新項目</td><td class="good">🟢 全年目標 $5.0B，雲端巨頭驗證順利</td></tr>
 <tr><td><b>Non-GAAP 有效稅率</b></td><td>14.0% – 15.0%</td><td>14.5%</td><td>—</td><td class="good">🟢 處於公司長期指引合理常態區間</td></tr>
 </tbody></table></div>
@@ -132,19 +132,19 @@ draft: false
 
 <h3 class="risk-red">🔴 高風險（High Risk）</h3>
 <div class="sb rh"><ul>
-<li><b>蘋果基頻替換進度超預期</b>：若 iPhone 18 全面加速擴大採用自研 5G 數據機，將造成高通手機晶片營收進一步縮減 15%–20%。</li>
+<li><b>蘋果基頻替換進度加快</b>：若 iPhone 18 全面加速擴大採用自研 5G 數據機，將造成高通手機晶片營收進一步縮減 15%–20%。</li>
 <li><b>資料中心客製化晶片放量延宕</b>：Hyperscaler 資本支出轉向或驗證時程推遲，可能衝擊 FY27 50 億美元營收目標實現。</li>
 </ul></div>
 
 <h3 class="risk-gold">🟡 中風險（Medium Risk）</h3>
 <div class="sb rm"><ul>
 <li><b>晶圓先進製程成本轉嫁遲滯</b>：台積電等代工廠漲價若無法完全傳導給手機廠商，將壓縮 FY27 上半年 QCT 營業利益率。</li>
-<li><b>全球智慧手機市場持續疲軟</b>：中低階 Android 機種銷售復甦不如預期，壓抑 IoT 與通訊晶片去庫存節奏。</li>
+<li><b>全球智慧手機市場持續疲軟</b>：中低階 Android 機種銷售復甦緩慢，壓抑 IoT 與通訊晶片去庫存節奏。</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 低風險／潛在機會（Low Risk / Opportunity）</h3>
 <div class="sb rl"><ul>
-<li><b>邊緣 AI PC 與車用滲透率超預期</b>：Copilot+ PC 普及帶動 Snapdragon X Elite 系列放量，加速非手機業務營收成長。</li>
+<li><b>邊緣 AI PC 與車用滲透加速</b>：Copilot+ PC 普及帶動 Snapdragon X Elite 系列放量，加速非手機業務營收成長。</li>
 <li><b>6G 專利預備與物聯網爆發</b>：下一代標準確立使高通專利話語權延伸，授權收入下檔支撐力道無虞。</li>
 </ul></div>
 
@@ -160,7 +160,7 @@ draft: false
 <tr><td><b>最新股價 (US$)</b></td><td><b>$154.58</b></td><td>$142.00</td><td>+8.8%</td><td class="good">🟢 52 週區間 $121.99 - $259.92</td></tr>
 <tr><td><b>總市值 (Market Cap)</b></td><td><b>US$1,660 億</b></td><td>US$1,550 億</td><td>+7.1%</td><td class="good">🟢 全球半導體前 10 大市值企業</td></tr>
 <tr><td><b>TTM Non-GAAP PE</b></td><td><b>14.6x</b></td><td>16.5x</td><td class="good">-11.5%</td><td class="good">🟢 相較科技股與同業具備極高性價比</td></tr>
-<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 隱含資料中心放量預期尚未完全反映</td></tr>
+<tr><td><b>2027E Forward PE</b></td><td><b>13.8x</b></td><td>15.2x</td><td class="good">-9.2%</td><td class="good">🟢 隱含資料中心放量尚未完全反映於股價</td></tr>
 <tr><td><b>EV / EBITDA</b></td><td><b>12.5x</b></td><td>13.8x</td><td class="good">-9.4%</td><td class="good">🟢 營運現金流強勁，企業價值吸引人</td></tr>
 <tr><td><b>現金殖利率 (Dividend Yield)</b></td><td><b>2.20%</b></td><td>2.10%</td><td class="good">+10bps</td><td class="good">🟢 年配息 $3.40 美元，連續 21 年調升</td></tr>
 <tr><td><b>自由現金流收益率 (FCF Yield)</b></td><td><b>5.21%</b></td><td>4.80%</td><td class="good">+41bps</td><td class="good">🟢 現金製造機器，防禦性極佳</td></tr>

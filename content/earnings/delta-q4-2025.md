@@ -36,7 +36,7 @@ draft: false
 <tr><td><b>營業費用率 (OpEx %)</b></td><td><b>17.9%</b></td><td>18.4%</td><td class="good">-0.5pp</td><td>18.8%</td><td class="good">-0.9pp</td><td class="good">🟢 費用控管嚴謹，研發佔比 8.5%</td></tr>
 <tr><td><b>營業利益率 (OM %)</b></td><td><b>16.4%</b></td><td>16.5%</td><td class="warn">-0.1pp</td><td>12.3%</td><td class="good">+4.1pp</td><td class="good">🟢 創下歷史單季營益率前段班水位</td></tr>
 <tr><td><b>歸屬母公司淨利</b></td><td><b>17,329</b></td><td>17,140</td><td class="good">+1.1%</td><td>12,160</td><td class="good">+42.5%</td><td class="good">🟢 淨利率 15.4%，高階伺服器比重增</td></tr>
-<tr><td><b>每股稅後純益 (EPS)</b></td><td><b>NT$6.67</b></td><td>NT$6.60</td><td class="good">+1.1%</td><td>NT$4.68</td><td class="good">+42.5%</td><td class="good">🟢 單季歷史同期最高，超越法人預期</td></tr>
+<tr><td><b>每股稅後純益 (EPS)</b></td><td><b>NT$6.67</b></td><td>NT$6.60</td><td class="good">+1.1%</td><td>NT$4.68</td><td class="good">+42.5%</td><td class="good">🟢 單季歷史同期最高</td></tr>
 <tr><td><b>FY25 全年營收/EPS</b></td><td><b>418,520 (NT$23.14)</b></td><td>—</td><td>—</td><td>401,227 (NT$12.86)</td><td class="good"><b>+79.9%</b></td><td class="good">🟢 全年獲利突破 600 億大關創天價</td></tr>
 </tbody></table></div>
 
@@ -100,7 +100,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察五：工業自動化觸底築底，2026 年有望迎來設備換機補庫存循環</h3>
-<p>雖然自動化事業部全年微幅衰退，但 Q4 衰退幅度已收斂至 -11.2%，歐洲與東南亞工廠自動化詢單量回溫。管理層預期隨著半導體後段封裝與鋰電池擴產重啟，自動化事業將於 2026 上半年迎來逐季復甦，成為集團下一個接棒動能。</p>
+<p>雖然自動化事業部全年微幅衰退，但 Q4 衰退幅度已收斂至 -11.2%，歐洲與東南亞工廠自動化詢單量回溫。管理層預估隨著半導體後段封裝與鋰電池擴產重啟，自動化事業將於 2026 上半年迎來逐季復甦，成為集團下一個接棒動能。</p>
 </div>
 
 ---
@@ -112,16 +112,9 @@ draft: false
 <p>台達電具備全球唯一從電網輸入、變壓、配電、不斷電（UPS）到晶片級液冷散熱的垂直整合能力。在 AI GPU 熱功耗暴增的時代，系統穩定度即是客戶的生命線，極高的認證門檻造就了客戶難以替換的龐大護城河。</p>
 </div>
 
-### 2026 全年營運展望指引
+### 2026 管理層展望
 
-<div class="sw"><table>
-<thead><tr><th>關鍵營運指標</th><th>2026 法人共識預估</th><th>YoY 成長幅度</th><th>核心動能點評</th></tr></thead>
-<tbody>
-<tr><td><b>全年合併營收 (NT$B)</b></td><td>4,850 – 5,100</td><td>+16% – +22%</td><td class="good">🟢 GB200/B200 機櫃液冷系統全面放量</td></tr>
-<tr><td><b>毛利率區間 (GM %)</b></td><td>34.5% – 35.5%</td><td>+0.5pp – +1.5pp</td><td class="good">🟢 液冷全機櫃整合產品佔比顯著提高</td></tr>
-<tr><td><b>全年 EPS 預估 (NT$)</b></td><td><b>NT$29.5 – NT$32.0</b></td><td>+27% – +38%</td><td class="good">🟢 連續兩年賺逾兩個股本，動能強勁</td></tr>
-<tr><td><b>資本支出規劃 (NT$B)</b></td><td>320 – 350</td><td>+12% – +22%</td><td class="good">🟢 加速擴增美國液冷產線與印度研發中心</td></tr>
-</tbody></table></div>
+> 📌 台達電不提供全年量化財測。管理層預估自動化事業將於 2026 上半年逐季復甦（見上方洞察）；本文不列未經查證的第三方預估數字。
 
 ---
 
@@ -157,7 +150,6 @@ draft: false
 <tr><td><b>最新收盤價 (NT$)</b></td><td><b>NT$1,510</b></td><td>NT$320</td><td>+372%</td><td class="good">🟢 52 週區間 NT$275 - NT$1,565</td></tr>
 <tr><td><b>總市值 (Market Cap)</b></td><td><b>NT$3.92 兆</b></td><td>NT$8,300 億</td><td>+372%</td><td class="good">🟢 穩居台股權值第 3 大巨頭</td></tr>
 <tr><td><b>歷史 TTM 本益比 (P/E)</b></td><td><b>65.2x</b></td><td>21.5x</td><td class="bad">+203%</td><td class="bad">🔴 處於歷史極值區間，需高度成長消化</td></tr>
-<tr><td><b>2026E Forward PE</b></td><td><b>48.5x</b></td><td>20.0x</td><td class="warn">+142%</td><td class="warn">🟡 隱含市場預期 2026 EPS 達 NT$31 以上</td></tr>
 <tr><td><b>股價淨值比 (P/B)</b></td><td><b>14.6x</b></td><td>3.8x</td><td class="bad">+284%</td><td class="bad">🔴 反映輕資產與高 ROE 的極端溢價</td></tr>
 <tr><td><b>現金股息殖利率</b></td><td><b>0.46%</b></td><td>3.20%</td><td class="warn">-274bps</td><td class="warn">🟡 配息 NT$7.0，殖利率受股價推升壓縮</td></tr>
 <tr><td><b>自由現金流收益率</b></td><td><b>1.23%</b></td><td>4.50%</td><td class="warn">-327bps</td><td class="warn">🟡 現金流入強勁但市值基數龐大</td></tr>
@@ -170,14 +162,14 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>企業名稱 (代號)</th><th>總市值 (NT$B)</th><th>TTM PE</th><th>Forward PE</th><th>毛利率 (GM%)</th><th>主要 AI 核心受惠產品</th></tr></thead>
 <tbody>
-<tr><td><b>台達電 (2308)</b></td><td><b>3,923</b></td><td><b>65.2x</b></td><td><b>48.5x</b></td><td><b>34.3%</b></td><td class="good">🟢 電源市佔過半、CDU/冷板液冷全整合</td></tr>
+<tr><td><b>台達電 (2308)</b></td><td><b>3,923</b></td><td><b>65.2x</b></td><td><b>—</b></td><td><b>34.3%</b></td><td class="good">🟢 電源市佔過半、CDU/冷板液冷全整合</td></tr>
 <tr><td><b>奇鋐 (3017)</b></td><td>365</td><td>35.8x</td><td>26.5x</td><td>23.8%</td><td class="good">🟢 3D VC 散熱模組與美系 CSP 冷板</td></tr>
 <tr><td><b>雙鴻 (3324)</b></td><td>125</td><td>38.2x</td><td>28.0x</td><td>26.5%</td><td class="good">🟢 水冷散熱排、伺服器水冷板</td></tr>
 <tr><td><b>光寶科 (2301)</b></td><td>320</td><td>18.5x</td><td>15.2x</td><td>21.5%</td><td class="warn">🟡 伺服器電源供應器與備援電池</td></tr>
 <tr><td><b>台積電 (2330)</b></td><td>28,500</td><td>22.8x</td><td>19.8x</td><td>66.4%</td><td class="good">🟢 先進製程與 CoWoS 晶圓代工霸主</td></tr>
 </tbody></table></div>
 
-> 📌 **同業評價解析**：台達電目前 65x 的 TTM 本益比遠高於散熱同業奇鋐（35.8x）與雙鴻（38.2x），其溢價來自於「電源 + 散熱系統級整合」的不可替代性與全球一線 CSP 直接綁定地位。但短線若成長動能不如預期，估值收斂風險高於同業。
+> 📌 **同業評價解析**：台達電目前 65x 的 TTM 本益比遠高於散熱同業奇鋐（35.8x）與雙鴻（38.2x），其溢價來自於「電源 + 散熱系統級整合」的不可替代性與全球一線 CSP 直接綁定地位。但短線若成長動能放緩，估值收斂風險高於同業。
 
 ---
 
@@ -186,7 +178,7 @@ draft: false
 - **AI 液冷奠定新獲利週期**：基礎設施部門營收年增 32%，CDU 與冷板出貨放量，推升毛利率突破 34%，轉型成果卓著。
 - **高階伺服器電源單極獨大**：AI 伺服器瓦數倍增鞏固台達電市佔優勢，高壓直流與專利架構形成極高競爭壁壘。
 - **海外雙軌供應鏈成型**：泰國與美國在地化組裝大幅降低地緣政治風險，成為北美雲端客戶首選供應商。
-- **估值重估處於歷史高檔**：65x 本益比與 14.6x 本淨比已充分反映樂觀預期，投資人需密切追蹤 GB200 放量進度與毛利動向。
+- **估值重估處於歷史高檔**：65x 本益比與 14.6x 本淨比已充分反映樂觀看法，投資人需密切追蹤 GB200 放量進度與毛利動向。
 - **現金牛體質支持擴產**：單季 OCF 與全年 FCF 雙創新高，全額自籌資本支出，無財務槓桿擴張壓力。
 
 > 💡 **一句話總結**：台達電成功從傳統電源大廠躍升為全球 AI 資料中心「電力與液冷散熱」不可或缺的基石，唯 65 倍本益比要求後續幾季交出無懈可擊的高成長成績單。

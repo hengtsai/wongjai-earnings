@@ -18,8 +18,8 @@ draft: false
 <div class="kpi-card"><div class="label">Non-GAAP 營益率</div><div class="value">44.2%</div><div class="change up">▲ 300bps YoY｜營運槓桿擴張</div></div>
 <div class="kpi-card"><div class="label">Non-GAAP 稀釋 EPS</div><div class="value">$0.52</div><div class="change up">▲ 33.3% YoY</div></div>
 <div class="kpi-card"><div class="label">單季晶片出貨量</div><div class="value">100億顆</div><div class="change up">▲ 年增15億顆｜創歷史新高</div></div>
-<div class="kpi-card"><div class="label">AGI CPU 目標營收</div><div class="value">$2.0B</div><div class="change up">兩年預期上修｜Q4FY27出貨</div></div>
-<div class="kpi-card"><div class="label">Q3 FY27 營收指引</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜中線優於預期</div></div>
+<div class="kpi-card"><div class="label">AGI CPU 目標營收</div><div class="value">$2.0B</div><div class="change up">兩年目標上修｜Q4FY27出貨</div></div>
+<div class="kpi-card"><div class="label">Q3 FY27 營收指引</div><div class="value">$1.54B</div><div class="change up">▲ 24% YoY｜季增約 7%</div></div>
 </div>
 
 > 📌 **口徑說明**：Arm Holdings plc 會計年度為 4 月制，FY27 Q2 截至 2026 年 9 月 30 日止。財務數據以美元（US$）為準，非 GAAP 指標排除股權激勵費用、無形資產攤銷及相關重組支出。
@@ -37,7 +37,7 @@ draft: false
 <tr><td><b>Non-GAAP 毛利率 (GM%)</b></td><td><b>96.2%</b></td><td>96.0%</td><td class="good">+0.2pp</td><td>95.8%</td><td class="good">+0.4pp</td><td class="good">🟢 IP 授權商業模式維持極高毛利</td></tr>
 <tr><td><b>Non-GAAP 營業利益</b></td><td><b>$638</b></td><td>$572</td><td class="good">+11.5%</td><td>$468</td><td class="good">+36.3%</td><td class="good">🟢 營業利益率擴張至 44.2%</td></tr>
 <tr><td><b>GAAP 稅後純益 (Net Income)</b></td><td><b>$130</b></td><td>$185</td><td class="bad">-29.7%</td><td>$238</td><td class="bad">-45.4%</td><td class="warn">🟡 自研晶片研發與股權激勵投入</td></tr>
-<tr><td><b>Non-GAAP 稀釋 EPS (US$)</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 優於華爾街預期的 $0.47</td></tr>
+<tr><td><b>Non-GAAP 稀釋 EPS (US$)</b></td><td><b>$0.52</b></td><td>$0.45</td><td class="good">+15.6%</td><td>$0.39</td><td class="good">+33.3%</td><td class="good">🟢 高於財測上緣 $0.51</td></tr>
 </tbody></table></div>
 
 > 📌 **年化合約價值（ACV）**：截至季度末 ACV 達 **$17.9 億美元**（年增 +12%），反映全球晶片設計大廠對 Arm 算力架構的多年期承諾持續升溫。
@@ -74,12 +74,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察一：授權收入飆增 50% 衝上 7.73 億，Arm Total Access 長約爆發</h3>
-<p>授權營收創下歷史單季新高，遠超市場預期的 6.25 億美元。動能來自 Arm Total Access（ATA）與運算子系統（CSS）授權倍增。執行長 Rene Haas 指出：「客戶不再只購買單一 CPU IP，而是直接採用完整預驗證的運算子系統，大幅縮短客戶先進晶片開案週期至數月。」</p>
+<p>授權營收創下歷史單季新高。動能來自 Arm Total Access（ATA）與運算子系統（CSS）授權倍增。執行長 Rene Haas 指出：「客戶不再只購買單一 CPU IP，而是直接採用完整預驗證的運算子系統，大幅縮短客戶先進晶片開案週期至數月。」</p>
 </div>
 
 <div class="sb">
 <h3>🎯 洞察二：自研 AGI CPU 兩年營收上看 20 億美元，Q4 FY27 正式放量</h3>
-<p>法說會最大驚喜為 Arm 正式上修其自研 AGI 晶片業務預期：在 FY2027 與 FY2028 間將創造最高達 20 億美元的實質晶片銷售收入。首款 AGI CPU 將於 Q4 FY27 開始交付主要雲端與主權 AI 客戶，標誌著 Arm 正式由單純 IP 授權商升級為高附加價值實體運算方案供應商。</p>
+<p>法說會最大驚喜為 Arm 正式上修其自研 AGI 晶片業務目標：在 FY2027 與 FY2028 間將創造最高達 20 億美元的實質晶片銷售收入。首款 AGI CPU 將於 Q4 FY27 開始交付主要雲端與主權 AI 客戶，標誌著 Arm 正式由單純 IP 授權商升級為高附加價值實體運算方案供應商。</p>
 </div>
 
 <div class="sb">
@@ -109,7 +109,7 @@ draft: false
 ### 2027 會計年度第三季（Q3 FY27）營運指引（官方公佈）
 
 <div class="sw"><table>
-<thead><tr><th>指引營運指標</th><th>Q3 FY27 指引區間</th><th>中線數值</th><th>YoY 預期增長</th><th>關鍵動能與達成可行性</th></tr></thead>
+<thead><tr><th>指引營運指標</th><th>Q3 FY27 指引區間</th><th>中線數值</th><th>YoY 預估增長</th><th>關鍵動能與達成可行性</th></tr></thead>
 <tbody>
 <tr><td><b>總營業收入 (US$M)</b></td><td>$1,490 – $1,590</td><td><b>$1,540</b></td><td class="good">+24.0%</td><td class="good">🟢 授權合約續約旺季與伺服器放量</td></tr>
 <tr><td><b>Non-GAAP 稀釋 EPS (US$)</b></td><td>$0.52 – $0.60</td><td><b>$0.56</b></td><td class="good">+21.7%</td><td class="good">🟢 營運槓桿推升淨利雙位數成長</td></tr>
@@ -130,13 +130,13 @@ draft: false
 <h3 class="risk-gold">🟡 中風險（Medium Risk）</h3>
 <div class="sb rm"><ul>
 <li><b>高通（Qualcomm）授權訴訟與專利糾紛後續</b>：Nuvia 核心爭議訴訟若判決不利，可能影響部分 PC 晶片權利金計算基準與合約條款。</li>
-<li><b>智慧型手機終端市場換機週期拉長</b>：全球手機出貨增速放緩，若 Armv9 轉換斜率不如預期，將限制權利金短期爆發力道。</li>
+<li><b>智慧型手機終端市場換機週期拉長</b>：全球手機出貨增速放緩，若 Armv9 轉換速度放緩，將限制權利金短期爆發力道。</li>
 </ul></div>
 
 <h3 class="risk-green">🟢 低風險／潛在機會（Low Risk / Opportunity）</h3>
 <div class="sb rl"><ul>
 <li><b>CSP 雲端自研 CPU 全面擴大導入</b>：微軟、Google 與亞馬遜自研晶片加速替代 x86，單一伺服器權利金價值大幅翻倍。</li>
-<li><b>AI PC 在企業採購與消費市場滲透超預期</b>：Windows on Arm 生態成熟，2027 年 PC 市佔若衝向 30%，將帶來巨額權利金紅利。</li>
+<li><b>AI PC 在企業採購與消費市場加速滲透</b>：Windows on Arm 生態成熟，2027 年 PC 市佔若衝向 30%，將帶來巨額權利金紅利。</li>
 </ul></div>
 
 ---

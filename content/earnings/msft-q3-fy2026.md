@@ -13,7 +13,7 @@ draft: false
 
 <div class="kpi-grid">
 <div class="kpi-card"><div class="label">Q3 營收</div><div class="value">US$829億</div><div class="change up">▲18% YoY</div></div>
-<div class="kpi-card"><div class="label">Azure 成長</div><div class="value">+40%</div><div class="change up">優於預期</div></div>
+<div class="kpi-card"><div class="label">Azure 成長</div><div class="value">+40%</div><div class="change up">高於 37–38% 財測</div></div>
 <div class="kpi-card"><div class="label">AI 年化營收</div><div class="value">逾 US$370億</div><div class="change up">▲123% YoY</div></div>
 <div class="kpi-card"><div class="label">營業利益率</div><div class="value">46.3%</div><div class="change up">去年 45.7%</div></div>
 <div class="kpi-card"><div class="label">稀釋 EPS</div><div class="value">US$4.27</div><div class="change up">▲23% YoY</div></div>
@@ -22,7 +22,7 @@ draft: false
 <div class="kpi-card"><div class="label">自由現金流</div><div class="value">US$158億</div><div class="change dn">▼22% YoY</div></div>
 </div>
 
-> 📌 **口徑說明**：本文為 2026/11 依 v3.0 格式翻新的舊文，數字已用 Microsoft 2026/4/29 提交之 SEC Form 8-K 新聞稿（美國 GAAP，單位百萬美元，去年同期為公司重編數）逐項重新核對，並更正舊版的去年同期營收與 EPS、上季營收、毛利率與自由現金流年增率等錯誤，刪除未查證的市場共識數字。法說會引言取自 Microsoft 投資人關係網站逐字稿，中譯為本文翻譯。股價取自 Yahoo Finance。
+> 📌 **口徑說明**：本文為 2026/11 依 v3.0 格式翻新的舊文，數字已用 Microsoft 2026/4/29 提交之 SEC Form 8-K 新聞稿（美國 GAAP，單位百萬美元，去年同期為公司重編數）逐項重新核對，並更正舊版的去年同期營收與 EPS、上季營收、毛利率與自由現金流年增率等錯誤，刪除未查證的第三方預估數字。法說會引言取自 Microsoft 投資人關係網站逐字稿，中譯為本文翻譯。股價取自 Yahoo Finance。
 
 ## 1. 📈 核心數據速覽
 
@@ -31,7 +31,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>指標</th><th>Q3 FY26</th><th>Q3 FY25</th><th>YoY</th><th>點評</th></tr></thead>
 <tbody>
-<tr><td><b>營收</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 優於預期</td></tr>
+<tr><td><b>營收</b></td><td><b>82,886</b></td><td>70,066</td><td class="good">+18.3%</td><td class="good">🟢 年增 18.3%</td></tr>
 <tr><td><b>生產力與商業流程</b></td><td><b>35,013</b></td><td>29,944</td><td class="good">+16.9%</td><td>營益率 60%</td></tr>
 <tr><td><b>智慧雲</b></td><td><b>34,681</b></td><td>26,751</td><td class="good">+29.6%</td><td class="good">🟢 Azure +40%</td></tr>
 <tr><td><b>個人運算</b></td><td><b>13,192</b></td><td>13,371</td><td class="warn">-1.3%</td><td class="warn">🟡 遊戲 -7%</td></tr>
@@ -43,7 +43,7 @@ draft: false
 <tr><td><b>稀釋 EPS（排除 OpenAI）</b></td><td><b>$4.27</b></td><td>$3.54</td><td class="good">+20.6%</td><td class="good">🟢 固定匯率 +18%</td></tr>
 </tbody></table></div>
 
-> 📌 **其他重點**：Microsoft Cloud 營收 545 億（+29%），雲端毛利率 66%、略優於預期。本季營收季增 2.0%（Q2 為 812.7 億）。排除 OpenAI 的業外收支 9.61 億，主要是投資利益。匯率貢獻約 3 個百分點，固定匯率營收年增 15%。
+> 📌 **其他重點**：Microsoft Cloud 營收 545 億（+29%），雲端毛利率 66%、略高於公司預估。本季營收季增 2.0%（Q2 為 812.7 億）。排除 OpenAI 的業外收支 9.61 億，主要是投資利益。匯率貢獻約 3 個百分點，固定匯率營收年增 15%。
 
 ---
 
@@ -71,7 +71,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察一：AI 年化營收破 370 億，Azure 年增 40%</h3>
-<p>執行長 Satya Nadella 在新聞稿說：<b>「我們的 AI 業務年化營收突破 370 億美元，年增 123%」</b>。Azure 營收年增 40%（固定匯率 39%），財務長 Amy Hood 說優於預期，因為<b>「本季較早交付產能」</b>，讓 AI 與非 AI 服務的用量都增加。她也指出，各類工作負載、客群與地區的需求仍超過可用產能。</p>
+<p>執行長 Satya Nadella 在新聞稿說：<b>「我們的 AI 業務年化營收突破 370 億美元，年增 123%」</b>。Azure 營收年增 40%（固定匯率 39%），財務長 Amy Hood 說高於公司預估，因為<b>「本季較早交付產能」</b>，讓 AI 與非 AI 服務的用量都增加。她也指出，各類工作負載、客群與地區的需求仍超過可用產能。</p>
 </div>
 
 <div class="sb">
@@ -119,7 +119,7 @@ draft: false
 <tr><td><b>雲端毛利率</b></td><td><b>約 64%</b></td><td>66%</td><td class="warn">🟡 GitHub 用量升</td></tr>
 </tbody></table></div>
 
-> 📌 公司預期 FY26 全年營業利益率年增約 1 個百分點、FY27 仍有雙位數營收與營業利益成長，人數將年減；Q4 調整後稅率約 19%，排除 OpenAI 的業外收支約 -1 億。
+> 📌 公司預估 FY26 全年營業利益率年增約 1 個百分點、FY27 仍有雙位數營收與營業利益成長，人數將年減；Q4 調整後稅率約 19%，排除 OpenAI 的業外收支約 -1 億。
 
 ---
 
@@ -141,7 +141,7 @@ draft: false
 <h3 class="risk-green">🟢 低風險／潛在機會（Low Risk / Opportunity）</h3>
 <div class="sb rl"><ul>
 <li><b>訂單可見度</b>：6,270 億 RPO 中約 25% 在 12 個月內認列，排除 OpenAI 也年增 26%。</li>
-<li><b>Copilot 席位加速</b>：付費席位逾 2,000 萬，Q4 淨增席位預期再季增。</li>
+<li><b>Copilot 席位加速</b>：付費席位逾 2,000 萬，Q4 淨增席位預估再季增。</li>
 </ul></div>
 
 ---

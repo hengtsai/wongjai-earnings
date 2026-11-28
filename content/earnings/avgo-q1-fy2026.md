@@ -5,7 +5,7 @@ ticker: "AVGO"
 quarter: "FY2026 Q1"
 logo: "https://www.google.com/s2/favicons?domain=broadcom.com&sz=128"
 color: "#cc0000"
-summary: "Q1 營收 193 億美元（+29%），AI 半導體 84 億、年增 106% 並高於公司預期；但軟體只增 1%，非 AI 業務幾乎沒成長。Q2 財測 220 億（+47%）、AI 107 億；本季買回加股利 109 億，超過自由現金流。"
+summary: "Q1 營收 193 億美元（+29%），AI 半導體 84 億、年增 106% 並高於公司預估；但軟體只增 1%，非 AI 業務幾乎沒成長。Q2 財測 220 億（+47%）、AI 107 億；本季買回加股利 109 億，超過自由現金流。"
 tags: ["半導體", "AI", "Broadcom", "AVGO", "客製化ASIC", "網通晶片", "VMware", "庫藏股"]
 author: "Wongjai ⚡"
 draft: false
@@ -33,7 +33,7 @@ draft: false
 <tbody>
 <tr><td><b>營收</b></td><td><b>19,311</b></td><td>18,015</td><td>14,916</td><td class="good">+29%</td><td class="good">🟢 創單季新高</td></tr>
 <tr><td>　半導體</td><td>12,515</td><td>—</td><td>8,212</td><td class="good">+52%</td><td>佔 65%</td></tr>
-<tr><td>　　AI 半導體</td><td>8,400</td><td>—</td><td>—</td><td class="good">+106%</td><td class="good">🟢 高於公司預期</td></tr>
+<tr><td>　　AI 半導體</td><td>8,400</td><td>—</td><td>—</td><td class="good">+106%</td><td class="good">🟢 高於公司預估</td></tr>
 <tr><td>　基礎架構軟體</td><td>6,796</td><td>—</td><td>6,704</td><td class="warn">+1%</td><td class="warn">🟡 幾乎停滯</td></tr>
 <tr><td><b>Non-GAAP 毛利率</b></td><td><b>77.0%</b></td><td>77.9%</td><td>79.1%</td><td class="bad">-2.1pp</td><td class="warn">🟡 AI 組合稀釋</td></tr>
 <tr><td><b>營業利益（GAAP）</b></td><td><b>8,563</b></td><td>7,508</td><td>6,260</td><td class="good">+37%</td><td>利益率 44.3%</td></tr>
@@ -68,8 +68,8 @@ draft: false
 ## 2. 🔍 五大核心洞察與法說會直擊
 
 <div class="sb">
-<h3>🎯 洞察一：AI 營收 84 億，年增 106% 且高於公司預期</h3>
-<p>AI 半導體營收 84 億，佔總營收 43%。Hock Tan 說：<b>「Q1 AI 營收 84 億、年增 106%，高於我們的預測，主要由客製化 AI 加速器與 AI 網通的強勁需求帶動」</b>，並稱<b>「AI 營收成長正在加速，預期 Q2 AI 半導體營收達 107 億」</b>，等於季增約 27%。</p>
+<h3>🎯 洞察一：AI 營收 84 億，年增 106% 且高於公司預估</h3>
+<p>AI 半導體營收 84 億，佔總營收 43%。Hock Tan 說：<b>「Q1 AI 營收 84 億、年增 106%，高於我們的預測，主要由客製化 AI 加速器與 AI 網通的強勁需求帶動」</b>，並稱<b>「AI 營收成長正在加速，預估 Q2 AI 半導體營收達 107 億」</b>，等於季增約 27%。</p>
 </div>
 
 <div class="sb">
@@ -167,7 +167,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>議題</th><th>多方看法</th><th>空方看法</th><th>本季證據</th></tr></thead>
 <tbody>
-<tr><td><b>AI</b></td><td>年增 106%</td><td>客戶集中</td><td class="good">🟢 高於預期</td></tr>
+<tr><td><b>AI</b></td><td>年增 106%</td><td>客戶集中</td><td class="good">🟢 高於公司預估</td></tr>
 <tr><td><b>非 AI</b></td><td>現金穩定</td><td>幾乎零成長</td><td class="bad">🔴 軟體 +1%</td></tr>
 <tr><td><b>毛利率</b></td><td>營益率 66%</td><td>毛利率下滑</td><td class="warn">🟡 77.0%</td></tr>
 <tr><td><b>資本配置</b></td><td>新 100 億買回</td><td>回饋超過 FCF</td><td class="warn">🟡 109 億</td></tr>
@@ -181,13 +181,13 @@ draft: false
 
 ## 6. 📋 關鍵觀察
 
-- **AI 超預期**：AI 半導體 84 億、年增 106%，高於公司自己的預測，已佔營收 43%。
+- **AI 高於公司預估**：AI 半導體 84 億、年增 106%，高於公司自己的預測，已佔營收 43%。
 - **非 AI 停滯**：軟體 +1%、非 AI 半導體持平，營收成長幾乎全靠 AI。
 - **毛利率下滑**：Non-GAAP 毛利率 77.0%（-2.1pp），靠費用控制讓營益率升到 66.4%。
 - **大手筆回饋**：股利加買回 109 億超過自由現金流，並宣布新的 100 億買回計畫。
 - **Q2 加速**：營收財測 220 億（+47%）、AI 107 億，存貨季增 30% 為出貨備料。
 
-> 💡 **一句話總結**：Broadcom 這季證明 AI 客製化晶片的需求比自己預期還強，但也暴露出 AI 以外的業務已經不成長；這是一家越來越依賴少數 AI 客戶的公司。
+> 💡 **一句話總結**：Broadcom 這季證明 AI 客製化晶片的需求比自己預估還強，但也暴露出 AI 以外的業務已經不成長；這是一家越來越依賴少數 AI 客戶的公司。
 
 <div class="disc">
 <b>免責聲明（Disclaimer）</b>：本報告僅為客觀財務數據整理與產業戰略分析，不構成任何證券之買入、賣出或持有建議，亦不提供目標價預測。投資人應獨立判斷並自負投資風險。<br><br>

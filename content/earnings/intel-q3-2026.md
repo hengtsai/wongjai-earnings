@@ -90,7 +90,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 洞察二：以色列 Fab 28 氣體爆炸停工兩週真相 — 衝擊 Q4 與 Q1'27 營收各 $3 億、壓縮毛利 200 bps</h3>
-<p>針對 Q4 財測低於市場預期的原因，Zinsner 首度揭露 10 月初以色列基爾亞特加特 <b>Fab 28 晶圓廠發生致命氣體爆炸事故，導致全廠停工約兩週並造成大批在製晶圓報廢</b>。由於現行伺服器處理器之 I/O 晶粒與第 4/5 代 Xeon 高度仰賴 Fab 28 的 10nm（Intel 7）產線，該事故將直接<b>削減 Q4 2026 與 Q1 2027 伺服器營收各約 US$3 億美元，並壓縮 Q4 毛利率達 200 bps</b>；疊加記憶體缺貨導致 Q4 PC 營收預計季減逾 20%，構成 Q4 指引滑坡的主因。</p>
+<p>針對 Q4 財測季減的原因，Zinsner 首度揭露 10 月初以色列基爾亞特加特 <b>Fab 28 晶圓廠發生致命氣體爆炸事故，導致全廠停工約兩週並造成大批在製晶圓報廢</b>。由於現行伺服器處理器之 I/O 晶粒與第 4/5 代 Xeon 高度仰賴 Fab 28 的 10nm（Intel 7）產線，該事故將直接<b>削減 Q4 2026 與 Q1 2027 伺服器營收各約 US$3 億美元，並壓縮 Q4 毛利率達 200 bps</b>；疊加記憶體缺貨導致 Q4 PC 營收預計季減逾 20%，構成 Q4 指引滑坡的主因。</p>
 </div>
 
 <div class="sb">
@@ -174,7 +174,6 @@ draft: false
 <tr><td><b>總市值 / 企業價值 (EV)</b></td><td><b>~US$310B / ~$306B</b></td><td>~$489B / ~$485B</td><td class="warn">🟡 全球第 47 大上市公司（稀釋股數 5,307M，淨現金 $3.9B）</td></tr>
 <tr><td><b>Non-GAAP TTM EPS / PE</b></td><td><b>US$1.36 / 42.8x</b></td><td>US$1.36 / 67.7x</td><td class="warn">🟡 GAAP TTM EPS 為 -$2.41（受 Q2 託管股評價損失拖累）</td></tr>
 <tr><td><b>FY2026E 預估 EPS / PE</b></td><td><b>US$1.48 / 39.4x</b></td><td>US$1.48 / 62.2x</td><td class="warn">🟡 9M26 累計 Non-GAAP EPS $1.23 + Q4 官方指引 $0.25</td></tr>
-<tr><td><b>FY2027E Forward PE</b></td><td><b>~26.5x – 29.0x</b></td><td>~42.0x – 46.0x</td><td class="good">🟢 共識預估 2027H2 伺服器放量帶動 EPS 挑戰 $2.00–$2.20</td></tr>
 <tr><td><b>EV / EBITDA (Q3 年化)</b></td><td><b>~12.2x</b></td><td>~19.3x</td><td class="good">🟢 Q3 Non-GAAP OpInc ($3.23B) + D&A ($3.04B) 年化 ~$25.1B</td></tr>
 <tr><td><b>P/B Ratio (股價淨值比)</b></td><td><b>2.69x</b>（BVPS $21.65）</td><td>4.25x</td><td class="good">🟢 回落至重資本 IDM 合理區間，高折舊具強大營運槓桿</td></tr>
 </tbody></table></div>
@@ -182,9 +181,9 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>公司名稱 (代號)</th><th>市值 (US$)</th><th>全球市值排名</th><th>最新毛利率 (Non-GAAP)</th><th>最新營益率</th><th>最新營收 YoY</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
 <tbody>
-<tr><td><b>Intel 英特爾 (INTC)</b></td><td><b>~$310B</b></td><td><b>全球第 47 大</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E) / ~27.5x (27E)</b></td></tr>
+<tr><td><b>Intel 英特爾 (INTC)</b></td><td><b>~$310B</b></td><td><b>全球第 47 大</b></td><td><b>44.1%</b></td><td><b>19.6%</b></td><td class="good"><b>+21.0% (DCAI +78%)</b></td><td><b>42.8x</b></td><td><b>39.4x (26E)</b></td></tr>
 <tr><td><b>NVIDIA 輝達 (NVDA)</b></td><td>~$4.83T</td><td>全球第 2 大</td><td>~75.0%</td><td>~63.0%</td><td class="good">+70% ~ +80%</td><td>~42.0x</td><td>~30.0x</td></tr>
-<tr><td><b>TSMC 台積電 (TSM)</b></td><td>~$2.05T</td><td>全球第 6 大</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E) / ~18.0x (27E)</td></tr>
+<tr><td><b>TSMC 台積電 (TSM)</b></td><td>~$2.05T</td><td>全球第 6 大</td><td>66.4% (TIFRS)</td><td>58.7%</td><td class="good">+41.2% (USD)</td><td>25.8x (ADR)</td><td>~22.3x (26E)</td></tr>
 <tr><td><b>Broadcom 博通 (AVGO)</b></td><td>~$1.55T</td><td>全球第 9 大</td><td>~76.0%</td><td>~61.0%</td><td class="good">+40% ~ +45%</td><td>~45.0x</td><td>~28.0x</td></tr>
 <tr><td><b>AMD 超微 (AMD)</b></td><td>~$800B</td><td>全球第 18 大</td><td>55.9%</td><td>29.3%</td><td class="good">+44.7%</td><td>~61.0x</td><td>~49.0x</td></tr>
 </tbody></table></div>
@@ -199,7 +198,7 @@ draft: false
 <li><b>18A 成本大降 40% 且雙線出貨，Foundry 外部營收達 $4.11 億</b>：Clearwater Forest 與 Panther Lake 正式出貨，Foundry 虧損收斂至 -$18.53 億，陳立武預告未來兩季將宣布新外部代工與 EMIB-T 客戶。</li>
 <li><b>看穿託管股評價迷霧，8 月 $95 增資 $230 億築起 540 億現金防波堤</b>：Q3 GAAP EPS ($0.60) 高於 Non-GAAP ($0.52) 主因認列商務部託管股 +$10.05 億評價利益；高檔增資使帳上重返 +$38.7 億淨現金。</li>
 <li><b>Fab 28 氣體爆炸與 PC 記憶體缺貨壓抑 Q4 指引</b>：以色列 Fab 28 停工兩週削減 Q4 與 Q1'27 營收各 $3 億並壓縮 Q4 毛利率 200 bps，疊加 PC 季減 >20%，致 Q4 營收指引回落至 $15–16B、毛利率降至 38%。</li>
-<li><b>2027 年定調「上緊下寬、無正 FCF」，估值回調至務實檢驗區間</b>：2027H2 載板產能擴增 40% 將釋放伺服器動能，但擴大 18A/14A 投資使全年無正 FCF；股價回落至 $58.27（EV/EBITDA 12.2x、P/B 2.69x）已消化過熱預期。</li>
+<li><b>2027 年定調「上緊下寬、無正 FCF」，估值回調至務實檢驗區間</b>：2027H2 載板產能擴增 40% 將釋放伺服器動能，但擴大 18A/14A 投資使全年無正 FCF；股價回落至 $58.27（EV/EBITDA 12.2x、P/B 2.69x）已消化過熱評價。</li>
 </ul>
 </div>
 

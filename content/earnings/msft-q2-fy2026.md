@@ -70,8 +70,8 @@ draft: false
 ## 2. 🔍 五大核心洞察與法說會直擊
 
 <div class="sb">
-<h3>🎯 洞察一：Azure 39% 小幅優於預期，但產能仍不夠</h3>
-<p>Azure 與其他雲端服務年增 39%（固定匯率 38%），財務長 Amy Hood 說小幅優於預期，靠的是效率提升讓部分產能轉給 Azure。她也說<b>「需求持續超過可用供給」</b>。Q3 Azure 財測 37–38%，比本季略低，且要和第一方應用、研發分配產能。市場原本期待更高的 Azure 成長，股價隔日跌 10%。</p>
+<h3>🎯 洞察一：Azure 39% 小幅高於公司預估，但產能仍不夠</h3>
+<p>Azure 與其他雲端服務年增 39%（固定匯率 38%），財務長 Amy Hood 說小幅高於公司預估，靠的是效率提升讓部分產能轉給 Azure。她也說<b>「需求持續超過可用供給」</b>。Q3 Azure 財測 37–38%，比本季略低，且要和第一方應用、研發分配產能。市場原本期待更高的 Azure 成長，股價隔日跌 10%。</p>
 </div>
 
 <div class="sb">
@@ -168,7 +168,7 @@ draft: false
 <div class="sw"><table>
 <thead><tr><th>議題</th><th>多方看法</th><th>空方看法</th><th>本季證據</th></tr></thead>
 <tbody>
-<tr><td><b>雲端</b></td><td>Azure 39% 優於預期</td><td>Q3 財測放緩</td><td class="warn">🟡 37–38%</td></tr>
+<tr><td><b>雲端</b></td><td>Azure 39% 高於公司預估</td><td>Q3 財測放緩</td><td class="warn">🟡 37–38%</td></tr>
 <tr><td><b>訂單</b></td><td>RPO 6,250 億</td><td>45% 來自 OpenAI</td><td class="bad">🔴 集中度高</td></tr>
 <tr><td><b>獲利</b></td><td>營益率 47%</td><td>GAAP 含 OpenAI 利得</td><td class="good">🟢 本業 EPS +24%</td></tr>
 <tr><td><b>現金流</b></td><td>營業現金流 +60%</td><td>FCF 僅 59 億</td><td class="bad">🔴 資本支出 +89%</td></tr>

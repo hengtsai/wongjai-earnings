@@ -36,7 +36,7 @@ draft: false
 <tr><td><b>合併毛利率 (GM%)</b></td><td><b>46.1%</b></td><td>46.5%</td><td class="warn">-0.4pp</td><td>48.5%</td><td class="bad">-2.4pp</td><td class="bad">🔴 觸及 19 季新低，受記憶體價格壓抑</td></tr>
 <tr><td><b>營業費用 (OpEx)</b></td><td><b>44,606</b></td><td>42,280</td><td class="warn">+5.5%</td><td>43,120</td><td class="warn">+3.4%</td><td class="good">🟢 R&D 費率 24.2%，重押 2nm 與 ASIC</td></tr>
 <tr><td><b>營業利益 (Operating Profit)</b></td><td><b>24,631</b></td><td>23,792</td><td class="good">+3.5%</td><td>23,823</td><td class="good">+3.4%</td><td class="good">🟢 營益率達 16.4%，費用控管得宜</td></tr>
-<tr><td><b>稅後純益 (Net Income)</b></td><td><b>23,010</b></td><td>25,334</td><td class="bad">-9.2%</td><td>23,902</td><td class="bad">-3.7%</td><td class="warn">🟡 業外收益較上季減少，單季符合預期</td></tr>
+<tr><td><b>稅後純益 (Net Income)</b></td><td><b>23,010</b></td><td>25,334</td><td class="bad">-9.2%</td><td>23,902</td><td class="bad">-3.7%</td><td class="warn">🟡 業外收益較上季減少</td></tr>
 <tr><td><b>每股盈餘 (EPS, NT$)</b></td><td><b>NT$14.39</b></td><td>NT$15.84</td><td class="bad">-9.2%</td><td>NT$14.95</td><td class="bad">-3.7%</td><td class="warn">🟡 全年 EPS NT$66.16 保持歷史高檔</td></tr>
 <tr><td><b>FY25 全年營收 (NT$M)</b></td><td><b>595,966</b></td><td>—</td><td>—</td><td>530,896</td><td class="good"><b>+12.3%</b></td><td class="good">🟢 首度突破 5,900 億，締造歷史新猷</td></tr>
 </tbody></table></div>
@@ -112,7 +112,7 @@ draft: false
 ### Q1 2026 營運財測指引（官方公佈）
 
 <div class="sw"><table>
-<thead><tr><th>指引營運指標</th><th>Q1 2026 指引區間</th><th>中線數值</th><th>QoQ / YoY 預估</th><th>達成信號與法人共識點評</th></tr></thead>
+<thead><tr><th>指引營運指標</th><th>Q1 2026 指引區間</th><th>中線數值</th><th>QoQ / YoY 預估</th><th>達成信號與點評</th></tr></thead>
 <tbody>
 <tr><td><b>合併營業收入 (NT$M)</b></td><td>141,200 – 150,200</td><td><b>145,700</b></td><td>-3.0% QoQ / +9.2% YoY</td><td class="good">🟢 傳統手機淡季下表現優於往年歷史平均</td></tr>
 <tr><td><b>合併毛利率 (GM%)</b></td><td>46.0% ± 1.5%</td><td><b>46.0%</b></td><td>持平至微減</td><td class="warn">🟡 記憶體原廠持續調價，毛利率維持築底</td></tr>
@@ -126,7 +126,7 @@ draft: false
 
 <h3 class="risk-red">🔴 高風險（High Risk）</h3>
 <div class="sb rh"><ul>
-<li><b>記憶體漲價持續壓抑毛利率</b>：若 DRAM/NAND 報價上漲超預期且手機品牌無法轉嫁，將迫使聯發科 2026 毛利率跌破 45% 心理防線。</li>
+<li><b>記憶體漲價持續壓抑毛利率</b>：若 DRAM/NAND 報價持續大漲且手機品牌無法轉嫁，將迫使聯發科 2026 毛利率跌破 45% 心理防線。</li>
 <li><b>Qualcomm 於中高階市場殺價反撲</b>：高通若針對中階驍龍晶片發動價格戰以防堵天璣滲透，將對聯發科出貨動能造成利潤擠壓。</li>
 </ul></div>
 
@@ -165,7 +165,7 @@ draft: false
 ## 6. 📋 關鍵觀察
 
 - **全年營收寫新猷**：2025 全年營收近 5,960 億台幣，EPS NT$66.16，高階天璣 9500 成功鞏固 Android 旗艦陣營版圖。
-- **毛利率築底已成**：46.1% 雖為 19 季新低，但管理層展現強大調價與產能紀律，預期 2026 年毛利率穩定在 46% 區間。
+- **毛利率築底已成**：46.1% 雖為 19 季新低，但管理層展現強大調價與產能紀律，預估 2026 年毛利率穩定在 46% 區間。
 - **跨入資料中心百億藍海**：與 NVIDIA 結盟的 GB10 晶片帶動 ASIC 業務，2026 年破 10 億美元、2027 年邁向數十億美元。
 - **2nm 技術定案保持領先**：率先完成台積電 2nm SoC Tape-out，技術代差緊咬美系巨頭，徹底撕下「二線晶片商」標籤。
 - **評價具備高度重估空間**：16.5x Forward PE 兼具 4% 以上現金殖利率，為半導體族群中兼具防禦性與 AI 轉型爆發力的標的。
