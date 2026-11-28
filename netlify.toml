@@ -38,6 +38,33 @@
   to = "/:lang/companies/goog/"
   status = 301
 
+# 文章改名（2026-11-28）：舊網址 301 到新網址。force＝true 讓 301 蓋過 Hugo aliases 產生的轉址頁。
+[[redirects]]
+  from = "/earnings/intel-q1-fy2026/"
+  to = "/earnings/intel-2026q1/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/earnings/googl-q4-2025/"
+  to = "/earnings/goog-q4-2025/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/earnings/googl-q1-2026/"
+  to = "/earnings/goog-q1-2026/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/earnings/googl-q3-2026/"
+  to = "/earnings/goog-q3-2026/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/:lang/earnings/googl-q3-2026/"
+  to = "/:lang/earnings/goog-q3-2026/"
+  status = 301
+  force = true
+
 [context.production.environment]
   HUGO_ENV = "production"
 
