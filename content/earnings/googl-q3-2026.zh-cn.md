@@ -1,0 +1,212 @@
+---
+title: "谷歌 (GOOG) 2026 Q3 财报分析：云业务翻倍、积压订单 5,608 亿，总资产首次突破 1 万亿美元"
+date: 2026-11-05T00:00:00+08:00
+ticker: "GOOG"
+quarter: "2026 Q3"
+logo: "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+color: "#4285f4"
+translationKey: "googl-q3-2026"
+summary: "Q3 营收 US$127.58B（同比 +24.7%），年化突破 5,000 亿美元；Cloud 翻倍至 US$30.71B（营业利润率 36.2%），积压订单达 US$560.8B。剔除 SpaceX 估值损失后调整后 EPS 为 US$2.67，总资产首次突破 1 万亿美元。"
+tags: ["AI", "Alphabet", "Google", "GOOG", "GOOGL", "Google Cloud", "Gemini 4", "TPU", "Wiz", "SpaceX"]
+author: "Wongjai ⚡"
+draft: false
+---
+
+<div class="kpi-grid">
+<div class="kpi-card"><div class="label">Q3 合并营收</div><div class="value">$1,275.8亿</div><div class="change up">▲ 24.7% YoY｜年化突破 5 千亿</div></div>
+<div class="kpi-card"><div class="label">Q3 营业利润</div><div class="value">$405.8亿</div><div class="change up">▲ 29.9% YoY｜营业利润率 31.8%</div></div>
+<div class="kpi-card"><div class="label">GAAP / 调整后 EPS</div><div class="value">$2.12 / $2.67</div><div class="change wn">营业外股权估值 -$0.55/股</div></div>
+<div class="kpi-card"><div class="label">Google Cloud 营收</div><div class="value">$307.1亿</div><div class="change up">▲ 102.6% YoY｜翻倍爆发</div></div>
+<div class="kpi-card"><div class="label">Cloud 营业利润率</div><div class="value">36.2%</div><div class="change up">▲ 12.5pp YoY｜营业利润 $111.2亿</div></div>
+<div class="kpi-card"><div class="label">Cloud 积压订单</div><div class="value">$5,608亿</div><div class="change up">▲ $469亿 QoQ｜全公司 $5,677亿</div></div>
+<div class="kpi-card"><div class="label">Q3 资本开支 (CapEx)</div><div class="value">$513.6亿</div><div class="change dn">▲ 114.4% YoY｜全年 $195-205B</div></div>
+<div class="kpi-card"><div class="label">单季自由现金流</div><div class="value">-$90.7亿</div><div class="change dn">连续两季转负｜TTM $197.5亿</div></div>
+</div>
+
+> 📌 **口径说明**：本文以 Alphabet 官方 SEC Form 10-Q（US$ 百万，加权平均稀释股数 12,344M 股）为准；调整后 EPS 剔除营业外股权投资未实现估值净损失（每股 -$0.55）。
+
+## 1. 📈 核心数据速览
+
+### Q3 2026 合并利润表（US$ 百万，官方 Form 10-Q）
+
+<div class="sw"><table>
+<thead><tr><th>核心指标 (US$M)</th><th>Q3 '26</th><th>Q2 '26</th><th>QoQ</th><th>Q3 '25</th><th>YoY</th><th>关键点评</th></tr></thead>
+<tbody>
+<tr><td><b>合并营收 (Revenues)</b></td><td>127,577</td><td>119,796</td><td class="good">+6.5%</td><td>102,346</td><td class="good">+24.7%</td><td class="good">🟢 单季新高，年化突破 5 千亿</td></tr>
+<tr><td><b>毛利率 (GM)</b></td><td>59.4%</td><td>61.6%</td><td class="warn">-2.2pp</td><td>59.6%</td><td class="warn">-0.2pp</td><td class="warn">🟡 反映对外销售 TPU 与算力租赁</td></tr>
+<tr><td><b>营业费用 (OpEx)</b></td><td>35,582</td><td>33,083</td><td class="warn">+7.6%</td><td>29,749</td><td class="warn">+19.6%</td><td class="good">🟢 管理费用同比降 17%，费用率 27.9%</td></tr>
+<tr><td><b>营业利润 / 营业利润率 (OM)</b></td><td><b>40,576 (31.8%)</b></td><td>40,770 (34.0%)</td><td class="warn">-0.5%</td><td>31,228 (30.5%)</td><td class="good">+29.9%</td><td class="good">🟢 主业盈利同比增近 30%</td></tr>
+<tr><td><b>营业外净损失 (OI&E, Net)</b></td><td>(8,221)</td><td>97,983</td><td class="bad">转亏</td><td>12,759</td><td class="bad">转亏</td><td class="bad">🔴 SpaceX 回调导致估值损失</td></tr>
+<tr><td><b>归属普通股净利润</b></td><td><b>26,170</b></td><td>112,107</td><td class="bad">-76.7%</td><td>34,979</td><td class="bad">-25.2%</td><td class="warn">🟡 扣除优先股股息 $298M 后的净利润</td></tr>
+<tr><td><b>GAAP / 调整后 EPS</b></td><td><b>$2.12 / $2.67</b></td><td>$9.11 / $2.85</td><td class="bad">-76.7%</td><td>$2.87 / ~$2.18</td><td class="bad">-26.1%</td><td class="good">🟢 加回营业外 -$0.55 后 +22.5%</td></tr>
+</tbody></table></div>
+
+> 📌 **营业外损益与 9M26 累计注记**：Q3 营业外净损失 -$8,221M，主因 SpaceX（6 月上市）Q3 股价回调约 11%，确认 **-$12,436M** 未实现估值损失（部分由 Anthropic 等未上市股权 +$3,027M 抵消，每股税后影响 **-$0.55**）。9M26 累计营收 $357.27B（同比 +23.6%）、营业利润 $121.04B（同比 +30.0%，OM 33.9%）、GAAP EPS **$16.33**。
+
+---
+
+### 部门营收与营业利润拆解（US$ 百万）
+
+<div class="sw"><table>
+<thead><tr><th>业务部门与细项 (US$M)</th><th>Q3 '26</th><th>Q2 '26</th><th>QoQ</th><th>Q3 '25</th><th>YoY</th><th>核心业务动能与营业利润率点评</th></tr></thead>
+<tbody>
+<tr><td><b>Google Search & other</b></td><td>63,350</td><td>63,271</td><td class="good">+0.1%</td><td>56,567</td><td class="good">+12.0%</td><td class="good">🟢 查询量创 5 年最高，零售与金融领涨</td></tr>
+<tr><td><b>YouTube ads</b></td><td>11,207</td><td>11,055</td><td class="good">+1.4%</td><td>10,261</td><td class="good">+9.2%</td><td class="good">🟢 联网电视强劲，订阅突破 1.5 亿人</td></tr>
+<tr><td><b>Google Network</b></td><td>7,455</td><td>7,303</td><td class="good">+2.1%</td><td>7,354</td><td class="good">+1.4%</td><td class="warn">🟡 结束连续数季下滑，重回正增长</td></tr>
+<tr><td><b>Subscriptions, platforms & devices</b></td><td>14,290</td><td>12,911</td><td class="good">+10.7%</td><td>12,870</td><td class="good">+11.0%</td><td class="good">🟢 订阅强劲｜Services 营业利润 $39,157M (40.7%)</td></tr>
+<tr><td><b>Google Cloud</b></td><td><b>30,709</b></td><td>24,768</td><td class="good">+24.0%</td><td>15,157</td><td class="good"><b>+102.6%</b></td><td class="good">🟢 <b>营业利润 $11,121M (+209%)｜营业利润率 36.2%</b></td></tr>
+<tr><td><b>Other Bets (创新业务)</b></td><td>372</td><td>382</td><td class="warn">-2.6%</td><td>344</td><td class="good">+8.1%</td><td class="warn">🟡 <b>营业亏损 -$2,047M</b>｜Waymo 扩展至 15 城、突破 50 万趟</td></tr>
+</tbody></table></div>
+
+> 🌍 **客户地区结构**：美国占比升至 **53%**（$67,681M，YoY +39%），EMEA 26%（$32,695M，+9%）、APAC 16%（$19,906M，+12% / 固定汇率 +15%）、其他美洲 5%（$7,101M，+17%），全公司汇率逆风 -$702M。
+
+---
+
+### 资产负债表与现金流摘要（US$ 百万）
+
+<div class="sw"><table>
+<thead><tr><th>资产负债与现金流指标 (US$M)</th><th>Q3 '26</th><th>Q2 '26</th><th>QoQ</th><th>基准期*</th><th>变化率</th><th>财务健康度与资本配置点评</th></tr></thead>
+<tbody>
+<tr><td><b>现金及有价证券</b></td><td><b>265,098</b></td><td>242,474</td><td class="good">+9.3%</td><td>126,843</td><td class="good">+109.0%</td><td class="good">🟢 纯现金 $56.3B + 有价证券 $208.8B（含 SpaceX）</td></tr>
+<tr><td><b>非上市股权投资</b></td><td>135,230</td><td>131,461</td><td class="good">+2.9%</td><td>68,687</td><td class="good">+96.9%</td><td class="good">🟢 含 Anthropic 等独角兽，Q3 估值收益 +$3.03B</td></tr>
+<tr><td><b>存货 (Inventory)</b></td><td><b>13,308</b></td><td>9,991</td><td class="warn">+33.2%</td><td>2,439</td><td class="bad">+445.6%</td><td class="warn">🟡 <b>较去年底暴增 4.5 倍（外部 TPU 系统备货）</b></td></tr>
+<tr><td><b>不动产、厂房及设备 (PP&E)</b></td><td><b>372,827</b></td><td>321,212</td><td class="warn">+16.1%</td><td>246,597</td><td class="warn">+51.2%</td><td class="warn">🟡 单季净增 $51.6B，AI 数据中心极速扩建</td></tr>
+<tr><td><b>总资产 (Total Assets)</b></td><td><b>1,003,312</b></td><td>921,983</td><td class="good">+8.8%</td><td>595,281</td><td class="good">+68.5%</td><td class="good">🟢 <b>历史里程碑：总资产首次突破 1 万亿美元（含 Wiz 商誉）</b></td></tr>
+<tr><td><b>长期负债 (Long-Term Debt)</b></td><td><b>125,102</b></td><td>98,165</td><td class="bad">+27.4%</td><td>46,547</td><td class="bad">+168.8%</td><td class="bad">🔴 9M 净发债 $76.3B，Q3 长债再净增逾 $25B</td></tr>
+<tr><td><b>股东权益 (Total Equity)</b></td><td><b>677,549</b></td><td>640,480</td><td class="good">+5.8%</td><td>415,265</td><td class="good">+63.2%</td><td class="good">🟢 含 $18.0B 优先股｜普通股每股净资产 <b>$53.43</b></td></tr>
+<tr><td><b>经营活动现金流 (OCF)</b></td><td><b>42,290</b></td><td>39,069</td><td class="good">+8.2%</td><td>48,414</td><td class="warn">-12.6%</td><td class="good">🟢 OCF/净利润比达 159.8%，TPU 备货占用 $3.2B</td></tr>
+<tr><td><b>资本开支 (CapEx)</b></td><td><b>51,355</b></td><td>44,924</td><td class="bad">+14.3%</td><td>23,953</td><td class="bad">+114.4%</td><td class="bad">🔴 单季突破 513 亿美元，9M 累计已达 $131.95B</td></tr>
+<tr><td><b>自由现金流 (FCF)</b></td><td><b>(9,065)</b></td><td>(5,855)</td><td class="bad">赤字扩大</td><td>24,461</td><td class="bad">转负</td><td class="bad">🔴 <b>连续两季为负｜TTM FCF $19,747M (-73% YoY)</b></td></tr>
+</tbody></table></div>
+
+> 📌 **注**：资产负债表比较基准为 FY25 末（YTD），现金流比较基准为 Q3 '25（YoY）；应收账款净额 $72,784M（DSO 51 天），短期递延收入环比增 31.8% 至 $9,429M。
+
+---
+
+## 2. 🔍 五大核心洞察与业绩会要点
+
+<div class="sb">
+<h3>🎯 洞察一：Google Cloud 营收翻倍 (+102.6%) 至 $30.71B、营业利润率飙升至 36.2% + 积压订单 $560.8B</h3>
+<p>Google Cloud 单季营收暴增 <b>102.6% YoY 至 US$307.1 亿美元（年化突破 1,228 亿美元）</b>，增速较 Q1 (+63%) 与 Q2 (+81.8%) 持续加速；营业利润增至 3.1 倍，达 <b>US$111.2 亿美元，营业利润率飙升 12.5pp 至 36.2%</b>（逼近 AWS），并完成并入网络安全巨头 Wiz（$29.5B）。云积压订单（Backlog）单季再增 $469 亿至 <b>US$5,608 亿美元</b>（全公司 $5,677 亿），首席财务官 Anat Ashkenazi 证实<b>逾 55%（>US$3,084 亿）将于 24 个月内确认为营收</b>，锁定未来两年每年逾 1,540 亿美元的保底收入。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察二：首次大规模对外销售 TPU 8T/8I 系统 — Crux AI 合资案 + 季末存货暴增至 $13.3B 的真相</h3>
+<p>云业务首席执行官 Thomas Kurian 披露，已有<b>逾 100 家大型客户采用第 8 代 TPU（8T 训练与 8I 推理芯片）</b>，谷歌首次向外部客户直接出售整合计算、存储、网络与 PyTorch 堆栈的完整 <b>TPU Systems</b>，并携手 <b>Oracle</b> 及与 <b>Blackstone 合资的「Crux AI」</b>部署至外部合作伙伴机房，降低自建厂房的 CapEx 密集度。首席财务官解释存货较去年底暴增 446% 至 <b>US$133.1 亿美元</b>的原因：签署具约束力的 TPU 合约后先计入 Backlog 再采购备料（9M 消耗 $109.6 亿现金），<b>100% 都有已签约订单支撑，预计 2027 年迎来更大规模的交付放量</b>。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察三：单季 CapEx 飙升至 $51.36B，FCF 连续两季转负 (-$9.07B) + 9M 零回购并大举发债增资</h3>
+<p>为消化 $5,608 亿积压订单并锁定 <b>US$1.076 万亿表外基建承诺</b>（$9,240 亿采购承诺 + $1,520 亿未起算租赁，并以 $5.9B 收购绿色能源商 Intersect），Q3 CapEx 飙升至 <b>US$513.6 亿美元（+114.4% YoY）</b>，致单季 FCF 连续两季转负，达 <b>-US$90.7 亿美元</b>（TTM FCF $197.5 亿）。为支撑 AI 基建，Alphabet 前三季度<b>将股票回购降至 US$0（完全暂停回购）</b>，9M 累计净发债 <b>US$763.4 亿</b>（长债升至 $1,251 亿）、通过 ATM 增发普通股募资 <b>US$428.7 亿</b>（Q3 增发 3,600 万股募资 $123.7 亿），并发行强制可转换优先股（$180.2 亿）。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察四：拆解 GAAP 净利润同比降 25% 的假象 — SpaceX 上市后 Q3 股价回调致未实现损失 -$12.44B</h3>
+<p>表面上 Q3 归属普通股净利润同比降 25.2% 至 $261.7 亿、GAAP EPS $2.12，实际上完全是会计准则（ASU 2016-01）造成的营业外失真。Alphabet 持有约 5.5 亿股 SpaceX，随着 SpaceX 于 6 月 IPO 上市，Q2 曾确认 +$979.8 亿营业外收益（推高 Q2 EPS 至 $9.11）；但 Q3 因 SpaceX 股价回调约 11%，账上确认 <b>-US$124.4 亿美元上市股权未实现损失</b>（扣除 Anthropic 等未上市股权 +$30.3 亿收益后，股权净损失 -$86.6 亿，税后每股 <b>-$0.55</b>）。还原后<b>调整后 EPS 达 US$2.67（+22.5% YoY），主业营业利润实际同比增 29.9% 至 US$405.8 亿美元</b>。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 洞察五：AI Mode 助推 Search (+12%) 查询量创 5 年新高 + Gemini 4 与 Waymo 突破 50 万趟</h3>
+<p>Sundar Pichai 宣布 <b>Search 查询量增速创近 5 年新高</b>，但搜索营收增速由 Q2 的 16.8% 放缓至 <b>12.0%（$633.5 亿）</b>，主因汇率逆风、约 3pp 的高基数、欧盟取消小额免税额冲击跨境电商，以及 <b>AI Mode 初期变现率较低</b>（正在全球加速导入原生广告）。同时，Gemini App 月活跃用户突破 <b>10 亿人</b>、API 每分钟处理 <b>320 亿 Tokens（YoY >4x）</b>；Pichai 盛赞 <b>Gemini 4（Argon 与 Carbon）</b>带动内部工程效率出现拐点，预告 <b>2027 年迈入「生产力黄金时代」</b>。Waymo 则扩展至全美 15 城，每周付费载客突破 <b>50 万趟</b>。</p>
+</div>
+
+---
+
+## 3. 🛡️ 护城河与未来展望指引
+
+<div class="sb">
+<h3>🏰 护城河评级：全栈式 AI 垂直整合 + 云安全高转换成本 + 十亿级入口飞轮（9.5 / 10 分）</h3>
+<p>Alphabet 是全球唯一在 AI 四大层级（自研 TPU 8T/8I 芯片、GCP 云、Gemini 4 前沿模型、Search/YouTube/Android 十亿级应用）全部掌握第一方顶级资产的巨头。自研 TPU 带来最低 Token 成本并可对外销售变现；295 亿美元收购 <b>Wiz</b> 结合 Gemini 4 Carbon 的安全防御，筑起 $5,608 亿积压订单的高转换成本护城河（扣 0.5 分，反映 DOJ 反垄断监管与搜索变现过渡期）。</p>
+</div>
+
+### 2026 Q4 与 2027 经营展望指引（整理自 Q3 业绩会官方定调）
+
+<div class="sw"><table>
+<thead><tr><th>指引与展望维度</th><th>官方定调与量化指引</th><th>Q3 '26 实际基准</th><th>趋势方向与财务影响点评</th></tr></thead>
+<tbody>
+<tr><td><b>Google Cloud 订单转换</b></td><td><b>Backlog 逾 55% 于 24 个月内确认</b>；2027 年对外销售 TPU 大放量</td><td>营收 $30.71B｜Backlog $560.8B</td><td class="good">🟢 需求持续大于供给，锁定未来两年逾 $3,084B 营收</td></tr>
+<tr><td><b>2026 / 2027 资本开支</b></td><td><b>FY26 维持 $195B–$205B</b>；FY27 将「再度显著增加」</td><td>9M 累计 $131.95B (Q3 $51.36B)</td><td class="bad">🔴 隐含 <b>Q4 CapEx 高达 $63B–$73B</b>（2/3 投向服务器）</td></tr>
+<tr><td><b>折旧与 Cloud Q4 利润率</b></td><td><b>折旧持续攀升 + Q4 Cloud 面临短期利润率逆风</b></td><td>Q3 折旧 $8.37B｜Cloud OM 36.2%</td><td class="warn">🟡 反映 Q4 扩大租用高成本第三方算力与对外销售 TPU 硬件的占比</td></tr>
+<tr><td><b>Search 与 YouTube 动能</b></td><td><b>维持两位数增长</b>，但 Q4 Search 有 ~2pp 基数与汇率逆风</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 全球扩展 AI Overviews / AI Mode 商业广告与订阅服务</td></tr>
+<tr><td><b>2027 内部运营效率</b></td><td><b>迈入「2027 生产力黄金时代」</b>（Golden Age of Productivity）</td><td>9M 营业利润率 33.9%</td><td class="good">🟢 全面部署 Gemini 4 Argon 提升工程效率，严控人员扩编</td></tr>
+</tbody></table></div>
+
+---
+
+## 4. ⚠️ 风险提示
+
+<h3 class="risk-red">🔴 高风险（High Risk）</h3>
+<div class="sb rh">
+<ul>
+<li><b>超大规模 CapEx 致 FCF 转负与折旧陡升</b>：全年 CapEx 达 $195–$205B（Q4 隐含 $63–$73B），单季折旧同比增 49% 至 $8.37B，若需求放缓将压缩毛利。</li>
+<li><b>零股票回购与举债杠杆攀升</b>：9M 回购降至 $0，长债暴增 169% 至 $1,251 亿，并进行股权融资 $619 亿，改变了过去零净负债加回购的防御结构。</li>
+<li><b>美国司法部（DOJ）反垄断尾部风险</b>：DOJ 的搜索与 AdTech 诉讼持续推进，若强制分拆 Chrome/Android 或禁止默认搜索分成（TAC），将冲击广告根基。</li>
+</ul>
+</div>
+
+<h3 class="risk-gold">🟡 中风险（Medium Risk）</h3>
+<div class="sb rm">
+<ul>
+<li><b>Q4 Cloud 利润率逆风与 AI Mode 变现落差</b>：Q4 扩大租用第三方算力与对外销售 TPU 硬件将在短期压低 Cloud 营业利润率，且 Search 面临 2pp 基数与初期变现阵痛。</li>
+<li><b>SpaceX 股价波动干扰表面 GAAP EPS</b>：约 5.5 亿股已上市 SpaceX 持股每季按市值计入损益（Q3 -$12.4B），使表面 GAAP EPS 剧烈波动，容易造成误判。</li>
+</ul>
+</div>
+
+<h3 class="risk-green">🟢 低风险／潜在机会（Low Risk / Opportunity）</h3>
+<div class="sb rl">
+<ul>
+<li><b>$5,608 亿 Cloud 积压订单与对外销售 TPU 爆发</b>：携手 Oracle 与 Crux AI 对外销售 TPU 8T/8I 系统，账上 $133 亿订单存货将于 2027 年转化为庞大的营收与现金流。</li>
+<li><b>Gemini 4 与 Wiz 安全协同效应</b>：Gemini 月活跃用户突破 10 亿人，Argon 带动 2027 年内部工程效率革命，Carbon 结合 Wiz 抢占企业代理 AI 与安全的高毛利市场。</li>
+</ul>
+</div>
+
+---
+
+## 5. 📊 估值观察
+
+### Alphabet (GOOG / GOOGL) 估值指标与全球科技巨头对比（截至 2026 年 11 月 5 日）
+
+<div class="sw"><table>
+<thead><tr><th>估值与财务指标</th><th>当前数值 (GOOG / GOOGL)</th><th>计算基准、核心盈利调整与历史对比</th></tr></thead>
+<tbody>
+<tr><td><b>最新股价 (2026-11-05)</b></td><td><b>GOOG: $287.42｜GOOGL: $288.93</b></td><td>52 周区间：$271.41–$404.47（较高点回调约 17%）</td></tr>
+<tr><td><b>总市值 / 企业价值 (EV)</b></td><td><b>市值 $3.53T｜EV ~$3.41T</b></td><td class="good">🟢 <b>全球第 4 大上市公司</b>（净现金储备逾 $1,230 亿）</td></tr>
+<tr><td><b>表面 GAAP TTM EPS / 市盈率</b></td><td><b>US$19.15 / 15.0x</b></td><td class="warn">🟡 含 H1 SpaceX IPO 巨额估值收益，表面倍数失真</td></tr>
+<tr><td><b>2026E 常态化核心 EPS / 市盈率</b></td><td><b>~$10.80–$11.00 / ~26.3x</b></td><td>剔除全年营业外股权估值损益后的纯主业盈利基准</td></tr>
+<tr><td><b>2027E Forward EPS / PE</b></td><td><b>~$15.00 / ~19.1x</b></td><td class="good">🟢 一致预期 $14.80–$15.19（核心 YoY +36%），<b>Mag 7 最低</b></td></tr>
+<tr><td><b>EV / EBITDA & Core PEG</b></td><td><b>EV/EBITDA ~18.1x｜PEG ~0.54x</b></td><td class="good">🟢 年化主业 EBITDA ~$195.8B；PEG 远低于 1.0x</td></tr>
+<tr><td><b>P/B & TTM FCF Yield</b></td><td><b>P/B 5.38x｜FCF Yield 0.56%</b></td><td class="warn">🟡 BVPS $53.43；TTM FCF 受 $159.8B CapEx 压缩</td></tr>
+</tbody></table></div>
+
+<div class="sw"><table>
+<thead><tr><th>公司名称 (代码)</th><th>市值 (US$)</th><th>全球排名</th><th>Q3 营收 YoY</th><th>云业务 YoY</th><th>Q3 营业利润率</th><th>单季 FCF</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
+<tbody>
+<tr><td><b>Alphabet (GOOG)</b></td><td><b>$3.53T</b></td><td><b>全球第 4 大</b></td><td class="good"><b>+24.7% ($127.6B)</b></td><td class="good"><b>+102.6% ($30.7B)</b></td><td><b>31.8% (Cloud 36.2%)</b></td><td class="bad"><b>-$9.07B</b></td><td><b>15.0x (GAAP)</b></td><td class="good"><b>~19.1x</b></td></tr>
+<tr><td><b>Microsoft (MSFT)</b></td><td>$4.13T</td><td>全球第 3 大</td><td class="good">+18.8% ($92.3B)</td><td class="good">+48.0% (Azure)</td><td class="good">49.8%</td><td class="good">+$18.6B</td><td>~28.0x</td><td>~25.5x</td></tr>
+<tr><td><b>Amazon (AMZN)</b></td><td>$2.88T</td><td>全球第 5 大</td><td>+12.0% ($201.9B)</td><td class="good">+39.3% (AWS $46B)</td><td>13.9% (AWS 38.7%)</td><td class="bad">TTM -$42.4B</td><td>~19.4x</td><td>~22.3x</td></tr>
+<tr><td><b>Meta (META)</b></td><td>$1.70T</td><td>全球第 7 大</td><td class="good">+26.0% ($64.6B)</td><td>— (纯广告+AI)</td><td>20.1% (调整后 35.4%)</td><td class="bad">-$2.12B</td><td>~21.8x</td><td>~20.5x</td></tr>
+<tr><td><b>Apple (AAPL)</b></td><td>$5.08T</td><td>全球第 1 大</td><td>+11.7% ($114.5B)</td><td>— (服务稳健)</td><td>31.1%</td><td class="good">~$27.0B+</td><td>~39.4x</td><td>~35.0x</td></tr>
+</tbody></table></div>
+
+---
+
+## 6. 📋 关键观察
+
+<div class="sb rl">
+<ul>
+<li><b>年化营收突破 5,000 亿、主业营业利润大增 30%</b>：Q3 营收 US$127.58B（+24.7% YoY）、营业利润 US$40.58B（OM 31.8%），剔除 SpaceX 回调每股 -$0.55 的损失后，调整后 EPS 为 US$2.67。</li>
+<li><b>Cloud 翻倍暴增 102.6% + 首次对外销售 TPU 系统</b>：Cloud 营收达 US$30.71B、营业利润率飙升至 36.2%、积压订单冲上 US$560.8B，并携手 Oracle 与 Crux AI 对外销售 TPU 8T/8I 系统（对应季末 $13.3B 存货）。</li>
+<li><b>总资产首次突破 1 万亿美元，CapEx 飙升致 FCF 转负</b>：总资产达 US$1.003T，单季 CapEx 达 US$51.36B，使 FCF 为 -US$9.07B，9M 暂停股票回购并净发债 $76.3B、股权融资 $61.9B。</li>
+<li><b>Search 查询量创 5 年新高，Gemini 4 引领生产力革命</b>：Search 营收 +12.0% 至 US$63.35B，Gemini 月活跃用户突破 10 亿人，Gemini 4 推升工程效率与 Wiz 安全协同效应，Waymo 扩展至 15 城、每周突破 50 万趟。</li>
+<li><b>2027E 远期市盈率仅 ~19.1x，为科技巨头中最低</b>：云业务增速远超 Azure (+48%) 与 AWS (+39%)，后续紧盯 Q4 第三方算力对 Cloud 利润率的影响、AI Mode 广告变现率，以及 2027 年对外销售 TPU 交付后 FCF 转正的时点。</li>
+</ul>
+</div>
+
+<div class="sb rl">
+<p><b>一句话总结：云业务翻倍与五千六百亿积压订单铸就万亿资产帝国，谷歌正以单季五百亿的资本开支豪赌全栈 AI 霸权。</b></p>
+</div>
+
+<div class="disc">
+<b>免责声明（Disclaimer）</b>：本报告仅为客观财务数据整理与产业战略分析，不构成任何证券的买入、卖出或持有建议，亦不提供任何目标价预测。投资者应独立判断并自行承担投资风险。<br><br>
+<b>资料来源（Sources）</b>：Alphabet Inc. 2026 Q3 SEC Form 10-Q（截至 2026-09-30）、Q3 2026 Earnings Release、2026-10-28 业绩会问答文字记录（Sundar Pichai、Anat Ashkenazi、Thomas Kurian、Philipp Schindler 发言）、Yahoo Finance、CompaniesMarketCap（数据截至 2026-11-05）。
+</div>

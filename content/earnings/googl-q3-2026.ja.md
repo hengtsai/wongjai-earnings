@@ -1,0 +1,212 @@
+---
+title: "グーグル（GOOG）2026 Q3 決算分析：クラウドは倍増、受注残高5,608億ドル、総資産が初めて1兆ドルを突破"
+date: 2026-11-05T00:00:00+08:00
+ticker: "GOOG"
+quarter: "2026 Q3"
+logo: "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+color: "#4285f4"
+translationKey: "googl-q3-2026"
+summary: "Q3売上高はUS$127.58B（前年同期比+24.7%）で年換算5,000億ドルを突破。クラウドはUS$30.71Bに倍増（営業利益率36.2%）、受注残高はUS$560.8Bに達した。SpaceXの評価損を除く調整後EPSはUS$2.67で、総資産は初めて1兆ドルを突破した。"
+tags: ["AI", "Alphabet", "Google", "GOOG", "GOOGL", "Google Cloud", "Gemini 4", "TPU", "Wiz", "SpaceX"]
+author: "Wongjai ⚡"
+draft: false
+---
+
+<div class="kpi-grid">
+<div class="kpi-card"><div class="label">Q3 連結売上高</div><div class="value">$1,275.8億</div><div class="change up">▲ 24.7% YoY｜年換算5千億ドル突破</div></div>
+<div class="kpi-card"><div class="label">Q3 営業利益</div><div class="value">$405.8億</div><div class="change up">▲ 29.9% YoY｜営業利益率 31.8%</div></div>
+<div class="kpi-card"><div class="label">GAAP / 調整後EPS</div><div class="value">$2.12 / $2.67</div><div class="change wn">営業外の株式評価 -$0.55/株</div></div>
+<div class="kpi-card"><div class="label">Google Cloud 売上高</div><div class="value">$307.1億</div><div class="change up">▲ 102.6% YoY｜倍増</div></div>
+<div class="kpi-card"><div class="label">クラウド営業利益率</div><div class="value">36.2%</div><div class="change up">▲ 12.5pp YoY｜営業利益 $111.2億</div></div>
+<div class="kpi-card"><div class="label">クラウド受注残高</div><div class="value">$5,608億</div><div class="change up">▲ $469億 QoQ｜全社 $5,677億</div></div>
+<div class="kpi-card"><div class="label">Q3 設備投資（CapEx）</div><div class="value">$513.6億</div><div class="change dn">▲ 114.4% YoY｜通期 $195-205B</div></div>
+<div class="kpi-card"><div class="label">四半期フリーキャッシュフロー</div><div class="value">-$90.7億</div><div class="change dn">2四半期連続のマイナス｜TTM $197.5億</div></div>
+</div>
+
+> 📌 **数値の前提**：本稿はAlphabetの公式SEC Form 10-Q（百万ドル、希薄化後加重平均株式数12,344M株）に基づく。調整後EPSは営業外の株式投資の未実現評価純損失（1株当たり-$0.55）を除く。
+
+## 1. 📈 主要数値の概要
+
+### Q3 2026 連結損益計算書（百万ドル、公式Form 10-Q）
+
+<div class="sw"><table>
+<thead><tr><th>主要指標（百万ドル）</th><th>Q3 '26</th><th>Q2 '26</th><th>QoQ</th><th>Q3 '25</th><th>YoY</th><th>主なコメント</th></tr></thead>
+<tbody>
+<tr><td><b>連結売上高（Revenues）</b></td><td>127,577</td><td>119,796</td><td class="good">+6.5%</td><td>102,346</td><td class="good">+24.7%</td><td class="good">🟢 四半期の過去最高、年換算5千億ドル突破</td></tr>
+<tr><td><b>粗利益率（GM）</b></td><td>59.4%</td><td>61.6%</td><td class="warn">-2.2pp</td><td>59.6%</td><td class="warn">-0.2pp</td><td class="warn">🟡 TPUの外部販売と計算資源のリースを反映</td></tr>
+<tr><td><b>営業費用（OpEx）</b></td><td>35,582</td><td>33,083</td><td class="warn">+7.6%</td><td>29,749</td><td class="warn">+19.6%</td><td class="good">🟢 一般管理費は前年同期比17%減、費用率27.9%</td></tr>
+<tr><td><b>営業利益 / 営業利益率（OM）</b></td><td><b>40,576 (31.8%)</b></td><td>40,770 (34.0%)</td><td class="warn">-0.5%</td><td>31,228 (30.5%)</td><td class="good">+29.9%</td><td class="good">🟢 本業の利益は前年同期比30%近く増加</td></tr>
+<tr><td><b>営業外純損失（OI&E, Net）</b></td><td>(8,221)</td><td>97,983</td><td class="bad">赤字転落</td><td>12,759</td><td class="bad">赤字転落</td><td class="bad">🔴 SpaceXの株価調整で評価損</td></tr>
+<tr><td><b>普通株主に帰属する純利益</b></td><td><b>26,170</b></td><td>112,107</td><td class="bad">-76.7%</td><td>34,979</td><td class="bad">-25.2%</td><td class="warn">🟡 優先株配当$298M控除後の純利益</td></tr>
+<tr><td><b>GAAP / 調整後EPS</b></td><td><b>$2.12 / $2.67</b></td><td>$9.11 / $2.85</td><td class="bad">-76.7%</td><td>$2.87 / ~$2.18</td><td class="bad">-26.1%</td><td class="good">🟢 営業外の-$0.55を戻すと+22.5%</td></tr>
+</tbody></table></div>
+
+> 📌 **営業外損益と9M26累計の注記**：Q3の営業外純損失-$8,221Mは主に、6月に上場したSpaceXの株価がQ3に約11%下落し、**-$12,436M**の未実現評価損を計上したため（Anthropicなど非上場株式の+$3,027Mで一部相殺、1株当たり税引後の影響は**-$0.55**）。9M26累計の売上高は$357.27B（前年同期比+23.6%）、営業利益は$121.04B（前年同期比+30.0%、OM 33.9%）、GAAP EPSは**$16.33**。
+
+---
+
+### セグメント別売上高と営業利益の内訳（百万ドル）
+
+<div class="sw"><table>
+<thead><tr><th>事業セグメントと内訳（US$M）</th><th>Q3 '26</th><th>Q2 '26</th><th>QoQ</th><th>Q3 '25</th><th>YoY</th><th>中核事業の勢いと営業利益率のコメント</th></tr></thead>
+<tbody>
+<tr><td><b>Google Search & other</b></td><td>63,350</td><td>63,271</td><td class="good">+0.1%</td><td>56,567</td><td class="good">+12.0%</td><td class="good">🟢 検索数の伸びは5年で最高、小売と金融がけん引</td></tr>
+<tr><td><b>YouTube ads</b></td><td>11,207</td><td>11,055</td><td class="good">+1.4%</td><td>10,261</td><td class="good">+9.2%</td><td class="good">🟢 コネクテッドTVが好調、サブスクは1.5億人突破</td></tr>
+<tr><td><b>Google Network</b></td><td>7,455</td><td>7,303</td><td class="good">+2.1%</td><td>7,354</td><td class="good">+1.4%</td><td class="warn">🟡 数四半期続いた減少が止まりプラス成長に復帰</td></tr>
+<tr><td><b>Subscriptions, platforms & devices</b></td><td>14,290</td><td>12,911</td><td class="good">+10.7%</td><td>12,870</td><td class="good">+11.0%</td><td class="good">🟢 サブスクが好調｜Services営業利益 $39,157M (40.7%)</td></tr>
+<tr><td><b>Google Cloud</b></td><td><b>30,709</b></td><td>24,768</td><td class="good">+24.0%</td><td>15,157</td><td class="good"><b>+102.6%</b></td><td class="good">🟢 <b>営業利益 $11,121M (+209%)｜営業利益率 36.2%</b></td></tr>
+<tr><td><b>Other Bets（新規事業）</b></td><td>372</td><td>382</td><td class="warn">-2.6%</td><td>344</td><td class="good">+8.1%</td><td class="warn">🟡 <b>営業損失 -$2,047M</b>｜Waymoは15都市に拡大、50万回を突破</td></tr>
+</tbody></table></div>
+
+> 🌍 **顧客の地域構成**：米国の比率は**53%**（$67,681M、YoY +39%）に上昇、EMEA 26%（$32,695M、+9%）、APAC 16%（$19,906M、+12% / 為替一定で+15%）、その他米州5%（$7,101M、+17%）。全社の為替の逆風は-$702M。
+
+---
+
+### 貸借対照表とキャッシュフローの要点（百万ドル）
+
+<div class="sw"><table>
+<thead><tr><th>貸借対照表とキャッシュフローの指標（百万ドル）</th><th>Q3 '26</th><th>Q2 '26</th><th>QoQ</th><th>比較期間*</th><th>変化率</th><th>財務の健全性と資本配分</th></tr></thead>
+<tbody>
+<tr><td><b>現金および有価証券</b></td><td><b>265,098</b></td><td>242,474</td><td class="good">+9.3%</td><td>126,843</td><td class="good">+109.0%</td><td class="good">🟢 現金$56.3B＋有価証券$208.8B（SpaceXを含む）</td></tr>
+<tr><td><b>非上場株式投資</b></td><td>135,230</td><td>131,461</td><td class="good">+2.9%</td><td>68,687</td><td class="good">+96.9%</td><td class="good">🟢 Anthropicなどのユニコーンを含み、Q3評価益+$3.03B</td></tr>
+<tr><td><b>棚卸資産（Inventory）</b></td><td><b>13,308</b></td><td>9,991</td><td class="warn">+33.2%</td><td>2,439</td><td class="bad">+445.6%</td><td class="warn">🟡 <b>前年末比4.5倍に急増（外部向けTPUシステムの在庫積み増し）</b></td></tr>
+<tr><td><b>有形固定資産（PP&E）</b></td><td><b>372,827</b></td><td>321,212</td><td class="warn">+16.1%</td><td>246,597</td><td class="warn">+51.2%</td><td class="warn">🟡 四半期で純増$51.6B、AIデータセンターを急ピッチで拡張</td></tr>
+<tr><td><b>総資産 (Total Assets)</b></td><td><b>1,003,312</b></td><td>921,983</td><td class="good">+8.8%</td><td>595,281</td><td class="good">+68.5%</td><td class="good">🟢 <b>歴史的な節目：総資産が初めて1兆ドルを突破（Wizののれんを含む）</b></td></tr>
+<tr><td><b>長期負債（Long-Term Debt）</b></td><td><b>125,102</b></td><td>98,165</td><td class="bad">+27.4%</td><td>46,547</td><td class="bad">+168.8%</td><td class="bad">🔴 9Mの純社債発行$76.3B、Q3にさらに長期債が純額で$25B超増加</td></tr>
+<tr><td><b>株主資本（Total Equity）</b></td><td><b>677,549</b></td><td>640,480</td><td class="good">+5.8%</td><td>415,265</td><td class="good">+63.2%</td><td class="good">🟢 $18.0Bの優先株を含む｜普通株BVPS <b>$53.43</b></td></tr>
+<tr><td><b>営業キャッシュフロー（OCF）</b></td><td><b>42,290</b></td><td>39,069</td><td class="good">+8.2%</td><td>48,414</td><td class="warn">-12.6%</td><td class="good">🟢 OCF/純利益比は159.8%、TPUの在庫積み増しで$3.2Bを使用</td></tr>
+<tr><td><b>設備投資（CapEx）</b></td><td><b>51,355</b></td><td>44,924</td><td class="bad">+14.3%</td><td>23,953</td><td class="bad">+114.4%</td><td class="bad">🔴 四半期で513億ドル突破、9M累計はすでに$131.95B</td></tr>
+<tr><td><b>フリーキャッシュフロー（FCF）</b></td><td><b>(9,065)</b></td><td>(5,855)</td><td class="bad">赤字が拡大</td><td>24,461</td><td class="bad">マイナス転換</td><td class="bad">🔴 <b>2四半期連続のマイナス｜TTM FCF $19,747M (-73% YoY)</b></td></tr>
+</tbody></table></div>
+
+> 📌 **注**：貸借対照表の比較基準はFY25末（YTD）、キャッシュフローの比較基準はQ3 '25（YoY）。売掛金純額は$72,784M（DSO 51日）、短期繰延収益は前期比31.8%増の$9,429M。
+
+---
+
+## 2. 🔍 5つの重要ポイントと経営陣のコメント
+
+<div class="sb">
+<h3>🎯 ポイント1：Google Cloudの売上高は倍増（+102.6%）の$30.71B、営業利益率は36.2%に急上昇、受注残高は$560.8B</h3>
+<p>Google Cloudの四半期売上高は<b>前年同期比102.6%増のUS$307.1億ドル（年換算1,228億ドル超）</b>に急増し、Q1（+63%）、Q2（+81.8%）から加速が続いた。営業利益は3.1倍の<b>US$111.2億ドルとなり、営業利益率は12.5pp上昇して36.2%</b>（AWSに迫る水準）、セキュリティ大手Wiz（$29.5B）の統合も完了した。クラウドの受注残高（Backlog）は四半期でさらに$469億増えて<b>US$5,608億ドル</b>（全社では$5,677億）に達し、CFOのアナト・アシュケナージ氏は<b>その55%超（>US$3,084億）が24カ月以内に売上高として計上される</b>と確認、今後2年間は年1,540億ドル超の最低限の収入を確保した。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 ポイント2：TPU 8T/8Iシステムの初の大規模外部販売 — Crux AI合弁と期末在庫が$13.3Bに急増した理由</h3>
+<p>クラウド部門CEOのトーマス・クリアン氏は、<b>100社超の大口顧客が第8世代TPU（学習用8T、推論用8Iチップ）を採用した</b>と明かした。グーグルは初めて、計算・ストレージ・ネットワーク・PyTorchスタックを統合した完全な<b>TPU Systems</b>を外部顧客に直接販売し、<b>Oracle</b>や<b>Blackstoneとの合弁「Crux AI」</b>と組んで外部パートナーのデータセンターに設置することで、自前の施設建設に伴う設備投資の負担を下げる。CFOは在庫が前年末比446%増の<b>US$133.1億ドル</b>に急増した理由を説明した：拘束力のあるTPU契約を結ぶとまず受注残高に計上し、その後に部材を調達する（9Mで$109.6億の現金を使用）。<b>100%が締結済みの受注に裏付けられており、2027年にはさらに大規模な納入を見込む</b>。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 ポイント3：四半期の設備投資は$51.36Bに急増しFCFは2四半期連続のマイナス（-$9.07B）、9Mは自社株買いゼロで大規模な社債発行と増資</h3>
+<p>$5,608億の受注残高を消化し、<b>US$1.076兆のオフバランスのインフラ関連コミットメント</b>（$9,240億の購入契約＋$1,520億の未開始リース、さらに$5.9Bでクリーンエネルギー企業Intersectを買収）を確保するため、Q3の設備投資は<b>US$513.6億ドル（+114.4% YoY）</b>に急増し、四半期のFCFは2四半期連続のマイナスで<b>-US$90.7億ドル</b>（TTM FCF $197.5億）となった。AIインフラを支えるため、Alphabetは第3四半期までの累計で<b>自社株買いをUS$0に削減（完全停止）</b>し、9M累計で<b>US$763.4億</b>の純社債発行（長期債は$1,251億に増加）、ATMによる普通株の追加発行で<b>US$428.7億</b>を調達（Q3は3,600万株で$123.7億）、さらに強制転換優先株（$180.2億）を発行した。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 ポイント4：GAAP純利益25%減という見かけを分解 — SpaceX上場後のQ3の株価調整で-$12.44Bの未実現損失</h3>
+<p>表面上、Q3の普通株主に帰属する純利益は前年同期比25.2%減の$261.7億、GAAP EPSは$2.12だが、実際には会計基準（ASU 2016-01）による営業外のゆがみにすぎない。AlphabetはSpaceX株を約5.5億株保有しており、SpaceXが6月にIPOで上場したことでQ2に+$979.8億の営業外利益を計上した（Q2のEPSを$9.11に押し上げ）。しかしQ3はSpaceXの株価が約11%下落し、<b>-US$124.4億ドルの上場株式の未実現損失</b>を計上した（Anthropicなど非上場株式の+$30.3億の利益を差し引いた株式の純損失は-$86.6億、1株当たり税引後<b>-$0.55</b>）。これを戻すと<b>調整後EPSはUS$2.67（+22.5% YoY）で、本業の営業利益は実質前年同期比29.9%増のUS$405.8億ドル</b>となる。</p>
+</div>
+
+<div class="sb">
+<h3>🎯 ポイント5：AI ModeがSearch（+12%）を後押しし検索数の伸びは5年で最高、Gemini 4とWaymoは50万回突破</h3>
+<p>サンダー・ピチャイ氏は<b>Searchの検索数の伸びがここ5年で最高になった</b>と発表したが、検索の売上高の伸びはQ2の16.8%から<b>12.0%（$633.5億）</b>に鈍化した。主因は為替の逆風、約3ppの高い前年水準、EUの少額免税廃止による越境ECへの打撃、そして<b>AI Modeの初期の収益化率の低さ</b>（ネイティブ広告を世界で導入加速中）。一方、Geminiアプリの月間アクティブユーザーは<b>10億人</b>を突破し、APIは毎分<b>320億トークン（YoY >4x）</b>を処理している。ピチャイ氏は<b>Gemini 4（ArgonとCarbon）</b>が社内のエンジニアリング効率の転換点をもたらしたと絶賛し、<b>2027年に「生産性の黄金時代」に入る</b>と予告した。Waymoは全米15都市に拡大し、週あたりの有料乗車は<b>50万回</b>を突破した。</p>
+</div>
+
+---
+
+## 3. 🛡️ 競争優位と今後の見通し
+
+<div class="sb">
+<h3>🏰 競争優位の評価：フルスタックのAI垂直統合＋クラウドセキュリティの高い乗り換えコスト＋十億規模の入口のフライホイール（9.5 / 10点）</h3>
+<p>Alphabetは、AIの4つの階層（自社開発のTPU 8T/8Iチップ、GCPクラウド、Gemini 4のフロンティアモデル、Search/YouTube/Androidの十億規模のアプリ）のすべてで自社の一流資産を持つ世界で唯一の巨大企業だ。自社開発TPUは最も低いトークンコストを実現し、外部販売でも収益化できる。295億ドルでの<b>Wiz</b>買収とGemini 4 Carbonのセキュリティ防御を組み合わせ、$5,608億の受注残高を支える高い乗り換えコストの堀を築いた（DOJの独占禁止法の監視と検索の収益化の移行期を反映し0.5点減点）。</p>
+</div>
+
+### 2026 Q4および2027年の業績見通し（Q3決算説明会の公式見解から整理）
+
+<div class="sw"><table>
+<thead><tr><th>ガイダンスと見通しの項目</th><th>公式見解と定量ガイダンス</th><th>Q3 '26 実績</th><th>トレンドと財務への影響</th></tr></thead>
+<tbody>
+<tr><td><b>Google Cloudの受注の売上転換</b></td><td><b>受注残高の55%超を24カ月以内に計上</b>。2027年はTPUの外部販売が大幅に拡大</td><td>売上高 $30.71B｜受注残高 $560.8B</td><td class="good">🟢 需要が供給を上回る状態が続き、今後2年で$3,084B超の売上高を確保</td></tr>
+<tr><td><b>2026 / 2027年の設備投資</b></td><td><b>FY26は$195B–$205Bを維持</b>。FY27は「再び大幅に増加」</td><td>9M累計 $131.95B（Q3 $51.36B）</td><td class="bad">🔴 <b>Q4の設備投資は$63B–$73B</b>に達する計算（2/3はサーバー向け）</td></tr>
+<tr><td><b>減価償却とクラウドのQ4利益率</b></td><td><b>減価償却は増加が続き、Q4のクラウドは短期的な利益率の逆風</b></td><td>Q3 減価償却 $8.37B｜クラウドOM 36.2%</td><td class="warn">🟡 Q4に高コストの外部計算資源のリースとTPUハードウェアの外部販売の比率が高まることを反映</td></tr>
+<tr><td><b>SearchとYouTubeの勢い</b></td><td><b>2桁成長を維持</b>。ただしQ4のSearchには~2ppの前年水準と為替の逆風</td><td>Search +12.0%｜YouTube +9.2%</td><td class="good">🟢 AI Overviews / AI Modeの広告とサブスクを世界に展開</td></tr>
+<tr><td><b>2027年の社内の業務効率</b></td><td><b>「2027年 生産性の黄金時代」へ</b>（Golden Age of Productivity）</td><td>9M 営業利益率 33.9%</td><td class="good">🟢 Gemini 4 Argonを全面導入してエンジニアリング効率を高め、人員増を厳しく抑制</td></tr>
+</tbody></table></div>
+
+---
+
+## 4. ⚠️ リスク
+
+<h3 class="risk-red">🔴 高リスク（High Risk）</h3>
+<div class="sb rh">
+<ul>
+<li><b>巨額の設備投資でFCFはマイナス、減価償却も急増</b>：通期の設備投資は$195–$205B（Q4は$63–$73Bの計算）、四半期の減価償却は前年同期比49%増の$8.37Bで、需要が鈍れば粗利益を圧迫する。</li>
+<li><b>自社株買いゼロと借入レバレッジの上昇</b>：9Mの自社株買いは$0に減り、長期債は169%増の$1,251億に急増、さらに$619億の増資を行い、これまでの純負債ゼロ＋自社株買いという守りの構造が変わった。</li>
+<li><b>米司法省（DOJ）の独占禁止法によるテールリスク</b>：DOJの検索とアドテクの訴訟は進行中で、Chrome/Androidの強制分離やデフォルト検索のレベニューシェア（TAC）の禁止となれば、広告事業の土台を揺るがす。</li>
+</ul>
+</div>
+
+<h3 class="risk-gold">🟡 中リスク（Medium Risk）</h3>
+<div class="sb rm">
+<ul>
+<li><b>Q4のクラウド利益率の逆風とAI Modeの収益化の遅れ</b>：Q4の外部計算資源のリース拡大とTPUハードウェアの外部販売は短期的にクラウドの営業利益率を押し下げ、Searchも2ppの前年水準と初期の収益化の痛みに直面する。</li>
+<li><b>SpaceXの株価変動が表面上のGAAP EPSをかく乱</b>：上場済みのSpaceX株約5.5億株は四半期ごとに時価評価で損益に計上され（Q3は-$12.4B）、表面上のGAAP EPSが激しく変動し誤解を招きやすい。</li>
+</ul>
+</div>
+
+<h3 class="risk-green">🟢 低リスク／潜在的な機会（Low Risk / Opportunity）</h3>
+<div class="sb rl">
+<ul>
+<li><b>$5,608億のクラウド受注残高とTPU外部販売の急拡大</b>：OracleやCrux AIと組んでTPU 8T/8Iシステムを外部販売しており、帳簿上の$133億の受注済み在庫は2027年に巨額の売上高とキャッシュフローに変わる。</li>
+<li><b>Gemini 4とWizのセキュリティ相乗効果</b>：Geminiの月間アクティブユーザーは10億人を突破、Argonは2027年に社内のエンジニアリング効率の革命をもたらし、CarbonはWizと組んで企業向けエージェントAIとセキュリティの高収益市場を狙う。</li>
+</ul>
+</div>
+
+---
+
+## 5. 📊 バリュエーション
+
+### Alphabet（GOOG / GOOGL）のバリュエーション指標と世界のテック大手の比較（2026年11月5日時点）
+
+<div class="sw"><table>
+<thead><tr><th>バリュエーションと財務指標</th><th>現在の数値（GOOG / GOOGL）</th><th>計算基準、コア利益の調整と過去との比較</th></tr></thead>
+<tbody>
+<tr><td><b>最新株価（2026-11-05）</b></td><td><b>GOOG: $287.42｜GOOGL: $288.93</b></td><td>52週レンジ：$271.41–$404.47（高値から約17%下落）</td></tr>
+<tr><td><b>時価総額／企業価値（EV）</b></td><td><b>時価総額 $3.53T｜EV ~$3.41T</b></td><td class="good">🟢 <b>世界第4位の上場企業</b>（ネットキャッシュは$1,230億超）</td></tr>
+<tr><td><b>表面上のGAAP TTM EPS / PER</b></td><td><b>US$19.15 / 15.0x</b></td><td class="warn">🟡 H1のSpaceX IPOによる巨額の評価益を含み、表面上の倍率はゆがんでいる</td></tr>
+<tr><td><b>2026E 平常化したコアEPS / PER</b></td><td><b>~$10.80–$11.00 / ~26.3x</b></td><td>通期の営業外の株式評価損益を除いた純粋な本業の利益ベース</td></tr>
+<tr><td><b>2027E Forward EPS / PE</b></td><td><b>~$15.00 / ~19.1x</b></td><td class="good">🟢 コンセンサス$14.80–$15.19（コアYoY +36%）、<b>Mag 7で最低</b></td></tr>
+<tr><td><b>EV / EBITDA & Core PEG</b></td><td><b>EV/EBITDA ~18.1x｜PEG ~0.54x</b></td><td class="good">🟢 年換算の本業EBITDA ~$195.8B、PEGは1.0xを大きく下回る</td></tr>
+<tr><td><b>P/B & TTM FCF Yield</b></td><td><b>P/B 5.38x｜FCF Yield 0.56%</b></td><td class="warn">🟡 BVPS $53.43、TTM FCFは$159.8Bの設備投資で圧縮</td></tr>
+</tbody></table></div>
+
+<div class="sw"><table>
+<thead><tr><th>会社名（ティッカー）</th><th>時価総額（ドル）</th><th>世界順位</th><th>Q3 売上高 YoY</th><th>クラウド事業 YoY</th><th>Q3 営業利益率</th><th>四半期FCF</th><th>TTM PE</th><th>Forward PE</th></tr></thead>
+<tbody>
+<tr><td><b>Alphabet (GOOG)</b></td><td><b>$3.53T</b></td><td><b>世界第4位</b></td><td class="good"><b>+24.7% ($127.6B)</b></td><td class="good"><b>+102.6% ($30.7B)</b></td><td><b>31.8% (Cloud 36.2%)</b></td><td class="bad"><b>-$9.07B</b></td><td><b>15.0x (GAAP)</b></td><td class="good"><b>~19.1x</b></td></tr>
+<tr><td><b>Microsoft (MSFT)</b></td><td>$4.13T</td><td>世界3位</td><td class="good">+18.8% ($92.3B)</td><td class="good">+48.0% (Azure)</td><td class="good">49.8%</td><td class="good">+$18.6B</td><td>~28.0x</td><td>~25.5x</td></tr>
+<tr><td><b>Amazon (AMZN)</b></td><td>$2.88T</td><td>世界5位</td><td>+12.0% ($201.9B)</td><td class="good">+39.3% (AWS $46B)</td><td>13.9% (AWS 38.7%)</td><td class="bad">TTM -$42.4B</td><td>~19.4x</td><td>~22.3x</td></tr>
+<tr><td><b>Meta (META)</b></td><td>$1.70T</td><td>世界第7位</td><td class="good">+26.0% ($64.6B)</td><td>—（広告＋AIのみ）</td><td>20.1%（調整後35.4%）</td><td class="bad">-$2.12B</td><td>~21.8x</td><td>~20.5x</td></tr>
+<tr><td><b>Apple (AAPL)</b></td><td>$5.08T</td><td>世界第1位</td><td>+11.7% ($114.5B)</td><td>—（サービスは堅調）</td><td>31.1%</td><td class="good">~$27.0B+</td><td>~39.4x</td><td>~35.0x</td></tr>
+</tbody></table></div>
+
+---
+
+## 6. 📋 主な注目点
+
+<div class="sb rl">
+<ul>
+<li><b>年換算売上高は5,000億ドル突破、本業の営業利益は30%増</b>：Q3売上高はUS$127.58B（+24.7% YoY）、営業利益はUS$40.58B（OM 31.8%）。SpaceXの株価調整による1株当たり-$0.55の損失を除いた調整後EPSはUS$2.67。</li>
+<li><b>クラウドは102.6%増と倍増＋TPUシステムを初めて外部販売</b>：クラウドの売上高はUS$30.71B、営業利益率は36.2%に急上昇、受注残高はUS$560.8Bに達し、OracleやCrux AIと組んでTPU 8T/8Iシステムを外部販売（期末の$13.3Bの在庫に対応）。</li>
+<li><b>総資産が初めて1兆ドルを突破、設備投資の急増でFCFはマイナス</b>：総資産はUS$1.003T、四半期の設備投資はUS$51.36BでFCFは-US$9.07B。9Mは自社株買いを停止し、純額で$76.3Bの社債発行と$61.9Bの増資を実施。</li>
+<li><b>Searchの検索数は5年で最高、Gemini 4が生産性革命をけん引</b>：Searchの売上高は+12.0%のUS$63.35B、Geminiの月間アクティブユーザーは10億人を突破し、Gemini 4がエンジニアリング効率とWizのセキュリティ相乗効果を押し上げ、Waymoは15都市に拡大して週50万回を突破。</li>
+<li><b>2027Eの予想PERはわずか~19.1xでテック大手の中で最低</b>：クラウドの成長率はAzure（+48%）とAWS（+39%）を大きく上回る。今後はQ4の外部計算資源がクラウドの利益率に与える影響、AI Modeの広告収益化率、2027年のTPU外部販売の納入後にFCFがプラスに転じる時期を注視したい。</li>
+</ul>
+</div>
+
+<div class="sb rl">
+<p><b>ひと言でまとめると：クラウドの倍増と五千六百億ドルの受注残高が兆ドル規模の資産帝国を築き、グーグルは四半期五百億ドルの設備投資でフルスタックAIの覇権に大きく賭けている。</b></p>
+</div>
+
+<div class="disc">
+<b>免責事項（Disclaimer）</b>：本レポートは客観的な財務データの整理と業界戦略の分析にすぎず、いかなる有価証券の購入・売却・保有を推奨するものでもなく、目標株価の予測も提供しません。投資家はご自身で判断し、投資リスクを負ってください。<br><br>
+<b>出典（Sources）</b>：Alphabet Inc. 2026 Q3 SEC Form 10-Q（2026-09-30時点）、Q3 2026 Earnings Release、2026-10-28決算説明会の質疑応答の書き起こし（サンダー・ピチャイ氏、アナト・アシュケナージ氏、トーマス・クリアン氏、フィリップ・シンドラー氏の発言）、Yahoo Finance、CompaniesMarketCap（データは2026-11-05時点）。
+</div>
