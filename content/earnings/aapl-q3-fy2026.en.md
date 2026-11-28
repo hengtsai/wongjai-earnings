@@ -71,12 +71,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: iPhone and Mac set records; supply is the bottleneck</h3>
-<p>iPhone rose 22% YoY and Mac 29% YoY, with every region setting a June-quarter record. CEO Tim Cook said the main constraint is the advanced process node used for the SoCs, <b>attributing it not to an ordinary supply problem but, frankly, to a demand-forecasting problem</b>, as both iPhone and Mac far exceeded expectations. He warned that supply constraints will widen noticeably in the September quarter, affecting iPhone, Mac and iPad, one of the main reasons Q4 revenue growth is guided to only 9–11%.</p>
+<p>iPhone rose 22% YoY and Mac 29% YoY, with every region setting a June-quarter record. CEO Tim Cook said the main constraint is the advanced process node used for the SoCs, adding: <b>"the root cause of it is not a regular supply issue. It's a demand forecast issue, to be candid, where the iPhone and the Mac are both doing remarkably better than we thought they would do."</b> He warned that supply constraints will widen noticeably in the September quarter, affecting iPhone, Mac and iPad, one of the main reasons Q4 revenue growth is guided to only 9–11%.</p>
 </div>
 
 <div class="sb">
-<h3>🎯 Insight 2: Cook likens memory price hikes to a once-in-a-century flood</h3>
-<p>Cook said Q3 memory costs were much higher than in Q2, partly offset by inventory built up earlier, and will be higher still in the September quarter. Asked about price increases, <b>he said Apple was raising prices reluctantly because memory prices are facing a once-in-a-century flood and rising exponentially</b>. He also cautioned that the cushion from inventory will gradually shrink after the September quarter, and if market prices keep rising the impact on operations could grow.</p>
+<h3>🎯 Insight 2: Cook likens memory price hikes to a "hundred-year flood"</h3>
+<p>Cook said Q3 memory costs were much higher than in Q2, partly offset by inventory built up earlier, and will be higher still in the September quarter. Asked about price increases, he said: <b>"we reluctantly raised prices, I would say. And we did it because we're in, what I would characterize as a hundred-year flood on the memory pricing with exponential increases in memory prices."</b> He also cautioned that the cushion from inventory will gradually shrink after the September quarter, and if market prices keep rising the impact on operations could grow.</p>
 </div>
 
 <div class="sb">
@@ -86,12 +86,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 4: Siri AI arrives, R&D up 32% YoY</h3>
-<p>The all-new Siri AI was unveiled at WWDC26, with developer and public betas already out. Cook <b>said Apple is off-the-charts excited about Siri AI</b>, stressing that AI must protect privacy, with models running on device and on Private Cloud Compute servers. R&D expense was $11.7B, up 32% YoY, the main driver of the 23% rise in operating expenses. Mac has also become a popular choice for running AI models locally, driving a record number of new customers.</p>
+<p>The all-new Siri AI was unveiled at WWDC26, with developer and public betas already out. Cook said: <b>"we are off the charts excited about Siri AI."</b> He stressed that AI must protect privacy, with models running on device and on Private Cloud Compute servers. R&D expense was $11.7B, up 32% YoY, the main driver of the 23% rise in operating expenses. Mac has also become a popular choice for running AI models locally, driving a record number of new customers.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 5: Cook's last earnings call</h3>
-<p>This was Cook's 90th and final earnings call as CEO; <b>he said it would be his last earnings call and that John would host from then on</b>, with John Ternus as his successor. Cash flow stayed strong through the handover: the active installed base topped a record 2.5B devices, and $33B was returned to shareholders this quarter. Net cash was $62.2B, nearly double the $33.8B at the end of September.</p>
+<p>This was Cook's 90th and final earnings call as CEO; <b>"As you know, this will be my final earnings call, and John will lead these calls going forward,"</b> he said, with John Ternus as his successor. Cash flow stayed strong through the handover: the active installed base topped a record 2.5B devices, and $33B was returned to shareholders this quarter. Net cash was $62.2B, nearly double the $33.8B at the end of September.</p>
 </div>
 
 ---
@@ -186,7 +186,7 @@ draft: false
 - **June-quarter record revenue**: $109.4B (+16%), iPhone +22%, Mac +29%, with double-digit growth in every region.
 - **Margin includes one-offs**: 50.1% includes about 2pp of tariff refunds, and EPS of $2.02 includes $0.11 of refunds.
 - **Supply is the bottleneck**: Advanced-node shortages slow Q4 revenue guidance to 9–11%, with iPhone at about 15%.
-- **Memory pressure**: Cook likened it to a once-in-a-century flood; inventory rose 94% over 9 months.
+- **Memory pressure**: Cook likened it to a "hundred-year flood"; inventory rose 94% over 9 months.
 - **Handover**: Cook hosted his last earnings call, with John Ternus taking over.
 
 > 💡 **Bottom line**: Apple's demand this quarter was stronger than expected, and the constraints came instead from chip capacity and memory costs; tariff refunds propped up gross margin, and whether Siri AI drives upgrades depends on how it performs after the fall launch.

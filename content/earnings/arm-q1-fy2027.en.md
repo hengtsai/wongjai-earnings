@@ -84,12 +84,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Record quarter, EPS above the top of guidance</h3>
-<p>Q1 revenue was $1.289B, up 22% YoY, with licensing and royalties both at first-quarter records; Non-GAAP EPS of $0.45 was above the top of the $0.40 ± $0.04 guidance. The shareholder letter said the growth reflects demand for its compute platform as <b>AI expands across the cloud, devices and the physical world</b>.</p>
+<p>Q1 revenue was $1.289B, up 22% YoY, with licensing and royalties both at first-quarter records; Non-GAAP EPS of $0.45 was above the top of the $0.40 ± $0.04 guidance. The shareholder letter said the record quarter reflects "growing demand for the Arm compute platform as <b>AI expands across cloud infrastructure, edge devices and the physical world</b>."</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 2: AGI CPU demand doubles to over $2B</h3>
-<p>Arm launched its own AGI CPU chip in March, has shipped it to several customers, and secured capacity to support a $1B opportunity across FY27–28. CEO Rene Haas said demand <b>continues to exceed the company's initial estimates</b>, now over $2B across FY27–28, with new customers including U.S. and Chinese companies.</p>
+<p>Arm launched its own AGI CPU chip in March, has shipped it to several customers, and secured capacity to support a $1B opportunity across FY27–28. CEO Rene Haas said: <b>"Demand for the Arm AGI CPU has continued to exceed our initial expectations,"</b> and the letter put customer demand at more than $2B across FY27–28, with new customers including U.S. and Chinese companies.</p>
 </div>
 
 <div class="sb">
@@ -99,7 +99,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 4: AI extends to PCs and physical AI</h3>
-<p>NVIDIA introduced its first agentic AI PC based on Arm CSS, "RTX Spark," with Acer, ASUS, Dell, HP and Lenovo launching systems by year-end. In physical AI, NVIDIA Jetson Thor combines an Arm CPU with a Blackwell GPU for humanoid robots. The shareholder letter called Arm <b>the CPU foundation for physical AI</b>.</p>
+<p>NVIDIA introduced its first agentic AI PC based on Arm CSS, "RTX Spark," with Acer, ASUS, Dell, HP and Lenovo launching systems by year-end. In physical AI, NVIDIA Jetson Thor combines an Arm CPU with a Blackwell GPU for humanoid robots. The shareholder letter said: <b>"As AI moves beyond the data center into billions of intelligent machines, Arm's compute platform is the CPU foundation for physical AI."</b></p>
 </div>
 
 <div class="sb">

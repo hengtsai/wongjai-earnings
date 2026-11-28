@@ -71,7 +71,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Azure's 43% beats guidance; new capacity sells out within the quarter</h3>
-<p>Azure grew 43% YoY, above the 39–40% guidance given last quarter, and full-year revenue topped $100B for the first time, up 41%. CFO Amy Hood <b>said customer demand continues to exceed available capacity</b>; with CPU and GPU efficiency gains and new capacity delivered early, <b>the extra Azure capacity in the quarter was monetized quickly</b>. After GitHub Copilot moved to usage-based billing in June, usage also beat expectations. Q1 FY27 Azure guidance is about 45% (constant currency), with acceleration expected to continue through the first half of the fiscal year.</p>
+<p>Azure grew 43% YoY, above the 39–40% guidance given last quarter, and full-year revenue topped $100B for the first time, up 41%. CFO Amy Hood said: <b>"Customer demand continues to exceed available capacity."</b> With CPU and GPU efficiency gains and new capacity delivered early, <b>"That additional in-quarter capacity for Azure was quickly monetized."</b> After GitHub Copilot moved to usage-based billing in June, usage also beat expectations. Q1 FY27 Azure guidance is about 45% (constant currency), with acceleration expected to continue through the first half of the fiscal year.</p>
 </div>
 
 <div class="sb">
@@ -81,12 +81,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 3: RPO of $678B, still up 25% excluding OpenAI</h3>
-<p>Commercial remaining performance obligation (RPO) was $678B, up 84% YoY, or 25% excluding OpenAI; about 30% will be recognized within 12 months, up 37% YoY. Hood stressed that <b>all of the sequential RPO growth came from customers other than frontier model companies</b>, and nearly 90% of full-year cloud revenue also came from those customers. Commercial bookings excluding OpenAI grew 18% YoY, versus only 10% including OpenAI, showing how large-customer contracts make bookings swing sharply.</p>
+<p>Commercial remaining performance obligation (RPO) was $678B, up 84% YoY, or 25% excluding OpenAI; about 30% will be recognized within 12 months, up 37% YoY. Hood stressed: <b>"All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies."</b> Nearly 90% of full-year cloud revenue also came from those customers. Commercial bookings excluding OpenAI grew 18% YoY, versus only 10% including OpenAI, showing how large-customer contracts make bookings swing sharply.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 4: Copilot passes 30M seats; pricing shifts to seats plus usage</h3>
-<p>CEO Satya Nadella said paid M365 Copilot seats exceed 30M, with net seat adds more than doubling QoQ; customers with over 50,000 seats grew more than 7x YoY, and NHS England deployed it to 505,000 people. The new E7 suite sold millions of seats in its first two months. He said the company is <b>expanding its business model from per-seat to seats plus usage</b>, with Cowork adding usage-based billing from July. GitHub Copilot has 50M users, and its revenue grew more than 60% QoQ.</p>
+<p>CEO Satya Nadella said paid M365 Copilot seats exceed 30M, with net seat adds more than doubling QoQ; customers with over 50,000 seats grew more than 7x YoY, and NHS England deployed it to 505,000 people. The new E7 suite sold millions of seats in its first two months. He said: <b>"we are also evolving our business model beyond per-seat to per-seat-plus-consumption"</b>, with Cowork adding usage-based billing from July. GitHub Copilot has 50M users, and its revenue grew more than 60% QoQ.</p>
 </div>
 
 <div class="sb">
@@ -100,7 +100,7 @@ draft: false
 
 <div class="sb">
 <h3>🏰 Core moat: its own compute plus a swappable model system</h3>
-<p>Microsoft added 88 data centers this fiscal year and another 1GW of capacity in Q4, roughly doubling total capacity within two years. Its in-house Maia 200 delivers 30% better performance per dollar than the latest hardware in its fleet. Nadella stressed decoupling interfaces, memory and tools from any single model, <b>so that every model can be swapped out</b>; Foundry offers more than 11,000 models to 100,000 customers. Enterprises run everything from Copilot and databases to Agent 365 governance on one platform, so switching costs are high.</p>
+<p>Microsoft added 88 data centers this fiscal year and another 1GW of capacity in Q4, roughly doubling total capacity within two years. Its in-house Maia 200 delivers 30% better performance per dollar than the latest hardware in its fleet. Nadella stressed decoupling interfaces, memory and tools from any single model, because <b>"every model is substitutable"</b>; Foundry offers more than 11,000 models to 100,000 customers. Enterprises run everything from Copilot and databases to Agent 365 governance on one platform, so switching costs are high.</p>
 </div>
 
 ### Official FY27 Q1 Guidance

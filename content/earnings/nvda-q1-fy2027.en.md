@@ -62,7 +62,7 @@ draft: false
 <tr><td><b>Q1 free cash flow</b></td><td><b>48,554</b></td><td>Last year 26,135</td><td class="good">🟢 Margin 59.5%</td></tr>
 </tbody></table></div>
 
-> 📌 **Financial quality**: Operating cash flow of $50.3B was about 1.1 times Non-GAAP net income of $45.5B; the company warned that cash taxes will rise sharply in Q2. Supply-related commitments were $119B ($95.2B in Q4), and multi-year cloud service commitments $30B. In Q1 it bought $18.58B of private equity stakes, while debt was only $8.47B. Days sales outstanding fell from 51 to 45, which the CFO attributed to early customer payments and said <b>should return to a more normal level next quarter</b>, so the improvement cannot be extrapolated.
+> 📌 **Financial quality**: Operating cash flow of $50.3B was about 1.1 times Non-GAAP net income of $45.5B; the company warned that cash taxes will rise sharply in Q2. Supply-related commitments were $119B ($95.2B in Q4), and multi-year cloud service commitments $30B. In Q1 it bought $18.58B of private equity stakes, while debt was only $8.47B. Days sales outstanding fell from 51 to 45, which the CFO attributed to early customer payments, adding: <b>"We expect our DSO to return to more normal levels next quarter"</b>, so the improvement cannot be extrapolated.
 
 ---
 
@@ -70,12 +70,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Networking Up 199% YoY, Becoming a Second Growth Engine</h3>
-<p>Data center revenue was $75.2B, up 92% YoY; the CFO Commentary attributed this mainly to <b>the Blackwell 300 ramp and demand for InfiniBand, Spectrum-X Ethernet, and NVLink</b>. Networking revenue was $14.8B, up 35% QoQ, and its YoY growth rate was 2.6 times that of compute. By customer, hyperscalers account for about half of data center revenue, with the other half from AI clouds, industry, enterprise, and sovereign customers.</p>
+<p>Data center revenue was $75.2B, up 92% YoY; the CFO Commentary said it was "driven by <b>the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions</b>." Networking revenue was $14.8B, up 35% QoQ, and its YoY growth rate was 2.6 times that of compute. By customer, hyperscalers account for about half of data center revenue, with the other half from AI clouds, industry, enterprise, and sovereign customers.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 2: China Data Center at Zero, Revenue Still Beats Guidance</h3>
-<p>No data center Hopper products shipped to China this quarter, versus $4.6B a year earlier; Q2 guidance likewise <b>assumes no data center compute revenue from China</b>. Even so, revenue of $81.6B was about 2.6% above the top of the $78B ±2% guidance range. Gross margin rose 14.4pp YoY, mainly a base effect from the $4.5B H20 inventory and purchase-obligation charge recognized in last year's Q1.</p>
+<p>No data center Hopper products shipped to China this quarter, versus $4.6B a year earlier; for Q2 guidance the company likewise says: <b>"We are not assuming any Data Center compute revenue from China in our outlook."</b> Even so, revenue of $81.6B was about 2.6% above the top of the $78B ±2% guidance range. Gross margin rose 14.4pp YoY, mainly a base effect from the $4.5B H20 inventory and purchase-obligation charge recognized in last year's Q1.</p>
 </div>
 
 <div class="sb">
@@ -85,12 +85,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 4: Equity Investments Double in a Quarter, GAAP EPS Tops Non-GAAP</h3>
-<p>Public and private equity investments totaled $73.6B, double last quarter's $35.1B, and in Q1 alone the company bought $18.58B of private stakes. The CFO said the $15.9B gain came from <b>unrealized gains on public and private equity holdings</b>, lifting GAAP EPS of $2.39 to 0.52 above Non-GAAP EPS of $1.87. Most investees are AI customers and partners, so customer performance feeds back into NVIDIA's reported profit.</p>
+<p>Public and private equity investments totaled $73.6B, double last quarter's $35.1B, and in Q1 alone the company bought $18.58B of private stakes. The CFO said the $15.9B gain was <b>"driven by unrealized gains in publicly-held and non-marketable equity securities"</b>, lifting GAAP EPS of $2.39 to 0.52 above Non-GAAP EPS of $1.87. Most investees are AI customers and partners, so customer performance feeds back into NVIDIA's reported profit.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 5: Agentic AI Drives Demand, Supply Locked In Early</h3>
-<p>Jensen Huang said <b>the AI factory buildout is the largest infrastructure expansion in human history and is accelerating at an incredible pace, and that agentic AI has arrived and is doing productive work</b>. Inventory rose 21% QoQ to $25.8B and supply commitments increased by $23.8B; the company said it has <b>strategically secured inventory and capacity to meet demand beyond the next several quarters</b>. In the same quarter it unveiled the Vera Rubin platform and the Vera CPU designed for agentic AI.</p>
+<p>Jensen Huang said: <b>"The buildout of AI factories — the largest infrastructure expansion in human history — is accelerating at extraordinary speed,"</b> and <b>"Agentic AI has arrived, doing productive work, generating real value and scaling rapidly across companies and industries."</b> Inventory rose 21% QoQ to $25.8B and supply commitments increased by $23.8B; the company said: <b>"We have strategically secured inventory and capacity to meet demand beyond the next several quarters."</b> In the same quarter it unveiled the Vera Rubin platform and the Vera CPU designed for agentic AI.</p>
 </div>
 
 ---
@@ -99,7 +99,7 @@ draft: false
 
 <div class="sb">
 <h3>🏰 Core moat: One platform across every cloud and every model</h3>
-<p>Jensen Huang stressed that NVIDIA is <b>the only platform that runs in every cloud and supports every frontier and open-source model</b>. It supplies everything from GPUs, NVLink, and InfiniBand/Spectrum-X networking to Dynamo inference software, and with $119B in supply commitments locking up capacity first, rivals will find it hard to match its supply scale in the near term.</p>
+<p>Jensen Huang said NVIDIA is "uniquely positioned at the center of this transformation as <b>the only platform that runs in every cloud, powers every frontier and open source model</b>, and scales everywhere AI is produced." It supplies everything from GPUs, NVLink, and InfiniBand/Spectrum-X networking to Dynamo inference software, and with $119B in supply commitments locking up capacity first, rivals will find it hard to match its supply scale in the near term.</p>
 </div>
 
 ### FY27 Q2 Official Guidance

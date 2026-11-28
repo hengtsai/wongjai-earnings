@@ -82,12 +82,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Record Q1 Net New ARR</h3>
-<p>Q1 net new ARR was $256M, up 32% YoY for a Q1 record, and ending ARR was $5.51B, up 24% YoY, both above guidance. Founder and CEO George Kurtz called this quarter a <b>Mythos moment</b> where cybersecurity meets frontier AI, describing CrowdStrike as <b>AI security infrastructure</b>, with expansion by existing customers, new customer wins, and partner engagement all rising together.</p>
+<p>Q1 net new ARR was $256M, up 32% YoY for a Q1 record, and ending ARR was $5.51B, up 24% YoY, both above guidance. Founder and CEO George Kurtz said: <b>"In Q1, the worlds of cybersecurity and frontier AI collided: this was the Mythos moment. CrowdStrike is AI security infrastructure, critical to successful AI adoption."</b> He added: "We're seeing platform adoption from existing customers, new logo lands, and increased partner engagement."</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 2: Profit and Cash Flow Expand</h3>
-<p>Non-GAAP operating income was $326M, up 62% YoY, and operating margin rose from 18.2% to 23.5%; on a GAAP basis the company swung to a profit, with net income attributable of $27.8M. Operating cash flow of $591M and free cash flow of $468M were both records. CFO Burt Podbere said the company is <b>expanding profitability and cash flow while accelerating growth</b>.</p>
+<p>Non-GAAP operating income was $326M, up 62% YoY, and operating margin rose from 18.2% to 23.5%; on a GAAP basis the company swung to a profit, with net income attributable of $27.8M. Operating cash flow of $591M and free cash flow of $468M were both records. CFO Burt Podbere said the company was <b>"exceeding expectations across all guided metrics while accelerating growth and expanding profitability and cash flow."</b></p>
 </div>
 
 <div class="sb">

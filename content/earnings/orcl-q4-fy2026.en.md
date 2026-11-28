@@ -84,12 +84,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: OCI Revenue Up 93% YoY</h3>
-<p>Q4 revenue was $19.18B, up 21% YoY and at the top of guidance; cloud revenue was $9.91B, up 47% YoY, including OCI infrastructure at $5.8B (+93% YoY) and SaaS at $4.1B (+10% YoY). Software revenue fell 2% YoY, which the company attributed to customers continuing to move from on-premises to the cloud. The press release described Oracle as <b>the world's fastest-growing cloud data center provider</b>.</p>
+<p>Q4 revenue was $19.18B, up 21% YoY and at the top of guidance; cloud revenue was $9.91B, up 47% YoY, including OCI infrastructure at $5.8B (+93% YoY) and SaaS at $4.1B (+10% YoY). Software revenue fell 2% YoY, which the company attributed to customers continuing to move from on-premises to the cloud. The press release said these innovations "have made Oracle <b>the world's fastest growing provider of cloud datacenters</b>."</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 2: RPO Up $85B QoQ</h3>
-<p>Remaining performance obligations (RPO) rose from $553B to $638B, up 363% YoY. The company said most of the Q3 and Q4 increase came from large AI contracts in which customers prepay for GPUs or supply their own; these together already total $75B and, per the company, <b>substantially reduce the capital Oracle needs to raise to build AI data centers</b>.</p>
+<p>Remaining performance obligations (RPO) rose from $553B to $638B, up 363% YoY. The company said most of the Q3 and Q4 increase came from large AI contracts in which customers prepay for GPUs or supply their own; these together already total $75B and, per the company: <b>"This substantially reduces the amount of capital Oracle must raise to build out our AI datacenters."</b></p>
 </div>
 
 <div class="sb">

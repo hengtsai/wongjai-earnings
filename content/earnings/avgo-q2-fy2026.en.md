@@ -70,17 +70,17 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: AI Semiconductors at $10.8B, Above the Company's Own Forecast</h3>
-<p>In Q1 the company forecast Q2 AI revenue of $10.7B; the actual figure was $10.8B, up 143% YoY and already 49% of total revenue. Hock Tan said <b>Q2 AI semiconductor revenue of $10.8B grew 143% YoY and exceeded the company's forecast, driven by rising demand for custom AI accelerators and AI networking</b>. Semiconductor segment revenue rose 79% YoY, lifting its share of total revenue from 56% last year to 68%.</p>
+<p>In Q1 the company forecast Q2 AI revenue of $10.7B; the actual figure was $10.8B, up 143% YoY and already 49% of total revenue. Hock Tan said: <b>"Q2 semiconductor revenue from AI of $10.8 billion grew 143% year-over-year, above our forecast, driven by increasing demand for custom AI accelerators and AI networking."</b> Semiconductor segment revenue rose 79% YoY, lifting its share of total revenue from 56% last year to 68%.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 2: Q3 Guidance of $29.4B, AI Expected to Grow Over 200% YoY</h3>
-<p>Hock Tan said <b>momentum is continuing and the company expects Q3 AI semiconductor revenue to grow more than 200% YoY to $16B</b>. CFO Kirsten Spears said <b>Q3 consolidated revenue is expected to grow 84% YoY to $29.4B, with Non-GAAP operating margin steady at 67%</b>. Based on the guidance, Q3 AI would rise about 48% QoQ and non-AI business would be about $13.4B, $2B more than Q2's roughly $11.4B; the press release does not explain the source.</p>
+<p>Hock Tan said: <b>"The momentum continues and in Q3 we expect semiconductor revenue from AI to grow over 200 percent year-over-year to $16.0 billion."</b> CFO Kirsten Spears said: <b>"In Q3 we expect consolidated revenue growth to increase 84% year-over-year to $29.4 billion, with non-GAAP operating margin stable at 67% reflecting our strong operating leverage."</b> Based on the guidance, Q3 AI would rise about 48% QoQ and non-AI business would be about $13.4B, $2B more than Q2's roughly $11.4B; the press release does not explain the source.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 3: Gross Margin Diluted, Operating Leverage Holds Up Operating Margin</h3>
-<p>Non-GAAP gross margin was 77.1%, 2.3pp below last year's 79.4%, as custom accelerators carry lower margins than software and traditional chips. But Non-GAAP operating expenses rose only 3.0% to $2.18B, so operating margin actually rose from 65.3% to 67.3%. Spears said adjusted EBITDA <b>rose 52% YoY to a record $15.2B, or 69% of revenue</b>. Revenue, operating income, and free cash flow all hit records.</p>
+<p>Non-GAAP gross margin was 77.1%, 2.3pp below last year's 79.4%, as custom accelerators carry lower margins than software and traditional chips. But Non-GAAP operating expenses rose only 3.0% to $2.18B, so operating margin actually rose from 65.3% to 67.3%. Spears said: <b>"Adjusted EBITDA increased 52% year-over-year to a record $15.2 billion, representing 69% of revenue."</b> Revenue, operating income, and free cash flow all hit records.</p>
 </div>
 
 <div class="sb">

@@ -83,7 +83,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Organic Bookings Growth Accelerates</h3>
-<p>Q3 revenue was $3.0B, up 31% YoY, and all four guided metrics topped the high end. Chairman and CEO Nikesh Arora said the quarter saw <b>accelerating organic bookings growth</b> as customers turned to Palo Alto to secure AI deployments at scale; he said progress at the AI frontier is <b>raising the urgency of cybersecurity and redefining the industry for years to come</b>.</p>
+<p>Q3 revenue was $3.0B, up 31% YoY, and all four guided metrics topped the high end. Chairman and CEO Nikesh Arora said: "Q3 was a standout quarter for Palo Alto Networks, with <b>accelerating organic bookings growth</b> as customers turn to us to secure their AI deployments at scale." He added: <b>"The latest advancements at the AI frontier have increased the level of urgency around cybersecurity, and redefined the shape of the industry for the coming years."</b></p>
 </div>
 
 <div class="sb">
@@ -98,7 +98,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 4: Integration Ahead of Plan, 40% FCF Margin Target</h3>
-<p>CFO Dipak Golechha said the company's <b>acquisition integration is ahead of schedule</b>, profitability across businesses keeps improving, and it remains on track for a 40% adjusted free cash flow margin in FY28. Q3 adjusted free cash flow was $910M, up 57% YoY, and the trailing 12-month free cash flow margin was 38.5%, up 4.3pp YoY.</p>
+<p>CFO Dipak Golechha said: <b>"We are executing ahead of our M&A integration plans and improving profitability across our businesses, which keeps us firmly on track to achieve 40% adjusted free cash flow margin in FY28."</b> Q3 adjusted free cash flow was $910M, up 57% YoY, and the trailing 12-month free cash flow margin was 38.5%, up 4.3pp YoY.</p>
 </div>
 
 <div class="sb">

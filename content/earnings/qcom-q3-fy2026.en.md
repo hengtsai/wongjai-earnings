@@ -76,7 +76,7 @@ draft: false
 <tr><td><b>Inventory</b></td><td><b>8,379</b></td><td>6,526 at start of year</td><td class="warn">🟡 +28%</td></tr>
 </tbody></table></div>
 
-> 📌 **Financial quality**: Q3 operating cash flow = first nine months 8,405 − first half 7,414; capex = 1,578 − 1,082 (our estimate). In the nine-month cash flow statement, "income taxes paid in excess of book" of $5.55B and a $1.80B inventory build both depressed operating cash flow. Cash and marketable securities at the start of the year exclude $2.32B of restricted cash.
+> 📌 **Financial quality**: Q3 operating cash flow = first nine months 8,405 − first half 7,414; capex = 1,578 − 1,082 (our estimate). In the nine-month cash flow statement, "Income tax payments in excess of income tax provision" of $5.55B and a $1.80B inventory build both depressed operating cash flow. Cash and marketable securities at the start of the year exclude $2.32B of restricted cash.
 
 ---
 
@@ -84,7 +84,7 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 1: Revenue at the high end of guidance; handsets down 20% YoY</h3>
-<p>Q3 revenue was $9.95B, down 4% YoY, at the high end of the $9.2–10.0B guidance. CEO Cristiano Amon said that, <b>despite a challenging memory and supply environment</b>, the company executed its growth strategy solidly this quarter. Handset chip revenue was $5.09B, down 20% YoY, the main cause of the revenue decline.</p>
+<p>Q3 revenue was $9.95B, down 4% YoY, at the high end of the $9.2–10.0B guidance. CEO Cristiano Amon said: <b>"Despite a challenging memory and supply environment, our third quarter results reflect solid execution of our growth strategy, with quarterly revenues at the high end of guidance."</b> Handset chip revenue was $5.09B, down 20% YoY, the main cause of the revenue decline.</p>
 </div>
 
 <div class="sb">
@@ -94,12 +94,12 @@ draft: false
 
 <div class="sb">
 <h3>🎯 Insight 3: Rising input costs, higher product prices</h3>
-<p>The press release said semiconductor input costs such as wafers, assembly and test, advanced packaging and memory are <b>rising across the board</b>; the company is raising product prices to reflect costs and expects gross margin to improve as the increases take effect. GAAP gross margin fell 2.5pp YoY, and QCT's EBT margin fell from 30% to 26%.</p>
+<p>The press release said: <b>"The semiconductor industry is experiencing a broad-based increase in input costs, across wafer fabrication, assembly, test, advanced packaging, memory and other materials."</b> In response, the company is raising product prices to reflect costs and expects gross margin to improve as the increases take effect. GAAP gross margin fell 2.5pp YoY, and QCT's EBT margin fell from 30% to 26%.</p>
 </div>
 
 <div class="sb">
 <h3>🎯 Insight 4: FY27 non-handset revenue to grow over 60%</h3>
-<p>Amon said non-handset revenue growth (including data center) will accelerate from 24% in FY26 <b>to more than 60% in FY27</b>, with an FY29 non-handset revenue target of $40B, almost double the target set in November 2024. This quarter Qualcomm completed its acquisition of Modular, building an open software foundation for generative and agentic AI.</p>
+<p>Amon said: "we expect year-over-year growth in non-handset revenues, including Data Center, <b>to accelerate from 24% in fiscal 2026 to greater than 60% in fiscal 2027</b>," with an FY29 non-handset revenue target of $40B, almost double the target set in November 2024. This quarter Qualcomm completed its acquisition of Modular, building an open software foundation for generative and agentic AI.</p>
 </div>
 
 <div class="sb">
